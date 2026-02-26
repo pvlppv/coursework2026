@@ -1,0 +1,5 @@
+// Local development overrides — DO NOT COMMIT
+// Copy Local.xcconfig.example → Local.xcconfig and change values for your machine.
+PRODUCT_BUNDLE_IDENTIFIER = com.pvlppv.sotie.journal
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+SOTIE_BACKEND_BASE_URL = https://sotie.app

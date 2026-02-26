@@ -1,0 +1,62 @@
+# macOS system files
+.DS_Store
+
+# Xcode build and derived data
+build/
+DerivedData/
+
+# User-specific Xcode data
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# IDE and build state
+*.swp
+*~.nib
+*.moved-aside
+
+# Dependency managers
+/Pods
+/Carthage
+.swiftpm
+
+# Fastlane output
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/Preview.html
+
+# Node modules (if present)
+node_modules/
+tmp/
+backend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# API keys and secrets (DO NOT commit)
+Secrets.swift
+**/Secrets.swift
+
+# Вспомогательные временные и кэш-файлы Xcode
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.xcworkspace/data.*
+*.xcworkspace/refs.*
+
+# Любые подобные файлы в подпапках
+**/data.*
+**/refs.*
+
+# Local development overrides (per-developer bundle ID, team ID)
+Local.xcconfig
+errors.log

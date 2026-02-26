@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A033BCC72FB88DD60062C8F1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A033BCC62FB88DD60062C8F1 /* WidgetKit.framework */; };
+		A033BCC92FB88DD60062C8F1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A033BCC82FB88DD60062C8F1 /* SwiftUI.framework */; };
+		A033BCD82FB88DD80062C8F1 /* SotieLiveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A033BCC52FB88DD60062C8F1 /* SotieLiveActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A047BD4C2F62A93A00B1E6BD /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = A047BD4B2F62A93A00B1E6BD /* TelemetryDeck */; };
+		A0B8F1012FC0000000000001 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = A0B8F1002FC0000000000001 /* DotLottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A033BCD62FB88DD80062C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08C425B2E80825B00562F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A033BCC42FB88DD60062C8F1;
+			remoteInfo = SotieLiveActivityExtension;
+		};
+		A08C42732E80825C00562F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08C425B2E80825B00562F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C42622E80825B00562F95;
+			remoteInfo = Sotie;
+		};
+		A08C427D2E80825C00562F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08C425B2E80825B00562F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C42622E80825B00562F95;
+			remoteInfo = Sotie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A033BCDD2FB88DD80062C8F1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A033BCD82FB88DD80062C8F1 /* SotieLiveActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A033BCC52FB88DD60062C8F1 /* SotieLiveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SotieLiveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A033BCC62FB88DD60062C8F1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A033BCC82FB88DD60062C8F1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A0720F6B2EB2299D003645CE /* Sotie.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sotie.storekit; sourceTree = "<group>"; };
+		A08C42632E80825B00562F95 /* Sotie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sotie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C42722E80825C00562F95 /* SotieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SotieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C427C2E80825C00562F95 /* SotieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SotieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A033BCDC2FB88DD80062C8F1 /* Exceptions for "SotieLiveActivity" folder in "SotieLiveActivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A033BCC42FB88DD60062C8F1 /* SotieLiveActivityExtension */;
+		};
+		A0F25BEE2E89C0DF0086698E /* Exceptions for "Sotie" folder in "Sotie" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A08C42622E80825B00562F95 /* Sotie */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A033BCCA2FB88DD70062C8F1 /* SotieLiveActivity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A033BCDC2FB88DD80062C8F1 /* Exceptions for "SotieLiveActivity" folder in "SotieLiveActivityExtension" target */,
+			);
+			path = SotieLiveActivity;
+			sourceTree = "<group>";
+		};
+		A0517A8ED0000000A0000001 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A08C42652E80825B00562F95 /* Sotie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A0F25BEE2E89C0DF0086698E /* Exceptions for "Sotie" folder in "Sotie" target */,
+			);
+			path = Sotie;
+			sourceTree = "<group>";
+		};
+		A08C42752E80825C00562F95 /* SotieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SotieTests;
+			sourceTree = "<group>";
+		};
+		A08C427F2E80825C00562F95 /* SotieUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SotieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A033BCC22FB88DD60062C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A033BCC92FB88DD60062C8F1 /* SwiftUI.framework in Frameworks */,
+				A033BCC72FB88DD60062C8F1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C42602E80825B00562F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A047BD4C2F62A93A00B1E6BD /* TelemetryDeck in Frameworks */,
+				A0B8F1012FC0000000000001 /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C426F2E80825C00562F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C42792E80825C00562F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0720F602EAB5B82003645CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A033BCC62FB88DD60062C8F1 /* WidgetKit.framework */,
+				A033BCC82FB88DD60062C8F1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08C425A2E80825B00562F95 = {
+			isa = PBXGroup;
+			children = (
+				A0720F6B2EB2299D003645CE /* Sotie.storekit */,
+				A0517A8ED0000000A0000001 /* Shared */,
+				A08C42652E80825B00562F95 /* Sotie */,
+				A08C42752E80825C00562F95 /* SotieTests */,
+				A08C427F2E80825C00562F95 /* SotieUITests */,
+				A033BCCA2FB88DD70062C8F1 /* SotieLiveActivity */,
+				A0720F602EAB5B82003645CE /* Frameworks */,
+				A08C42642E80825B00562F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08C42642E80825B00562F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C42632E80825B00562F95 /* Sotie.app */,
+				A08C42722E80825C00562F95 /* SotieTests.xctest */,
+				A08C427C2E80825C00562F95 /* SotieUITests.xctest */,
+				A033BCC52FB88DD60062C8F1 /* SotieLiveActivityExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A033BCC42FB88DD60062C8F1 /* SotieLiveActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A033BCD92FB88DD80062C8F1 /* Build configuration list for PBXNativeTarget "SotieLiveActivityExtension" */;
+			buildPhases = (
+				A033BCC12FB88DD60062C8F1 /* Sources */,
+				A033BCC22FB88DD60062C8F1 /* Frameworks */,
+				A033BCC32FB88DD60062C8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A033BCCA2FB88DD70062C8F1 /* SotieLiveActivity */,
+				A0517A8ED0000000A0000001 /* Shared */,
+			);
+			name = SotieLiveActivityExtension;
+			packageProductDependencies = (
+			);
+			productName = SotieLiveActivityExtension;
+			productReference = A033BCC52FB88DD60062C8F1 /* SotieLiveActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A08C42622E80825B00562F95 /* Sotie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C42862E80825C00562F95 /* Build configuration list for PBXNativeTarget "Sotie" */;
+			buildPhases = (
+				A08C425F2E80825B00562F95 /* Sources */,
+				A08C42602E80825B00562F95 /* Frameworks */,
+				A08C42612E80825B00562F95 /* Resources */,
+				A033BCDD2FB88DD80062C8F1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A033BCD72FB88DD80062C8F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0517A8ED0000000A0000001 /* Shared */,
+				A08C42652E80825B00562F95 /* Sotie */,
+			);
+			name = Sotie;
+			packageProductDependencies = (
+				A047BD4B2F62A93A00B1E6BD /* TelemetryDeck */,
+				A0B8F1002FC0000000000001 /* DotLottie */,
+			);
+			productName = Sotie;
+			productReference = A08C42632E80825B00562F95 /* Sotie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A08C42712E80825C00562F95 /* SotieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C42892E80825C00562F95 /* Build configuration list for PBXNativeTarget "SotieTests" */;
+			buildPhases = (
+				A08C426E2E80825C00562F95 /* Sources */,
+				A08C426F2E80825C00562F95 /* Frameworks */,
+				A08C42702E80825C00562F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08C42742E80825C00562F95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A08C42752E80825C00562F95 /* SotieTests */,
+			);
+			name = SotieTests;
+			packageProductDependencies = (
+			);
+			productName = SotieTests;
+			productReference = A08C42722E80825C00562F95 /* SotieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A08C427B2E80825C00562F95 /* SotieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C428C2E80825C00562F95 /* Build configuration list for PBXNativeTarget "SotieUITests" */;
+			buildPhases = (
+				A08C42782E80825C00562F95 /* Sources */,
+				A08C42792E80825C00562F95 /* Frameworks */,
+				A08C427A2E80825C00562F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08C427E2E80825C00562F95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A08C427F2E80825C00562F95 /* SotieUITests */,
+			);
+			name = SotieUITests;
+			packageProductDependencies = (
+			);
+			productName = SotieUITests;
+			productReference = A08C427C2E80825C00562F95 /* SotieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08C425B2E80825B00562F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A033BCC42FB88DD60062C8F1 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A08C42622E80825B00562F95 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					A08C42712E80825C00562F95 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A08C42622E80825B00562F95;
+					};
+					A08C427B2E80825C00562F95 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A08C42622E80825B00562F95;
+					};
+				};
+			};
+			buildConfigurationList = A08C425E2E80825B00562F95 /* Build configuration list for PBXProject "Sotie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				pt,
+				ru,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = A08C425A2E80825B00562F95;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A047BD4A2F62A93A00B1E6BD /* XCRemoteSwiftPackageReference "SwiftSDK" */,
+				A0B8F0FF2FC0000000000001 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A08C42642E80825B00562F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08C42622E80825B00562F95 /* Sotie */,
+				A08C42712E80825C00562F95 /* SotieTests */,
+				A08C427B2E80825C00562F95 /* SotieUITests */,
+				A033BCC42FB88DD60062C8F1 /* SotieLiveActivityExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A033BCC32FB88DD60062C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C42612E80825B00562F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C42702E80825C00562F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C427A2E80825C00562F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A033BCC12FB88DD60062C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C425F2E80825B00562F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C426E2E80825C00562F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C42782E80825C00562F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A033BCD72FB88DD80062C8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A033BCC42FB88DD60062C8F1 /* SotieLiveActivityExtension */;
+			targetProxy = A033BCD62FB88DD80062C8F1 /* PBXContainerItemProxy */;
+		};
+		A08C42742E80825C00562F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08C42622E80825B00562F95 /* Sotie */;
+			targetProxy = A08C42732E80825C00562F95 /* PBXContainerItemProxy */;
+		};
+		A08C427E2E80825C00562F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08C42622E80825B00562F95 /* Sotie */;
+			targetProxy = A08C427D2E80825C00562F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A033BCDA2FB88DD80062C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SotieLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SotieLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvlppv.sotie.journal.SotieLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A033BCDB2FB88DD80062C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SotieLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SotieLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvlppv.sotie.journal.SotieLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A08C42842E80825C00562F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SOTIE_BACKEND_BASE_URL = "https://sotie.app";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A08C42852E80825C00562F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A08C42872E80825C00562F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sotie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sotie Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_SOTIE_BACKEND_BASE_URL = "$(SOTIE_BACKEND_BASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvlppv.sotie.journal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A08C42882E80825C00562F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sotie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sotie Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_SOTIE_BACKEND_BASE_URL = "$(SOTIE_BACKEND_BASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvlppv.sotie.journal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SOTIE_BACKEND_BASE_URL = "https://sotie.app";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A08C428A2E80825C00562F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sotie.SotieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sotie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sotie";
+			};
+			name = Debug;
+		};
+		A08C428B2E80825C00562F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sotie.SotieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sotie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sotie";
+			};
+			name = Release;
+		};
+		A08C428D2E80825C00562F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sotie.SotieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sotie;
+			};
+			name = Debug;
+		};
+		A08C428E2E80825C00562F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM6M3R2AV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sotie.SotieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sotie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A033BCD92FB88DD80062C8F1 /* Build configuration list for PBXNativeTarget "SotieLiveActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A033BCDA2FB88DD80062C8F1 /* Debug */,
+				A033BCDB2FB88DD80062C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C425E2E80825B00562F95 /* Build configuration list for PBXProject "Sotie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C42842E80825C00562F95 /* Debug */,
+				A08C42852E80825C00562F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C42862E80825C00562F95 /* Build configuration list for PBXNativeTarget "Sotie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C42872E80825C00562F95 /* Debug */,
+				A08C42882E80825C00562F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C42892E80825C00562F95 /* Build configuration list for PBXNativeTarget "SotieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C428A2E80825C00562F95 /* Debug */,
+				A08C428B2E80825C00562F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C428C2E80825C00562F95 /* Build configuration list for PBXNativeTarget "SotieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C428D2E80825C00562F95 /* Debug */,
+				A08C428E2E80825C00562F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A047BD4A2F62A93A00B1E6BD /* XCRemoteSwiftPackageReference "SwiftSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.11.0;
+			};
+		};
+		A0B8F0FF2FC0000000000001 /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A047BD4B2F62A93A00B1E6BD /* TelemetryDeck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A047BD4A2F62A93A00B1E6BD /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryDeck;
+		};
+		A0B8F1002FC0000000000001 /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0B8F0FF2FC0000000000001 /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A08C425B2E80825B00562F95 /* Project object */;
+}

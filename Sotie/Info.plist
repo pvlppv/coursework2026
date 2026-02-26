@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>de</string>
+		<string>es</string>
+		<string>fr</string>
+		<string>it</string>
+		<string>ja</string>
+		<string>ko</string>
+		<string>pt</string>
+		<string>ru</string>
+		<string>zh-Hans</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.pvlppv.sotie.journal</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sotiejournal</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string></string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>SplashColor</string>
+		<key>UIImageName</key>
+		<string>SplashIcon</string>
+	</dict>
+</dict>
+</plist>
