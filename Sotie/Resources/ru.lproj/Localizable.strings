@@ -1,0 +1,806 @@
+/*
+  Localizable.strings
+  Sotie
+
+  Russian Localization
+*/
+
+"accessibility_menu_button" = "Дополнительные опции";
+"accessibility_menu_button_hint" = "Открывает меню с дополнительными опциями, такими как изменение даты или добавление фото.";
+"accessibility_save_button" = "Сохранить рефлексию";
+"accessibility_save_button_hint" = "Сохраняет текущую рефлексию.";
+"add_entry" = "Добавить рефлексию";
+"ai_analysis" = "ИИ Анализ";
+"ai_settings.depth.ask_what_matters" = "😶 Спрашивать о важном";
+"ai_settings.depth.calm_me_first" = "🫶 Сначала успокоить";
+"ai_settings.depth.give_me_next_steps" = "❤️ Давать следующие шаги";
+"ai_settings.depth.help_me_see_it_differently" = "✨ Помочь увидеть иначе";
+"ai_settings.depth.help_me_understand_it" = "🫶 Помочь понять";
+"ai_settings.depth.show_me_the_pattern" = "🌿 Показать паттерн";
+"ai_settings.goal.feel_clearer" = "🔍 Стало яснее";
+"ai_settings.goal.feel_less_alone_with_it" = "🫂 Чувствовать себя менее одиноко";
+"ai_settings.goal.know_what_to_do_next" = "✨ Понять, что делать дальше";
+"ai_settings.goal.sleep_with_quieter_mind" = "🌙 Засыпать с более тихой головой";
+"ai_settings.goal.spot_my_patterns" = "👀 Замечать свои паттерны";
+"ai_settings.goal.stop_replaying_things" = "🔁 Перестать прокручивать одно и то же";
+"ai_settings.goal.understand_my_feelings" = "🫶 Понимать свои чувства";
+"ai_settings.primary_goals" = "Зачем ты здесь";
+"ai_settings.primary_goals.description" = "Выбери хотя бы одно. Это формирует, на что Sotie обращает внимание со временем — не перекрывает то, что ты пишешь в моменте.";
+"ai_settings.style.calming" = "😌 Успокаивающий";
+"ai_settings.style.clear" = "💎 Ясный";
+"ai_settings.style.gentle" = "💛 Бережный";
+"ai_settings.style.practical" = "📌 Практичный";
+"ai_settings.style.soft_but_direct" = "✨ Мягко, но прямо";
+"ai_settings.style.warm" = "🫶 Тёплый";
+"ai_settings.support_depth" = "Насколько глубоко";
+"ai_settings.support_depth.description" = "Когда ты делишься чем-то — какой отклик ощущается полезнее?";
+"ai_settings.support_style" = "Тон голоса";
+"ai_settings.support_style.description" = "Как Sotie должен звучать, когда отражает тебе?";
+"ai_settings.title" = "Стиль рефлексии";
+"analytics_ai_responses" = "AI Responses";
+"analytics_avg_reflection_depth" = "Responses per Session";
+"analytics_day_short" = "д";
+"analytics_hours" = "ч";
+"analytics_last_30_days" = "Последние 30 дней";
+"analytics_minutes" = "м";
+"analytics_most_reflective_day" = "Лучший день";
+"analytics_most_reflective_time" = "Лучшее время";
+"analytics_no_data" = "Пока нет данных";
+"analytics_reflecting_since" = "Рефлексируешь с %@";
+"analytics_reflections" = "Рефлексии";
+"analytics_streak" = "Дней подряд";
+"analytics_time_afternoon" = "День";
+"analytics_time_evening" = "Вечер";
+"analytics_time_morning" = "Утро";
+"analytics_time_night" = "Ночь";
+"analytics_time_reflecting" = "Время рефлексии";
+"analytics_time_spent" = "Проведено времени";
+"analytics_total_entries" = "Создано записей";
+"analytics_words_written" = "Слов написано";
+"app_name" = "Sotie Journal";
+"cancel" = "Отмена";
+"cannot_summarize_empty" = "Нельзя суммировать пустую историю разговора";
+"change_date" = "Изменить дату";
+"contact" = "Контакты";
+"contact_us_include_logs" = "Приложить логи";
+"contact_us_include_logs_desc" = "Активность приложения, информация об устройстве и ошибки - помогает в диагностике";
+"contact_us_message_label" = "Твоё сообщение";
+"contact_us_message_placeholder" = "Расскажи нам что угодно";
+"contact_us_send" = "Отправить";
+"contact_us_subtitle" = "Вопрос, идея или баг - напиши, и мы разберёмся";
+"contact_us_title" = "Связаться с нами";
+"data_section" = "ДАННЫЕ";
+"delete" = "Удалить";
+"delete_entry" = "Удалить рефлексию";
+"delete_entry_message" = "Удалить эту рефлексию? Это действие нельзя отменить.";
+"delete_entry_title" = "Удалить рефлексию";
+"discover_patterns" = "Открой паттерны в своих данных";
+"discover_patterns_and_insights" = "Открой паттерны и инсайты в своих данных";
+"done" = "Готово";
+"empty_state_description" = "Нажми кнопку ниже, чтобы записать первую мысль";
+"empty_state_title" = "Начнём";
+"entry_text" = "Рефлексия";
+"error_ai_service" = "Что-то пошло не так - попробуй снова";
+"error_daily_limit_reached" = "You’ve reached today’s AI response limit. Come back tomorrow to continue.";
+"error_network" = "Нет интернета - проверь соединение";
+"error_rate_limited" = "Подожди %d сек. - слишком много запросов";
+"export_entries" = "Экспортировать данные";
+"export_error" = "Ошибка экспорта";
+"export_success" = "Экспорт выполнен";
+"failed_to_summarize" = "Не удалось суммировать разговор: %@";
+"import_confirm_action" = "Импортировать";
+"import_confirm_message" = "Новые рефлексии будут добавлены. Дубликаты пропущены. Статистика обновится, если есть в файле.";
+"import_confirm_title" = "Импорт данных";
+"import_entries" = "Импортировать данные";
+"import_entries_imported" = "Импортировано рефлексий: %d";
+"import_entries_imported_skipped" = "Импортировано рефлексий: %d, пропущено: %d (дубликаты)";
+"import_error" = "Ошибка импорта";
+"import_success" = "Импорт выполнен";
+"journal_entry" = "Рефлексия";
+"last_week" = "На прошлой неделе";
+"legal" = "Документы";
+"next" = "Далее";
+"no_entries_yet" = "Пока нет рефлексий";
+"note_placeholder" = "Пиши здесь...";
+"note_placeholder_initial" = "О чём ты думаешь сейчас?";
+"notification.follow_up.fallback" = "Что изменилось с тех пор?";
+"notification.re_engagement.fallback" = "Что сейчас по-другому?";
+"notification_settings" = "Уведомления";
+"notifications" = "Уведомления";
+"notifications.type.conversation_follow_up.description" = "Вернуться к недавнему разговору, когда почувствуешь подходящий момент";
+"notifications.type.conversation_follow_up.title" = "Продолжение разговора";
+"notifications.type.morning_reminder.title" = "Утреннее напоминание";
+"notifications.type.morning_reminder.description" = "Мягкий повод начать день с одной честной строки";
+"notifications.type.evening_reminder.title" = "Вечернее напоминание";
+"notifications.type.evening_reminder.description" = "Место, где можно оставить то, что осталось от дня";
+"notifications.type.re_engagement.description" = "Получать бережное напоминание вернуться спустя время";
+"notifications.type.re_engagement.title" = "Мягкое возвращение";
+"notifications_disabled" = "Уведомления отключены";
+"notifications_disabled_message" = "Включи уведомления в Настройках, чтобы получать напоминания";
+"ok" = "ОК";
+"onboarding_write_here" = "Пиши здесь...";
+"open_collection" = "Открыть";
+"open_settings" = "Открыть настройки";
+"preferences" = "Настройки";
+"language" = "Язык";
+"current_language" = "Русский";
+"language_settings_info" = "AI responses will use the selected language.";
+
+// MARK: - Theme
+"theme.settings.title" = "Тема";
+"theme.settings.description" = "Выберите палитру. Каждая автоматически подстраивается под светлый и тёмный режим.";
+"theme.variant.parchment" = "Пергамент";
+"theme.variant.ink" = "Графит";
+"theme.variant.sage" = "Шалфей";
+"theme.variant.dusk" = "Сумерки";
+"theme.variant.iris" = "Ирис";
+"theme.variant.blush" = "Розовый";
+"premium_annual" = "Ежегодно";
+"premium_benefit_1" = "Go Deeper без ограничений";
+"premium_benefit_2" = "Замечай повторяющиеся темы";
+"premium_benefit_3" = "Не теряй ход мысли";
+"premium_billed_annually" = "Списывается раз в год";
+"premium_billed_monthly" = "Списывается раз в месяц";
+"premium_billing_per_month" = "в месяц";
+"premium_billing_per_year" = "в год";
+"premium_continue_annual" = "Продолжить с годовой подпиской";
+"premium_error_cancelled" = "Покупка отменена.";
+"premium_error_product_not_found" = "Продукт не найден.";
+"premium_error_purchase_failed" = "Покупка не удалась. Попробуй снова.";
+"premium_error_restore_failed" = "Нет покупок для восстановления.";
+"premium_hero_default_subtitle_trial" = "Открой непрерывную рефлексию и замечай паттерны со временем.";
+"premium_hero_default_title" = "Иди глубже, не теряя импульс";
+"premium_hero_limit_subtitle_trial" = "Продолжай эту рефлексию без ограничений.";
+"premium_hero_limit_title" = "Не останавливайся на самом важном";
+"premium_hero_onboarding_subtitle_trial" = "Открой непрерывную рефлексию и полный премиум-доступ.";
+"premium_hero_onboarding_title" = "Продолжай, пока мысль ещё живая";
+"premium_hero_settings_subtitle_trial" = "Пользуйся Sotie без ограничений и замечай паттерны со временем.";
+"premium_hero_settings_title" = "Открой более глубокую рефлексию";
+"premium_journey_step_1" = "Разберись с тем, что в голове";
+"premium_journey_step_2" = "Заметь повторяющиеся темы";
+"premium_journey_step_3" = "Увидь паттерны целиком";
+"premium_journey_time_1" = "Сегодня";
+"premium_journey_time_2" = "1 неделя";
+"premium_journey_time_3" = "1 месяц";
+"premium_manage_subscription" = "Управление подпиской";
+"premium_maybe_later" = "Может быть позже";
+"premium_monthly" = "Ежемесячно";
+"premium_monthly_equivalent" = "Всего %@/мес";
+"premium_per_month" = "/мес";
+"premium_per_year" = "/год";
+"premium_privacy" = "Конфиденциальность";
+"premium_products_unavailable" = "Подписки сейчас недоступны. Проверь подключение к интернету и попробуй снова.";
+"premium_response_limit_reached_desc" = "You can go deeper. Unlock unlimited reflection and keep your self-discovery moving.";
+"premium_ai_responses_today" = "AI responses today";
+"premium_restore" = "Восстановить";
+"premium_save_percent" = "−%d%%";
+"premium_status_free" = "Бесплатно";
+"premium_status_premium" = "Премиум";
+"premium_subscribe" = "Подписаться";
+"premium_subscribe_monthly" = "Подписаться на месяц";
+"premium_subscribe_to_unlock" = "Подпишись, чтобы открыть";
+"premium_subscription_disclaimer" = "Автопродлеваемая подписка. Отмена в настройках подписок App Store.";
+"premium_subtitle" = "Глубокая рефлексия, когда нужна ясность";
+"premium_terms" = "Условия";
+"premium_timeline_day3" = "День 6";
+"premium_timeline_day3_detail" = "Напомним, что пробный период заканчивается.";
+"premium_timeline_day7" = "День 7";
+"premium_timeline_day7_detail" = "Списание, если не отменить до этого дня.";
+"premium_timeline_today" = "Сегодня";
+"premium_timeline_today_detail" = "Полный доступ - сразу.";
+"premium_title" = "Рефлексируй без ограничений";
+"premium_trial_info_dynamic" = "Бесплатно %d дней, затем %@%@";
+"premium_try_seven_days_free" = "Попробовать 7 дней бесплатно";
+"premium_upgrade" = "Открыть глубокую рефлексию";
+"privacy_local_storage_message" = "Все данные хранятся только на этом устройстве. Рекомендуем регулярно экспортировать, чтобы всегда была копия.";
+"privacy_local_storage_title" = "Хранятся на устройстве";
+"privacy_policy" = "Политика конфиденциальности";
+"quantity" = "Количество";
+"rate_app" = "Оценить приложение";
+"recent_insights" = "Недавние инсайты";
+"reflections_banner_a11y" = "%d дней с рефлексией на этой неделе. Нажми, чтобы открыть календарь.";
+"reflections_best_streak" = "Лучшая: %d %@";
+"reflections_current_streak" = "Текущая серия";
+"reflections_day_unit_few" = "дня";
+"reflections_day_unit_many" = "дней";
+"reflections_day_unit_one" = "день";
+"reflections_longest_streak" = "Лучшая серия";
+"reflections_nudge_day_one" = "Первый день. Самый трудный. Ты уже за ним.";
+"reflections_nudge_early_momentum" = "Несколько дней позади. Замечай дальше — что приходит.";
+"reflections_nudge_first_time" = "Начни с одного дня. Дальше пойдёт само.";
+"reflections_nudge_practice" = "Это уже практика. Ты приходишь к себе.";
+"reflections_nudge_returning" = "Вернись, когда будешь готов. Сегодня тоже считается.";
+"reflections_nudge_week_rhythm" = "Неделя — это уже сигнал. Закономерности начинают проступать.";
+"reflections_see_all" = "Смотреть всё";
+"reflections_this_week" = "На этой неделе";
+"reflections_title" = "Рефлексии";
+"reply_to_reflection" = "Reply to reflection";
+"share_sotie" = "Поделиться Соти";
+"share_text" = "Попробуй Sotie Journal - это ИИ-дневник, который задаёт вопросы и помогает обрести ясность";
+"show_onboarding" = "Показать онбординг";
+"statistics" = "Статистика";
+"tap_plus_to_add_first_entry" = "Нажми кнопку +, чтобы добавить первую рефлексию";
+"terms_of_service" = "Условия использования";
+"this_week" = "На этой неделе";
+"today" = "Сегодня";
+"unsaved_changes_discard" = "Не сохранять";
+"unsaved_changes_save" = "Сохранить";
+"unsaved_changes_title" = "Есть несохранённые изменения";
+
+/* Finish & Итоги */
+"finish" = "Завершить";
+"finish_reflection" = "Завершить рефлексию?";
+"insights_generating" = "Подводим итоги...";
+"insights_what_happened" = "Что произошло";
+"insights_whats_underneath" = "Что за этим стоит";
+"insights_what_matters_now" = "Что важно сейчас";
+"insights_done" = "Готово";
+"insights_error" = "Не удалось подвести итоги";
+"insights_retry" = "Попробовать снова";
+"insights_skip" = "Пропустить";
+"insights_title" = "Итоги";
+"insights_view_menu" = "Посмотреть итоги";
+"values" = "Значения";
+"yesterday" = "Вчера";
+
+/* === Onboarding Flow (auto-translated) === */
+
+"onboarding_flow.hey" = "привет";
+"onboarding_flow.tap_to_continue" = "коснись, чтобы продолжить";
+"onboarding_flow.vp1.headline" = "бывает мысль, которая не отпускает?";
+"onboarding_flow.vp1.highlight" = "мысль";
+"onboarding_flow.vp1.body1" = "она приходит,
+когда ты пытаешься уснуть,";
+"onboarding_flow.vp1.body2" = "когда пытаешься сосредоточиться,";
+"onboarding_flow.vp1.body3" = "когда пытаешься почувствовать себя нормально.";
+"onboarding_flow.vp2.headline" = "sotie помогает понять, что под этим";
+"onboarding_flow.vp2.highlight" = "под этим";
+"onboarding_flow.vp2.subtitle" = "всё просто";
+"onboarding_flow.vp2.subtitle_highlight" = "просто";
+"onboarding_flow.vp2.body1" = "ты пишешь, что тебя беспокоит";
+"onboarding_flow.vp2.body2" = "sotie отражает это";
+"onboarding_flow.vp2.body3" = "ты чувствуешь ясность";
+"onboarding_flow.vp2.body3_highlight" = "ясность";
+"onboarding_flow.first_things_first" = "сначала главное";
+"onboarding_flow.name_question" = "как тебя называть?";
+"onboarding_flow.name_fallback" = "ты";
+"onboarding_flow.continue" = "Продолжить";
+"onboarding_flow.consider_line1" = "хорошо, %@,";
+"onboarding_flow.consider_line2" = "подумай об этом...";
+"onboarding_flow.survey.thought_question" = "какая мысль постоянно возвращается?";
+"onboarding_flow.survey.thought_question_highlight" = "мысль";
+"onboarding_flow.survey.thought.someone" = "кто-то";
+"onboarding_flow.survey.thought.what_happened" = "что произошло";
+"onboarding_flow.survey.thought.something_i_did" = "что я сделал";
+"onboarding_flow.survey.thought.what_to_do" = "что делать";
+"onboarding_flow.survey.thought.feeling" = "чувство";
+"onboarding_flow.survey.thought.myself" = "я сам";
+"onboarding_flow.survey.pattern_question" = "как часто она возвращается?";
+"onboarding_flow.survey.pattern.all_the_time" = "постоянно, не уходит";
+"onboarding_flow.survey.pattern.pretty_often" = "часто, на часы";
+"onboarding_flow.survey.pattern.sometimes" = "иногда, возвращается";
+"onboarding_flow.survey.pattern.not_much" = "редко, ненадолго";
+"onboarding_flow.survey.pattern.rarely" = "почти никогда";
+"onboarding_flow.empathy.youll_spend" = "ты потратишь";
+"onboarding_flow.empathy.hours_this_year" = "часов за этот год";
+"onboarding_flow.empathy.thats" = "это";
+"onboarding_flow.empathy.days" = "дней";
+"onboarding_flow.empathy.question" = "сколько из этого правда помогает почувствовать ясность?";
+"onboarding_flow.empathy.question_highlight" = "ясность";
+"onboarding_flow.empathy.verb.default" = "прокручивая в голове";
+"onboarding_flow.empathy.verb.someone" = "думая о ком-то";
+"onboarding_flow.empathy.verb.what_happened" = "прокручивая случившееся";
+"onboarding_flow.empathy.verb.something_i_did" = "прокручивая то, что сделал";
+"onboarding_flow.empathy.verb.what_to_do" = "решая, что делать";
+"onboarding_flow.empathy.verb.feeling" = "разбираясь в чувстве";
+"onboarding_flow.empathy.verb.myself" = "сомневаясь в себе";
+"onboarding_flow.hope.line1" = "так не должно быть";
+"onboarding_flow.hope.line2" = "найдёшь 5 минут на ясность каждый день?";
+"onboarding_flow.hope.line2_highlight1" = "5 минут";
+"onboarding_flow.hope.line2_highlight2" = "ясность";
+"onboarding_flow.hope.line3" = "давай построим твой план";
+"onboarding_flow.goal.question" = "чего ты хочешь добиться с sotie?";
+"onboarding_flow.goal.subtitle" = "выбери до 3";
+"onboarding_flow.goal.feel_clearer" = "чувствовать ясность";
+"onboarding_flow.goal.stop_replaying" = "перестать прокручивать";
+"onboarding_flow.goal.understand_feelings" = "понимать свои чувства";
+"onboarding_flow.goal.know_what_to_do" = "знать, что делать";
+"onboarding_flow.goal.sleep_quieter" = "спать спокойно";
+"onboarding_flow.goal.feel_less_alone" = "не чувствовать одиночество";
+"onboarding_flow.goal.spot_patterns" = "видеть свои закономерности";
+"onboarding_flow.goal.desc.feel_clearer" = "поможем замедлить мысль, чтобы понять, что она пытается сказать.";
+"onboarding_flow.goal.desc.stop_replaying" = "поможем превратить замкнутый круг во что-то понятное.";
+"onboarding_flow.goal.desc.understand_feelings" = "sotie помогает называть чувства и замечать, что под ними.";
+"onboarding_flow.goal.desc.know_what_to_do" = "поможем разобрать шум, пока следующий шаг не станет очевидным.";
+"onboarding_flow.goal.desc.sleep_quieter" = "поможем отпустить мысль перед сном, чтобы она перестала повторяться.";
+"onboarding_flow.goal.desc.feel_less_alone" = "sotie отражает то, через что ты проходишь, чтобы ты чувствовал, что тебя слышат, даже в 2 ночи.";
+"onboarding_flow.goal.desc.spot_patterns" = "со временем sotie показывает, что возвращается и почему.";
+"onboarding_flow.vision.question" = "если думать шире, как для тебя выглядит ясный ум?";
+"onboarding_flow.vision.question_highlight" = "ясный ум";
+"onboarding_flow.vision.trusting" = "больше доверять себе";
+"onboarding_flow.vision.naming" = "называть то, что чувствую";
+"onboarding_flow.vision.coming_back" = "возвращаться к себе";
+"onboarding_flow.vision.replying" = "отвечать из ясности";
+"onboarding_flow.vision.sleeping" = "спать без передумываний";
+"onboarding_flow.vision.staying" = "оставаться в контроле";
+"onboarding_flow.plan.footer_title" = "ты в правильном месте";
+"onboarding_flow.plan.footer_body" = "десятки тысяч начинали с тех же целей, и sotie помог им дойти.";
+"onboarding_flow.feeling.question" = "как ощущается эта мысль прямо сейчас?";
+"onboarding_flow.feeling.question_highlight" = "ощущается";
+"onboarding_flow.feeling.keeps_looping" = "крутится по кругу";
+"onboarding_flow.feeling.unresolved" = "ощущается незакрытой";
+"onboarding_flow.feeling.hard_to_explain" = "трудно объяснить";
+"onboarding_flow.feeling.still_hurts" = "всё ещё болит";
+"onboarding_flow.feeling.messy" = "ощущается запутанной";
+"onboarding_flow.feeling.loud_at_night" = "становится громче ночью";
+"onboarding_flow.blocker.question" = "что главное мешает?";
+"onboarding_flow.blocker.question_highlight" = "главное";
+"onboarding_flow.blocker.no_clear_answer" = "нет ясного ответа";
+"onboarding_flow.blocker.things_unsaid" = "невысказанное";
+"onboarding_flow.blocker.what_ifs" = "слишком много «а если»";
+"onboarding_flow.blocker.solve_alone" = "пытаюсь решить одному";
+"onboarding_flow.blocker.rereading" = "перечитываю всё подряд";
+"onboarding_flow.blocker.waiting" = "жду, пока пройдёт";
+"onboarding_flow.underneath.question" = "что, по-твоему, под этим?";
+"onboarding_flow.underneath.question_highlight" = "под этим";
+"onboarding_flow.underneath.reassurance" = "нужна поддержка";
+"onboarding_flow.underneath.closure" = "нужна точка";
+"onboarding_flow.underneath.heard" = "хочу быть услышанным";
+"onboarding_flow.underneath.doubting" = "сомневаюсь в себе";
+"onboarding_flow.underneath.hurt" = "чувствую обиду";
+"onboarding_flow.underneath.make_sense" = "хочу, чтобы был смысл";
+"onboarding_flow.help.question" = "что бы помогло прямо сейчас?";
+"onboarding_flow.help.question_highlight" = "помогло";
+"onboarding_flow.help.understand" = "понять это";
+"onboarding_flow.help.put_into_words" = "выразить словами";
+"onboarding_flow.help.slow_down" = "замедлить";
+"onboarding_flow.help.see_clearly" = "увидеть яснее";
+"onboarding_flow.help.know_what_to_do" = "понять, что делать";
+"onboarding_flow.help.leave_tonight" = "оставить на сегодня";
+"onboarding_flow.thank_you.line1" = "спасибо за честность, %@.";
+"onboarding_flow.thank_you.line1_highlight" = "честность";
+"onboarding_flow.thank_you.line2" = "это не просто случайная мысль.";
+"onboarding_flow.thank_you.line3" = "она возвращается, потому что что-то под ней всё ещё ищет ясность.";
+"onboarding_flow.thank_you.line3_highlight" = "ясность";
+"onboarding_flow.thank_you.line4" = "sotie сначала слушает, отражает и помогает понять, что на самом деле происходит.";
+"onboarding_flow.style.question" = "какая поддержка ощущается лучше всего?";
+"onboarding_flow.style.subtitle" = "чтобы sotie подходил именно тебе";
+"onboarding_flow.style.subtitle_highlight" = "именно тебе";
+"onboarding_flow.style.gentle" = "бережный";
+"onboarding_flow.style.warm" = "тёплый";
+"onboarding_flow.style.calming" = "успокаивающий";
+"onboarding_flow.style.clear" = "ясный";
+"onboarding_flow.style.practical" = "практичный";
+"onboarding_flow.style.soft_but_direct" = "мягко, но прямо";
+"onboarding_flow.depth.question" = "насколько глубоко идти?";
+"onboarding_flow.depth.calm_me_first" = "сначала успокоить";
+"onboarding_flow.depth.help_me_understand_it" = "помочь понять";
+"onboarding_flow.depth.ask_what_matters" = "спрашивать о важном";
+"onboarding_flow.depth.show_me_the_pattern" = "показать паттерн";
+"onboarding_flow.depth.help_me_see_it_differently" = "помочь увидеть иначе";
+"onboarding_flow.depth.give_me_next_steps" = "давать следующие шаги";
+"onboarding_flow.summary.title" = "спасибо, %@.";
+"onboarding_flow.summary.subtitle" = "по тому, чем ты поделился, давай посмотрим на твой путь вместе.";
+"onboarding_flow.summary.where_to_go" = "куда ты хочешь";
+"onboarding_flow.summary.where_now" = "где ты сейчас";
+"onboarding_flow.summary.standing" = "что мешает";
+"onboarding_flow.summary.message" = "%@, мы видим, где ты и куда хочешь. вместе мы превратим этот круг во что-то ясное.";
+"onboarding_flow.chart.title" = "мысли становятся тише, когда их понимают";
+"onboarding_flow.chart.body" = "продолжай рефлексировать, чем чаще ты даёшь мысли куда приземлиться, тем меньше она живёт только в голове.";
+"onboarding_flow.chart.cta" = "узнать, как работает sotie";
+"onboarding_flow.chart.legend_clarity" = "ясность и рефлексия";
+"onboarding_flow.chart.legend_overthinking" = "переживания и круги";
+"onboarding_flow.chart.week1" = "неделя 1";
+"onboarding_flow.chart.week2" = "неделя 2";
+"onboarding_flow.chart.week3" = "неделя 3";
+"onboarding_flow.demo.welcome" = "Привет, %@, я Sotie.
+
+Напиши мысль, которая не отпускает, ровно так, как она звучит у тебя в голове.
+
+Дальше мы порефлексируем вместе. Отвечай медленно и честно - чем больше ты делишься, тем яснее становится.
+
+Чтобы отправить, коснись кнопки со звёздочкой ниже.";
+"onboarding_flow.demo.footer_primary" = "вот как работает sotie - пиши, отражай, иди глубже.";
+"onboarding_flow.demo.footer_secondary" = "ты можешь продолжить эту рефлексию из дневника в любое время.";
+"onboarding_flow.demo_complete.title" = "поздравляем!";
+"onboarding_flow.demo_complete.subtitle" = "ты начал свою первую рефлексию";
+"onboarding_flow.demo_complete.message" = "твои рефлексии будут сохраняться в дневнике, чтобы со временем понимать себя яснее";
+"onboarding_flow.streak.day_label" = "день подряд";
+"onboarding_flow.streak.body" = "отличный старт! продолжай ежедневную рефлексию";
+"onboarding_flow.plan_loading.step1" = "читаем твою рефлексию...";
+"onboarding_flow.plan_loading.step2" = "понимаем твой круг...";
+"onboarding_flow.plan_loading.step3" = "ищем, что под этим...";
+"onboarding_flow.plan_loading.step4" = "настраиваем стиль рефлексии...";
+"onboarding_flow.plan_loading.step5" = "строим твой план ясности...";
+"onboarding_flow.plan_ready.headline" = "хорошо, %@, твой
+личный план готов.";
+"onboarding_flow.plan_ready.cta" = "Показать план";
+"onboarding_flow.plan.hero_headline" = "%@, у тебя будет ясный ум к";
+"onboarding_flow.plan.stat_reflections" = "ежедневных
+рефлексий";
+"onboarding_flow.plan.stat_mornings" = "ясных
+утр";
+"onboarding_flow.plan.stat_insights" = "сохранённых
+инсайтов";
+"onboarding_flow.plan.invested" = "30+ часов в год вложено в ясность";
+"onboarding_flow.plan.how_well_get_there" = "как мы туда придём:";
+"onboarding_flow.plan.method1_title" = "личная рефлексия каждый день";
+"onboarding_flow.plan.method1_body" = "просто пиши, sotie слушает и направляет рефлексию.";
+"onboarding_flow.plan.method2_title" = "ведомая рефлексия";
+"onboarding_flow.plan.method2_body" = "замедли мысль, пойми, что под ней, и уйди со следующим шагом.";
+"onboarding_flow.plan.method3_title" = "дневник, который помнит";
+"onboarding_flow.plan.method3_body" = "твои рефлексии, статистика и инсайты помогают видеть, что повторяется со временем.";
+"onboarding_flow.commitment.lead_in" = "итак,";
+"onboarding_flow.commitment.question" = "насколько ты готов
+строить ясный
+ум?";
+"onboarding_flow.commitment.extremely" = "максимально готов";
+"onboarding_flow.commitment.very" = "очень готов";
+"onboarding_flow.commitment.somewhat" = "более-менее";
+"onboarding_flow.commitment.little" = "чуть-чуть";
+"onboarding_flow.commitment.just_trying" = "просто пробую";
+"onboarding_flow.commitment_msg.extremely.title" = "ты весь в этом.";
+"onboarding_flow.commitment_msg.extremely.body" = "это важно. ясность не приходит из идеальных мыслей. она приходит, когда возвращаешься к себе, по одной рефлексии за раз.";
+"onboarding_flow.commitment_msg.very.title" = "ты готов.";
+"onboarding_flow.commitment_msg.very.body" = "не нужно решить всё сегодня. нужно просто место, чтобы замедлить мысль и понять её получше.";
+"onboarding_flow.commitment_msg.somewhat.title" = "этого хватит, чтобы начать.";
+"onboarding_flow.commitment_msg.somewhat.body" = "необязательно быть полностью готовым. маленькие рефлексии тоже считаются.";
+"onboarding_flow.commitment_msg.little.title" = "немного - это уже много.";
+"onboarding_flow.commitment_msg.little.body" = "никакого давления быть идеальным. одной честной строки уже достаточно, чтобы начать.";
+"onboarding_flow.commitment_msg.just_trying.title" = "пробовать - этого достаточно.";
+"onboarding_flow.commitment_msg.just_trying.body" = "никакого давления. одна мысль, одна рефлексия, один яснее следующий шаг.";
+"onboarding_flow.done" = "готово";
+"onboarding_flow.notif_priming.title" = "напоминания о рефлексии";
+"onboarding_flow.notif_priming.alert_title" = "Sotie хочет отправлять уведомления";
+"onboarding_flow.notif_priming.alert_body" = "мягкие напоминания возвращаться, рефлексировать и держать серию.";
+"onboarding_flow.notif_priming.allow" = "Разрешить";
+"onboarding_flow.notif_priming.deny" = "Запретить";
+"onboarding_flow.try_now.title" = "хотим, чтобы ты
+попробовал sotie бесплатно";
+"onboarding_flow.try_now.no_payment" = "Сейчас оплата не нужна";
+"onboarding_flow.try_now.cta" = "Попробовать";
+"onboarding_flow.trial_reminder.title" = "мы напомним тебе
+перед окончанием
+бесплатной пробной";
+"onboarding_flow.trial_reminder.no_payment" = "Сейчас оплата не нужна";
+"onboarding_flow.trial_reminder.cta" = "Продолжить БЕСПЛАТНО";
+"onboarding_flow.trial_reminder.disclosure" = "Списание начнётся в конце пробного периода, если не отменишь. Подписки продлеваются автоматически. Отмена в App Store.";
+"onboarding_flow.paywall.title" = "Начни 3 дня БЕСПЛАТНОЙ
+пробной, чтобы продолжить";
+"onboarding_flow.paywall.title_benefits" = "Открой sotie
+и рефлексируй яснее";
+"onboarding_flow.paywall.timeline.today_title" = "Сегодня";
+"onboarding_flow.paywall.timeline.today_body" = "Безлимитная рефлексия, более глубокие беседы и ясные утра.";
+"onboarding_flow.paywall.timeline.day2_title" = "Через 2 дня - Напоминание";
+"onboarding_flow.paywall.timeline.day2_body" = "Мы напомним, что пробный период скоро закончится, если разрешишь уведомления.";
+"onboarding_flow.paywall.timeline.day3_title" = "Через 3 дня - Списание";
+"onboarding_flow.paywall.timeline.day3_body" = "Списание произойдёт %@, если не отменишь раньше.";
+"onboarding_flow.paywall.badge.trial" = "3 ДНЯ БЕСПЛАТНО";
+"onboarding_flow.paywall.price.monthly" = "%@/мес";
+"onboarding_flow.paywall.no_payment" = "Сейчас оплата не нужна";
+"onboarding_flow.paywall.no_commitment" = "Без обязательств - отмена в любой момент";
+"onboarding_flow.paywall.cta.start_trial" = "Начать 3 дня бесплатно";
+"onboarding_flow.paywall.cta.continue" = "Продолжить";
+"onboarding_flow.paywall.cta.start_journey" = "Начать путь";
+"onboarding_flow.paywall.disclosure.per_year" = "%@ в год";
+"onboarding_flow.paywall.disclosure.per_month" = "%@ в месяц";
+"onboarding_flow.paywall.disclosure.with_trial" = "3 дня бесплатно, потом %@. Оплата раз в год. Подписка продлевается автоматически. Отмена в App Store.";
+"onboarding_flow.paywall.disclosure.no_trial" = "%@. Подписка продлевается автоматически. Отмена в App Store.";
+"onboarding_flow.paywall.benefit1.title" = "Безлимитная рефлексия";
+"onboarding_flow.paywall.benefit1.body" = "Иди глубже на каждой мысли без дневного лимита.";
+"onboarding_flow.paywall.benefit2.title" = "Прогресс наглядно";
+"onboarding_flow.paywall.benefit2.body" = "Графики и календарь, которые показывают, как растёт ясность.";
+"onboarding_flow.paywall.benefit3.title" = "Подсказки, когда застрял";
+"onboarding_flow.paywall.benefit3.body" = "Никогда не смотри в пустую страницу. Sotie подскажет, с чего начать.";
+"onboarding_flow.footer.pricing_full" = "Всего %1$@ в год (%2$@)";
+"onboarding_flow.footer.pricing_fallback" = "Всего $68.99 в год";
+"onboarding_flow.footer.pricing_per_month" = "%@/мес";
+"onboarding_flow.paywall.plan_yearly" = "Годовая";
+
+
+/* Onboarding discount: Live Activity + paywall */
+"onboarding_discount.activity.headline" = "Сюрприз: ограниченный подарок для тебя";
+"onboarding_discount.activity.cta" = "Открыть подарок";
+"onboarding_discount.activity.final.purchased" = "Добро пожаловать.";
+"onboarding_discount.activity.final.closed" = "Предложение закрыто";
+"onboarding_discount.activity.final.expired" = "Предложение истекло";
+"onboarding_discount.paywall.title" = "Единоразовое предложение";
+"onboarding_discount.paywall.percent_off" = "СКИДКА %d%%";
+"onboarding_discount.paywall.warning" = "Это предложение больше не появится";
+"onboarding_discount.paywall.price.only" = "Всего ";
+"onboarding_discount.paywall.price.per_week" = "/неделя";
+"onboarding_discount.paywall.price.lowest" = "*Самая низкая цена за всё время. Оплата раз в год";
+"onboarding_discount.paywall.price.per_year" = "%@/год";
+"onboarding_discount.paywall.cta" = "Забрать предложение";
+
+// MARK: - Entry Prompts (cards)
+
+"prompts.category.morning.title" = "Утро";
+"prompts.category.evening.title" = "Вечер";
+"prompts.category.late_night.title" = "Поздняя ночь";
+"prompts.category.stuck.title" = "Завис";
+"prompts.category.replay.title" = "По кругу";
+"prompts.category.heavy.title" = "Тяжело";
+"prompts.category.frustrated.title" = "Бесит";
+"prompts.category.numb.title" = "Пусто";
+"prompts.category.anxious.title" = "Тревожно";
+"prompts.category.restless.title" = "Не на месте";
+"prompts.category.decision.title" = "Выбор";
+"prompts.category.someone.title" = "Человек";
+"prompts.category.you_vs_them.title" = "Ты или они";
+"prompts.category.change.title" = "Перемены";
+"prompts.category.wins.title" = "Победы";
+"prompts.category.gratitude.title" = "Благодарность";
+"prompts.category.patterns.title" = "Паттерны";
+"prompts.category.future_self.title" = "Будущий я";
+"prompts.category.returning.title" = "Возвращение";
+"prompts.category.continue.title" = "Продолжить";
+"prompts.category.brain_dump.title" = "Свалить всё";
+
+"prompts.card.accessibility_hint" = "Двойное нажатие, чтобы начать с этой подсказки.";
+
+// MARK: - Entry Prompts (openers)
+
+// Утро
+"prompts.openers.morning.1" = "Что сегодня хочется сделать иначе?";
+"prompts.openers.morning.2" = "Что сегодня важнее всего?";
+"prompts.openers.morning.3" = "Сегодня я возвращаюсь мыслями к...";
+"prompts.openers.morning.4" = "Первое, что в голове с утра, это...";
+"prompts.openers.morning.5" = "Не обязательно планировать день. Начни с одного слова.";
+"prompts.openers.morning.6" = "Никаких целей. Просто скажи, с чего начинаешь.";
+"prompts.openers.morning.7" = "Сейчас энергия: тяжёлая, мягкая, острая или рассеянная?";
+"prompts.openers.morning.8" = "Настроение в этот час: спокойное, тревожное, мутное или готовое?";
+"prompts.openers.morning.9" = "Чего хочет та часть тебя, до которой не доходят руки?";
+"prompts.openers.morning.10" = "Утро — когда день ещё не определился. Что первое всплывает, то и пиши. Это пока ничего не значит.";
+
+// Вечер
+"prompts.openers.evening.1" = "Что осталось от дня?";
+"prompts.openers.evening.2" = "Что ещё крутится в голове после сегодня?";
+"prompts.openers.evening.3" = "То, к чему я возвращаюсь после сегодня, это...";
+"prompts.openers.evening.4" = "Если у дня было бы одно слово, это было бы...";
+"prompts.openers.evening.5" = "День закончился. Всё, что не успел сказать, можно положить здесь.";
+"prompts.openers.evening.6" = "Не обязательно подводить итоги. Одного маленького куска хватит.";
+"prompts.openers.evening.7" = "Каким был день: лёгким, тяжёлым, смешанным или мутным?";
+"prompts.openers.evening.8" = "Что больше всего заметил: людей, работу, тело или тишину?";
+"prompts.openers.evening.9" = "Что сегодня тебя удивило?";
+"prompts.openers.evening.10" = "Вечер собирает то, что не нашло места днём. Мысль, которой не было куда идти, мелочь, что всё ещё громкая. Положи это сюда.";
+
+// Поздняя ночь
+"prompts.openers.late_night.1" = "Что не даёт уснуть?";
+"prompts.openers.late_night.2" = "Какая мысль держит тебя?";
+"prompts.openers.late_night.3" = "Мысль, что снова и снова возвращается ночью, это...";
+"prompts.openers.late_night.4" = "То, что сейчас громче всего, это...";
+"prompts.openers.late_night.5" = "Не обязательно решать это сегодня. Просто назови.";
+"prompts.openers.late_night.6" = "Уже поздно. Достаточно маленького.";
+"prompts.openers.late_night.7" = "Где это в теле: грудь, голова, живот или везде?";
+"prompts.openers.late_night.8" = "Ближайшее слово: тревожно, грустно, неспокойно или взвинчено?";
+"prompts.openers.late_night.9" = "Что помогло бы прямо сейчас, хотя бы немного?";
+"prompts.openers.late_night.10" = "Ночью всё кажется крупнее. Что бы ни держало, можно оставить это здесь, не решая. Достаточно того, что оно где-то приземлилось.";
+
+// Завис
+"prompts.openers.stuck.1" = "Что тянет тебя со всех сторон?";
+"prompts.openers.stuck.2" = "Если думать только об одном — то о чём?";
+"prompts.openers.stuck.3" = "Самая громкая ниточка прямо сейчас, это...";
+"prompts.openers.stuck.4" = "Если выбрать одно, с чего начать, то это будет...";
+"prompts.openers.stuck.5" = "Не обязательно распутать всё. По одному.";
+"prompts.openers.stuck.6" = "Застрять — нормально. Начни с любого места.";
+"prompts.openers.stuck.7" = "Что больше всего сцеплено: время, люди, выборы или чувства?";
+"prompts.openers.stuck.8" = "С чего начать: с самого маленького, громкого, старого или нового?";
+"prompts.openers.stuck.9" = "Как выглядело бы хоть какое-то движение?";
+"prompts.openers.stuck.10" = "Когда всё говорит одновременно, не обязательно слушать всё. Возьми ту нитку, что ближе всего, и потяни. Остальное подождёт.";
+
+// По кругу
+"prompts.openers.replay.1" = "Какая мысль возвращается?";
+"prompts.openers.replay.2" = "Какая часть всё повторяется?";
+"prompts.openers.replay.3" = "Сцена, к которой я возвращаюсь, это...";
+"prompts.openers.replay.4" = "Фраза, что всё ещё крутится в голове, это...";
+"prompts.openers.replay.5" = "Не обязательно понимать, почему оно ещё здесь. Просто положи.";
+"prompts.openers.replay.6" = "Пусть повторяется, не обязательно это решать.";
+"prompts.openers.replay.7" = "Что это: застрявшее, неспокойное, стыдное или несправедливое?";
+"prompts.openers.replay.8" = "Что хочется получить от этого: закрытия, понимания, ответа или тишины?";
+"prompts.openers.replay.9" = "Что эта петля от тебя хочет?";
+"prompts.openers.replay.10" = "Иногда мысли возвращаются не потому, что ты что-то упустил, а потому, что им до сих пор нужно куда-то приземлиться. Пусть это будет тут.";
+
+// Тяжело
+"prompts.openers.heavy.1" = "Что сейчас тяжело?";
+"prompts.openers.heavy.2" = "Что сейчас тяжелее обычного?";
+"prompts.openers.heavy.3" = "Тяжесть — это...";
+"prompts.openers.heavy.4" = "То, что я сейчас несу, это...";
+"prompts.openers.heavy.5" = "Не обязательно облегчать. Просто скажи.";
+"prompts.openers.heavy.6" = "Тяжело — можно. Будь здесь сколько надо.";
+"prompts.openers.heavy.7" = "Ближайшее слово: грустно, низко, устало или пусто?";
+"prompts.openers.heavy.8" = "Где это чувствуется: грудь, горло, живот или везде?";
+"prompts.openers.heavy.9" = "Что болит под этой болью?";
+"prompts.openers.heavy.10" = "У тяжести не всегда есть чистая причина. Иногда она просто есть. Какой бы формы она ни была, её можно положить здесь на минуту.";
+
+// Бесит
+"prompts.openers.frustrated.1" = "Что злит?";
+"prompts.openers.frustrated.2" = "Что ты хотел, но не получилось?";
+"prompts.openers.frustrated.3" = "Что меня бесит, это...";
+"prompts.openers.frustrated.4" = "Что я хотел бы сказать, но не сказал, это...";
+"prompts.openers.frustrated.5" = "Здесь не обязательно быть вежливым.";
+"prompts.openers.frustrated.6" = "Раздражение тоже считается. Дай ему слова.";
+"prompts.openers.frustrated.7" = "О чём это: о человеке, ситуации, себе или несправедливости?";
+"prompts.openers.frustrated.8" = "Уровень жара: тлеет, остро, горячо или выгорело?";
+"prompts.openers.frustrated.9" = "Что в этом ощущается несправедливым?";
+"prompts.openers.frustrated.10" = "За злостью обычно есть причина: что-то, чего ты хотел, что-то, что нарушили. Не спорь с ней. Просто скажи, что было и что было нужно.";
+
+// Пусто
+"prompts.openers.numb.1" = "Каково оно — пусто прямо сейчас?";
+"prompts.openers.numb.2" = "Что ты чувствовал до этого?";
+"prompts.openers.numb.3" = "Сейчас я просто...";
+"prompts.openers.numb.4" = "Это не ничто, это скорее...";
+"prompts.openers.numb.5" = "Пусто — тоже считается. Не обязательно искать чувство.";
+"prompts.openers.numb.6" = "Тишина — тоже информация. Побудь в ней.";
+"prompts.openers.numb.7" = "Ближайшее слово: тяжело, пусто, заморожено или тихо?";
+"prompts.openers.numb.8" = "Громкость чувств: ноль, слабо, далеко или приглушено?";
+"prompts.openers.numb.9" = "Когда звук стал тише?";
+"prompts.openers.numb.10" = "Пусто не значит, что там ничего нет. Обычно это значит, что там что-то ещё без названия. Не обязательно искать его сегодня.";
+
+// Тревожно
+"prompts.openers.anxious.1" = "О чём тревожно?";
+"prompts.openers.anxious.2" = "Где это в теле?";
+"prompts.openers.anxious.3" = "В голове крутится...";
+"prompts.openers.anxious.4" = "Худший сценарий, к которому я возвращаюсь, это...";
+"prompts.openers.anxious.5" = "Не обязательно останавливать это. Просто опиши.";
+"prompts.openers.anxious.6" = "Тревога громкая. Можно медленно.";
+"prompts.openers.anxious.7" = "Где это в теле: грудь, живот, горло или дыхание?";
+"prompts.openers.anxious.8" = "Темп: быстрый, по кругу, прыгающий или застрявший?";
+"prompts.openers.anxious.9" = "Как выглядело бы спокойнее, хотя бы немного?";
+"prompts.openers.anxious.10" = "Тревога часто на что-то указывает, но использует панику как голос. Не обязательно верить панике. Послушай, на что она указывает.";
+
+// Не на месте
+"prompts.openers.restless.1" = "Что тянет тебя сейчас?";
+"prompts.openers.restless.2" = "Что в этом моменте не так?";
+"prompts.openers.restless.3" = "Я всё хочу...";
+"prompts.openers.restless.4" = "Где я на самом деле хочу быть, это...";
+"prompts.openers.restless.5" = "Беспокойство — это сигнал. Не борись с ним.";
+"prompts.openers.restless.6" = "Не обязательно знать ради чего. Просто признай, что оно есть.";
+"prompts.openers.restless.7" = "Каково оно: чешется, скучно, в клетке или дёргает?";
+"prompts.openers.restless.8" = "Что не так: место, темп, люди или сам?";
+"prompts.openers.restless.9" = "Куда указывает это беспокойство?";
+"prompts.openers.restless.10" = "Беспокойство обычно значит, что часть тебя хочет другого, чем то, что есть. Не обязательно действовать. Просто заметь, на что оно указывает.";
+
+// Выбор
+"prompts.openers.decision.1" = "Какой выбор ты избегаешь?";
+"prompts.openers.decision.2" = "Что ты на самом деле хочешь, до причин?";
+"prompts.openers.decision.3" = "То, между чем я мечусь, это...";
+"prompts.openers.decision.4" = "Если бы никто не смотрел, я бы...";
+"prompts.openers.decision.5" = "Не обязательно решать сегодня. Просто увидь яснее.";
+"prompts.openers.decision.6" = "Здесь нет неправильных ответов. Только честные.";
+"prompts.openers.decision.7" = "Что мешает: страх, справедливость, другие или деньги?";
+"prompts.openers.decision.8" = "Каково это: застряло, разрывает, срочно или тихо?";
+"prompts.openers.decision.9" = "Какова цена того, чтобы ничего не делать?";
+"prompts.openers.decision.10" = "Решения становятся яснее, когда перестаёшь спорить с собой и начинаешь слушать. Сначала скажи, что хочешь. Причины придут потом.";
+
+// Человек
+"prompts.openers.someone.1" = "Кто сейчас на уме?";
+"prompts.openers.someone.2" = "Что они сделали или сказали?";
+"prompts.openers.someone.3" = "Человек, о ком я думаю, это...";
+"prompts.openers.someone.4" = "Что я хотел бы, чтобы они поняли, это...";
+"prompts.openers.someone.5" = "Здесь не обязательно быть справедливым.";
+"prompts.openers.someone.6" = "Что не можешь сказать им — можно сказать здесь.";
+"prompts.openers.someone.7" = "Что ты к ним чувствуешь: больно, злость, скучаешь или разрывает?";
+"prompts.openers.someone.8" = "Что осталось между вами: тишина, дистанция, слова или надежда?";
+"prompts.openers.someone.9" = "Что тебе было нужно от них?";
+"prompts.openers.someone.10" = "Другие люди оставляют отпечатки. Даже когда ничего не случилось, что-то может остаться. Кто бы ни был на уме, начни с него и с того, что он в тебе поднимает.";
+
+// Ты или они
+"prompts.openers.you_vs_them.1" = "Чего ты хочешь, отдельно от них?";
+"prompts.openers.you_vs_them.2" = "Это для кого, на самом деле?";
+"prompts.openers.you_vs_them.3" = "Если бы сказать «нет» ничего не стоило, я бы...";
+"prompts.openers.you_vs_them.4" = "Чего я хочу на самом деле, не как «надо», это...";
+"prompts.openers.you_vs_them.5" = "Можно хотеть другого, чем хотят они.";
+"prompts.openers.you_vs_them.6" = "В честности с собой нет предательства.";
+"prompts.openers.you_vs_them.7" = "Чей голос громче: твой, семьи, партнёра или культуры?";
+"prompts.openers.you_vs_them.8" = "Что потеряешь, выбрав своё: одобрение, комфорт, мир или вину?";
+"prompts.openers.you_vs_them.9" = "Что делает «надо» в твоей голове?";
+"prompts.openers.you_vs_them.10" = "Иногда сложнее всего услышать свой голос на фоне всех остальных. Не обязательно выбирать сейчас. Просто пусть здесь твой будет громче всех.";
+
+// Перемены
+"prompts.openers.change.1" = "Что сейчас меняется?";
+"prompts.openers.change.2" = "Что ты оставляешь?";
+"prompts.openers.change.3" = "То, что я не уверен, что готов оставить, это...";
+"prompts.openers.change.4" = "К чему я тянусь, это...";
+"prompts.openers.change.5" = "Можно горевать о том, что уходит, и при этом хотеть нового.";
+"prompts.openers.change.6" = "Между — тоже можно. Не обязательно быть устроенным.";
+"prompts.openers.change.7" = "Каково это: страшно, волнующе, грустно или всё сразу?";
+"prompts.openers.change.8" = "Где ты: в конце, посередине, в начале или непонятно?";
+"prompts.openers.change.9" = "Что в этом — горе, а что — надежда?";
+"prompts.openers.change.10" = "Перемена редко бывает одним чувством. Обычно есть часть, что прощается, и часть, что тянется. Обе могут быть правдой одновременно.";
+
+// Победы
+"prompts.openers.wins.1" = "Что сегодня сложилось?";
+"prompts.openers.wins.2" = "Что в себе тебя удивило?";
+"prompts.openers.wins.3" = "Сегодня у меня хорошо получилось...";
+"prompts.openers.wins.4" = "Маленькое, что сработало, это...";
+"prompts.openers.wins.5" = "Маленькое тоже считается. Не обязательно называть это большим.";
+"prompts.openers.wins.6" = "Прими это. Ты заслужил.";
+"prompts.openers.wins.7" = "Где победа: в действии, мысли, доброте или отдыхе?";
+"prompts.openers.wins.8" = "Каково это: гордо, легче, неожиданно или ровно?";
+"prompts.openers.wins.9" = "Что прошлый ты сделал, что помогло?";
+"prompts.openers.wins.10" = "Победы не обязательно громкие или видимые. Иногда победа — что не сорвался. Иногда — что начал. Какая бы ни была твоя, считай.";
+
+// Благодарность
+"prompts.openers.gratitude.1" = "Что сегодня стоит заметить?";
+"prompts.openers.gratitude.2" = "Что легко забыть, но что важно?";
+"prompts.openers.gratitude.3" = "Маленькое, чему я рад, это...";
+"prompts.openers.gratitude.4" = "То, что помогло, хотя бы немного, это...";
+"prompts.openers.gratitude.5" = "Не выжимай. Просто заметь, что уже есть.";
+"prompts.openers.gratitude.6" = "Маленького достаточно.";
+"prompts.openers.gratitude.7" = "Где смотреть: на человека, момент, место или на тело?";
+"prompts.openers.gratitude.8" = "Какое: помогающее, мягкое, обычное или неожиданное?";
+"prompts.openers.gratitude.9" = "Что ты сегодня чуть не пропустил?";
+"prompts.openers.gratitude.10" = "Благодарность — не большой список. Одна конкретная вещь — человек, кто пришёл, окно тишины, твоё тело, которое делает своё дело — этого хватит.";
+
+// Паттерны
+"prompts.openers.patterns.1" = "Что в последнее время повторяется?";
+"prompts.openers.patterns.2" = "Что одинакового в разных ситуациях?";
+"prompts.openers.patterns.3" = "То, что я постоянно делаю, это...";
+"prompts.openers.patterns.4" = "Это случается, когда...";
+"prompts.openers.patterns.5" = "Узоры — не приговор. Это информация.";
+"prompts.openers.patterns.6" = "Не обязательно чинить, только потому что увидел.";
+"prompts.openers.patterns.7" = "Где это всплывает: работа, отношения, здоровье или настроение?";
+"prompts.openers.patterns.8" = "Тип узора: избегание, тяга, повтор или сжатие?";
+"prompts.openers.patterns.9" = "Что это тебе напоминает?";
+"prompts.openers.patterns.10" = "Узор не всегда значит, что что-то не так. Иногда это старое решение, что когда-то работало и больше нет. Назвать его — первый мягкий шаг.";
+
+// Будущий я
+"prompts.openers.future_self.1" = "Что будущий ты хотел бы, чтобы ты знал?";
+"prompts.openers.future_self.2" = "Что ты хочешь, чтобы было правдой через год?";
+"prompts.openers.future_self.3" = "Через год я хочу быть...";
+"prompts.openers.future_self.4" = "За что я бы поблагодарил прошлого себя, это...";
+"prompts.openers.future_self.5" = "Будущий ты не судит. Он за тебя болеет.";
+"prompts.openers.future_self.6" = "Маленькие старты тоже считаются.";
+"prompts.openers.future_self.7" = "К чему идёшь: к ясности, смелости, лёгкости или честности?";
+"prompts.openers.future_self.8" = "С чего начать: привычка, отношения, работа или ты сам?";
+"prompts.openers.future_self.9" = "Что маленькое, что складывается со временем?";
+"prompts.openers.future_self.10" = "Будущий ты — не чужой. Это та версия тебя, что знает, что эта версия несла. Что бы ты ни сказал ему, он услышит.";
+
+// Возвращение
+"prompts.openers.returning.1" = "Что осталось с прошлого раза?";
+"prompts.openers.returning.2" = "Что изменилось?";
+"prompts.openers.returning.3" = "С тех пор как я был здесь, осталось...";
+"prompts.openers.returning.4" = "Что притянуло меня обратно сегодня, это...";
+"prompts.openers.returning.5" = "Не обязательно объяснять паузу. Начни с сейчас.";
+"prompts.openers.returning.6" = "С возвращением. Где бы ты ни начал — правильное место.";
+"prompts.openers.returning.7" = "Что громче сейчас: то же, новое или тише?";
+"prompts.openers.returning.8" = "Как ты возвращаешься: устало, рад, не уверен или готов?";
+"prompts.openers.returning.9" = "О чём напомнила пауза?";
+"prompts.openers.returning.10" = "Ты вернулся. Это считается. Что осталось в тишине между визитами — можно положить здесь без объяснений.";
+
+// Продолжить
+"prompts.openers.continue.1" = "На чём остановился?";
+"prompts.openers.continue.2" = "Что ещё крутится с прошлого раза?";
+"prompts.openers.continue.3" = "Возвращаюсь к тому, на чём остановился, и громче всего сейчас...";
+"prompts.openers.continue.4" = "Хочу вернуться к...";
+"prompts.openers.continue.5" = "Можно подхватить с середины. Не обязательно начинать заново.";
+"prompts.openers.continue.6" = "Что ещё здесь — стоит ещё одной минуты.";
+"prompts.openers.continue.7" = "Стало яснее: чуть-чуть, заметно или всё ещё мутно?";
+"prompts.openers.continue.8" = "Что тянет назад: чувство, мысль, человек или сама петля?";
+"prompts.openers.continue.9" = "Что дальше хочется сказать про это?";
+"prompts.openers.continue.10" = "Некоторые мысли требуют не одного захода. Можно возвращаться столько раз, сколько нужно. Нить никуда не делась.";
+
+// Свалить всё
+"prompts.openers.brain_dump.1" = "Что сейчас в голове?";
+"prompts.openers.brain_dump.2" = "Что громче всего шумит в голове?";
+"prompts.openers.brain_dump.3" = "Сейчас в голове...";
+"prompts.openers.brain_dump.4" = "Первое, что приходит, это...";
+"prompts.openers.brain_dump.5" = "Бардак — можно. Структуры не нужно.";
+"prompts.openers.brain_dump.6" = "Просто пиши. Смысл может прийти потом.";
+"prompts.openers.brain_dump.7" = "Громкость: громко, рассеянно, по кругу или тихо но застряло?";
+"prompts.openers.brain_dump.8" = "О чём это: о сегодня, о последнее время, о всегда или непонятно?";
+"prompts.openers.brain_dump.9" = "Какая мысль за тобой ходит?";
+"prompts.openers.brain_dump.10" = "Брейн-дамп не обязан иметь смысл. Ему надо просто выйти. Списки, обрывки, недосказанные предложения — всё нормально. Смысл может прийти позже или никогда.";
+
+// MARK: - Prompt Clusters (rail above AddEntry textarea)
+
+"prompts.cluster.time.title.morning" = "Утро";
+"prompts.cluster.time.title.evening" = "Вечер";
+"prompts.cluster.time.title.late_night" = "Поздно";
+"prompts.cluster.heavy.title" = "Тяжело";
+"prompts.cluster.looping.title" = "Крутится";
+"prompts.cluster.someone.title" = "О ком-то";
+"prompts.cluster.choosing.title" = "Развилка";
+"prompts.cluster.notice.title" = "Заметить";
+"prompts.cluster.brain_dump.title" = "Просто выгрузить";

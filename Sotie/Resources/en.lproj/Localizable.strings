@@ -1,0 +1,869 @@
+/*
+  Localizable.strings
+  Sotie
+
+  English Localization
+*/
+
+"accessibility_menu_button" = "More options";
+"accessibility_menu_button_hint" = "Opens a menu with more options like changing the date or adding a photo.";
+"accessibility_save_button" = "Save reflection";
+"accessibility_save_button_hint" = "Saves the current reflection.";
+"add_entry" = "Add Reflection";
+"ai_analysis" = "AI Analysis";
+"ai_settings.depth.ask_what_matters" = "😶 Ask what matters";
+"ai_settings.depth.calm_me_first" = "🫶 Calm me first";
+"ai_settings.depth.give_me_next_steps" = "❤️ Give me next steps";
+"ai_settings.depth.help_me_see_it_differently" = "✨ Help me see it differently";
+"ai_settings.depth.help_me_understand_it" = "🫶 Help me understand it";
+"ai_settings.depth.show_me_the_pattern" = "🌿 Show me the pattern";
+"ai_settings.goal.feel_clearer" = "🔍 Feel clearer";
+"ai_settings.goal.feel_less_alone_with_it" = "🫂 Feel less alone with it";
+"ai_settings.goal.know_what_to_do_next" = "✨ Know what to do next";
+"ai_settings.goal.sleep_with_quieter_mind" = "🌙 Sleep with a quieter mind";
+"ai_settings.goal.spot_my_patterns" = "👀 Spot my patterns";
+"ai_settings.goal.stop_replaying_things" = "🔁 Stop replaying things";
+"ai_settings.goal.understand_my_feelings" = "🫶 Understand my feelings";
+"ai_settings.primary_goals" = "What you're here for";
+"ai_settings.primary_goals.description" = "Pick at least one. This shapes what Sotie pays attention to over time — it won't override what you write in the moment.";
+"ai_settings.style.calming" = "😌 Calming";
+"ai_settings.style.clear" = "💎 Clear";
+"ai_settings.style.gentle" = "💛 Gentle";
+"ai_settings.style.practical" = "📌 Practical";
+"ai_settings.style.soft_but_direct" = "✨ Soft but direct";
+"ai_settings.style.warm" = "🫶 Warm";
+"ai_settings.support_depth" = "How deep to go";
+"ai_settings.support_depth.description" = "When you share something, what kind of response feels most useful?";
+"ai_settings.support_style" = "Tone of voice";
+"ai_settings.support_style.description" = "How should Sotie sound when it reflects back to you?";
+"ai_settings.title" = "Reflection style";
+"analytics_ai_responses" = "AI Responses";
+"analytics_avg_reflection_depth" = "Responses per Session";
+"analytics_day_short" = "d";
+"analytics_hours" = "h";
+"analytics_last_30_days" = "Last 30 days";
+"analytics_minutes" = "m";
+"analytics_most_reflective_day" = "Top day";
+"analytics_most_reflective_time" = "Top time";
+"analytics_no_data" = "No data available yet";
+"analytics_reflecting_since" = "Reflecting since %@";
+"analytics_reflections" = "Reflections";
+"analytics_streak" = "Days in a Row";
+"analytics_time_afternoon" = "Afternoon";
+"analytics_time_evening" = "Evening";
+"analytics_time_morning" = "Morning";
+"analytics_time_night" = "Night";
+"analytics_time_reflecting" = "Time reflecting";
+"analytics_time_spent" = "Time Spent";
+"analytics_total_entries" = "Entries Created";
+"analytics_words_written" = "Words Written";
+"app_name" = "Sotie Journal";
+"cancel" = "Cancel";
+"cannot_summarize_empty" = "Cannot summarize empty conversation history";
+"change_date" = "Change Date";
+"contact" = "Contact";
+"contact_us_include_logs" = "Include diagnostic logs";
+"contact_us_include_logs_desc" = "App activity, device info, and error logs - helpful for troubleshooting";
+"contact_us_message_label" = "Your message";
+"contact_us_message_placeholder" = "Tell us anything";
+"contact_us_send" = "Send";
+"contact_us_subtitle" = "Anything on your mind - question, idea, or a bug? We're all ears";
+"contact_us_title" = "Contact Us";
+"data_section" = "DATA";
+"delete" = "Delete";
+"delete_entry" = "Delete Reflection";
+"delete_entry_message" = "Are you sure you want to delete this reflection? This action cannot be undone.";
+"delete_entry_title" = "Delete Reflection";
+"discover_patterns" = "Discover patterns in your data";
+"discover_patterns_and_insights" = "Discover patterns and insights in your data";
+"done" = "Done";
+"empty_state_description" = "Tap below to start writing";
+"empty_state_title" = "Ready to Begin";
+"entry_text" = "Reflection";
+"error_ai_service" = "Something went wrong - please try again";
+"error_daily_limit_reached" = "You’ve reached today’s AI response limit. Come back tomorrow to continue.";
+"error_network" = "No internet - check your connection";
+"error_rate_limited" = "Please wait %d sec - too many requests";
+"export_entries" = "Export Data";
+"export_error" = "Export Failed";
+"export_success" = "Export Successful";
+"failed_to_summarize" = "Failed to summarize conversation: %@";
+"import_confirm_action" = "Import";
+"import_confirm_message" = "New reflections will be added. Duplicates will be skipped. Statistics will be updated if included.";
+"import_confirm_title" = "Import Data";
+"import_entries" = "Import Data";
+"import_entries_imported" = "%d reflections imported";
+"import_entries_imported_skipped" = "%d reflections imported, %d skipped (duplicates)";
+"import_error" = "Import Failed";
+"import_success" = "Import Successful";
+"journal_entry" = "Reflection";
+"last_week" = "Last Week";
+"legal" = "Legal";
+"next" = "Next";
+"no_entries_yet" = "No reflections yet";
+"note_placeholder" = "Write here...";
+"note_placeholder_initial" = "What are you thinking about now?";
+"notification.follow_up.fallback" = "What changed since then?";
+"notification.re_engagement.fallback" = "What's different now?";
+"notification_settings" = "Notifications";
+"notifications" = "Notifications";
+"notifications.type.conversation_follow_up.description" = "Follow up on a recent conversation when the moment feels right";
+"notifications.type.conversation_follow_up.title" = "Conversation Follow-Up";
+"notifications.type.morning_reminder.title" = "Morning reminder";
+"notifications.type.morning_reminder.description" = "A gentle nudge to start the day with one honest line";
+"notifications.type.evening_reminder.title" = "Evening reminder";
+"notifications.type.evening_reminder.description" = "A space to land what stayed with you today";
+"notifications.type.re_engagement.description" = "Receive a gentle nudge to return after some time away";
+"notifications.type.re_engagement.title" = "Re-Engagement";
+"notifications_disabled" = "Notifications Disabled";
+"notifications_disabled_message" = "Turn on notifications in Settings to receive reminders.";
+"ok" = "OK";
+"onboarding_write_here" = "Write here...";
+
+/* Onboarding Flow - Phase 1 (Screens 1-5) */
+"onboarding_flow.hey" = "hey";
+"onboarding_flow.tap_to_continue" = "tap to continue";
+"onboarding_flow.vp1.headline" = "ever have a thought that won't leave you alone?";
+"onboarding_flow.vp1.highlight" = "thought";
+"onboarding_flow.vp1.body1" = "it shows up\nwhen you're trying to sleep,";
+"onboarding_flow.vp1.body2" = "when you're trying to focus,";
+"onboarding_flow.vp1.body3" = "when you're trying to feel normal.";
+"onboarding_flow.vp2.headline" = "sotie helps you understand what's underneath it";
+"onboarding_flow.vp2.highlight" = "underneath";
+"onboarding_flow.vp2.subtitle" = "it's simple";
+"onboarding_flow.vp2.subtitle_highlight" = "simple";
+"onboarding_flow.vp2.body1" = "you write what's bothering you";
+"onboarding_flow.vp2.body2" = "sotie reflects it";
+"onboarding_flow.vp2.body3" = "you feel clearer";
+"onboarding_flow.vp2.body3_highlight" = "clearer";
+"onboarding_flow.first_things_first" = "first things first";
+"onboarding_flow.name_question" = "what should we call you?";
+"onboarding_flow.name_fallback" = "you";
+"onboarding_flow.continue" = "Continue";
+"onboarding_flow.consider_line1" = "alright %@,";
+"onboarding_flow.consider_line2" = "consider this...";
+
+/* Onboarding Flow - Phase 2 (Screens 6-9: Survey) */
+
+/* Screen 6: Thought type */
+"onboarding_flow.survey.thought_question" = "what kind of thought keeps coming back?";
+"onboarding_flow.survey.thought_question_highlight" = "thought";
+"onboarding_flow.survey.thought.someone" = "someone";
+"onboarding_flow.survey.thought.what_happened" = "what happened";
+"onboarding_flow.survey.thought.something_i_did" = "something i did";
+"onboarding_flow.survey.thought.what_to_do" = "what to do";
+"onboarding_flow.survey.thought.feeling" = "feeling";
+"onboarding_flow.survey.thought.myself" = "myself";
+
+/* Screen 7: Combined frequency + duration */
+"onboarding_flow.survey.pattern_question" = "how often does it come back?";
+"onboarding_flow.survey.pattern.all_the_time" = "all the time and stays forever";
+"onboarding_flow.survey.pattern.pretty_often" = "pretty often and stays hours";
+"onboarding_flow.survey.pattern.sometimes" = "sometimes, comes back";
+"onboarding_flow.survey.pattern.not_much" = "not much and stays a while";
+"onboarding_flow.survey.pattern.rarely" = "rarely and stays not long";
+
+/* Screen 8: Empathy calculation */
+"onboarding_flow.empathy.youll_spend" = "you'll spend";
+"onboarding_flow.empathy.hours_this_year" = "hours this year";
+"onboarding_flow.empathy.thats" = "that's";
+"onboarding_flow.empathy.days" = "days";
+"onboarding_flow.empathy.question" = "how much of that time actually helps you feel clearer?";
+"onboarding_flow.empathy.question_highlight" = "clearer";
+"onboarding_flow.empathy.verb.default" = "replaying what happened";
+"onboarding_flow.empathy.verb.someone" = "thinking about someone";
+"onboarding_flow.empathy.verb.what_happened" = "replaying what happened";
+"onboarding_flow.empathy.verb.something_i_did" = "replaying what you did";
+"onboarding_flow.empathy.verb.what_to_do" = "deciding what to do";
+"onboarding_flow.empathy.verb.feeling" = "understanding a feeling";
+"onboarding_flow.empathy.verb.myself" = "questioning yourself";
+
+/* Screen 9: Hope */
+"onboarding_flow.hope.line1" = "it doesn't have to be this way";
+"onboarding_flow.hope.line2" = "do you have just 5 minutes for your clarity each day?";
+"onboarding_flow.hope.line2_highlight1" = "5 minutes";
+"onboarding_flow.hope.line2_highlight2" = "clarity";
+"onboarding_flow.hope.line3" = "let's build your plan";
+
+/* Onboarding Flow - Phase 3 (Screens 11-13: Goals & Vision) */
+
+/* Screen 11: Goals */
+"onboarding_flow.goal.question" = "what do you want to achieve with sotie?";
+"onboarding_flow.goal.subtitle" = "choose up to 3";
+"onboarding_flow.goal.feel_clearer" = "feel clearer";
+"onboarding_flow.goal.stop_replaying" = "stop replaying things";
+"onboarding_flow.goal.understand_feelings" = "understand my feelings";
+"onboarding_flow.goal.know_what_to_do" = "know what to do next";
+"onboarding_flow.goal.sleep_quieter" = "sleep with a quieter mind";
+"onboarding_flow.goal.feel_less_alone" = "feel less alone with it";
+"onboarding_flow.goal.spot_patterns" = "spot my patterns";
+
+/* Screen 11: Goal descriptions (shown on screen 13 cards) */
+"onboarding_flow.goal.desc.feel_clearer" = "we'll help you slow the thought down so you can actually understand what it's trying to say.";
+"onboarding_flow.goal.desc.stop_replaying" = "we'll help you turn the loop into something you can actually understand.";
+"onboarding_flow.goal.desc.understand_feelings" = "sotie helps you name what you feel and notice what might be underneath it.";
+"onboarding_flow.goal.desc.know_what_to_do" = "we'll help you sort through the noise until the next step feels obvious.";
+"onboarding_flow.goal.desc.sleep_quieter" = "we'll help you put the thought down before bed so it stops running on repeat.";
+"onboarding_flow.goal.desc.feel_less_alone" = "sotie reflects what you're going through so you feel heard, even at 2am.";
+"onboarding_flow.goal.desc.spot_patterns" = "over time, sotie shows you what keeps coming back and why.";
+
+/* Screen 12: Vision */
+"onboarding_flow.vision.question" = "thinking bigger, what would a clearer mind look like for you?";
+"onboarding_flow.vision.question_highlight" = "clearer mind";
+"onboarding_flow.vision.trusting" = "trusting myself more";
+"onboarding_flow.vision.naming" = "naming what I feel";
+"onboarding_flow.vision.coming_back" = "coming back to myself";
+"onboarding_flow.vision.replying" = "replying from clarity";
+"onboarding_flow.vision.sleeping" = "sleeping without overthinking";
+"onboarding_flow.vision.staying" = "staying in control";
+
+/* Screen 13: Personalized plan */
+"onboarding_flow.plan.footer_title" = "you're in the right place";
+"onboarding_flow.plan.footer_body" = "tens of thousands have started the same goals, and sotie helped them get there.";
+
+/* Onboarding Flow - Phase 4 (Screens 14-18: Deep Dive) */
+
+/* Screen 14: Feeling */
+"onboarding_flow.feeling.question" = "how does this thought feel right now?";
+"onboarding_flow.feeling.question_highlight" = "feel";
+"onboarding_flow.feeling.keeps_looping" = "keeps looping";
+"onboarding_flow.feeling.unresolved" = "feels unresolved";
+"onboarding_flow.feeling.hard_to_explain" = "hard to explain";
+"onboarding_flow.feeling.still_hurts" = "still hurts";
+"onboarding_flow.feeling.messy" = "feels messy";
+"onboarding_flow.feeling.loud_at_night" = "gets loud at night";
+
+/* Screen 15: Blocker */
+"onboarding_flow.blocker.question" = "what's the main thing that gets in the way?";
+"onboarding_flow.blocker.question_highlight" = "main thing";
+"onboarding_flow.blocker.no_clear_answer" = "no clear answer";
+"onboarding_flow.blocker.things_unsaid" = "things left unsaid";
+"onboarding_flow.blocker.what_ifs" = "too many what-ifs";
+"onboarding_flow.blocker.solve_alone" = "trying to solve it alone";
+"onboarding_flow.blocker.rereading" = "rereading everything";
+"onboarding_flow.blocker.waiting" = "waiting for it to pass";
+
+/* Screen 16: Underneath */
+"onboarding_flow.underneath.question" = "what do you think is underneath it?";
+"onboarding_flow.underneath.question_highlight" = "underneath";
+"onboarding_flow.underneath.reassurance" = "needing reassurance";
+"onboarding_flow.underneath.closure" = "needing closure";
+"onboarding_flow.underneath.heard" = "wanting to be heard";
+"onboarding_flow.underneath.doubting" = "doubting myself";
+"onboarding_flow.underneath.hurt" = "feeling hurt";
+"onboarding_flow.underneath.make_sense" = "wanting it to make sense";
+
+/* Screen 17: Help */
+"onboarding_flow.help.question" = "what would help right now?";
+"onboarding_flow.help.question_highlight" = "help";
+"onboarding_flow.help.understand" = "understand it";
+"onboarding_flow.help.put_into_words" = "put it into words";
+"onboarding_flow.help.slow_down" = "slow it down";
+"onboarding_flow.help.see_clearly" = "see it clearly";
+"onboarding_flow.help.know_what_to_do" = "know what to do";
+"onboarding_flow.help.leave_tonight" = "leave it for tonight";
+
+/* Screen 18: Thank you */
+"onboarding_flow.thank_you.line1" = "thank you for your honesty, %@.";
+"onboarding_flow.thank_you.line1_highlight" = "honesty";
+"onboarding_flow.thank_you.line2" = "this isn't just a random thought.";
+"onboarding_flow.thank_you.line3" = "it keeps coming back because something underneath it still wants clarity.";
+"onboarding_flow.thank_you.line3_highlight" = "clarity";
+"onboarding_flow.thank_you.line4" = "sotie listens first, reflects it back, and helps you understand what's really going on.";
+
+/* Onboarding Flow - Phase 5 (Screens 19-22: Support & Summary) */
+
+/* Screen 19: Support style */
+"onboarding_flow.style.question" = "what kind of support feels best?";
+"onboarding_flow.style.subtitle" = "to make sure sotie fill right to you";
+"onboarding_flow.style.subtitle_highlight" = "right to you";
+"onboarding_flow.style.gentle" = "gentle";
+"onboarding_flow.style.warm" = "warm";
+"onboarding_flow.style.calming" = "calming";
+"onboarding_flow.style.clear" = "clear";
+"onboarding_flow.style.practical" = "practical";
+"onboarding_flow.style.soft_but_direct" = "soft but direct";
+
+/* Screen 20: Support depth */
+"onboarding_flow.depth.question" = "how deep should support go?";
+"onboarding_flow.depth.calm_me_first" = "calm me first";
+"onboarding_flow.depth.help_me_understand_it" = "help me understand it";
+"onboarding_flow.depth.ask_what_matters" = "ask what matters";
+"onboarding_flow.depth.show_me_the_pattern" = "show me the pattern";
+"onboarding_flow.depth.help_me_see_it_differently" = "help me see it differently";
+"onboarding_flow.depth.give_me_next_steps" = "give me next steps";
+
+/* Screen 21: Journey summary */
+"onboarding_flow.summary.title" = "thanks, %@.";
+"onboarding_flow.summary.subtitle" = "based on what you've shared, let's look at your journey together.";
+"onboarding_flow.summary.where_to_go" = "where you want to go";
+"onboarding_flow.summary.where_now" = "where are you now";
+"onboarding_flow.summary.standing" = "what's standing in the way";
+"onboarding_flow.summary.message" = "%@, we see where you are and where you want to go. together, we can turn this loop into something clearer.";
+
+/* Screen 22: Progress chart */
+"onboarding_flow.chart.title" = "thoughts get quieter when they're understood";
+"onboarding_flow.chart.body" = "keep reflecting, the more you give a thought somewhere to land, the less it has to live only in your head.";
+"onboarding_flow.chart.cta" = "learn how sotie works";
+"onboarding_flow.chart.legend_clarity" = "clarity & reflection";
+"onboarding_flow.chart.legend_overthinking" = "overthinking & replaying";
+"onboarding_flow.chart.week1" = "week 1";
+"onboarding_flow.chart.week2" = "week 2";
+"onboarding_flow.chart.week3" = "week 3";
+
+/* Screen 23: Demo conversation */
+"onboarding_flow.demo.welcome" = "Hey, %@, I'm Sotie.
+
+Write the thought that won't leave you alone exactly how it sounds in your head.
+
+Then we'll reflect on it together. Answer slowly and honestly - the more you share, the clearer it gets.
+
+To send your message, tap the sparkle button below.";
+"onboarding_flow.demo.footer_primary" = "this is how sotie works - write, reflect, go deeper.";
+"onboarding_flow.demo.footer_secondary" = "you can continue this reflection anytime from your journal.";
+
+/* Screen 24: Demo complete */
+"onboarding_flow.demo_complete.title" = "congratulations!";
+"onboarding_flow.demo_complete.subtitle" = "you've started your first reflection";
+"onboarding_flow.demo_complete.message" = "your reflections will be saved in your journal so you can understand yourself more clearly over time";
+
+/* Screen 25: Streak kickoff */
+"onboarding_flow.streak.day_label" = "day streak";
+"onboarding_flow.streak.body" = "great start! keep building your daily reflection habit";
+
+/* Screen 26: Plan loading */
+"onboarding_flow.plan_loading.step1" = "reading your reflection...";
+"onboarding_flow.plan_loading.step2" = "understanding your loop...";
+"onboarding_flow.plan_loading.step3" = "finding what's underneath...";
+"onboarding_flow.plan_loading.step4" = "setting your reflection style...";
+"onboarding_flow.plan_loading.step5" = "building your clarity plan...";
+
+/* Screen 27: Plan ready */
+"onboarding_flow.plan_ready.headline" = "alright %@, your\npersonal plan is ready.";
+"onboarding_flow.plan_ready.cta" = "See my plan";
+
+/* Screen 28: Clarity plan */
+"onboarding_flow.plan.hero_headline" = "%@, you'll have a clearer mind by";
+"onboarding_flow.plan.stat_reflections" = "daily\nreflections";
+"onboarding_flow.plan.stat_mornings" = "clarity-first\nmornings";
+"onboarding_flow.plan.stat_insights" = "saved\ninsights";
+"onboarding_flow.plan.invested" = "30+ hours a year invested in clarity";
+"onboarding_flow.plan.how_well_get_there" = "how we'll get you there:";
+"onboarding_flow.plan.method1_title" = "a private reflection, daily";
+"onboarding_flow.plan.method1_body" = "just write, sotie listens and guides your reflection.";
+"onboarding_flow.plan.method2_title" = "guided reflection";
+"onboarding_flow.plan.method2_body" = "slow the thought down, understand what's underneath, and leave with next steps.";
+"onboarding_flow.plan.method3_title" = "a journal that remembers";
+"onboarding_flow.plan.method3_body" = "your reflections, stats, and insights help you see what keeps repeating over time.";
+
+/* Screen 29: Commitment question */
+"onboarding_flow.commitment.lead_in" = "so,";
+"onboarding_flow.commitment.question" = "how committed are you\nto building a clearer\nmind?";
+"onboarding_flow.commitment.extremely" = "extremely committed";
+"onboarding_flow.commitment.very" = "very committed";
+"onboarding_flow.commitment.somewhat" = "somewhat committed";
+"onboarding_flow.commitment.little" = "a little committed";
+"onboarding_flow.commitment.just_trying" = "just trying it out";
+
+/* Screen 30: Commitment message - per-level */
+"onboarding_flow.commitment_msg.extremely.title" = "you're all-in.";
+"onboarding_flow.commitment_msg.extremely.body" = "that matters. clarity doesn't come from having perfect thoughts. it comes from coming back to yourself, one reflection at a time.";
+"onboarding_flow.commitment_msg.very.title" = "you're ready.";
+"onboarding_flow.commitment_msg.very.body" = "you don't need to solve everything today. you just need a place to slow the thought down and understand it better.";
+"onboarding_flow.commitment_msg.somewhat.title" = "that's enough to start.";
+"onboarding_flow.commitment_msg.somewhat.body" = "you don't have to be fully ready. small reflections still count.";
+"onboarding_flow.commitment_msg.little.title" = "a little is plenty.";
+"onboarding_flow.commitment_msg.little.body" = "no pressure to show up perfectly. one honest line is already enough to begin.";
+"onboarding_flow.commitment_msg.just_trying.title" = "trying it out is enough.";
+"onboarding_flow.commitment_msg.just_trying.body" = "no pressure. just one thought, one reflection, one clearer next step.";
+
+"onboarding_flow.done" = "done";
+
+/* Screen 31: Notifications priming */
+"onboarding_flow.notif_priming.title" = "be reminded to reflect";
+"onboarding_flow.notif_priming.alert_title" = "Sotie would like to send you Notifications";
+"onboarding_flow.notif_priming.alert_body" = "gentle reminders to come back, reflect, and keep your streak going.";
+"onboarding_flow.notif_priming.allow" = "Allow";
+"onboarding_flow.notif_priming.deny" = "Don't Allow";
+
+/* Screen 32: Try now demo */
+"onboarding_flow.try_now.title" = "we want you to\ntry sotie for free";
+"onboarding_flow.try_now.no_payment" = "No Payment Due Now";
+"onboarding_flow.try_now.cta" = "Try Now";
+
+/* Screen 33: Trial reminder */
+"onboarding_flow.trial_reminder.title" = "we'll send you\na reminder before your\nfree trial ends";
+"onboarding_flow.trial_reminder.no_payment" = "No Payment Due Now";
+"onboarding_flow.trial_reminder.cta" = "Continue for FREE";
+"onboarding_flow.trial_reminder.disclosure" = "Billing starts at the end of your free trial unless you cancel. Plans auto-renew. Cancel in the App Store.";
+
+/* Screen 34: Onboarding paywall */
+"onboarding_flow.paywall.title" = "Start your 3-day FREE\ntrial to continue";
+"onboarding_flow.paywall.title_benefits" = "Unlock sotie to reflect\nmore clearly";
+"onboarding_flow.paywall.timeline.today_title" = "Today";
+"onboarding_flow.paywall.timeline.today_body" = "Unlock unlimited reflections, deeper conversations, and clarity-first mornings.";
+"onboarding_flow.paywall.timeline.day2_title" = "In 2 Days - Reminder";
+"onboarding_flow.paywall.timeline.day2_body" = "We'll send you a reminder that your trial is ending soon if you've allowed us to notify you.";
+"onboarding_flow.paywall.timeline.day3_title" = "In 3 Days - Billing Starts";
+"onboarding_flow.paywall.timeline.day3_body" = "You'll be charged on %@ unless you cancel anytime before.";
+"onboarding_flow.paywall.badge.trial" = "3 DAYS FREE";
+"onboarding_flow.paywall.price.monthly" = "%@/mo";
+"onboarding_flow.paywall.no_payment" = "No Payment Due Now";
+"onboarding_flow.paywall.no_commitment" = "No Commitment - Cancel Anytime";
+"onboarding_flow.paywall.cta.start_trial" = "Start My 3-Day Free Trial";
+"onboarding_flow.paywall.cta.continue" = "Continue";
+"onboarding_flow.paywall.cta.start_journey" = "Start My Journey";
+"onboarding_flow.paywall.disclosure.per_year" = "%@ per year";
+"onboarding_flow.paywall.disclosure.per_month" = "%@ per month";
+"onboarding_flow.paywall.disclosure.with_trial" = "3 days free, then %@. Billed yearly. Plan auto-renews unless you cancel. Cancel in the App Store.";
+"onboarding_flow.paywall.disclosure.no_trial" = "%@. Plan auto-renews unless you cancel. Cancel in the App Store.";
+
+/* Benefits list (monthly + non-trial fallback) */
+"onboarding_flow.paywall.benefit1.title" = "Unlimited reflections";
+"onboarding_flow.paywall.benefit1.body" = "Go deeper on every thought without hitting a daily limit.";
+"onboarding_flow.paywall.benefit2.title" = "Your progress, visualized";
+"onboarding_flow.paywall.benefit2.body" = "Charts and a calendar that show how clarity builds over time.";
+"onboarding_flow.paywall.benefit3.title" = "Prompts when you're stuck";
+"onboarding_flow.paywall.benefit3.body" = "Never face a blank page. Sotie suggests where to start.";
+
+/* Footer (shared) */
+"onboarding_flow.footer.pricing_full" = "Just %1$@ per year (%2$@)";
+"onboarding_flow.footer.pricing_fallback" = "Just $68.99 per year";
+"onboarding_flow.footer.pricing_per_month" = "%@/mo";
+
+/* Onboarding paywall plan label override (existing premium_annual is "Annual") */
+"onboarding_flow.paywall.plan_yearly" = "Yearly";
+
+"open_collection" = "Open";
+"open_settings" = "Open Settings";
+"preferences" = "Preferences";
+"language" = "Language";
+"current_language" = "English";
+"language_settings_info" = "AI responses will use the selected language.";
+
+// MARK: - Theme
+"theme.settings.title" = "Theme";
+"theme.settings.description" = "Choose a palette. Each adapts automatically to light and dark mode.";
+"theme.variant.parchment" = "Parchment";
+"theme.variant.ink" = "Ink";
+"theme.variant.sage" = "Sage";
+"theme.variant.dusk" = "Dusk";
+"theme.variant.iris" = "Iris";
+"theme.variant.blush" = "Blush";
+"premium_annual" = "Annual";
+"premium_benefit_1" = "Unlimited Go Deeper";
+"premium_benefit_2" = "Spot recurring patterns";
+"premium_benefit_3" = "Keep important threads going";
+"premium_billed_annually" = "Billed annually";
+"premium_billed_monthly" = "Billed monthly";
+"premium_billing_per_month" = "per month";
+"premium_billing_per_year" = "per year";
+"premium_continue_annual" = "Continue with Annual";
+"premium_error_cancelled" = "Purchase cancelled.";
+"premium_error_product_not_found" = "Product not found.";
+"premium_error_purchase_failed" = "Purchase failed. Please try again.";
+"premium_error_restore_failed" = "No purchases to restore.";
+"premium_hero_default_subtitle_trial" = "Unlock uninterrupted reflection and see patterns over time.";
+"premium_hero_default_title" = "Go deeper without losing momentum";
+"premium_hero_limit_subtitle_trial" = "Continue this reflection without limits.";
+"premium_hero_limit_title" = "Don't stop at the important part";
+"premium_hero_onboarding_subtitle_trial" = "Unlock uninterrupted reflection and full premium access.";
+"premium_hero_onboarding_title" = "Keep going while it's still clear";
+"premium_hero_settings_subtitle_trial" = "Use Sotie without limits and see patterns over time.";
+"premium_hero_settings_title" = "Unlock deeper reflection";
+"premium_journey_step_1" = "Sort out what's on your mind";
+"premium_journey_step_2" = "Spot recurring themes";
+"premium_journey_step_3" = "See the full picture";
+"premium_journey_time_1" = "Today";
+"premium_journey_time_2" = "1 week";
+"premium_journey_time_3" = "1 month";
+"premium_manage_subscription" = "Manage Subscription";
+"premium_maybe_later" = "Maybe later";
+"premium_monthly" = "Monthly";
+"premium_monthly_equivalent" = "Just %@/mo";
+"premium_per_month" = "/mo";
+"premium_per_year" = "/yr";
+"premium_privacy" = "Privacy";
+"premium_products_unavailable" = "Subscriptions are unavailable right now. Check your internet connection and try again.";
+"premium_response_limit_reached_desc" = "You can go deeper. Unlock unlimited reflection and keep your self-discovery moving.";
+"premium_ai_responses_today" = "AI responses today";
+"premium_restore" = "Restore";
+"premium_save_percent" = "−%d%%";
+"premium_status_free" = "Free";
+"premium_status_premium" = "Premium";
+"premium_subscribe" = "Subscribe";
+"premium_subscribe_monthly" = "Subscribe Monthly";
+"premium_subscribe_to_unlock" = "Subscribe to unlock";
+"premium_subscription_disclaimer" = "Premium auto-renewing subscription. Cancel anytime in App Store Settings.";
+"premium_subtitle" = "Go deeper whenever you need clarity";
+"premium_terms" = "Terms";
+"premium_timeline_day3" = "Day 6";
+"premium_timeline_day3_detail" = "We'll remind you the trial is ending.";
+"premium_timeline_day7" = "Day 7";
+"premium_timeline_day7_detail" = "Billing starts unless you cancel before.";
+"premium_timeline_today" = "Today";
+"premium_timeline_today_detail" = "Full premium access starts now.";
+"premium_title" = "Go deeper without limits";
+"premium_trial_info_dynamic" = "Free for %d days, then %@%@";
+"premium_try_seven_days_free" = "Try 7 Days Free";
+"premium_upgrade" = "Unlock unlimited reflection";
+"privacy_local_storage_message" = "Your data is stored only on this device. We recommend exporting regularly so you always have a backup.";
+"privacy_local_storage_title" = "Stored on your device";
+"privacy_policy" = "Privacy Policy";
+"quantity" = "Quantity";
+"rate_app" = "Rate the App";
+"recent_insights" = "Recent Insights";
+"reflections_banner_a11y" = "%d reflection days this week. Tap to see your full calendar.";
+"reflections_best_streak" = "Best: %d %@";
+"reflections_current_streak" = "Current streak";
+"reflections_day_unit_few" = "days";
+"reflections_day_unit_many" = "days";
+"reflections_day_unit_one" = "day";
+"reflections_longest_streak" = "Longest streak";
+"reflections_nudge_day_one" = "Day one. The hardest one. You're past it.";
+"reflections_nudge_early_momentum" = "A few days in. Keep noticing what's there.";
+"reflections_nudge_first_time" = "Start with one day. The rest follows.";
+"reflections_nudge_practice" = "This is a practice now. You're showing up for yourself.";
+"reflections_nudge_returning" = "Pick this back up when you're ready. Today still counts.";
+"reflections_nudge_week_rhythm" = "A week is a real signal. Patterns are starting to surface.";
+"reflections_see_all" = "See all";
+"reflections_this_week" = "This week";
+"reflections_title" = "Reflections";
+"reply_to_reflection" = "Reply to reflection";
+"share_sotie" = "Share Sotie";
+"share_text" = "Check out Sotie Journal - an AI journal that asks questions and helps you find clarity";
+"show_onboarding" = "Show Onboarding";
+"statistics" = "Statistics";
+"tap_plus_to_add_first_entry" = "Tap the + button to add your first reflection";
+"terms_of_service" = "Terms of Service";
+"this_week" = "This Week";
+"today" = "Today";
+"unsaved_changes_discard" = "Discard Changes";
+"unsaved_changes_save" = "Save";
+"unsaved_changes_title" = "You have unsaved changes";
+
+/* Finish & Takeaway */
+"finish" = "Finish";
+"finish_reflection" = "Finish this reflection?";
+"insights_generating" = "Wrapping up your reflection...";
+"insights_what_happened" = "What happened";
+"insights_whats_underneath" = "What's underneath";
+"insights_what_matters_now" = "What matters now";
+"insights_done" = "Done";
+"insights_error" = "Couldn't generate a takeaway right now";
+"insights_retry" = "Try again";
+"insights_skip" = "Skip";
+"insights_title" = "Takeaway";
+"insights_view_menu" = "View Takeaway";
+"values" = "Values";
+"yesterday" = "Yesterday";
+
+
+/* Onboarding discount: Live Activity + paywall */
+"onboarding_discount.activity.headline" = "A surprise limited gift for you";
+"onboarding_discount.activity.cta" = "Open my gift";
+"onboarding_discount.activity.final.purchased" = "Welcome aboard.";
+"onboarding_discount.activity.final.closed" = "Offer closed";
+"onboarding_discount.activity.final.expired" = "Offer expired";
+"onboarding_discount.paywall.title" = "One Time Offer";
+"onboarding_discount.paywall.percent_off" = "%d%% OFF";
+"onboarding_discount.paywall.warning" = "You will not see this offer again";
+"onboarding_discount.paywall.price.only" = "Only ";
+"onboarding_discount.paywall.price.per_week" = "/week";
+"onboarding_discount.paywall.price.lowest" = "*Lowest price ever. Billed yearly";
+"onboarding_discount.paywall.price.per_year" = "%@/year";
+"onboarding_discount.paywall.cta" = "Claim your one time offer";
+
+// MARK: - Entry Prompts (cards)
+
+// Category titles — single word where possible
+"prompts.category.morning.title" = "Morning";
+"prompts.category.evening.title" = "Evening";
+"prompts.category.late_night.title" = "Late night";
+"prompts.category.stuck.title" = "Stuck";
+"prompts.category.replay.title" = "Replay";
+"prompts.category.heavy.title" = "Heavy";
+"prompts.category.frustrated.title" = "Frustrated";
+"prompts.category.numb.title" = "Numb";
+"prompts.category.anxious.title" = "Anxious";
+"prompts.category.restless.title" = "Restless";
+"prompts.category.decision.title" = "Decision";
+"prompts.category.someone.title" = "Someone";
+"prompts.category.you_vs_them.title" = "You vs them";
+"prompts.category.change.title" = "Change";
+"prompts.category.wins.title" = "Wins";
+"prompts.category.gratitude.title" = "Gratitude";
+"prompts.category.patterns.title" = "Patterns";
+"prompts.category.future_self.title" = "Future self";
+"prompts.category.returning.title" = "Returning";
+"prompts.category.continue.title" = "Continue";
+"prompts.category.brain_dump.title" = "Brain dump";
+
+// Accessibility hint shown by VoiceOver when focusing a prompt card.
+"prompts.card.accessibility_hint" = "Double tap to start with this prompt.";
+
+// MARK: - Entry Prompts (openers — short, friend-texting tone, sentence case)
+
+// Morning — intention, focus, lens for the day
+"prompts.openers.morning.1" = "What do you want to be different today?";
+"prompts.openers.morning.2" = "What's the one thing that matters today?";
+"prompts.openers.morning.3" = "Today I keep coming back to...";
+"prompts.openers.morning.4" = "The first thing on my mind this morning is...";
+"prompts.openers.morning.5" = "You don't have to plan the day yet. Start with one word.";
+"prompts.openers.morning.6" = "No goals needed. Just say where you're starting from.";
+"prompts.openers.morning.7" = "Energy now: heavy, soft, sharp, or scattered?";
+"prompts.openers.morning.8" = "Mood at this hour: calm, anxious, foggy, or ready?";
+"prompts.openers.morning.9" = "What does the rest of you want today?";
+"prompts.openers.morning.10" = "Mornings are where the day still feels open. Whatever's first to come up, write it down. It doesn't have to mean anything yet.";
+
+// Evening — release, what stayed
+"prompts.openers.evening.1" = "What stayed with you today?";
+"prompts.openers.evening.2" = "What's still circling from today?";
+"prompts.openers.evening.3" = "The thing I keep coming back to from today is...";
+"prompts.openers.evening.4" = "If today had one word, it would be...";
+"prompts.openers.evening.5" = "The day's done. Anything you didn't get to say can land here.";
+"prompts.openers.evening.6" = "You don't have to summarize. One small piece is enough.";
+"prompts.openers.evening.7" = "How today felt: light, heavy, mixed, or blurry?";
+"prompts.openers.evening.8" = "What you noticed most: people, work, body, or quiet?";
+"prompts.openers.evening.9" = "What surprised you about today?";
+"prompts.openers.evening.10" = "Evenings carry the leftover stuff. The thought that didn't get a place to go yet, the small thing that's still loud. Put it here.";
+
+// Late night — won't quiet, can't sleep
+"prompts.openers.late_night.1" = "What won't let you sleep?";
+"prompts.openers.late_night.2" = "What's the thought keeping you up?";
+"prompts.openers.late_night.3" = "The thought that keeps coming back tonight is...";
+"prompts.openers.late_night.4" = "What's loud right now is...";
+"prompts.openers.late_night.5" = "You don't need to fix it tonight. Just name it.";
+"prompts.openers.late_night.6" = "It's late. Small is enough.";
+"prompts.openers.late_night.7" = "Where it lives in the body: chest, head, stomach, or everywhere?";
+"prompts.openers.late_night.8" = "Closest word: anxious, sad, restless, or wired?";
+"prompts.openers.late_night.9" = "What would help right now, even a little?";
+"prompts.openers.late_night.10" = "Night has a way of making things feel bigger. Whatever's keeping you up, you can put it here without solving it. Letting it land is enough.";
+
+// Stuck — too many things, can't pick
+"prompts.openers.stuck.1" = "What's pulling at you all at once?";
+"prompts.openers.stuck.2" = "If you could only think about one thing, which one?";
+"prompts.openers.stuck.3" = "The loudest thread right now is...";
+"prompts.openers.stuck.4" = "If I had to pick one thing to start with, it'd be...";
+"prompts.openers.stuck.5" = "You don't have to untangle it all. One piece at a time.";
+"prompts.openers.stuck.6" = "Stuck is okay. Start anywhere.";
+"prompts.openers.stuck.7" = "What's tangled most: time, people, choices, or feelings?";
+"prompts.openers.stuck.8" = "Where to start: smallest, loudest, oldest, or newest?";
+"prompts.openers.stuck.9" = "What would moving even a little look like?";
+"prompts.openers.stuck.10" = "When everything is talking at once, you don't have to listen to all of it. Pick whichever thread is closest and pull on that. The rest can wait.";
+
+// Replay — one thought looping
+"prompts.openers.replay.1" = "What thought keeps coming back?";
+"prompts.openers.replay.2" = "What part keeps replaying?";
+"prompts.openers.replay.3" = "The scene I keep coming back to is...";
+"prompts.openers.replay.4" = "The line still running in my head is...";
+"prompts.openers.replay.5" = "You don't have to figure out why it's still there. Just put it here.";
+"prompts.openers.replay.6" = "It can keep replaying without you having to solve it.";
+"prompts.openers.replay.7" = "What it feels like: stuck, unsettled, ashamed, or unfair?";
+"prompts.openers.replay.8" = "What you want from it: closure, understanding, an answer, or quiet?";
+"prompts.openers.replay.9" = "What does the loop want from you?";
+"prompts.openers.replay.10" = "Some thoughts come back not because you missed something but because they're still asking for somewhere to land. This can be that place.";
+
+// Heavy — sad, low, weight
+"prompts.openers.heavy.1" = "What feels heavy right now?";
+"prompts.openers.heavy.2" = "What's harder than usual?";
+"prompts.openers.heavy.3" = "The weight is...";
+"prompts.openers.heavy.4" = "What I'm carrying right now is...";
+"prompts.openers.heavy.5" = "You don't have to make it lighter. Just say it.";
+"prompts.openers.heavy.6" = "Heavy is allowed. Stay here as long as you need.";
+"prompts.openers.heavy.7" = "Closest word: sad, low, tired, or hollow?";
+"prompts.openers.heavy.8" = "Where you feel it: chest, throat, stomach, or everywhere?";
+"prompts.openers.heavy.9" = "What hurts under the hurt?";
+"prompts.openers.heavy.10" = "Heavy doesn't always have a clean reason. Sometimes it's just there. Whatever shape it takes, you can put it down here for a minute.";
+
+// Frustrated — anger, blame
+"prompts.openers.frustrated.1" = "What's frustrating you?";
+"prompts.openers.frustrated.2" = "What did you want that didn't happen?";
+"prompts.openers.frustrated.3" = "What's pissing me off is...";
+"prompts.openers.frustrated.4" = "What I wish I could've said is...";
+"prompts.openers.frustrated.5" = "You don't have to be polite about it here.";
+"prompts.openers.frustrated.6" = "Frustration counts. Let it have words.";
+"prompts.openers.frustrated.7" = "What it's about: a person, a situation, yourself, or unfairness?";
+"prompts.openers.frustrated.8" = "Heat level: simmering, sharp, hot, or burned out?";
+"prompts.openers.frustrated.9" = "What's the part that feels unfair?";
+"prompts.openers.frustrated.10" = "Anger usually has a reason underneath: something you wanted, something that got crossed. Don't argue with it. Just say what happened and what you needed.";
+
+// Numb — blank, can't access feeling
+"prompts.openers.numb.1" = "What does blank feel like right now?";
+"prompts.openers.numb.2" = "What were you feeling before this?";
+"prompts.openers.numb.3" = "Right now I'm just...";
+"prompts.openers.numb.4" = "It's not nothing, it's more like...";
+"prompts.openers.numb.5" = "Blank counts. You don't have to find a feeling.";
+"prompts.openers.numb.6" = "Quiet is also data. Stay with it.";
+"prompts.openers.numb.7" = "Closest word: heavy, empty, frozen, or quiet?";
+"prompts.openers.numb.8" = "Volume of feeling: zero, faint, distant, or muted?";
+"prompts.openers.numb.9" = "When did the volume drop?";
+"prompts.openers.numb.10" = "Numb doesn't mean nothing's there. It usually means something's underneath that doesn't have a name yet. You don't have to find it tonight.";
+
+// Anxious — forward dread, can't settle
+"prompts.openers.anxious.1" = "What are you anxious about?";
+"prompts.openers.anxious.2" = "Where do you feel it in your body?";
+"prompts.openers.anxious.3" = "What's racing in my head is...";
+"prompts.openers.anxious.4" = "The worst-case I keep going to is...";
+"prompts.openers.anxious.5" = "You don't have to make it stop. Just describe it.";
+"prompts.openers.anxious.6" = "Anxious is loud. Slow is okay.";
+"prompts.openers.anxious.7" = "Where it shows up: chest, stomach, throat, or breathing?";
+"prompts.openers.anxious.8" = "Pace: fast, looping, jumpy, or stuck?";
+"prompts.openers.anxious.9" = "What would calmer look like, even slightly?";
+"prompts.openers.anxious.10" = "Anxiety often points at something but uses panic as the messenger. You don't have to trust the panic. Just listen to what it's pointing at.";
+
+// Restless — don't want to be where I am
+"prompts.openers.restless.1" = "What's pulling at you right now?";
+"prompts.openers.restless.2" = "What feels off about right now?";
+"prompts.openers.restless.3" = "I keep wanting to...";
+"prompts.openers.restless.4" = "Where I actually want to be is...";
+"prompts.openers.restless.5" = "Restless is information. Don't fight it.";
+"prompts.openers.restless.6" = "You don't have to know what for. Just say it's there.";
+"prompts.openers.restless.7" = "What it feels like: itchy, bored, trapped, or fidgety?";
+"prompts.openers.restless.8" = "What's off: place, pace, people, or yourself?";
+"prompts.openers.restless.9" = "What's the unrest pointing toward?";
+"prompts.openers.restless.10" = "Restless usually means a part of you wants something different from what's happening. You don't have to act on it yet. Just notice what it's pointing at.";
+
+// Decision — fork, what-if
+"prompts.openers.decision.1" = "What's the choice you're avoiding?";
+"prompts.openers.decision.2" = "What do you actually want, before the reasons?";
+"prompts.openers.decision.3" = "The thing I keep going back and forth on is...";
+"prompts.openers.decision.4" = "If no one were watching, I'd...";
+"prompts.openers.decision.5" = "You don't have to decide tonight. Just see it more clearly.";
+"prompts.openers.decision.6" = "There's no wrong answer here. Only honest ones.";
+"prompts.openers.decision.7" = "What's blocking you: fear, fairness, others, or money?";
+"prompts.openers.decision.8" = "How it feels: stuck, torn, urgent, or quiet?";
+"prompts.openers.decision.9" = "What's the cost of staying still?";
+"prompts.openers.decision.10" = "Decisions get clearer when you stop arguing with yourself and just listen. Say what you want first. The reasons can come after.";
+
+// Someone — about another person
+"prompts.openers.someone.1" = "Who's on your mind right now?";
+"prompts.openers.someone.2" = "What did they do or say?";
+"prompts.openers.someone.3" = "The person I keep thinking about is...";
+"prompts.openers.someone.4" = "What I wish they understood is...";
+"prompts.openers.someone.5" = "You don't have to be fair about it here.";
+"prompts.openers.someone.6" = "Whatever you can't say to them, you can say here.";
+"prompts.openers.someone.7" = "What you feel toward them: hurt, angry, missing, or torn?";
+"prompts.openers.someone.8" = "What's left between you: silence, distance, words, or hope?";
+"prompts.openers.someone.9" = "What did you need from them?";
+"prompts.openers.someone.10" = "Other people leave fingerprints. Even when nothing happened, something can stay. Whoever's on your mind, start with them and what they bring up in you.";
+
+// You vs them — self vs others, "we", "should"
+"prompts.openers.you_vs_them.1" = "What do you want, separate from them?";
+"prompts.openers.you_vs_them.2" = "Who's this for, really?";
+"prompts.openers.you_vs_them.3" = "If it cost me nothing to say no, I'd...";
+"prompts.openers.you_vs_them.4" = "What I actually want, not what I should want, is...";
+"prompts.openers.you_vs_them.5" = "You're allowed to want something different from what they want.";
+"prompts.openers.you_vs_them.6" = "There's no betrayal in being honest with yourself.";
+"prompts.openers.you_vs_them.7" = "Whose voice is loudest: yours, family, partner, or culture?";
+"prompts.openers.you_vs_them.8" = "What you'd lose by choosing yours: approval, comfort, peace, or guilt?";
+"prompts.openers.you_vs_them.9" = "What's the should doing in your head?";
+"prompts.openers.you_vs_them.10" = "Sometimes the hardest part is hearing your own voice over everyone else's. You don't have to choose yet. Just let yours be the loudest in here.";
+
+// Change — transitions, endings, beginnings
+"prompts.openers.change.1" = "What's changing right now?";
+"prompts.openers.change.2" = "What are you leaving behind?";
+"prompts.openers.change.3" = "What I'm not sure I'm ready to leave is...";
+"prompts.openers.change.4" = "What I'm reaching for is...";
+"prompts.openers.change.5" = "You can grieve what you're leaving and still want what's next.";
+"prompts.openers.change.6" = "In-between is allowed. You don't have to be settled.";
+"prompts.openers.change.7" = "What it feels like: scary, exciting, sad, or all of it?";
+"prompts.openers.change.8" = "Where you are: ending, middle, beginning, or somewhere unclear?";
+"prompts.openers.change.9" = "What's grief and what's hope in this?";
+"prompts.openers.change.10" = "Change is rarely just one feeling. There's usually a part that's mourning and a part that's reaching. Both can be true at the same time.";
+
+// Wins — what clicked, breakthroughs
+"prompts.openers.wins.1" = "What clicked today?";
+"prompts.openers.wins.2" = "What surprised you about yourself?";
+"prompts.openers.wins.3" = "Something I did well today is...";
+"prompts.openers.wins.4" = "A small thing that worked is...";
+"prompts.openers.wins.5" = "Small counts. You don't have to call it big.";
+"prompts.openers.wins.6" = "Take this. You earned it.";
+"prompts.openers.wins.7" = "Where the win is: action, mindset, kindness, or rest?";
+"prompts.openers.wins.8" = "How it feels: proud, relieved, surprised, or steady?";
+"prompts.openers.wins.9" = "What did past-you do that helped?";
+"prompts.openers.wins.10" = "Wins don't have to be loud or visible. Sometimes the win is that you didn't spiral. Sometimes it's that you started. Whatever yours looks like, count it.";
+
+// Gratitude — what's already there
+"prompts.openers.gratitude.1" = "What's worth noticing today?";
+"prompts.openers.gratitude.2" = "What's easy to forget but matters?";
+"prompts.openers.gratitude.3" = "Something small I'm glad about is...";
+"prompts.openers.gratitude.4" = "What helped, even a little, was...";
+"prompts.openers.gratitude.5" = "Don't force it. Just notice what's already there.";
+"prompts.openers.gratitude.6" = "Small is enough.";
+"prompts.openers.gratitude.7" = "Where to look: a person, a moment, a place, or your body?";
+"prompts.openers.gratitude.8" = "What kind: helpful, soft, ordinary, or unexpected?";
+"prompts.openers.gratitude.9" = "What did you almost miss today?";
+"prompts.openers.gratitude.10" = "Gratitude doesn't have to be a big list. One specific thing, a person who showed up, a window of quiet, your body doing what it does, is enough to count.";
+
+// Patterns — meta, recurring shapes
+"prompts.openers.patterns.1" = "What keeps coming back lately?";
+"prompts.openers.patterns.2" = "What's the same in different situations?";
+"prompts.openers.patterns.3" = "The thing I keep doing is...";
+"prompts.openers.patterns.4" = "I notice this happens when...";
+"prompts.openers.patterns.5" = "Patterns aren't verdicts. They're information.";
+"prompts.openers.patterns.6" = "You don't have to fix it just because you saw it.";
+"prompts.openers.patterns.7" = "Where it shows up: work, relationships, health, or moods?";
+"prompts.openers.patterns.8" = "Pattern type: avoiding, reaching, repeating, or shrinking?";
+"prompts.openers.patterns.9" = "What does this remind you of?";
+"prompts.openers.patterns.10" = "Patterns aren't always proof of something wrong. Sometimes they're old solutions that used to work and don't anymore. Naming one is the first soft step.";
+
+// Future self — the version of you ahead
+"prompts.openers.future_self.1" = "What would future you want you to know?";
+"prompts.openers.future_self.2" = "What do you want to be true a year from now?";
+"prompts.openers.future_self.3" = "A year from now I want to be...";
+"prompts.openers.future_self.4" = "What I'd thank past-me for is...";
+"prompts.openers.future_self.5" = "Future you isn't watching to judge. They're hoping for you.";
+"prompts.openers.future_self.6" = "Small starts count.";
+"prompts.openers.future_self.7" = "What you're building toward: clarity, courage, ease, or honesty?";
+"prompts.openers.future_self.8" = "Where to start: habit, relationship, work, or self?";
+"prompts.openers.future_self.9" = "What's the small thing that compounds?";
+"prompts.openers.future_self.10" = "Future you isn't a stranger. They're the version of you that knows what this version was carrying. Whatever you say to them, they're listening.";
+
+// Returning — long gap (>3 days)
+"prompts.openers.returning.1" = "What's been carrying since last time?";
+"prompts.openers.returning.2" = "What's changed?";
+"prompts.openers.returning.3" = "Since I was last here, what's stayed is...";
+"prompts.openers.returning.4" = "What pulled me back today is...";
+"prompts.openers.returning.5" = "You don't have to explain the gap. Just start from now.";
+"prompts.openers.returning.6" = "Welcome back. Wherever you start is the right place.";
+"prompts.openers.returning.7" = "What's louder now: same thing, new thing, or quieter version?";
+"prompts.openers.returning.8" = "How you feel returning: tired, glad, unsure, or ready?";
+"prompts.openers.returning.9" = "What did the gap remind you of?";
+"prompts.openers.returning.10" = "You came back. That counts. Whatever stayed in the silence between visits, you can put down here without explanation.";
+
+// Continue — fresh thread (<24h, has assistant reply)
+"prompts.openers.continue.1" = "Where did you leave off?";
+"prompts.openers.continue.2" = "What's still circling from earlier?";
+"prompts.openers.continue.3" = "Picking up where I left off, the part that's still loud is...";
+"prompts.openers.continue.4" = "What I want to come back to is...";
+"prompts.openers.continue.5" = "You can pick up partway. You don't have to start over.";
+"prompts.openers.continue.6" = "Whatever's still here, it's worth another minute.";
+"prompts.openers.continue.7" = "What's clearer now: a little, somewhat, or still murky?";
+"prompts.openers.continue.8" = "What's pulling you back: a feeling, a thought, a person, or the loop itself?";
+"prompts.openers.continue.9" = "What's the next thing you want to say about this?";
+"prompts.openers.continue.10" = "Some thoughts need more than one sitting. You can return as many times as it takes. The thread is still here.";
+
+// Brain dump — catch-all
+"prompts.openers.brain_dump.1" = "What's on your mind right now?";
+"prompts.openers.brain_dump.2" = "What's noisiest in your head?";
+"prompts.openers.brain_dump.3" = "Right now my head is full of...";
+"prompts.openers.brain_dump.4" = "The first thing that comes up is...";
+"prompts.openers.brain_dump.5" = "Mess is welcome. No structure needed.";
+"prompts.openers.brain_dump.6" = "Just write. Sense can come later.";
+"prompts.openers.brain_dump.7" = "Volume: loud, scattered, looping, or quiet but stuck?";
+"prompts.openers.brain_dump.8" = "What it's about: today, lately, forever, or unclear?";
+"prompts.openers.brain_dump.9" = "What thought has been following you?";
+"prompts.openers.brain_dump.10" = "A brain dump doesn't have to make sense. It just has to come out. Lists, fragments, half-sentences are all fine. Sense can come later or never.";
+
+// MARK: - Prompt Clusters (rail above AddEntry textarea)
+
+"prompts.cluster.time.title.morning" = "Morning";
+"prompts.cluster.time.title.evening" = "Evening";
+"prompts.cluster.time.title.late_night" = "Late night";
+"prompts.cluster.heavy.title" = "Heavy";
+"prompts.cluster.looping.title" = "Looping";
+"prompts.cluster.someone.title" = "Someone";
+"prompts.cluster.choosing.title" = "Choosing";
+"prompts.cluster.notice.title" = "Notice";
+"prompts.cluster.brain_dump.title" = "Brain dump";

@@ -1,0 +1,807 @@
+/*
+  Localizable.strings
+  Sotie
+
+  Simplified Chinese Localization
+*/
+
+"accessibility_menu_button" = "更多选项";
+"accessibility_menu_button_hint" = "打开包含更多选项的菜单，例如更改日期或添加照片。";
+"accessibility_save_button" = "保存反思";
+"accessibility_save_button_hint" = "保存当前反思。";
+"add_entry" = "添加反思";
+"ai_analysis" = "AI 分析";
+"ai_settings.depth.ask_what_matters" = "😶 问什么重要";
+"ai_settings.depth.calm_me_first" = "🫶 先让我平静";
+"ai_settings.depth.give_me_next_steps" = "❤️ 给我下一步";
+"ai_settings.depth.help_me_see_it_differently" = "✨ 帮我换个角度看";
+"ai_settings.depth.help_me_understand_it" = "🫶 帮我理解";
+"ai_settings.depth.show_me_the_pattern" = "🌿 展示规律";
+"ai_settings.goal.feel_clearer" = "🔍 感觉更清晰";
+"ai_settings.goal.feel_less_alone_with_it" = "🫂 不那么孤单";
+"ai_settings.goal.know_what_to_do_next" = "✨ 知道下一步做什么";
+"ai_settings.goal.sleep_with_quieter_mind" = "🌙 安静地入睡";
+"ai_settings.goal.spot_my_patterns" = "👀 发现我的模式";
+"ai_settings.goal.stop_replaying_things" = "🔁 停止反复想同一件事";
+"ai_settings.goal.understand_my_feelings" = "🫶 理解我的感受";
+"ai_settings.primary_goals" = "你来这里的原因";
+"ai_settings.primary_goals.description" = "至少选一个。这会影响 Sotie 随时间关注的方向——不会覆盖你当下写的内容。";
+"ai_settings.style.calming" = "😌 平静的";
+"ai_settings.style.clear" = "💎 清晰的";
+"ai_settings.style.gentle" = "💛 温柔的";
+"ai_settings.style.practical" = "📌 实用的";
+"ai_settings.style.soft_but_direct" = "✨ 柔和但直接";
+"ai_settings.style.warm" = "🫶 温暖的";
+"ai_settings.support_depth" = "深入到什么程度";
+"ai_settings.support_depth.description" = "当你分享某件事时，什么样的回应感觉最有帮助？";
+"ai_settings.support_style" = "语气";
+"ai_settings.support_style.description" = "Sotie 回应你时应该听起来怎样？";
+"ai_settings.title" = "反思风格";
+"analytics_ai_responses" = "AI Responses";
+"analytics_avg_reflection_depth" = "Responses per Session";
+"analytics_day_short" = "天";
+"analytics_hours" = "小时";
+"analytics_last_30_days" = "最近30天";
+"analytics_minutes" = "分";
+"analytics_most_reflective_day" = "最佳日子";
+"analytics_most_reflective_time" = "最佳时间";
+"analytics_no_data" = "还没有数据";
+"analytics_reflecting_since" = "从 %@ 开始反思";
+"analytics_reflections" = "反思";
+"analytics_streak" = "连续天数";
+"analytics_time_afternoon" = "下午";
+"analytics_time_evening" = "晚上";
+"analytics_time_morning" = "早上";
+"analytics_time_night" = "深夜";
+"analytics_time_reflecting" = "反思时间";
+"analytics_time_spent" = "花费时间";
+"analytics_total_entries" = "已创建记录";
+"analytics_words_written" = "已写字数";
+"app_name" = "Sotie Journal";
+"cancel" = "取消";
+"cannot_summarize_empty" = "无法总结空的对话记录";
+"change_date" = "更改日期";
+"contact" = "联系";
+"contact_us_include_logs" = "附上诊断日志";
+"contact_us_include_logs_desc" = "应用活动、设备信息和错误日志，有助于排查问题";
+"contact_us_message_label" = "你的消息";
+"contact_us_message_placeholder" = "想说什么都可以";
+"contact_us_send" = "发送";
+"contact_us_subtitle" = "有什么想说的吗，问题、想法，或是 bug？我们都愿意听";
+"contact_us_title" = "联系我们";
+"data_section" = "数据";
+"delete" = "删除";
+"delete_entry" = "删除反思";
+"delete_entry_message" = "你确定要删除这条反思吗？此操作无法撤销。";
+"delete_entry_title" = "删除反思";
+"discover_patterns" = "在你的数据中发现规律";
+"discover_patterns_and_insights" = "在你的数据中发现规律和洞察";
+"done" = "完成";
+"empty_state_description" = "点下方按钮开始写";
+"empty_state_title" = "准备开始";
+"entry_text" = "反思";
+"error_ai_service" = "出了点问题，请再试一次";
+"error_daily_limit_reached" = "You’ve reached today’s AI response limit. Come back tomorrow to continue.";
+"error_network" = "没有网络，请检查连接";
+"error_rate_limited" = "请等待 %d 秒，请求过多";
+"export_entries" = "导出数据";
+"export_error" = "导出失败";
+"export_success" = "导出成功";
+"failed_to_summarize" = "总结对话失败：%@";
+"import_confirm_action" = "导入";
+"import_confirm_message" = "新反思会被添加。重复内容会被跳过。如包含统计数据，也会一并更新。";
+"import_confirm_title" = "导入数据";
+"import_entries" = "导入数据";
+"import_entries_imported" = "已导入 %d 条反思";
+"import_entries_imported_skipped" = "已导入 %d 条反思，跳过 %d 条（重复）";
+"import_error" = "导入失败";
+"import_success" = "导入成功";
+"journal_entry" = "反思";
+"last_week" = "上周";
+"legal" = "法律";
+"next" = "下一步";
+"no_entries_yet" = "还没有反思";
+"note_placeholder" = "写在这里...";
+"note_placeholder_initial" = "你现在在想什么？";
+"notification.follow_up.fallback" = "从那之后，有什么变化吗？";
+"notification.re_engagement.fallback" = "现在有什么不同了？";
+"notification_settings" = "通知";
+"notifications" = "通知";
+"notifications.type.conversation_follow_up.description" = "在合适的时候，回到最近的一段对话";
+"notifications.type.conversation_follow_up.title" = "对话跟进";
+"notifications.type.morning_reminder.title" = "早晨提醒";
+"notifications.type.morning_reminder.description" = "用一句真心话开始一天的小小提醒";
+"notifications.type.evening_reminder.title" = "夜晚提醒";
+"notifications.type.evening_reminder.description" = "一个安放今日剩下心事的角落";
+"notifications.type.re_engagement.description" = "在离开一段时间后，收到一条轻轻提醒你回来的消息";
+"notifications.type.re_engagement.title" = "温和回访";
+"notifications_disabled" = "通知已关闭";
+"notifications_disabled_message" = "请在设置中打开通知，以接收提醒。";
+"ok" = "确定";
+"onboarding_write_here" = "写在这里...";
+"open_collection" = "打开";
+"open_settings" = "打开设置";
+"preferences" = "偏好设置";
+"language" = "语言";
+"current_language" = "简体中文";
+"language_settings_info" = "AI responses will use the selected language.";
+
+// MARK: - Theme
+"theme.settings.title" = "主题";
+"theme.settings.description" = "选择一个调色板。每个主题都会自动适配浅色和深色模式。";
+"theme.variant.parchment" = "羊皮纸";
+"theme.variant.ink" = "墨色";
+"theme.variant.sage" = "鼠尾草";
+"theme.variant.dusk" = "暮色";
+"theme.variant.iris" = "鸢尾";
+"theme.variant.blush" = "胭脂";
+"premium_annual" = "年度";
+"premium_benefit_1" = "无限使用 Go Deeper";
+"premium_benefit_2" = "发现反复出现的模式";
+"premium_benefit_3" = "让重要的思路继续下去";
+"premium_billed_annually" = "按年计费";
+"premium_billed_monthly" = "按月计费";
+"premium_billing_per_month" = "每月";
+"premium_billing_per_year" = "每年";
+"premium_continue_annual" = "继续年度方案";
+"premium_error_cancelled" = "购买已取消。";
+"premium_error_product_not_found" = "未找到商品。";
+"premium_error_purchase_failed" = "购买失败。请再试一次。";
+"premium_error_restore_failed" = "没有可恢复的购买。";
+"premium_hero_default_subtitle_trial" = "解锁不被打断的反思，并在时间里看见模式。";
+"premium_hero_default_title" = "继续往更深处走，不打断此刻的感觉";
+"premium_hero_limit_subtitle_trial" = "不受限制地继续这次反思。";
+"premium_hero_limit_title" = "别停在最重要的地方";
+"premium_hero_onboarding_subtitle_trial" = "解锁不被打断的反思和完整 Premium 体验。";
+"premium_hero_onboarding_title" = "趁感觉还清楚，继续下去";
+"premium_hero_settings_subtitle_trial" = "无限使用 Sotie，并在时间里看见模式。";
+"premium_hero_settings_title" = "解锁更深的反思";
+"premium_journey_step_1" = "理清你心里的事";
+"premium_journey_step_2" = "发现反复出现的主题";
+"premium_journey_step_3" = "看见完整的图景";
+"premium_journey_time_1" = "今天";
+"premium_journey_time_2" = "1 周";
+"premium_journey_time_3" = "1 个月";
+"premium_manage_subscription" = "管理订阅";
+"premium_maybe_later" = "以后再说";
+"premium_monthly" = "月度";
+"premium_monthly_equivalent" = "约 %@/月";
+"premium_per_month" = "/月";
+"premium_per_year" = "/年";
+"premium_privacy" = "隐私";
+"premium_products_unavailable" = "订阅暂时不可用。请检查网络连接后重试。";
+"premium_response_limit_reached_desc" = "You can go deeper. Unlock unlimited reflection and keep your self-discovery moving.";
+"premium_ai_responses_today" = "AI responses today";
+"premium_restore" = "恢复";
+"premium_save_percent" = "−%d%%";
+"premium_status_free" = "免费";
+"premium_status_premium" = "Premium";
+"premium_subscribe" = "订阅";
+"premium_subscribe_monthly" = "订阅月度方案";
+"premium_subscribe_to_unlock" = "订阅以解锁";
+"premium_subscription_disclaimer" = "Premium 为自动续订订阅。你可以随时在 App Store 设置中取消。";
+"premium_subtitle" = "在你需要清晰时，随时更深入地反思";
+"premium_terms" = "条款";
+"premium_timeline_day3" = "第 6 天";
+"premium_timeline_day3_detail" = "我们会提醒你试用期即将结束。";
+"premium_timeline_day7" = "第 7 天";
+"premium_timeline_day7_detail" = "若你未在此之前取消，将开始计费。";
+"premium_timeline_today" = "今天";
+"premium_timeline_today_detail" = "完整 Premium 权限现在开始。";
+"premium_title" = "无限深入地反思";
+"premium_trial_info_dynamic" = "免费 %d 天，之后 %@%@";
+"premium_try_seven_days_free" = "免费试用 7 天";
+"premium_upgrade" = "解锁无限反思";
+"privacy_local_storage_message" = "你的所有数据只保存在这台设备上。我们建议你定期导出，这样你始终会有一份备份。";
+"privacy_local_storage_title" = "保存在你的设备上";
+"privacy_policy" = "隐私政策";
+"quantity" = "数量";
+"rate_app" = "给应用评分";
+"recent_insights" = "最近的洞察";
+"reflections_banner_a11y" = "本周已记录 %d 天反思。点击打开日历。";
+"reflections_best_streak" = "最佳：%d %@";
+"reflections_current_streak" = "当前连续";
+"reflections_day_unit_few" = "天";
+"reflections_day_unit_many" = "天";
+"reflections_day_unit_one" = "天";
+"reflections_longest_streak" = "最长连续";
+"reflections_nudge_day_one" = "第一天。最难的一天。已经过去了。";
+"reflections_nudge_early_momentum" = "几天过去了。继续留意正在浮现的东西。";
+"reflections_nudge_first_time" = "从一天开始。剩下的会自己跟上。";
+"reflections_nudge_practice" = "现在已是一种练习。你在为自己出现。";
+"reflections_nudge_returning" = "准备好就回来。今天也算数。";
+"reflections_nudge_week_rhythm" = "一周是真正的信号。规律开始显现。";
+"reflections_see_all" = "全部";
+"reflections_this_week" = "本周";
+"reflections_title" = "反思";
+"reply_to_reflection" = "Reply to reflection";
+"share_sotie" = "分享 Sotie";
+"share_text" = "试试 Sotie Journal，这是一款会提问并帮你看清内心的 AI 日记";
+"show_onboarding" = "显示 Onboarding";
+"statistics" = "统计";
+"tap_plus_to_add_first_entry" = "点按 + 按钮，添加你的第一条反思";
+"terms_of_service" = "服务条款";
+"this_week" = "本周";
+"today" = "今天";
+"unsaved_changes_discard" = "放弃更改";
+"unsaved_changes_save" = "保存";
+"unsaved_changes_title" = "你有未保存的更改";
+
+/* Finish & 总结 */
+"finish" = "完成";
+"finish_reflection" = "完成这次反思？";
+"insights_generating" = "正在总结你的反思...";
+"insights_what_happened" = "发生了什么";
+"insights_whats_underneath" = "背后是什么";
+"insights_what_matters_now" = "现在重要的是";
+"insights_done" = "完成";
+"insights_error" = "无法生成总结";
+"insights_retry" = "重试";
+"insights_skip" = "跳过";
+"insights_title" = "总结";
+"insights_view_menu" = "查看总结";
+"values" = "价值观";
+"yesterday" = "昨天";
+
+/* === Onboarding Flow (auto-translated) === */
+
+"onboarding_flow.hey" = "你好";
+"onboarding_flow.tap_to_continue" = "点击继续";
+"onboarding_flow.vp1.headline" = "有没有那种甩不掉的念头?";
+"onboarding_flow.vp1.highlight" = "念头";
+"onboarding_flow.vp1.body1" = "它会冒出来,
+在你想睡觉的时候,";
+"onboarding_flow.vp1.body2" = "在你想专注的时候,";
+"onboarding_flow.vp1.body3" = "在你想感觉正常的时候。";
+"onboarding_flow.vp2.headline" = "sotie 帮你看清它下面藏着什么";
+"onboarding_flow.vp2.highlight" = "下面";
+"onboarding_flow.vp2.subtitle" = "很简单";
+"onboarding_flow.vp2.subtitle_highlight" = "简单";
+"onboarding_flow.vp2.body1" = "把困扰你的事写下来";
+"onboarding_flow.vp2.body2" = "sotie 会反映回来";
+"onboarding_flow.vp2.body3" = "你会感到清晰";
+"onboarding_flow.vp2.body3_highlight" = "清晰";
+"onboarding_flow.first_things_first" = "先从最重要的开始";
+"onboarding_flow.name_question" = "怎么称呼你?";
+"onboarding_flow.name_fallback" = "你";
+"onboarding_flow.continue" = "继续";
+"onboarding_flow.consider_line1" = "好的 %@,";
+"onboarding_flow.consider_line2" = "想想这个...";
+"onboarding_flow.survey.thought_question" = "什么样的念头总在回来?";
+"onboarding_flow.survey.thought_question_highlight" = "念头";
+"onboarding_flow.survey.thought.someone" = "某个人";
+"onboarding_flow.survey.thought.what_happened" = "发生过的事";
+"onboarding_flow.survey.thought.something_i_did" = "我做过的事";
+"onboarding_flow.survey.thought.what_to_do" = "下一步怎么做";
+"onboarding_flow.survey.thought.feeling" = "一种感受";
+"onboarding_flow.survey.thought.myself" = "我自己";
+"onboarding_flow.survey.pattern_question" = "它多久回来一次?";
+"onboarding_flow.survey.pattern.all_the_time" = "一直都在,赶不走";
+"onboarding_flow.survey.pattern.pretty_often" = "经常,持续几小时";
+"onboarding_flow.survey.pattern.sometimes" = "偶尔,会回来";
+"onboarding_flow.survey.pattern.not_much" = "不多,会停一会儿";
+"onboarding_flow.survey.pattern.rarely" = "很少,一闪而过";
+"onboarding_flow.empathy.youll_spend" = "你今年会花";
+"onboarding_flow.empathy.hours_this_year" = "小时";
+"onboarding_flow.empathy.thats" = "也就是";
+"onboarding_flow.empathy.days" = "天";
+"onboarding_flow.empathy.question" = "其中有多少真的让你更清晰了?";
+"onboarding_flow.empathy.question_highlight" = "清晰";
+"onboarding_flow.empathy.verb.default" = "在脑里反复回放";
+"onboarding_flow.empathy.verb.someone" = "在想着某个人";
+"onboarding_flow.empathy.verb.what_happened" = "在反复回放发生过的事";
+"onboarding_flow.empathy.verb.something_i_did" = "在反复回想自己做过的事";
+"onboarding_flow.empathy.verb.what_to_do" = "在决定该怎么做";
+"onboarding_flow.empathy.verb.feeling" = "在试着理解一种感受";
+"onboarding_flow.empathy.verb.myself" = "在怀疑自己";
+"onboarding_flow.hope.line1" = "事情不一定要这样";
+"onboarding_flow.hope.line2" = "你每天有 5 分钟留给清晰吗?";
+"onboarding_flow.hope.line2_highlight1" = "5 分钟";
+"onboarding_flow.hope.line2_highlight2" = "清晰";
+"onboarding_flow.hope.line3" = "来制定你的计划";
+"onboarding_flow.goal.question" = "你想用 sotie 达成什么?";
+"onboarding_flow.goal.subtitle" = "最多选 3 个";
+"onboarding_flow.goal.feel_clearer" = "感觉更清晰";
+"onboarding_flow.goal.stop_replaying" = "不再反复回放";
+"onboarding_flow.goal.understand_feelings" = "理解我的情绪";
+"onboarding_flow.goal.know_what_to_do" = "知道下一步做什么";
+"onboarding_flow.goal.sleep_quieter" = "脑子安静地睡觉";
+"onboarding_flow.goal.feel_less_alone" = "感觉没那么孤单";
+"onboarding_flow.goal.spot_patterns" = "看见自己的模式";
+"onboarding_flow.goal.desc.feel_clearer" = "我们帮你把念头慢下来,看清它想说什么。";
+"onboarding_flow.goal.desc.stop_replaying" = "我们帮你把循环变成你能理解的样子。";
+"onboarding_flow.goal.desc.understand_feelings" = "sotie 帮你给感受命名,并注意它下面藏着的东西。";
+"onboarding_flow.goal.desc.know_what_to_do" = "我们帮你梳理噪音,直到下一步变得显而易见。";
+"onboarding_flow.goal.desc.sleep_quieter" = "我们帮你在睡前把念头放下,让它停止打转。";
+"onboarding_flow.goal.desc.feel_less_alone" = "sotie 反映你正在经历的,让你即使在凌晨 2 点也能被听见。";
+"onboarding_flow.goal.desc.spot_patterns" = "随着时间,sotie 会告诉你什么在重复回来,以及为什么。";
+"onboarding_flow.vision.question" = "想得更大一点,清晰的头脑对你来说是什么样?";
+"onboarding_flow.vision.question_highlight" = "清晰的头脑";
+"onboarding_flow.vision.trusting" = "更信任自己";
+"onboarding_flow.vision.naming" = "给感受命名";
+"onboarding_flow.vision.coming_back" = "回到自己";
+"onboarding_flow.vision.replying" = "从清晰回应";
+"onboarding_flow.vision.sleeping" = "不想太多地入睡";
+"onboarding_flow.vision.staying" = "保持掌控";
+"onboarding_flow.plan.footer_title" = "你来对地方了";
+"onboarding_flow.plan.footer_body" = "数以万计的人从同样的目标开始,sotie 一路陪他们到达。";
+"onboarding_flow.feeling.question" = "这个念头现在感觉怎样?";
+"onboarding_flow.feeling.question_highlight" = "感觉";
+"onboarding_flow.feeling.keeps_looping" = "在打转";
+"onboarding_flow.feeling.unresolved" = "感觉没结";
+"onboarding_flow.feeling.hard_to_explain" = "很难说清";
+"onboarding_flow.feeling.still_hurts" = "还在痛";
+"onboarding_flow.feeling.messy" = "感觉乱";
+"onboarding_flow.feeling.loud_at_night" = "夜里更吵";
+"onboarding_flow.blocker.question" = "最挡在路上的是什么?";
+"onboarding_flow.blocker.question_highlight" = "最挡在路上";
+"onboarding_flow.blocker.no_clear_answer" = "没有明确答案";
+"onboarding_flow.blocker.things_unsaid" = "没说出口的话";
+"onboarding_flow.blocker.what_ifs" = "太多「如果」";
+"onboarding_flow.blocker.solve_alone" = "想自己解决";
+"onboarding_flow.blocker.rereading" = "反复重看";
+"onboarding_flow.blocker.waiting" = "等它过去";
+"onboarding_flow.underneath.question" = "你觉得它下面是什么?";
+"onboarding_flow.underneath.question_highlight" = "下面";
+"onboarding_flow.underneath.reassurance" = "需要被安慰";
+"onboarding_flow.underneath.closure" = "需要一个结";
+"onboarding_flow.underneath.heard" = "想被听见";
+"onboarding_flow.underneath.doubting" = "在怀疑自己";
+"onboarding_flow.underneath.hurt" = "感到受伤";
+"onboarding_flow.underneath.make_sense" = "想让它说得通";
+"onboarding_flow.help.question" = "现在什么会有帮助?";
+"onboarding_flow.help.question_highlight" = "帮助";
+"onboarding_flow.help.understand" = "理解它";
+"onboarding_flow.help.put_into_words" = "用语言表达";
+"onboarding_flow.help.slow_down" = "把它慢下来";
+"onboarding_flow.help.see_clearly" = "看清它";
+"onboarding_flow.help.know_what_to_do" = "知道该做什么";
+"onboarding_flow.help.leave_tonight" = "今晚先放下";
+"onboarding_flow.thank_you.line1" = "谢谢你的诚实,%@。";
+"onboarding_flow.thank_you.line1_highlight" = "诚实";
+"onboarding_flow.thank_you.line2" = "这不是一个随机的念头。";
+"onboarding_flow.thank_you.line3" = "它一直回来,是因为它下面的某样东西仍然想要清晰。";
+"onboarding_flow.thank_you.line3_highlight" = "清晰";
+"onboarding_flow.thank_you.line4" = "sotie 先倾听,把它反映回来,帮你理解究竟在发生什么。";
+"onboarding_flow.style.question" = "哪种支持最适合你?";
+"onboarding_flow.style.subtitle" = "让 sotie 真的合你";
+"onboarding_flow.style.subtitle_highlight" = "合你";
+"onboarding_flow.style.gentle" = "温柔的";
+"onboarding_flow.style.warm" = "温暖的";
+"onboarding_flow.style.calming" = "平静的";
+"onboarding_flow.style.clear" = "清晰的";
+"onboarding_flow.style.practical" = "实用的";
+"onboarding_flow.style.soft_but_direct" = "柔和但直接";
+"onboarding_flow.depth.question" = "支持要走到多深?";
+"onboarding_flow.depth.calm_me_first" = "先让我平静";
+"onboarding_flow.depth.help_me_understand_it" = "帮我理解";
+"onboarding_flow.depth.ask_what_matters" = "问什么重要";
+"onboarding_flow.depth.show_me_the_pattern" = "展示规律";
+"onboarding_flow.depth.help_me_see_it_differently" = "帮我换个角度看";
+"onboarding_flow.depth.give_me_next_steps" = "给我下一步";
+"onboarding_flow.summary.title" = "谢谢你,%@。";
+"onboarding_flow.summary.subtitle" = "根据你分享的内容,我们一起来看你的旅程。";
+"onboarding_flow.summary.where_to_go" = "你想去的地方";
+"onboarding_flow.summary.where_now" = "你现在在哪里";
+"onboarding_flow.summary.standing" = "什么挡在路上";
+"onboarding_flow.summary.message" = "%@,我们看到你在哪里,也看到你想去哪里。一起把这个循环变成更清晰的东西。";
+"onboarding_flow.chart.title" = "被理解的念头会变安静";
+"onboarding_flow.chart.body" = "继续反思,你给念头一个落脚的地方,它就越不需要只活在你脑子里。";
+"onboarding_flow.chart.cta" = "看看 sotie 怎么用";
+"onboarding_flow.chart.legend_clarity" = "清晰 & 反思";
+"onboarding_flow.chart.legend_overthinking" = "想太多 & 回放";
+"onboarding_flow.chart.week1" = "第 1 周";
+"onboarding_flow.chart.week2" = "第 2 周";
+"onboarding_flow.chart.week3" = "第 3 周";
+"onboarding_flow.demo.welcome" = "你好,%@,我是 Sotie。
+
+把那个甩不掉的念头按它在你脑子里的样子写下来。
+
+然后我们一起反思。慢慢地、诚实地回答 - 你分享得越多,就越清晰。
+
+要发送,点下方的星星按钮。";
+"onboarding_flow.demo.footer_primary" = "这就是 sotie - 写下来,反映,走得更深。";
+"onboarding_flow.demo.footer_secondary" = "你可以随时从你的日记继续这次反思。";
+"onboarding_flow.demo_complete.title" = "恭喜!";
+"onboarding_flow.demo_complete.subtitle" = "你开始了第一次反思";
+"onboarding_flow.demo_complete.message" = "你的反思会保存在日记里,让你随着时间更清晰地理解自己";
+"onboarding_flow.streak.day_label" = "天连续";
+"onboarding_flow.streak.body" = "好的开始!继续每天的反思习惯";
+"onboarding_flow.plan_loading.step1" = "正在读你的反思...";
+"onboarding_flow.plan_loading.step2" = "正在理解你的循环...";
+"onboarding_flow.plan_loading.step3" = "正在找到下面的东西...";
+"onboarding_flow.plan_loading.step4" = "正在调整反思风格...";
+"onboarding_flow.plan_loading.step5" = "正在搭建你的清晰计划...";
+"onboarding_flow.plan_ready.headline" = "好了 %@,你的
+个人计划已就绪。";
+"onboarding_flow.plan_ready.cta" = "查看我的计划";
+"onboarding_flow.plan.hero_headline" = "%@,你将在这天前拥有更清晰的头脑";
+"onboarding_flow.plan.stat_reflections" = "每日
+反思";
+"onboarding_flow.plan.stat_mornings" = "清晰
+清晨";
+"onboarding_flow.plan.stat_insights" = "保存的
+洞察";
+"onboarding_flow.plan.invested" = "一年投入 30+ 小时换来清晰";
+"onboarding_flow.plan.how_well_get_there" = "我们怎么到达:";
+"onboarding_flow.plan.method1_title" = "每天一次私人反思";
+"onboarding_flow.plan.method1_body" = "只需写下来,sotie 倾听并引导你的反思。";
+"onboarding_flow.plan.method2_title" = "引导式反思";
+"onboarding_flow.plan.method2_body" = "让念头慢下来,理解下面是什么,带着下一步离开。";
+"onboarding_flow.plan.method3_title" = "会记得的日记";
+"onboarding_flow.plan.method3_body" = "你的反思、统计和洞察帮你看到时间里反复出现的东西。";
+"onboarding_flow.commitment.lead_in" = "那么,";
+"onboarding_flow.commitment.question" = "你有多想
+建立一个清晰的
+头脑?";
+"onboarding_flow.commitment.extremely" = "非常坚定";
+"onboarding_flow.commitment.very" = "很坚定";
+"onboarding_flow.commitment.somewhat" = "比较坚定";
+"onboarding_flow.commitment.little" = "有点坚定";
+"onboarding_flow.commitment.just_trying" = "只是试试";
+"onboarding_flow.commitment_msg.extremely.title" = "你全力以赴。";
+"onboarding_flow.commitment_msg.extremely.body" = "这很重要。清晰不来自完美的念头。它来自一次又一次回到自己,一次反思一次。";
+"onboarding_flow.commitment_msg.very.title" = "你已经准备好了。";
+"onboarding_flow.commitment_msg.very.body" = "今天不必解决所有事。你只需要一个地方,把念头慢下来并理解得更好。";
+"onboarding_flow.commitment_msg.somewhat.title" = "这就够开始了。";
+"onboarding_flow.commitment_msg.somewhat.body" = "不必完全准备好。小小的反思也算数。";
+"onboarding_flow.commitment_msg.little.title" = "一点点就很多。";
+"onboarding_flow.commitment_msg.little.body" = "不用追求完美。一行真心话已经够开始。";
+"onboarding_flow.commitment_msg.just_trying.title" = "试一试就够了。";
+"onboarding_flow.commitment_msg.just_trying.body" = "没有压力。一个念头,一次反思,一个更清晰的下一步。";
+"onboarding_flow.done" = "完成";
+"onboarding_flow.notif_priming.title" = "反思的提醒";
+"onboarding_flow.notif_priming.alert_title" = "Sotie 想发送通知";
+"onboarding_flow.notif_priming.alert_body" = "温柔地提醒你回来反思,保持你的连续记录。";
+"onboarding_flow.notif_priming.allow" = "允许";
+"onboarding_flow.notif_priming.deny" = "不允许";
+"onboarding_flow.try_now.title" = "想让你
+免费试用 sotie";
+"onboarding_flow.try_now.no_payment" = "现在不收费";
+"onboarding_flow.try_now.cta" = "立即试用";
+"onboarding_flow.trial_reminder.title" = "我们会在你的
+免费试用结束前
+提醒你";
+"onboarding_flow.trial_reminder.no_payment" = "现在不收费";
+"onboarding_flow.trial_reminder.cta" = "免费继续";
+"onboarding_flow.trial_reminder.disclosure" = "如果不取消,免费试用结束后开始计费。订阅自动续期。在 App Store 取消。";
+"onboarding_flow.paywall.title" = "开始你的 3 天
+免费试用以继续";
+"onboarding_flow.paywall.title_benefits" = "解锁 sotie
+更清晰地反思";
+"onboarding_flow.paywall.timeline.today_title" = "今天";
+"onboarding_flow.paywall.timeline.today_body" = "解锁无限反思、更深的对话和清晰的清晨。";
+"onboarding_flow.paywall.timeline.day2_title" = "2 天后 - 提醒";
+"onboarding_flow.paywall.timeline.day2_body" = "如果你允许了通知,我们会提醒你试用即将结束。";
+"onboarding_flow.paywall.timeline.day3_title" = "3 天后 - 开始计费";
+"onboarding_flow.paywall.timeline.day3_body" = "%@ 将进行扣款,除非你提前取消。";
+"onboarding_flow.paywall.badge.trial" = "3 天免费";
+"onboarding_flow.paywall.price.monthly" = "%@/月";
+"onboarding_flow.paywall.no_payment" = "现在不收费";
+"onboarding_flow.paywall.no_commitment" = "无承诺 - 随时取消";
+"onboarding_flow.paywall.cta.start_trial" = "开始 3 天免费试用";
+"onboarding_flow.paywall.cta.continue" = "继续";
+"onboarding_flow.paywall.cta.start_journey" = "开始旅程";
+"onboarding_flow.paywall.disclosure.per_year" = "每年 %@";
+"onboarding_flow.paywall.disclosure.per_month" = "每月 %@";
+"onboarding_flow.paywall.disclosure.with_trial" = "3 天免费,然后 %@。按年计费。除非取消否则自动续期。在 App Store 取消。";
+"onboarding_flow.paywall.disclosure.no_trial" = "%@。除非取消否则自动续期。在 App Store 取消。";
+"onboarding_flow.paywall.benefit1.title" = "无限反思";
+"onboarding_flow.paywall.benefit1.body" = "不再有每日上限,把每个念头走得更深。";
+"onboarding_flow.paywall.benefit2.title" = "你的进展可视化";
+"onboarding_flow.paywall.benefit2.body" = "图表和日历展示清晰是怎么积累的。";
+"onboarding_flow.paywall.benefit3.title" = "卡住时给你提示";
+"onboarding_flow.paywall.benefit3.body" = "再也不会面对空白页。Sotie 帮你想从哪里开始。";
+"onboarding_flow.footer.pricing_full" = "每年仅 %1$@(%2$@)";
+"onboarding_flow.footer.pricing_fallback" = "每年仅 $68.99";
+"onboarding_flow.footer.pricing_per_month" = "%@/月";
+"onboarding_flow.paywall.plan_yearly" = "年度";
+
+
+/* Onboarding discount: Live Activity + paywall */
+"onboarding_discount.activity.headline" = "为你准备的限时惊喜礼物";
+"onboarding_discount.activity.cta" = "打开礼物";
+"onboarding_discount.activity.final.purchased" = "欢迎加入。";
+"onboarding_discount.activity.final.closed" = "优惠已关闭";
+"onboarding_discount.activity.final.expired" = "优惠已过期";
+"onboarding_discount.paywall.title" = "一次性优惠";
+"onboarding_discount.paywall.percent_off" = "立减 %d%%";
+"onboarding_discount.paywall.warning" = "你不会再看到这个优惠";
+"onboarding_discount.paywall.price.only" = "仅 ";
+"onboarding_discount.paywall.price.per_week" = "/周";
+"onboarding_discount.paywall.price.lowest" = "*史上最低价。按年计费";
+"onboarding_discount.paywall.price.per_year" = "%@/年";
+"onboarding_discount.paywall.cta" = "领取一次性优惠";
+// MARK: - 条目提示（卡片）
+
+// Category titles — single word where possible
+"prompts.category.morning.title" = "Morning";
+"prompts.category.evening.title" = "Evening";
+"prompts.category.late_night.title" = "Late night";
+"prompts.category.stuck.title" = "Stuck";
+"prompts.category.replay.title" = "Replay";
+"prompts.category.heavy.title" = "Heavy";
+"prompts.category.frustrated.title" = "Frustrated";
+"prompts.category.numb.title" = "Numb";
+"prompts.category.anxious.title" = "Anxious";
+"prompts.category.restless.title" = "Restless";
+"prompts.category.decision.title" = "Decision";
+"prompts.category.someone.title" = "Someone";
+"prompts.category.you_vs_them.title" = "You vs them";
+"prompts.category.change.title" = "Change";
+"prompts.category.wins.title" = "Wins";
+"prompts.category.gratitude.title" = "Gratitude";
+"prompts.category.patterns.title" = "Patterns";
+"prompts.category.future_self.title" = "Future self";
+"prompts.category.returning.title" = "Returning";
+"prompts.category.continue.title" = "Continue";
+"prompts.category.brain_dump.title" = "Brain dump";
+
+// Accessibility hint shown by VoiceOver when focusing a prompt card.
+"prompts.card.accessibility_hint" = "Double tap to start with this prompt.";
+
+// MARK: - 提示（开头语）
+
+// Morning — intention, focus, lens for the day
+"prompts.openers.morning.1" = "今天想让什么不一样？";
+"prompts.openers.morning.2" = "今天最重要的一件事是什么？";
+"prompts.openers.morning.3" = "今天我反复回到...";
+"prompts.openers.morning.4" = "今早第一个浮现的念头是...";
+"prompts.openers.morning.5" = "不必现在就规划这一天。先从一个词开始。";
+"prompts.openers.morning.6" = "不需要目标。只说说你从哪里开始。";
+"prompts.openers.morning.7" = "现在的能量：沉、柔、锐，还是散？";
+"prompts.openers.morning.8" = "此刻的心情：平静、焦虑、模糊，还是准备好？";
+"prompts.openers.morning.9" = "你身上其余的部分今天想要什么？";
+"prompts.openers.morning.10" = "早晨是这一天还开放的时刻。最先冒出来的，写下来就好。它现在不必有什么意义。";
+
+// Evening — release, what stayed
+"prompts.openers.evening.1" = "今天什么留了下来？";
+"prompts.openers.evening.2" = "今天还在脑子里转的是什么？";
+"prompts.openers.evening.3" = "今天我反复回去的是...";
+"prompts.openers.evening.4" = "如果今天用一个词，那就是...";
+"prompts.openers.evening.5" = "一天结束了。没说出口的可以落在这里。";
+"prompts.openers.evening.6" = "不必总结。一小块就够了。";
+"prompts.openers.evening.7" = "今天的感觉：轻、重、混杂，还是模糊？";
+"prompts.openers.evening.8" = "你最注意到的：人、工作、身体，还是安静？";
+"prompts.openers.evening.9" = "今天什么让你意外？";
+"prompts.openers.evening.10" = "夜晚承接剩下的东西。没找到地方落的念头，还在响的小事，把它放在这里。";
+
+// Late night — won't quiet, can't sleep
+"prompts.openers.late_night.1" = "什么让你睡不着？";
+"prompts.openers.late_night.2" = "哪个念头让你醒着？";
+"prompts.openers.late_night.3" = "今晚一直回来的念头是...";
+"prompts.openers.late_night.4" = "现在最响的是...";
+"prompts.openers.late_night.5" = "今晚不必解决它。给它一个名字就好。";
+"prompts.openers.late_night.6" = "已经晚了。小一点也够。";
+"prompts.openers.late_night.7" = "它住在身体哪里：胸、头、胃，还是到处？";
+"prompts.openers.late_night.8" = "最近的词：焦虑、悲伤、不安，还是兴奋？";
+"prompts.openers.late_night.9" = "现在哪怕一点点能帮上忙的是？";
+"prompts.openers.late_night.10" = "夜里所有事都被放大。无论是什么让你醒着，可以放在这里，不必解决。落下来已经够了。";
+
+// Stuck — too many things, can't pick
+"prompts.openers.stuck.1" = "什么在同时拉着你？";
+"prompts.openers.stuck.2" = "如果只能想一件事，是哪一件？";
+"prompts.openers.stuck.3" = "现在最响的那条线是...";
+"prompts.openers.stuck.4" = "如果只能选一个开始，那是...";
+"prompts.openers.stuck.5" = "不必把所有都解开。一段一段来。";
+"prompts.openers.stuck.6" = "卡住没关系。从哪里开始都行。";
+"prompts.openers.stuck.7" = "最纠缠的：时间、人、选择，还是感受？";
+"prompts.openers.stuck.8" = "从哪里开始：最小的、最响的、最旧的，还是最新的？";
+"prompts.openers.stuck.9" = "稍微动一下会是什么样？";
+"prompts.openers.stuck.10" = "当一切都在同时说话，你不必都听。抓最近的一根线拉。其余的可以等。";
+
+// Replay — one thought looping
+"prompts.openers.replay.1" = "哪个念头一直回来？";
+"prompts.openers.replay.2" = "哪一段在反复重播？";
+"prompts.openers.replay.3" = "我反复回去的画面是...";
+"prompts.openers.replay.4" = "脑子里还在响的那句话是...";
+"prompts.openers.replay.5" = "不必弄明白它为什么还在。放在这里就好。";
+"prompts.openers.replay.6" = "它可以继续重播，你不必把它解决。";
+"prompts.openers.replay.7" = "感觉：卡住、不安、羞愧，还是不公？";
+"prompts.openers.replay.8" = "你想要的：结束、理解、答案，还是安静？";
+"prompts.openers.replay.9" = "这个循环想从你这里要什么？";
+"prompts.openers.replay.10" = "有些念头回来不是因为你错过了什么，而是因为它们还在找一个落脚点。让这里成为它的落脚点。";
+
+// Heavy — sad, low, weight
+"prompts.openers.heavy.1" = "现在什么是沉的？";
+"prompts.openers.heavy.2" = "什么比平时更难？";
+"prompts.openers.heavy.3" = "重量是...";
+"prompts.openers.heavy.4" = "我现在背着的是...";
+"prompts.openers.heavy.5" = "不必让它变轻。说出来就好。";
+"prompts.openers.heavy.6" = "沉是可以的。需要多久就待多久。";
+"prompts.openers.heavy.7" = "最近的词：悲伤、低落、疲倦，还是空？";
+"prompts.openers.heavy.8" = "你在哪里感到它：胸、喉咙、胃，还是到处？";
+"prompts.openers.heavy.9" = "在疼痛底下还痛着什么？";
+"prompts.openers.heavy.10" = "沉重不一定有一个清晰的理由。有时它就在那里。无论它是什么形状，可以在这里放下一会儿。";
+
+// Frustrated — anger, blame
+"prompts.openers.frustrated.1" = "什么让你抓狂？";
+"prompts.openers.frustrated.2" = "你想要却没有发生的是？";
+"prompts.openers.frustrated.3" = "让我火大的是...";
+"prompts.openers.frustrated.4" = "我希望我说出口的是...";
+"prompts.openers.frustrated.5" = "在这里不需要客气。";
+"prompts.openers.frustrated.6" = "懊恼也算数。让它有词。";
+"prompts.openers.frustrated.7" = "关于：一个人、一个情况、自己，还是不公？";
+"prompts.openers.frustrated.8" = "热度：在烧、刺、烫，还是烧光了？";
+"prompts.openers.frustrated.9" = "什么让你觉得不公？";
+"prompts.openers.frustrated.10" = "愤怒下面常常有理由：你想要的，被越过的。不要和它争。只说发生了什么、你需要什么。";
+
+// Numb — blank, can't access feeling
+"prompts.openers.numb.1" = "空的现在是什么感觉？";
+"prompts.openers.numb.2" = "在这之前你在感受什么？";
+"prompts.openers.numb.3" = "现在我只是...";
+"prompts.openers.numb.4" = "不是没有，更像是...";
+"prompts.openers.numb.5" = "空也算数。不必去找一个感受。";
+"prompts.openers.numb.6" = "安静也是信息。和它待一会儿。";
+"prompts.openers.numb.7" = "最近的词：沉、空、僵、静？";
+"prompts.openers.numb.8" = "感受的音量：零、微弱、遥远、闷？";
+"prompts.openers.numb.9" = "音量是什么时候降下来的？";
+"prompts.openers.numb.10" = "麻木不等于什么都没有。通常是底下还有一个还没名字的东西。今晚不必找到它。";
+
+// Anxious — forward dread, can't settle
+"prompts.openers.anxious.1" = "你在害怕什么？";
+"prompts.openers.anxious.2" = "你在身体哪里感到？";
+"prompts.openers.anxious.3" = "我脑子里在跑的是...";
+"prompts.openers.anxious.4" = "我反复想到的最坏情景是...";
+"prompts.openers.anxious.5" = "不必让它停。描述就好。";
+"prompts.openers.anxious.6" = "焦虑很响。慢一点没关系。";
+"prompts.openers.anxious.7" = "出现的位置：胸、胃、喉咙，还是呼吸？";
+"prompts.openers.anxious.8" = "节奏：快、循环、跳，还是僵着？";
+"prompts.openers.anxious.9" = "稍微平静一点会是什么样？";
+"prompts.openers.anxious.10" = "焦虑常常指向某件事，但用恐慌作信使。你不必相信恐慌。只听它在指什么。";
+
+// Restless — don't want to be where I am
+"prompts.openers.restless.1" = "现在什么在拉你？";
+"prompts.openers.restless.2" = "此刻什么不对劲？";
+"prompts.openers.restless.3" = "我一直想要...";
+"prompts.openers.restless.4" = "我真正想待的地方是...";
+"prompts.openers.restless.5" = "不安是信息。不要和它打架。";
+"prompts.openers.restless.6" = "不必知道为什么。只说它在那里。";
+"prompts.openers.restless.7" = "感觉：痒、无聊、被困、躁动？";
+"prompts.openers.restless.8" = "不对劲的是：地方、节奏、人，还是自己？";
+"prompts.openers.restless.9" = "不安在指向什么？";
+"prompts.openers.restless.10" = "不安通常意味着你的一部分想要和现在不同的东西。不必行动。只去注意它在指什么。";
+
+// Decision — fork, what-if
+"prompts.openers.decision.1" = "你在回避哪个选择？";
+"prompts.openers.decision.2" = "在理由之前，你真正想要的是什么？";
+"prompts.openers.decision.3" = "我反复来回的事是...";
+"prompts.openers.decision.4" = "如果没人在看，我会...";
+"prompts.openers.decision.5" = "不必今晚决定。先看清楚一点。";
+"prompts.openers.decision.6" = "这里没有错的答案。只有诚实的。";
+"prompts.openers.decision.7" = "卡住你的是：恐惧、公平、别人，还是钱？";
+"prompts.openers.decision.8" = "感觉：卡、撕扯、紧迫，还是安静？";
+"prompts.openers.decision.9" = "停在原地的代价是什么？";
+"prompts.openers.decision.10" = "决定在你停止和自己争辩、开始倾听时变得清晰。先说你想要什么。理由可以稍后。";
+
+// Someone — about another person
+"prompts.openers.someone.1" = "现在谁在你脑子里？";
+"prompts.openers.someone.2" = "他们说了什么，做了什么？";
+"prompts.openers.someone.3" = "我想着的人是...";
+"prompts.openers.someone.4" = "我希望他们明白的是...";
+"prompts.openers.someone.5" = "在这里不必公平。";
+"prompts.openers.someone.6" = "你不能对他们说的，可以在这里说。";
+"prompts.openers.someone.7" = "你对他们的感觉：受伤、生气、想念，还是撕扯？";
+"prompts.openers.someone.8" = "你们之间剩下的：沉默、距离、话语，还是希望？";
+"prompts.openers.someone.9" = "你需要他们什么？";
+"prompts.openers.someone.10" = "人会留下印记。即使什么都没发生，也可能留下些什么。无论是谁在脑里，从他们和他们在你身上引发的开始。";
+
+// You vs them — self vs others, "we", "should"
+"prompts.openers.you_vs_them.1" = "撇开他们，你想要什么？";
+"prompts.openers.you_vs_them.2" = "这其实是为了谁？";
+"prompts.openers.you_vs_them.3" = "如果说不需要付出任何代价，我会...";
+"prompts.openers.you_vs_them.4" = "我真正想要的，不是我应该想要的，是...";
+"prompts.openers.you_vs_them.5" = "你可以想要和他们不同的东西。";
+"prompts.openers.you_vs_them.6" = "对自己诚实不是背叛。";
+"prompts.openers.you_vs_them.7" = "声音最大的：你的、家人、伴侣，还是文化？";
+"prompts.openers.you_vs_them.8" = "选择自己时会失去：认可、舒适、平静，还是负罪感？";
+"prompts.openers.you_vs_them.9" = "脑子里的「应该」在做什么？";
+"prompts.openers.you_vs_them.10" = "有时候最难的是把自己的声音放在所有声音之上听见。不必现在选择。让它在这里成为最响的就好。";
+
+// Change — transitions, endings, beginnings
+"prompts.openers.change.1" = "现在什么在变？";
+"prompts.openers.change.2" = "你正在留下什么？";
+"prompts.openers.change.3" = "我不确定我准备好放下的是...";
+"prompts.openers.change.4" = "我正伸手够的是...";
+"prompts.openers.change.5" = "你可以为离开的悲伤，同时想要下一步。";
+"prompts.openers.change.6" = "中间状态是允许的。不必安顿好。";
+"prompts.openers.change.7" = "感觉：害怕、兴奋、悲伤，还是都有？";
+"prompts.openers.change.8" = "你在哪里：结尾、中间、开头，还是说不清？";
+"prompts.openers.change.9" = "在这里什么是哀悼，什么是希望？";
+"prompts.openers.change.10" = "改变很少只是一种感受。通常一部分在告别，一部分在伸手。两者可以同时是真的。";
+
+// Wins — what clicked, breakthroughs
+"prompts.openers.wins.1" = "今天什么对上了？";
+"prompts.openers.wins.2" = "你身上什么让你意外？";
+"prompts.openers.wins.3" = "今天我做得不错的是...";
+"prompts.openers.wins.4" = "一件起作用的小事是...";
+"prompts.openers.wins.5" = "小也算数。不必非要叫它大。";
+"prompts.openers.wins.6" = "拿着吧。这是你赢得的。";
+"prompts.openers.wins.7" = "胜利在哪里：行动、心态、善意，还是休息？";
+"prompts.openers.wins.8" = "感觉：自豪、轻松、惊喜，还是稳？";
+"prompts.openers.wins.9" = "过去的你做了什么帮到了你？";
+"prompts.openers.wins.10" = "胜利不必声音大或可见。有时胜利是没有陷入旋涡。有时是开始了。无论你的是什么形状，记下来。";
+
+// Gratitude — what's already there
+"prompts.openers.gratitude.1" = "今天什么值得留意？";
+"prompts.openers.gratitude.2" = "什么容易忘但很重要？";
+"prompts.openers.gratitude.3" = "让我开心的一件小事是...";
+"prompts.openers.gratitude.4" = "哪怕一点点起到作用的是...";
+"prompts.openers.gratitude.5" = "不要勉强。只去注意已经在的东西。";
+"prompts.openers.gratitude.6" = "小就够。";
+"prompts.openers.gratitude.7" = "看哪里：一个人、一个时刻、一个地方，还是你的身体？";
+"prompts.openers.gratitude.8" = "什么类型：有用、柔软、寻常，还是意外？";
+"prompts.openers.gratitude.9" = "今天你差点错过的是？";
+"prompts.openers.gratitude.10" = "感激不必是长长的清单。一件具体的事，出现的人，安静的窗口，正在做事的身体，就够了。";
+
+// Patterns — meta, recurring shapes
+"prompts.openers.patterns.1" = "最近什么一直回来？";
+"prompts.openers.patterns.2" = "在不同情形里相同的是？";
+"prompts.openers.patterns.3" = "我一直在做的是...";
+"prompts.openers.patterns.4" = "我注意到这发生在...的时候";
+"prompts.openers.patterns.5" = "模式不是判决。是信息。";
+"prompts.openers.patterns.6" = "看见了不一定要修。";
+"prompts.openers.patterns.7" = "出现在哪里：工作、关系、健康，还是情绪？";
+"prompts.openers.patterns.8" = "模式类型：回避、靠近、重复，还是缩小？";
+"prompts.openers.patterns.9" = "这让你想起什么？";
+"prompts.openers.patterns.10" = "模式不一定是有问题的证据。有时是过去管用、现在不再管用的旧解法。命名一个，就是温柔的第一步。";
+
+// Future self — the version of you ahead
+"prompts.openers.future_self.1" = "未来的你想让你知道什么？";
+"prompts.openers.future_self.2" = "你希望一年后什么是真的？";
+"prompts.openers.future_self.3" = "一年后我想要...";
+"prompts.openers.future_self.4" = "我会感谢过去的我做的一件事是...";
+"prompts.openers.future_self.5" = "未来的你不在评判。她在为你加油。";
+"prompts.openers.future_self.6" = "小的开始也算数。";
+"prompts.openers.future_self.7" = "你正在搭向：清晰、勇气、轻盈，还是诚实？";
+"prompts.openers.future_self.8" = "从哪里开始：习惯、关系、工作，还是自己？";
+"prompts.openers.future_self.9" = "那件会累积的小事是？";
+"prompts.openers.future_self.10" = "未来的你不是陌生人。她是知道这一版的你在背着什么的那个版本。无论你说什么，她在听。";
+
+// Returning — long gap (>3 days)
+"prompts.openers.returning.1" = "上次以来什么留在你身上？";
+"prompts.openers.returning.2" = "什么变了？";
+"prompts.openers.returning.3" = "上次到这里之后留下的是...";
+"prompts.openers.returning.4" = "今天把我拉回来的是...";
+"prompts.openers.returning.5" = "不必解释这段空隙。从现在开始就好。";
+"prompts.openers.returning.6" = "欢迎回来。从哪里开始就是对的地方。";
+"prompts.openers.returning.7" = "现在更响的是：相同的、新的，还是更小的版本？";
+"prompts.openers.returning.8" = "回来的感觉：累、开心、不确定，还是准备好？";
+"prompts.openers.returning.9" = "这段空隙让你想起什么？";
+"prompts.openers.returning.10" = "你回来了。这就算数。访问之间的沉默里留下的，可以放在这里，不必解释。";
+
+// Continue — fresh thread (<24h, has assistant reply)
+"prompts.openers.continue.1" = "你在哪里停下的？";
+"prompts.openers.continue.2" = "之前还在打转的是？";
+"prompts.openers.continue.3" = "从停下的地方继续，还在响的是...";
+"prompts.openers.continue.4" = "我想回到的是...";
+"prompts.openers.continue.5" = "可以从中间接着来。不必从头。";
+"prompts.openers.continue.6" = "还在这里的，值得再一分钟。";
+"prompts.openers.continue.7" = "更清楚了：一点、相当，还是仍混浊？";
+"prompts.openers.continue.8" = "把你拉回来的：一个感受、一个念头、一个人，还是循环本身？";
+"prompts.openers.continue.9" = "下一句你想说的是？";
+"prompts.openers.continue.10" = "有些念头需要不止一次的坐下。需要多少次都可以回来。线还在这里。";
+
+// Brain dump — catch-all
+"prompts.openers.brain_dump.1" = "现在你脑子里有什么？";
+"prompts.openers.brain_dump.2" = "脑子里最响的是？";
+"prompts.openers.brain_dump.3" = "现在我脑子里满是...";
+"prompts.openers.brain_dump.4" = "最先冒出来的是...";
+"prompts.openers.brain_dump.5" = "乱也欢迎。不需要结构。";
+"prompts.openers.brain_dump.6" = "只管写。意义可以稍后。";
+"prompts.openers.brain_dump.7" = "音量：响、散、循环，还是低但卡住？";
+"prompts.openers.brain_dump.8" = "关于：今天、最近、一直，还是说不清？";
+"prompts.openers.brain_dump.9" = "一直跟着你的念头是？";
+"prompts.openers.brain_dump.10" = "脑子大放空不必有意义。只要出来就好。清单、片段、半句都行。意义可以稍后或永远不来。";
+
+// MARK: - Prompt Clusters (rail above AddEntry textarea)
+
+"prompts.cluster.time.title.morning" = "清晨";
+"prompts.cluster.time.title.evening" = "夜晚";
+"prompts.cluster.time.title.late_night" = "深夜";
+"prompts.cluster.heavy.title" = "沉重";
+"prompts.cluster.looping.title" = "打转";
+"prompts.cluster.someone.title" = "某个人";
+"prompts.cluster.choosing.title" = "岔路";
+"prompts.cluster.notice.title" = "留意";
+"prompts.cluster.brain_dump.title" = "随便倒";

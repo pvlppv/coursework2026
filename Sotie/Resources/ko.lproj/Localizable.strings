@@ -1,0 +1,806 @@
+/*
+  Localizable.strings
+  Sotie
+
+  Korean Localization
+*/
+
+"accessibility_menu_button" = "추가 옵션";
+"accessibility_menu_button_hint" = "날짜 변경이나 사진 추가 같은 더 많은 옵션이 있는 메뉴를 엽니다.";
+"accessibility_save_button" = "리플렉션 저장";
+"accessibility_save_button_hint" = "현재 리플렉션을 저장합니다.";
+"add_entry" = "리플렉션 추가";
+"ai_analysis" = "AI 분석";
+"ai_settings.depth.ask_what_matters" = "😶 중요한 걸 물어봐";
+"ai_settings.depth.calm_me_first" = "🫶 먼저 진정시켜줘";
+"ai_settings.depth.give_me_next_steps" = "❤️ 다음 단계를 알려줘";
+"ai_settings.depth.help_me_see_it_differently" = "✨ 다르게 볼 수 있게 도와줘";
+"ai_settings.depth.help_me_understand_it" = "🫶 이해할 수 있게 도와줘";
+"ai_settings.depth.show_me_the_pattern" = "🌿 패턴을 보여줘";
+"ai_settings.goal.feel_clearer" = "🔍 더 명확하게 느끼기";
+"ai_settings.goal.feel_less_alone_with_it" = "🫂 덜 외롭게 느끼기";
+"ai_settings.goal.know_what_to_do_next" = "✨ 다음에 뭘 할지 알기";
+"ai_settings.goal.sleep_with_quieter_mind" = "🌙 더 고요한 마음으로 잠들기";
+"ai_settings.goal.spot_my_patterns" = "👀 내 패턴 알아차리기";
+"ai_settings.goal.stop_replaying_things" = "🔁 같은 생각 반복 멈추기";
+"ai_settings.goal.understand_my_feelings" = "🫶 내 감정 이해하기";
+"ai_settings.primary_goals" = "여기 온 이유";
+"ai_settings.primary_goals.description" = "최소 하나를 선택하세요. Sotie가 시간이 지나며 주목하는 것을 형성합니다 — 지금 쓰는 것을 대체하지 않아요.";
+"ai_settings.style.calming" = "😌 차분한";
+"ai_settings.style.clear" = "💎 명확한";
+"ai_settings.style.gentle" = "💛 부드러운";
+"ai_settings.style.practical" = "📌 실용적인";
+"ai_settings.style.soft_but_direct" = "✨ 부드럽지만 직접적인";
+"ai_settings.style.warm" = "🫶 따뜻한";
+"ai_settings.support_depth" = "얼마나 깊이";
+"ai_settings.support_depth.description" = "무언가를 나눌 때, 어떤 종류의 응답이 가장 도움이 될까요?";
+"ai_settings.support_style" = "목소리 톤";
+"ai_settings.support_style.description" = "Sotie가 당신에게 되돌려줄 때 어떻게 들려야 할까요?";
+"ai_settings.title" = "리플렉션 스타일";
+"analytics_ai_responses" = "AI Responses";
+"analytics_avg_reflection_depth" = "Responses per Session";
+"analytics_day_short" = "일";
+"analytics_hours" = "시간";
+"analytics_last_30_days" = "최근 30일";
+"analytics_minutes" = "분";
+"analytics_most_reflective_day" = "최고의 요일";
+"analytics_most_reflective_time" = "최고의 시간";
+"analytics_no_data" = "아직 데이터가 없어요";
+"analytics_reflecting_since" = "%@부터 돌아보는 중";
+"analytics_reflections" = "리플렉션";
+"analytics_streak" = "연속 기록 일수";
+"analytics_time_afternoon" = "오후";
+"analytics_time_evening" = "저녁";
+"analytics_time_morning" = "오전";
+"analytics_time_night" = "심야";
+"analytics_time_reflecting" = "리플렉션 시간";
+"analytics_time_spent" = "사용 시간";
+"analytics_total_entries" = "작성한 기록";
+"analytics_words_written" = "작성한 단어 수";
+"app_name" = "Sotie Journal";
+"cancel" = "취소";
+"cannot_summarize_empty" = "비어 있는 대화 기록은 요약할 수 없습니다";
+"change_date" = "날짜 변경";
+"contact" = "문의";
+"contact_us_include_logs" = "진단 로그 포함";
+"contact_us_include_logs_desc" = "앱 활동, 기기 정보, 오류 로그, 문제 해결에 도움이 돼요";
+"contact_us_message_label" = "메시지";
+"contact_us_message_placeholder" = "무엇이든 들려주세요";
+"contact_us_send" = "보내기";
+"contact_us_subtitle" = "질문이든, 아이디어든, 버그든 괜찮아요. 언제든 들려주세요";
+"contact_us_title" = "문의하기";
+"data_section" = "데이터";
+"delete" = "삭제";
+"delete_entry" = "리플렉션 삭제";
+"delete_entry_message" = "이 리플렉션을 삭제할까요? 이 작업은 되돌릴 수 없습니다.";
+"delete_entry_title" = "리플렉션 삭제";
+"discover_patterns" = "데이터 속 패턴을 발견해 보세요";
+"discover_patterns_and_insights" = "데이터 속 패턴과 인사이트를 발견해 보세요";
+"done" = "완료";
+"empty_state_description" = "아래를 눌러 글쓰기를 시작해 보세요";
+"empty_state_title" = "시작할 준비가 됐어요";
+"entry_text" = "리플렉션";
+"error_ai_service" = "문제가 생겼어요. 다시 시도해 주세요";
+"error_daily_limit_reached" = "You’ve reached today’s AI response limit. Come back tomorrow to continue.";
+"error_network" = "인터넷 연결이 없어요. 연결 상태를 확인해 주세요";
+"error_rate_limited" = "%d초 후 다시 시도해 주세요. 요청이 너무 많아요";
+"export_entries" = "데이터 내보내기";
+"export_error" = "내보내기 실패";
+"export_success" = "내보내기 완료";
+"failed_to_summarize" = "대화 요약에 실패했습니다: %@";
+"import_confirm_action" = "가져오기";
+"import_confirm_message" = "새 리플렉션이 추가됩니다. 중복 항목은 건너뜁니다. 포함되어 있다면 통계도 업데이트됩니다.";
+"import_confirm_title" = "데이터 가져오기";
+"import_entries" = "데이터 가져오기";
+"import_entries_imported" = "%d개의 리플렉션을 가져왔습니다";
+"import_entries_imported_skipped" = "%d개의 리플렉션을 가져왔고, %d개는 건너뛰었습니다 (중복)";
+"import_error" = "가져오기 실패";
+"import_success" = "가져오기 완료";
+"journal_entry" = "리플렉션";
+"last_week" = "지난주";
+"legal" = "법적 고지";
+"next" = "다음";
+"no_entries_yet" = "아직 리플렉션이 없어요";
+"note_placeholder" = "여기에 써보세요...";
+"note_placeholder_initial" = "지금 어떤 생각이 드나요?";
+"notification.follow_up.fallback" = "그때 이후로 무엇이 달라졌나요?";
+"notification.re_engagement.fallback" = "지금은 무엇이 다를까요?";
+"notification_settings" = "알림";
+"notifications" = "알림";
+"notifications.type.conversation_follow_up.description" = "적절한 순간이 오면 최근의 대화를 다시 이어가요";
+"notifications.type.conversation_follow_up.title" = "대화 이어가기";
+"notifications.type.morning_reminder.title" = "아침 알림";
+"notifications.type.morning_reminder.description" = "솔직한 한 문장으로 하루를 시작하기 위한 부드러운 알림";
+"notifications.type.evening_reminder.title" = "저녁 알림";
+"notifications.type.evening_reminder.description" = "오늘 남은 마음을 내려놓을 수 있는 자리";
+"notifications.type.re_engagement.description" = "잠시 멀어진 뒤에도 부드럽게 다시 돌아올 수 있도록 알려드려요";
+"notifications.type.re_engagement.title" = "다시 돌아오기";
+"notifications_disabled" = "알림이 꺼져 있어요";
+"notifications_disabled_message" = "알림을 받으려면 설정에서 알림을 켜 주세요.";
+"ok" = "확인";
+"onboarding_write_here" = "여기에 써보세요...";
+"open_collection" = "열기";
+"open_settings" = "설정 열기";
+"preferences" = "설정";
+"language" = "언어";
+"current_language" = "한국어";
+"language_settings_info" = "AI responses will use the selected language.";
+
+// MARK: - Theme
+"theme.settings.title" = "테마";
+"theme.settings.description" = "팔레트를 선택하세요. 각 테마는 라이트와 다크 모드에 자동으로 맞춰집니다.";
+"theme.variant.parchment" = "파치먼트";
+"theme.variant.ink" = "잉크";
+"theme.variant.sage" = "세이지";
+"theme.variant.dusk" = "더스크";
+"theme.variant.iris" = "아이리스";
+"theme.variant.blush" = "블러시";
+"premium_annual" = "연간";
+"premium_benefit_1" = "무제한 Go Deeper";
+"premium_benefit_2" = "반복되는 패턴 알아보기";
+"premium_benefit_3" = "중요한 흐름 이어가기";
+"premium_billed_annually" = "연간 결제";
+"premium_billed_monthly" = "월간 결제";
+"premium_billing_per_month" = "매월";
+"premium_billing_per_year" = "매년";
+"premium_continue_annual" = "연간으로 계속하기";
+"premium_error_cancelled" = "구매가 취소되었습니다.";
+"premium_error_product_not_found" = "상품을 찾을 수 없습니다.";
+"premium_error_purchase_failed" = "구매에 실패했습니다. 다시 시도해 주세요.";
+"premium_error_restore_failed" = "복원할 구매 내역이 없습니다.";
+"premium_hero_default_subtitle_trial" = "끊기지 않는 자기 성찰을 이어가고, 시간이 지나며 패턴을 발견해 보세요.";
+"premium_hero_default_title" = "흐름을 놓치지 않고 더 깊이 들어가세요";
+"premium_hero_limit_subtitle_trial" = "이 성찰을 제한 없이 이어가세요.";
+"premium_hero_limit_title" = "가장 중요한 순간에서 멈추지 마세요";
+"premium_hero_onboarding_subtitle_trial" = "끊기지 않는 성찰과 전체 프리미엄 기능을 열어보세요.";
+"premium_hero_onboarding_title" = "아직 선명할 때 계속 이어가세요";
+"premium_hero_settings_subtitle_trial" = "Sotie를 제한 없이 사용하고, 시간이 지나며 패턴을 발견해 보세요.";
+"premium_hero_settings_title" = "더 깊은 성찰 열기";
+"premium_journey_step_1" = "지금 마음속을 정리하고";
+"premium_journey_step_2" = "반복되는 흐름을 알아차리고";
+"premium_journey_step_3" = "전체 그림을 보게 돼요";
+"premium_journey_time_1" = "오늘";
+"premium_journey_time_2" = "1주";
+"premium_journey_time_3" = "1개월";
+"premium_manage_subscription" = "구독 관리";
+"premium_maybe_later" = "나중에";
+"premium_monthly" = "월간";
+"premium_monthly_equivalent" = "월 %@만";
+"premium_per_month" = "/월";
+"premium_per_year" = "/년";
+"premium_privacy" = "개인정보";
+"premium_products_unavailable" = "지금은 구독을 사용할 수 없어요. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.";
+"premium_response_limit_reached_desc" = "You can go deeper. Unlock unlimited reflection and keep your self-discovery moving.";
+"premium_ai_responses_today" = "AI responses today";
+"premium_restore" = "복원";
+"premium_save_percent" = "−%d%%";
+"premium_status_free" = "무료";
+"premium_status_premium" = "프리미엄";
+"premium_subscribe" = "구독하기";
+"premium_subscribe_monthly" = "월간 구독하기";
+"premium_subscribe_to_unlock" = "구독하고 열기";
+"premium_subscription_disclaimer" = "프리미엄은 자동 갱신 구독입니다. 언제든 App Store 설정에서 취소할 수 있어요.";
+"premium_subtitle" = "명확함이 필요할 때마다 더 깊이 들어가세요";
+"premium_terms" = "이용약관";
+"premium_timeline_day3" = "6일 차";
+"premium_timeline_day3_detail" = "체험 기간이 끝나기 전에 알려드릴게요.";
+"premium_timeline_day7" = "7일 차";
+"premium_timeline_day7_detail" = "그전에 취소하지 않으면 결제가 시작돼요.";
+"premium_timeline_today" = "오늘";
+"premium_timeline_today_detail" = "지금 바로 전체 프리미엄 기능이 시작돼요.";
+"premium_title" = "제한 없이 더 깊이 들어가세요";
+"premium_trial_info_dynamic" = "%d일 무료, 이후 %@%@";
+"premium_try_seven_days_free" = "7일 무료로 시작하기";
+"premium_upgrade" = "무제한 성찰 열기";
+"privacy_local_storage_message" = "모든 데이터는 이 기기에만 저장됩니다. 언제나 백업을 가질 수 있도록 정기적으로 내보내기를 권장해요.";
+"privacy_local_storage_title" = "기기에 저장됨";
+"privacy_policy" = "개인정보 처리방침";
+"quantity" = "수량";
+"rate_app" = "앱 평가하기";
+"recent_insights" = "최근 인사이트";
+"reflections_banner_a11y" = "이번 주 %d일 동안 돌아봤어요. 탭해서 캘린더를 열어보세요.";
+"reflections_best_streak" = "최고 기록: %d %@";
+"reflections_current_streak" = "현재 연속 기록";
+"reflections_day_unit_few" = "일";
+"reflections_day_unit_many" = "일";
+"reflections_day_unit_one" = "일";
+"reflections_longest_streak" = "최장 연속 기록";
+"reflections_nudge_day_one" = "첫째 날. 가장 어려운 날. 이미 지났어요.";
+"reflections_nudge_early_momentum" = "며칠째 이어가는 중. 떠오르는 것들에 계속 주의를 기울여요.";
+"reflections_nudge_first_time" = "하루로 시작하면 돼요. 나머지는 따라와요.";
+"reflections_nudge_practice" = "이제 습관이에요. 자신을 위해 나타나고 있어요.";
+"reflections_nudge_returning" = "준비되면 다시 시작해요. 오늘도 셈에 들어가요.";
+"reflections_nudge_week_rhythm" = "일주일은 진짜 신호예요. 패턴이 떠오르기 시작해요.";
+"reflections_see_all" = "모두 보기";
+"reflections_this_week" = "이번 주";
+"reflections_title" = "리플렉션";
+"reply_to_reflection" = "Reply to reflection";
+"share_sotie" = "Sotie 공유하기";
+"share_text" = "Sotie Journal을 확인해 보세요. 질문을 던지며 마음을 더 또렷하게 보게 도와주는 AI 저널이에요";
+"show_onboarding" = "온보딩 보기";
+"statistics" = "통계";
+"tap_plus_to_add_first_entry" = "+ 버튼을 눌러 첫 리플렉션을 추가해 보세요";
+"terms_of_service" = "서비스 이용약관";
+"this_week" = "이번 주";
+"today" = "오늘";
+"unsaved_changes_discard" = "변경 사항 버리기";
+"unsaved_changes_save" = "저장";
+"unsaved_changes_title" = "저장되지 않은 변경 사항이 있어요";
+
+/* Finish & 요약 */
+"finish" = "마무리";
+"finish_reflection" = "이 성찰을 마무리할까요?";
+"insights_generating" = "성찰을 정리하고 있어요...";
+"insights_what_happened" = "무슨 일이 있었나";
+"insights_whats_underneath" = "그 아래에 있는 것";
+"insights_what_matters_now" = "지금 중요한 것";
+"insights_done" = "완료";
+"insights_error" = "요약을 생성할 수 없었어요";
+"insights_retry" = "다시 시도";
+"insights_skip" = "건너뛰기";
+"insights_title" = "요약";
+"insights_view_menu" = "요약 보기";
+"values" = "값";
+"yesterday" = "어제";
+
+/* === Onboarding Flow (auto-translated) === */
+
+"onboarding_flow.hey" = "안녕";
+"onboarding_flow.tap_to_continue" = "계속하려면 누르세요";
+"onboarding_flow.vp1.headline" = "머릿속에서 떠나지 않는 생각, 있어요?";
+"onboarding_flow.vp1.highlight" = "생각";
+"onboarding_flow.vp1.body1" = "그건 떠올라요
+자려고 할 때,";
+"onboarding_flow.vp1.body2" = "집중하려고 할 때,";
+"onboarding_flow.vp1.body3" = "괜찮아 보이려고 할 때.";
+"onboarding_flow.vp2.headline" = "sotie는 그 아래 있는 걸 이해하도록 도와줘요";
+"onboarding_flow.vp2.highlight" = "아래 있는 걸";
+"onboarding_flow.vp2.subtitle" = "간단해요";
+"onboarding_flow.vp2.subtitle_highlight" = "간단";
+"onboarding_flow.vp2.body1" = "걸리는 걸 적어요";
+"onboarding_flow.vp2.body2" = "sotie가 비춰줘요";
+"onboarding_flow.vp2.body3" = "마음이 정리돼요";
+"onboarding_flow.vp2.body3_highlight" = "정리";
+"onboarding_flow.first_things_first" = "먼저 중요한 것부터";
+"onboarding_flow.name_question" = "뭐라고 부를까요?";
+"onboarding_flow.name_fallback" = "당신";
+"onboarding_flow.continue" = "계속하기";
+"onboarding_flow.consider_line1" = "좋아요 %@,";
+"onboarding_flow.consider_line2" = "이걸 한번 생각해봐요...";
+"onboarding_flow.survey.thought_question" = "어떤 생각이 자꾸 돌아와요?";
+"onboarding_flow.survey.thought_question_highlight" = "생각";
+"onboarding_flow.survey.thought.someone" = "누군가";
+"onboarding_flow.survey.thought.what_happened" = "있었던 일";
+"onboarding_flow.survey.thought.something_i_did" = "내가 한 일";
+"onboarding_flow.survey.thought.what_to_do" = "어떻게 할지";
+"onboarding_flow.survey.thought.feeling" = "기분";
+"onboarding_flow.survey.thought.myself" = "나 자신";
+"onboarding_flow.survey.pattern_question" = "얼마나 자주 돌아와요?";
+"onboarding_flow.survey.pattern.all_the_time" = "계속, 안 사라져요";
+"onboarding_flow.survey.pattern.pretty_often" = "자주, 몇 시간씩";
+"onboarding_flow.survey.pattern.sometimes" = "가끔, 다시 와요";
+"onboarding_flow.survey.pattern.not_much" = "별로, 잠깐";
+"onboarding_flow.survey.pattern.rarely" = "거의 없어요";
+"onboarding_flow.empathy.youll_spend" = "올해 당신은";
+"onboarding_flow.empathy.hours_this_year" = "시간을 쓸 거예요";
+"onboarding_flow.empathy.thats" = "그건";
+"onboarding_flow.empathy.days" = "일";
+"onboarding_flow.empathy.question" = "그 시간 중 얼마나가 정말 마음을 정리하는 데 도움이 돼요?";
+"onboarding_flow.empathy.question_highlight" = "정리";
+"onboarding_flow.empathy.verb.default" = "있었던 일을 다시 떠올리며";
+"onboarding_flow.empathy.verb.someone" = "누군가를 생각하며";
+"onboarding_flow.empathy.verb.what_happened" = "있었던 일을 다시 떠올리며";
+"onboarding_flow.empathy.verb.something_i_did" = "한 일을 다시 떠올리며";
+"onboarding_flow.empathy.verb.what_to_do" = "어떻게 할지 정하며";
+"onboarding_flow.empathy.verb.feeling" = "기분을 이해하려고 하며";
+"onboarding_flow.empathy.verb.myself" = "스스로 의심하며";
+"onboarding_flow.hope.line1" = "꼭 이런 식이어야 하는 건 아니에요";
+"onboarding_flow.hope.line2" = "하루 5분, 정리에 쓸 시간 있어요?";
+"onboarding_flow.hope.line2_highlight1" = "5분";
+"onboarding_flow.hope.line2_highlight2" = "정리";
+"onboarding_flow.hope.line3" = "당신의 플랜을 만들어요";
+"onboarding_flow.goal.question" = "sotie로 뭘 이루고 싶어요?";
+"onboarding_flow.goal.subtitle" = "최대 3개 골라요";
+"onboarding_flow.goal.feel_clearer" = "마음이 더 정리되는 것";
+"onboarding_flow.goal.stop_replaying" = "반복 재생 멈추기";
+"onboarding_flow.goal.understand_feelings" = "내 감정 이해하기";
+"onboarding_flow.goal.know_what_to_do" = "다음에 뭘 할지 알기";
+"onboarding_flow.goal.sleep_quieter" = "조용한 마음으로 자기";
+"onboarding_flow.goal.feel_less_alone" = "덜 외로워지기";
+"onboarding_flow.goal.spot_patterns" = "내 패턴 알아차리기";
+"onboarding_flow.goal.desc.feel_clearer" = "생각이 천천히 가라앉아 무슨 말을 하려는지 보이도록 도와줄게요.";
+"onboarding_flow.goal.desc.stop_replaying" = "도는 생각을 이해할 수 있는 무엇으로 바꾸도록 도와줄게요.";
+"onboarding_flow.goal.desc.understand_feelings" = "sotie는 느낌에 이름을 붙이고 그 아래 있는 걸 보이게 도와줘요.";
+"onboarding_flow.goal.desc.know_what_to_do" = "다음 발걸음이 분명해질 때까지 잡음을 정리하도록 도와줄게요.";
+"onboarding_flow.goal.desc.sleep_quieter" = "잠들기 전에 생각을 내려놓도록 도와줄게요. 그러면 도는 게 멈춰요.";
+"onboarding_flow.goal.desc.feel_less_alone" = "sotie가 당신이 겪는 걸 비춰줘서 새벽 2시에도 들어주는 느낌이 돼요.";
+"onboarding_flow.goal.desc.spot_patterns" = "시간이 지나면서 sotie가 무엇이 자주 돌아오는지, 왜인지 보여줘요.";
+"onboarding_flow.vision.question" = "더 크게 봐서, 정리된 마음이란 당신에게 어떤 모습이에요?";
+"onboarding_flow.vision.question_highlight" = "정리된 마음";
+"onboarding_flow.vision.trusting" = "나를 더 믿기";
+"onboarding_flow.vision.naming" = "느끼는 걸 이름 붙이기";
+"onboarding_flow.vision.coming_back" = "나에게 돌아오기";
+"onboarding_flow.vision.replying" = "차분하게 답하기";
+"onboarding_flow.vision.sleeping" = "곱씹지 않고 자기";
+"onboarding_flow.vision.staying" = "통제 유지하기";
+"onboarding_flow.plan.footer_title" = "잘 찾아왔어요";
+"onboarding_flow.plan.footer_body" = "수만 명이 같은 목표로 시작했고, sotie가 거기까지 닿는 걸 도왔어요.";
+"onboarding_flow.feeling.question" = "이 생각, 지금은 어떻게 느껴져요?";
+"onboarding_flow.feeling.question_highlight" = "느껴져";
+"onboarding_flow.feeling.keeps_looping" = "계속 돌아요";
+"onboarding_flow.feeling.unresolved" = "끝나지 않은 느낌";
+"onboarding_flow.feeling.hard_to_explain" = "설명하기 어려워요";
+"onboarding_flow.feeling.still_hurts" = "아직 아파요";
+"onboarding_flow.feeling.messy" = "엉켜 있어요";
+"onboarding_flow.feeling.loud_at_night" = "밤에 커져요";
+"onboarding_flow.blocker.question" = "가장 걸리는 게 뭐예요?";
+"onboarding_flow.blocker.question_highlight" = "가장";
+"onboarding_flow.blocker.no_clear_answer" = "분명한 답이 없어요";
+"onboarding_flow.blocker.things_unsaid" = "못다 한 말";
+"onboarding_flow.blocker.what_ifs" = "「만약」이 너무 많아요";
+"onboarding_flow.blocker.solve_alone" = "혼자 풀려고 해요";
+"onboarding_flow.blocker.rereading" = "다시 읽기 반복";
+"onboarding_flow.blocker.waiting" = "지나가기를 기다려요";
+"onboarding_flow.underneath.question" = "그 아래 뭐가 있다고 생각해요?";
+"onboarding_flow.underneath.question_highlight" = "아래";
+"onboarding_flow.underneath.reassurance" = "안심이 필요해요";
+"onboarding_flow.underneath.closure" = "마무리가 필요해요";
+"onboarding_flow.underneath.heard" = "들리고 싶어요";
+"onboarding_flow.underneath.doubting" = "나를 의심해요";
+"onboarding_flow.underneath.hurt" = "상처 받았어요";
+"onboarding_flow.underneath.make_sense" = "의미가 통하길 원해요";
+"onboarding_flow.help.question" = "지금 뭐가 도움이 될까요?";
+"onboarding_flow.help.question_highlight" = "도움";
+"onboarding_flow.help.understand" = "이해하기";
+"onboarding_flow.help.put_into_words" = "말로 옮기기";
+"onboarding_flow.help.slow_down" = "속도 줄이기";
+"onboarding_flow.help.see_clearly" = "분명히 보기";
+"onboarding_flow.help.know_what_to_do" = "뭘 할지 알기";
+"onboarding_flow.help.leave_tonight" = "오늘은 두기";
+"onboarding_flow.thank_you.line1" = "솔직해줘서 고마워요, %@.";
+"onboarding_flow.thank_you.line1_highlight" = "솔직";
+"onboarding_flow.thank_you.line2" = "이건 그냥 떠오른 생각이 아니에요.";
+"onboarding_flow.thank_you.line3" = "그 아래 무엇이 아직 정리를 원하기 때문에 자꾸 돌아오는 거예요.";
+"onboarding_flow.thank_you.line3_highlight" = "정리";
+"onboarding_flow.thank_you.line4" = "sotie는 먼저 듣고, 비춰주고, 정말 무슨 일이 일어나는지 이해하도록 도와줘요.";
+"onboarding_flow.style.question" = "어떤 도움이 가장 잘 맞아요?";
+"onboarding_flow.style.subtitle" = "sotie가 당신에게 잘 맞도록";
+"onboarding_flow.style.subtitle_highlight" = "당신에게";
+"onboarding_flow.style.gentle" = "부드러운";
+"onboarding_flow.style.warm" = "따뜻한";
+"onboarding_flow.style.calming" = "차분한";
+"onboarding_flow.style.clear" = "명확한";
+"onboarding_flow.style.practical" = "실용적인";
+"onboarding_flow.style.soft_but_direct" = "부드럽지만 직접적인";
+"onboarding_flow.depth.question" = "도움은 얼마나 깊이 들어가야 해요?";
+"onboarding_flow.depth.calm_me_first" = "먼저 진정시켜줘";
+"onboarding_flow.depth.help_me_understand_it" = "이해할 수 있게 도와줘";
+"onboarding_flow.depth.ask_what_matters" = "중요한 걸 물어봐";
+"onboarding_flow.depth.show_me_the_pattern" = "패턴을 보여줘";
+"onboarding_flow.depth.help_me_see_it_differently" = "다르게 볼 수 있게 도와줘";
+"onboarding_flow.depth.give_me_next_steps" = "다음 단계를 알려줘";
+"onboarding_flow.summary.title" = "고마워요, %@.";
+"onboarding_flow.summary.subtitle" = "공유해준 내용을 바탕으로 함께 길을 살펴봐요.";
+"onboarding_flow.summary.where_to_go" = "가고 싶은 곳";
+"onboarding_flow.summary.where_now" = "지금 있는 곳";
+"onboarding_flow.summary.standing" = "막고 있는 것";
+"onboarding_flow.summary.message" = "%@, 어디 있고 어디로 가고 싶은지 보여요. 함께 이 도는 생각을 더 분명한 무엇으로 바꿀 수 있어요.";
+"onboarding_flow.chart.title" = "이해 받으면 생각은 조용해져요";
+"onboarding_flow.chart.body" = "계속 리플렉션해요. 생각에 머무를 자리를 줄수록 머릿속에만 살지 않아요.";
+"onboarding_flow.chart.cta" = "sotie 사용법 보기";
+"onboarding_flow.chart.legend_clarity" = "정리 & 리플렉션";
+"onboarding_flow.chart.legend_overthinking" = "곱씹기 & 반복";
+"onboarding_flow.chart.week1" = "1주차";
+"onboarding_flow.chart.week2" = "2주차";
+"onboarding_flow.chart.week3" = "3주차";
+"onboarding_flow.demo.welcome" = "안녕하세요, %@, 저는 Sotie예요.
+
+머릿속에서 떠나지 않는 생각을, 머리에서 들리는 그대로 적어보세요.
+
+그다음 함께 리플렉션해요. 천천히 솔직하게 답해줘요 - 더 나누는 만큼 더 정리돼요.
+
+보내려면 아래 반짝 버튼을 눌러요.";
+"onboarding_flow.demo.footer_primary" = "이게 sotie예요 - 쓰고, 비추고, 더 깊이 가요.";
+"onboarding_flow.demo.footer_secondary" = "이 리플렉션은 일기에서 언제든 이어갈 수 있어요.";
+"onboarding_flow.demo_complete.title" = "축하해요!";
+"onboarding_flow.demo_complete.subtitle" = "첫 리플렉션을 시작했어요";
+"onboarding_flow.demo_complete.message" = "리플렉션은 일기에 저장돼서 시간이 갈수록 자신을 더 분명히 이해하게 돼요";
+"onboarding_flow.streak.day_label" = "일 연속";
+"onboarding_flow.streak.body" = "좋은 시작! 매일 리플렉션 습관을 이어가요";
+"onboarding_flow.plan_loading.step1" = "당신의 리플렉션을 읽고 있어요...";
+"onboarding_flow.plan_loading.step2" = "당신의 도는 생각을 이해하고 있어요...";
+"onboarding_flow.plan_loading.step3" = "그 아래 있는 걸 찾고 있어요...";
+"onboarding_flow.plan_loading.step4" = "리플렉션 스타일을 맞추고 있어요...";
+"onboarding_flow.plan_loading.step5" = "당신의 정리 플랜을 만들고 있어요...";
+"onboarding_flow.plan_ready.headline" = "좋아요 %@, 당신의
+맞춤 플랜이 준비됐어요.";
+"onboarding_flow.plan_ready.cta" = "내 플랜 보기";
+"onboarding_flow.plan.hero_headline" = "%@, 당신은 다음 시점까지 정리된 마음을 가질 거예요";
+"onboarding_flow.plan.stat_reflections" = "매일
+리플렉션";
+"onboarding_flow.plan.stat_mornings" = "정리된
+아침";
+"onboarding_flow.plan.stat_insights" = "저장된
+통찰";
+"onboarding_flow.plan.invested" = "1년에 30시간 이상을 정리에 투자";
+"onboarding_flow.plan.how_well_get_there" = "거기까지 가는 법:";
+"onboarding_flow.plan.method1_title" = "매일 나만의 리플렉션";
+"onboarding_flow.plan.method1_body" = "그냥 적어요, sotie가 듣고 안내해요.";
+"onboarding_flow.plan.method2_title" = "가이드 리플렉션";
+"onboarding_flow.plan.method2_body" = "생각 속도를 늦추고, 그 아래를 이해하고, 다음 걸음을 가지고 나와요.";
+"onboarding_flow.plan.method3_title" = "기억하는 일기";
+"onboarding_flow.plan.method3_body" = "리플렉션과 통계와 통찰이 시간에 따라 무엇이 반복되는지 보여줘요.";
+"onboarding_flow.commitment.lead_in" = "그래서,";
+"onboarding_flow.commitment.question" = "정리된 마음을 만드는 데
+얼마나 진심이에요?";
+"onboarding_flow.commitment.extremely" = "엄청 진심";
+"onboarding_flow.commitment.very" = "많이 진심";
+"onboarding_flow.commitment.somewhat" = "어느 정도";
+"onboarding_flow.commitment.little" = "조금만";
+"onboarding_flow.commitment.just_trying" = "그냥 한번 해봐요";
+"onboarding_flow.commitment_msg.extremely.title" = "완전히 빠져 있네요.";
+"onboarding_flow.commitment_msg.extremely.body" = "그게 중요해요. 정리는 완벽한 생각에서 오지 않아요. 한 번에 한 리플렉션씩, 자기에게 돌아오는 데서 와요.";
+"onboarding_flow.commitment_msg.very.title" = "준비됐어요.";
+"onboarding_flow.commitment_msg.very.body" = "오늘 다 풀 필요 없어요. 생각을 천천히 두고 더 잘 이해할 자리만 있으면 돼요.";
+"onboarding_flow.commitment_msg.somewhat.title" = "시작하기엔 충분해요.";
+"onboarding_flow.commitment_msg.somewhat.body" = "완전히 준비되지 않아도 괜찮아요. 작은 리플렉션도 똑같이 의미 있어요.";
+"onboarding_flow.commitment_msg.little.title" = "조금이면 충분해요.";
+"onboarding_flow.commitment_msg.little.body" = "완벽하지 않아도 돼요. 솔직한 한 줄이면 시작하기에 충분해요.";
+"onboarding_flow.commitment_msg.just_trying.title" = "한번 해보는 것도 충분해요.";
+"onboarding_flow.commitment_msg.just_trying.body" = "부담 없이. 한 가지 생각, 한 번의 리플렉션, 한 걸음 더 분명한 다음 단계.";
+"onboarding_flow.done" = "완료";
+"onboarding_flow.notif_priming.title" = "리플렉션 알림 받기";
+"onboarding_flow.notif_priming.alert_title" = "Sotie가 알림을 보내고 싶어해요";
+"onboarding_flow.notif_priming.alert_body" = "다시 와서 리플렉션하고 연속 기록을 이어가도록 부드럽게 알려드려요.";
+"onboarding_flow.notif_priming.allow" = "허용";
+"onboarding_flow.notif_priming.deny" = "허용 안 함";
+"onboarding_flow.try_now.title" = "sotie를
+무료로 한번 써봐요";
+"onboarding_flow.try_now.no_payment" = "지금은 결제 없음";
+"onboarding_flow.try_now.cta" = "지금 써보기";
+"onboarding_flow.trial_reminder.title" = "무료 체험이
+끝나기 전에
+알려드릴게요";
+"onboarding_flow.trial_reminder.no_payment" = "지금은 결제 없음";
+"onboarding_flow.trial_reminder.cta" = "무료로 계속하기";
+"onboarding_flow.trial_reminder.disclosure" = "취소하지 않으면 무료 체험 종료 시 결제가 시작돼요. 플랜은 자동 갱신됩니다. App Store에서 취소할 수 있어요.";
+"onboarding_flow.paywall.title" = "3일 무료
+체험을 시작하세요";
+"onboarding_flow.paywall.title_benefits" = "sotie를 잠금 해제하고
+더 분명히 리플렉션";
+"onboarding_flow.paywall.timeline.today_title" = "오늘";
+"onboarding_flow.paywall.timeline.today_body" = "무제한 리플렉션, 더 깊은 대화, 정리된 아침을 잠금 해제.";
+"onboarding_flow.paywall.timeline.day2_title" = "2일 후 - 알림";
+"onboarding_flow.paywall.timeline.day2_body" = "알림을 허용했다면 체험이 곧 끝난다고 알려드려요.";
+"onboarding_flow.paywall.timeline.day3_title" = "3일 후 - 결제 시작";
+"onboarding_flow.paywall.timeline.day3_body" = "%@에 결제됩니다, 그 전에 취소할 수 있어요.";
+"onboarding_flow.paywall.badge.trial" = "3일 무료";
+"onboarding_flow.paywall.price.monthly" = "%@/월";
+"onboarding_flow.paywall.no_payment" = "지금은 결제 없음";
+"onboarding_flow.paywall.no_commitment" = "약정 없음 - 언제든 취소";
+"onboarding_flow.paywall.cta.start_trial" = "3일 무료 체험 시작";
+"onboarding_flow.paywall.cta.continue" = "계속하기";
+"onboarding_flow.paywall.cta.start_journey" = "여정 시작";
+"onboarding_flow.paywall.disclosure.per_year" = "연간 %@";
+"onboarding_flow.paywall.disclosure.per_month" = "월 %@";
+"onboarding_flow.paywall.disclosure.with_trial" = "3일 무료, 그 후 %@. 연간 결제. 취소 전까지 자동 갱신. App Store에서 취소.";
+"onboarding_flow.paywall.disclosure.no_trial" = "%@. 취소 전까지 자동 갱신. App Store에서 취소.";
+"onboarding_flow.paywall.benefit1.title" = "무제한 리플렉션";
+"onboarding_flow.paywall.benefit1.body" = "일일 한도 없이 모든 생각을 더 깊게.";
+"onboarding_flow.paywall.benefit2.title" = "보이는 진척";
+"onboarding_flow.paywall.benefit2.body" = "차트와 캘린더로 정리가 어떻게 쌓이는지 보여드려요.";
+"onboarding_flow.paywall.benefit3.title" = "막힐 때 안내";
+"onboarding_flow.paywall.benefit3.body" = "빈 페이지를 볼 일 없어요. Sotie가 어디서 시작할지 제안해요.";
+"onboarding_flow.footer.pricing_full" = "연간 %1$@ (%2$@)";
+"onboarding_flow.footer.pricing_fallback" = "연간 $68.99";
+"onboarding_flow.footer.pricing_per_month" = "%@/월";
+"onboarding_flow.paywall.plan_yearly" = "연간";
+
+
+/* Onboarding discount: Live Activity + paywall */
+"onboarding_discount.activity.headline" = "당신을 위한 한정 깜짝 선물";
+"onboarding_discount.activity.cta" = "선물 열기";
+"onboarding_discount.activity.final.purchased" = "환영합니다.";
+"onboarding_discount.activity.final.closed" = "혜택 종료";
+"onboarding_discount.activity.final.expired" = "혜택 만료";
+"onboarding_discount.paywall.title" = "단 한 번의 혜택";
+"onboarding_discount.paywall.percent_off" = "%d%% 할인";
+"onboarding_discount.paywall.warning" = "이 혜택은 다시 표시되지 않습니다";
+"onboarding_discount.paywall.price.only" = "단 ";
+"onboarding_discount.paywall.price.per_week" = "/주";
+"onboarding_discount.paywall.price.lowest" = "*역대 최저가. 연간 결제";
+"onboarding_discount.paywall.price.per_year" = "%@/년";
+"onboarding_discount.paywall.cta" = "단 한 번의 혜택 받기";
+// MARK: - 항목 프롬프트 (카드)
+
+// Category titles — single word where possible
+"prompts.category.morning.title" = "Morning";
+"prompts.category.evening.title" = "Evening";
+"prompts.category.late_night.title" = "Late night";
+"prompts.category.stuck.title" = "Stuck";
+"prompts.category.replay.title" = "Replay";
+"prompts.category.heavy.title" = "Heavy";
+"prompts.category.frustrated.title" = "Frustrated";
+"prompts.category.numb.title" = "Numb";
+"prompts.category.anxious.title" = "Anxious";
+"prompts.category.restless.title" = "Restless";
+"prompts.category.decision.title" = "Decision";
+"prompts.category.someone.title" = "Someone";
+"prompts.category.you_vs_them.title" = "You vs them";
+"prompts.category.change.title" = "Change";
+"prompts.category.wins.title" = "Wins";
+"prompts.category.gratitude.title" = "Gratitude";
+"prompts.category.patterns.title" = "Patterns";
+"prompts.category.future_self.title" = "Future self";
+"prompts.category.returning.title" = "Returning";
+"prompts.category.continue.title" = "Continue";
+"prompts.category.brain_dump.title" = "Brain dump";
+
+// Accessibility hint shown by VoiceOver when focusing a prompt card.
+"prompts.card.accessibility_hint" = "Double tap to start with this prompt.";
+
+// MARK: - 프롬프트 (시작 문장)
+
+// Morning — intention, focus, lens for the day
+"prompts.openers.morning.1" = "오늘 무엇을 다르게 하고 싶어?";
+"prompts.openers.morning.2" = "오늘 가장 중요한 한 가지는?";
+"prompts.openers.morning.3" = "오늘 자꾸 돌아가는 생각은...";
+"prompts.openers.morning.4" = "오늘 아침 가장 먼저 떠오르는 건...";
+"prompts.openers.morning.5" = "아직 하루를 계획하지 않아도 돼. 한 단어부터 시작해.";
+"prompts.openers.morning.6" = "목표는 필요 없어. 어디서 시작하는지만 말해.";
+"prompts.openers.morning.7" = "지금 에너지: 무겁다, 부드럽다, 날카롭다, 흩어졌다?";
+"prompts.openers.morning.8" = "이 시간의 기분: 차분, 불안, 흐릿, 준비됨?";
+"prompts.openers.morning.9" = "오늘 너의 나머지 부분은 무엇을 원해?";
+"prompts.openers.morning.10" = "아침은 하루가 아직 열려 있는 시간. 처음 떠오르는 걸 적어. 아직 의미가 없어도 괜찮아.";
+
+// Evening — release, what stayed
+"prompts.openers.evening.1" = "오늘 무엇이 남았어?";
+"prompts.openers.evening.2" = "오늘에서 아직 맴도는 건?";
+"prompts.openers.evening.3" = "오늘에서 자꾸 돌아오는 건...";
+"prompts.openers.evening.4" = "오늘을 한 단어로 하면...";
+"prompts.openers.evening.5" = "하루는 끝났어. 못 한 말은 여기 둬도 돼.";
+"prompts.openers.evening.6" = "정리하지 않아도 돼. 작은 한 조각이면 충분해.";
+"prompts.openers.evening.7" = "오늘 느낌: 가벼웠다, 무거웠다, 섞였다, 흐릿했다?";
+"prompts.openers.evening.8" = "가장 많이 알아챈 것: 사람, 일, 몸, 고요함?";
+"prompts.openers.evening.9" = "오늘 무엇이 놀라웠어?";
+"prompts.openers.evening.10" = "저녁은 남은 것을 안고 있는 시간. 자리를 못 찾은 생각, 아직 큰 작은 것. 여기 두고 가.";
+
+// Late night — won't quiet, can't sleep
+"prompts.openers.late_night.1" = "무엇이 잠 못 들게 해?";
+"prompts.openers.late_night.2" = "어떤 생각이 깨어 있게 해?";
+"prompts.openers.late_night.3" = "오늘 밤 자꾸 돌아오는 생각은...";
+"prompts.openers.late_night.4" = "지금 크게 들리는 건...";
+"prompts.openers.late_night.5" = "오늘 밤 고치지 않아도 돼. 이름만 붙이면 돼.";
+"prompts.openers.late_night.6" = "늦었어. 작아도 괜찮아.";
+"prompts.openers.late_night.7" = "몸 어디에 사는: 가슴, 머리, 배, 다?";
+"prompts.openers.late_night.8" = "가까운 단어: 불안, 슬픔, 안절부절, 들떠?";
+"prompts.openers.late_night.9" = "지금 조금이라도 도움이 될 건?";
+"prompts.openers.late_night.10" = "밤은 모든 걸 크게 보이게 해. 잠 못 들게 하는 건, 풀지 않고 여기 둬도 돼. 도착하는 것만으로 충분해.";
+
+// Stuck — too many things, can't pick
+"prompts.openers.stuck.1" = "한꺼번에 너를 잡아당기는 건?";
+"prompts.openers.stuck.2" = "한 가지만 생각할 수 있다면 어떤 것?";
+"prompts.openers.stuck.3" = "지금 가장 큰 실은...";
+"prompts.openers.stuck.4" = "하나만 골라 시작한다면...";
+"prompts.openers.stuck.5" = "다 풀지 않아도 돼. 한 조각씩.";
+"prompts.openers.stuck.6" = "막히는 건 괜찮아. 어디서든 시작해.";
+"prompts.openers.stuck.7" = "가장 엉킨 건: 시간, 사람, 선택, 감정?";
+"prompts.openers.stuck.8" = "어디서 시작: 가장 작은, 큰, 오래된, 새로운?";
+"prompts.openers.stuck.9" = "조금만 움직이면 어떻게 보일까?";
+"prompts.openers.stuck.10" = "모든 게 동시에 말할 때, 다 들을 필요 없어. 가장 가까운 실을 잡고 당겨. 나머지는 기다릴 수 있어.";
+
+// Replay — one thought looping
+"prompts.openers.replay.1" = "어떤 생각이 자꾸 돌아와?";
+"prompts.openers.replay.2" = "어떤 부분이 반복돼?";
+"prompts.openers.replay.3" = "자꾸 돌아가는 장면은...";
+"prompts.openers.replay.4" = "머릿속에 계속 남는 한 줄은...";
+"prompts.openers.replay.5" = "왜 아직 있는지 알 필요 없어. 여기 두면 돼.";
+"prompts.openers.replay.6" = "풀지 않고도 계속 돌아갈 수 있어.";
+"prompts.openers.replay.7" = "느낌: 막힘, 불안, 부끄러움, 부당함?";
+"prompts.openers.replay.8" = "원하는 것: 마무리, 이해, 답, 고요함?";
+"prompts.openers.replay.9" = "그 루프는 너에게 무엇을 원해?";
+"prompts.openers.replay.10" = "어떤 생각은 네가 놓쳐서가 아니라 아직 내려앉을 곳을 찾아서 돌아와. 이곳이 그 자리가 되어도 돼.";
+
+// Heavy — sad, low, weight
+"prompts.openers.heavy.1" = "지금 무엇이 무거워?";
+"prompts.openers.heavy.2" = "평소보다 무엇이 더 어려워?";
+"prompts.openers.heavy.3" = "그 무게는...";
+"prompts.openers.heavy.4" = "내가 지금 들고 있는 건...";
+"prompts.openers.heavy.5" = "가볍게 만들지 않아도 돼. 그냥 말해.";
+"prompts.openers.heavy.6" = "무거워도 돼. 필요한 만큼 여기 있어.";
+"prompts.openers.heavy.7" = "가까운 단어: 슬픔, 가라앉음, 피곤, 텅?";
+"prompts.openers.heavy.8" = "느끼는 곳: 가슴, 목, 배, 다?";
+"prompts.openers.heavy.9" = "아픔 아래 무엇이 아파?";
+"prompts.openers.heavy.10" = "무거움에 늘 분명한 이유가 있는 건 아냐. 그냥 있을 때도 있어. 어떤 모양이든 잠시 여기 둬도 돼.";
+
+// Frustrated — anger, blame
+"prompts.openers.frustrated.1" = "무엇이 짜증 나?";
+"prompts.openers.frustrated.2" = "무엇을 원했는데 일어나지 않았어?";
+"prompts.openers.frustrated.3" = "나를 화나게 하는 건...";
+"prompts.openers.frustrated.4" = "말했더라면 좋았을 것은...";
+"prompts.openers.frustrated.5" = "여기서는 예의 차리지 않아도 돼.";
+"prompts.openers.frustrated.6" = "짜증도 카운트야. 말이 되게 둬.";
+"prompts.openers.frustrated.7" = "무엇에 관한지: 사람, 상황, 자기 자신, 부당함?";
+"prompts.openers.frustrated.8" = "온도: 끓는다, 날카롭다, 뜨겁다, 다 탔다?";
+"prompts.openers.frustrated.9" = "무엇이 부당하게 느껴져?";
+"prompts.openers.frustrated.10" = "분노 밑에는 보통 이유가 있어: 원했던 것, 넘어진 선. 다투지 마. 무슨 일이 있었고 무엇이 필요했는지만 말해.";
+
+// Numb — blank, can't access feeling
+"prompts.openers.numb.1" = "지금 텅 빈 느낌은 어때?";
+"prompts.openers.numb.2" = "그 전엔 무엇을 느꼈어?";
+"prompts.openers.numb.3" = "지금 나는 그냥...";
+"prompts.openers.numb.4" = "아무것도 아닌 게 아니라, 더...";
+"prompts.openers.numb.5" = "텅 빔도 카운트야. 감정을 찾지 않아도 돼.";
+"prompts.openers.numb.6" = "고요함도 정보야. 함께 있어.";
+"prompts.openers.numb.7" = "가까운 단어: 무거움, 비어 있음, 얼어붙음, 조용함?";
+"prompts.openers.numb.8" = "감각의 음량: 0, 약함, 멀게, 둔한?";
+"prompts.openers.numb.9" = "언제 음량이 내려갔어?";
+"prompts.openers.numb.10" = "무뎌짐은 아무것도 없는 게 아냐. 보통 아래에 아직 이름 없는 것이 있어. 오늘 밤 찾을 필요는 없어.";
+
+// Anxious — forward dread, can't settle
+"prompts.openers.anxious.1" = "무엇이 불안해?";
+"prompts.openers.anxious.2" = "몸 어디서 느껴?";
+"prompts.openers.anxious.3" = "머릿속을 달리는 건...";
+"prompts.openers.anxious.4" = "자꾸 가는 최악의 시나리오는...";
+"prompts.openers.anxious.5" = "멈추지 않아도 돼. 묘사만 해.";
+"prompts.openers.anxious.6" = "불안은 시끄러워. 천천히도 괜찮아.";
+"prompts.openers.anxious.7" = "나타나는 곳: 가슴, 배, 목, 호흡?";
+"prompts.openers.anxious.8" = "속도: 빠르다, 루프, 튄다, 멈췄다?";
+"prompts.openers.anxious.9" = "조금만이라도 차분하면 어떨까?";
+"prompts.openers.anxious.10" = "불안은 보통 무언가를 가리키는데 패닉을 전달자로 써. 패닉을 믿지 않아도 돼. 가리키는 것만 들어.";
+
+// Restless — don't want to be where I am
+"prompts.openers.restless.1" = "지금 너를 잡아당기는 건?";
+"prompts.openers.restless.2" = "지금 무엇이 어긋나?";
+"prompts.openers.restless.3" = "나는 자꾸...하고 싶어";
+"prompts.openers.restless.4" = "사실 내가 있고 싶은 곳은...";
+"prompts.openers.restless.5" = "안절부절은 정보야. 싸우지 마.";
+"prompts.openers.restless.6" = "왜인지 몰라도 돼. 있다고만 말해.";
+"prompts.openers.restless.7" = "느낌: 가렵다, 지루하다, 갇혔다, 들썩들썩?";
+"prompts.openers.restless.8" = "어긋나는 것: 장소, 속도, 사람, 자기?";
+"prompts.openers.restless.9" = "안절부절은 어디를 가리켜?";
+"prompts.openers.restless.10" = "안절부절은 보통 너의 일부가 지금과 다른 무언가를 원한다는 뜻. 행동할 필요는 없어. 어디를 가리키는지만 알아채.";
+
+// Decision — fork, what-if
+"prompts.openers.decision.1" = "어떤 선택을 피하고 있어?";
+"prompts.openers.decision.2" = "이유 전에, 진짜로 무엇을 원해?";
+"prompts.openers.decision.3" = "왔다 갔다 하는 건...";
+"prompts.openers.decision.4" = "아무도 보지 않으면 나는...";
+"prompts.openers.decision.5" = "오늘 밤 결정하지 않아도 돼. 더 분명하게 보기만 하면 돼.";
+"prompts.openers.decision.6" = "여기 틀린 답은 없어. 솔직한 답만.";
+"prompts.openers.decision.7" = "막는 것: 두려움, 공정함, 다른 사람, 돈?";
+"prompts.openers.decision.8" = "느낌: 막힘, 찢어짐, 급함, 고요함?";
+"prompts.openers.decision.9" = "가만히 있는 비용은?";
+"prompts.openers.decision.10" = "결정은 너 자신과 다투기를 멈추고 들을 때 분명해져. 먼저 원하는 걸 말해. 이유는 나중에.";
+
+// Someone — about another person
+"prompts.openers.someone.1" = "지금 누가 떠올라?";
+"prompts.openers.someone.2" = "그들은 무엇을 했어 또는 말했어?";
+"prompts.openers.someone.3" = "내가 생각하는 사람은...";
+"prompts.openers.someone.4" = "그들이 알아주길 바라는 건...";
+"prompts.openers.someone.5" = "여기서는 공정하지 않아도 돼.";
+"prompts.openers.someone.6" = "그들에게 못하는 말은 여기서 해.";
+"prompts.openers.someone.7" = "그들에게 느끼는: 다침, 화남, 그리움, 찢어짐?";
+"prompts.openers.someone.8" = "둘 사이에 남은 것: 침묵, 거리, 말, 희망?";
+"prompts.openers.someone.9" = "그들에게 무엇이 필요했어?";
+"prompts.openers.someone.10" = "사람들은 흔적을 남겨. 아무 일도 없었어도 무언가 남을 수 있어. 누가 떠오르든, 그 사람과 그 사람이 너 안에서 일으키는 것부터 시작해.";
+
+// You vs them — self vs others, "we", "should"
+"prompts.openers.you_vs_them.1" = "그들과 별개로 너는 무엇을 원해?";
+"prompts.openers.you_vs_them.2" = "이건 진짜 누구를 위한 거야?";
+"prompts.openers.you_vs_them.3" = "노라고 말해도 아무 비용이 없다면 나는...";
+"prompts.openers.you_vs_them.4" = "내가 진짜 원하는 것, 해야 한다고 느끼는 게 아니라, 는...";
+"prompts.openers.you_vs_them.5" = "그들과 다른 걸 원해도 돼.";
+"prompts.openers.you_vs_them.6" = "자기 자신에게 솔직한 건 배신이 아냐.";
+"prompts.openers.you_vs_them.7" = "가장 큰 목소리: 너의, 가족, 파트너, 문화?";
+"prompts.openers.you_vs_them.8" = "너의 것을 선택할 때 잃을 것: 인정, 편안, 평화, 죄책감?";
+"prompts.openers.you_vs_them.9" = "머릿속의 '해야 해'는 무엇을 하고 있어?";
+"prompts.openers.you_vs_them.10" = "때로 가장 어려운 건 다른 모든 목소리 위로 자기 목소리를 듣는 것. 지금 선택하지 않아도 돼. 여기서는 너의 것이 가장 크면 돼.";
+
+// Change — transitions, endings, beginnings
+"prompts.openers.change.1" = "지금 무엇이 변하고 있어?";
+"prompts.openers.change.2" = "무엇을 뒤로 두고 있어?";
+"prompts.openers.change.3" = "놓을 준비가 되었는지 확신 없는 건...";
+"prompts.openers.change.4" = "내가 향하고 있는 건...";
+"prompts.openers.change.5" = "떠나는 것을 슬퍼하면서도 다음을 원해도 돼.";
+"prompts.openers.change.6" = "사이는 허락돼. 자리 잡지 않아도 돼.";
+"prompts.openers.change.7" = "느낌: 무섭다, 설렌다, 슬프다, 다 함께?";
+"prompts.openers.change.8" = "지금 어디에: 끝, 중간, 시작, 분명하지 않음?";
+"prompts.openers.change.9" = "이 안에서 무엇이 슬픔이고 무엇이 희망?";
+"prompts.openers.change.10" = "변화는 한 가지 감정인 경우가 드물어. 보통 작별을 고하는 부분과 손을 뻗는 부분이 있어. 둘 다 동시에 사실일 수 있어.";
+
+// Wins — what clicked, breakthroughs
+"prompts.openers.wins.1" = "오늘 무엇이 잘됐어?";
+"prompts.openers.wins.2" = "너 자신에게서 무엇이 놀라웠어?";
+"prompts.openers.wins.3" = "오늘 잘한 한 가지는...";
+"prompts.openers.wins.4" = "잘 풀린 작은 것은...";
+"prompts.openers.wins.5" = "작아도 카운트. 크다고 부르지 않아도 돼.";
+"prompts.openers.wins.6" = "받아들여. 네가 얻은 거야.";
+"prompts.openers.wins.7" = "승리가 어디에: 행동, 마음, 친절, 휴식?";
+"prompts.openers.wins.8" = "느낌: 자랑, 안도, 놀람, 안정?";
+"prompts.openers.wins.9" = "도움이 된 과거의 너는 무엇을 했어?";
+"prompts.openers.wins.10" = "승리는 시끄럽거나 보일 필요 없어. 가끔 승리는 나선에 빠지지 않은 것. 가끔은 시작한 것. 어떤 모양이든 세어.";
+
+// Gratitude — what's already there
+"prompts.openers.gratitude.1" = "오늘 알아챌 가치가 있는 건?";
+"prompts.openers.gratitude.2" = "잊기 쉽지만 중요한 건?";
+"prompts.openers.gratitude.3" = "기쁜 작은 한 가지는...";
+"prompts.openers.gratitude.4" = "조금이라도 도움이 된 건...";
+"prompts.openers.gratitude.5" = "억지로 하지 마. 이미 있는 것만 알아채.";
+"prompts.openers.gratitude.6" = "작아도 충분해.";
+"prompts.openers.gratitude.7" = "어디를 봐: 사람, 순간, 장소, 너의 몸?";
+"prompts.openers.gratitude.8" = "어떤 종류: 도움이 되는, 부드러운, 평범한, 뜻밖의?";
+"prompts.openers.gratitude.9" = "오늘 거의 놓칠 뻔한 건?";
+"prompts.openers.gratitude.10" = "감사는 긴 목록일 필요 없어. 구체적인 한 가지, 나타나 준 사람, 고요한 창, 자기 일을 하는 너의 몸, 그걸로 충분해.";
+
+// Patterns — meta, recurring shapes
+"prompts.openers.patterns.1" = "최근에 무엇이 자꾸 돌아와?";
+"prompts.openers.patterns.2" = "다른 상황에서 같은 건?";
+"prompts.openers.patterns.3" = "내가 자꾸 하는 건...";
+"prompts.openers.patterns.4" = "이건...할 때 일어나는 것 같아";
+"prompts.openers.patterns.5" = "패턴은 판결이 아냐. 정보야.";
+"prompts.openers.patterns.6" = "봤다고 고칠 필요는 없어.";
+"prompts.openers.patterns.7" = "나타나는 곳: 일, 관계, 건강, 기분?";
+"prompts.openers.patterns.8" = "패턴 종류: 피하기, 뻗기, 반복, 줄어듦?";
+"prompts.openers.patterns.9" = "이건 무엇을 떠오르게 해?";
+"prompts.openers.patterns.10" = "패턴이 늘 무언가가 잘못됐다는 증거는 아냐. 가끔은 예전엔 통했지만 더는 통하지 않는 오래된 해법. 이름 붙이는 것이 부드러운 첫걸음.";
+
+// Future self — the version of you ahead
+"prompts.openers.future_self.1" = "미래의 네가 너에게 알게 하고 싶은 건?";
+"prompts.openers.future_self.2" = "1년 뒤에 무엇이 사실이길 바라?";
+"prompts.openers.future_self.3" = "1년 뒤 나는...";
+"prompts.openers.future_self.4" = "과거의 나에게 고마워할 일은...";
+"prompts.openers.future_self.5" = "미래의 너는 판단하지 않아. 너를 응원해.";
+"prompts.openers.future_self.6" = "작은 시작도 카운트.";
+"prompts.openers.future_self.7" = "향하는 것: 명료함, 용기, 가벼움, 정직?";
+"prompts.openers.future_self.8" = "어디서 시작: 습관, 관계, 일, 자기?";
+"prompts.openers.future_self.9" = "쌓이는 작은 것은?";
+"prompts.openers.future_self.10" = "미래의 너는 낯선 사람이 아냐. 이 버전이 무엇을 짊어지고 있었는지 아는 너의 버전. 무엇을 말해도 듣고 있어.";
+
+// Returning — long gap (>3 days)
+"prompts.openers.returning.1" = "지난번부터 무엇이 남아 있어?";
+"prompts.openers.returning.2" = "무엇이 바뀌었어?";
+"prompts.openers.returning.3" = "마지막으로 여기 온 뒤로 남은 건...";
+"prompts.openers.returning.4" = "오늘 다시 오게 한 건...";
+"prompts.openers.returning.5" = "공백을 설명할 필요 없어. 지금부터 시작해.";
+"prompts.openers.returning.6" = "다시 와줘서 반가워. 시작하는 곳이 옳은 자리.";
+"prompts.openers.returning.7" = "지금 더 큰 건: 같은 것, 새로운 것, 더 작은 버전?";
+"prompts.openers.returning.8" = "돌아오는 느낌: 피곤, 기쁨, 불확실, 준비됨?";
+"prompts.openers.returning.9" = "공백은 무엇을 떠오르게 했어?";
+"prompts.openers.returning.10" = "돌아왔어. 그게 카운트. 방문 사이의 침묵에 남은 것은 설명 없이 여기 둬도 돼.";
+
+// Continue — fresh thread (<24h, has assistant reply)
+"prompts.openers.continue.1" = "어디서 멈췄어?";
+"prompts.openers.continue.2" = "전에서 여전히 맴도는 건?";
+"prompts.openers.continue.3" = "멈춘 곳에서 다시 시작하면, 아직 큰 건...";
+"prompts.openers.continue.4" = "다시 돌아가고 싶은 건...";
+"prompts.openers.continue.5" = "중간부터 이어가도 돼. 처음부터 다시 안 해도 돼.";
+"prompts.openers.continue.6" = "여전히 여기 있는 건 한 분 더 가치가 있어.";
+"prompts.openers.continue.7" = "더 분명한 정도: 조금, 어느 정도, 아직 흐릿?";
+"prompts.openers.continue.8" = "돌아오게 하는 것: 감정, 생각, 사람, 루프 자체?";
+"prompts.openers.continue.9" = "다음에 말하고 싶은 건?";
+"prompts.openers.continue.10" = "어떤 생각은 한 번으론 부족해. 필요한 만큼 돌아와도 돼. 실은 여전히 여기 있어.";
+
+// Brain dump — catch-all
+"prompts.openers.brain_dump.1" = "지금 머릿속에 뭐가 있어?";
+"prompts.openers.brain_dump.2" = "머릿속에서 가장 시끄러운 건?";
+"prompts.openers.brain_dump.3" = "지금 머리는 ...로 가득해";
+"prompts.openers.brain_dump.4" = "가장 먼저 떠오르는 건...";
+"prompts.openers.brain_dump.5" = "어수선해도 환영. 구조 필요 없어.";
+"prompts.openers.brain_dump.6" = "그냥 써. 의미는 나중에 와도 돼.";
+"prompts.openers.brain_dump.7" = "음량: 크다, 흩어졌다, 루프, 조용하지만 막혔다?";
+"prompts.openers.brain_dump.8" = "무엇에 대해: 오늘, 요즘, 언제나, 분명하지 않음?";
+"prompts.openers.brain_dump.9" = "따라오는 생각은?";
+"prompts.openers.brain_dump.10" = "브레인 덤프는 의미를 가질 필요 없어. 그냥 나오기만 하면 돼. 목록, 조각, 반쪽 문장 다 좋아. 의미는 나중에 오거나 안 와도 돼.";
+
+// MARK: - Prompt Clusters (rail above AddEntry textarea)
+
+"prompts.cluster.time.title.morning" = "아침";
+"prompts.cluster.time.title.evening" = "저녁";
+"prompts.cluster.time.title.late_night" = "늦은 밤";
+"prompts.cluster.heavy.title" = "무거움";
+"prompts.cluster.looping.title" = "맴돌이";
+"prompts.cluster.someone.title" = "누군가";
+"prompts.cluster.choosing.title" = "갈림길";
+"prompts.cluster.notice.title" = "알아채기";
+"prompts.cluster.brain_dump.title" = "쏟아내기";

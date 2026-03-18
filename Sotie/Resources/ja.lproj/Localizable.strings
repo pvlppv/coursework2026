@@ -1,0 +1,806 @@
+/*
+  Localizable.strings
+  Sotie
+
+  Japanese Localization
+*/
+
+"accessibility_menu_button" = "その他のオプション";
+"accessibility_menu_button_hint" = "日付の変更や写真の追加など、その他のオプションを開きます。";
+"accessibility_save_button" = "振り返りを保存";
+"accessibility_save_button_hint" = "現在の振り返りを保存します。";
+"add_entry" = "振り返りを追加";
+"ai_analysis" = "AI分析";
+"ai_settings.depth.ask_what_matters" = "😶 大事なことを聞く";
+"ai_settings.depth.calm_me_first" = "🫶 まず落ち着かせて";
+"ai_settings.depth.give_me_next_steps" = "❤️ 次のステップを教えて";
+"ai_settings.depth.help_me_see_it_differently" = "✨ 違う見方を助けて";
+"ai_settings.depth.help_me_understand_it" = "🫶 理解を助けて";
+"ai_settings.depth.show_me_the_pattern" = "🌿 パターンを見せて";
+"ai_settings.goal.feel_clearer" = "🔍 もっとクリアに";
+"ai_settings.goal.feel_less_alone_with_it" = "🫂 孤独を減らす";
+"ai_settings.goal.know_what_to_do_next" = "✨ 次に何をすべきか知る";
+"ai_settings.goal.sleep_with_quieter_mind" = "🌙 静かな心で眠る";
+"ai_settings.goal.spot_my_patterns" = "👀 自分のパターンに気づく";
+"ai_settings.goal.stop_replaying_things" = "🔁 繰り返し考えるのをやめる";
+"ai_settings.goal.understand_my_feelings" = "🫶 自分の気持ちを理解する";
+"ai_settings.primary_goals" = "あなたがここにいる理由";
+"ai_settings.primary_goals.description" = "少なくとも1つ選んでください。Sotieが時間をかけて注目することを形作ります — 今書いていることを上書きしません。";
+"ai_settings.style.calming" = "😌 穏やか";
+"ai_settings.style.clear" = "💎 明確";
+"ai_settings.style.gentle" = "💛 やさしい";
+"ai_settings.style.practical" = "📌 実用的";
+"ai_settings.style.soft_but_direct" = "✨ 柔らかく、でも率直に";
+"ai_settings.style.warm" = "🫶 温かい";
+"ai_settings.support_depth" = "どこまで深く";
+"ai_settings.support_depth.description" = "何かを共有したとき、どんな応答が一番役に立つと感じますか？";
+"ai_settings.support_style" = "声のトーン";
+"ai_settings.support_style.description" = "Sotieがあなたに返すとき、どう聞こえるべき？";
+"ai_settings.title" = "リフレクションスタイル";
+"analytics_ai_responses" = "AI Responses";
+"analytics_avg_reflection_depth" = "Responses per Session";
+"analytics_day_short" = "日";
+"analytics_hours" = "時間";
+"analytics_last_30_days" = "過去30日間";
+"analytics_minutes" = "分";
+"analytics_most_reflective_day" = "ベストな曜日";
+"analytics_most_reflective_time" = "ベストな時間";
+"analytics_no_data" = "まだデータがありません";
+"analytics_reflecting_since" = "%@から振り返り中";
+"analytics_reflections" = "振り返り";
+"analytics_streak" = "連続日数";
+"analytics_time_afternoon" = "午後";
+"analytics_time_evening" = "夜";
+"analytics_time_morning" = "朝";
+"analytics_time_night" = "深夜";
+"analytics_time_reflecting" = "振り返りの時間";
+"analytics_time_spent" = "使った時間";
+"analytics_total_entries" = "作成した記録";
+"analytics_words_written" = "書いた文字数";
+"app_name" = "Sotie Journal";
+"cancel" = "キャンセル";
+"cannot_summarize_empty" = "空の会話履歴は要約できません";
+"change_date" = "日付を変更";
+"contact" = "お問い合わせ";
+"contact_us_include_logs" = "診断ログを含める";
+"contact_us_include_logs_desc" = "アプリの動作履歴、デバイス情報、エラーログ。問題の確認に役立ちます";
+"contact_us_message_label" = "メッセージ";
+"contact_us_message_placeholder" = "どんなことでも聞かせてください";
+"contact_us_send" = "送信";
+"contact_us_subtitle" = "気になっていることがあれば、質問でもアイデアでも不具合でも。いつでもどうぞ";
+"contact_us_title" = "お問い合わせ";
+"data_section" = "データ";
+"delete" = "削除";
+"delete_entry" = "振り返りを削除";
+"delete_entry_message" = "この振り返りを削除しますか？この操作は元に戻せません。";
+"delete_entry_title" = "振り返りを削除";
+"discover_patterns" = "データの中にあるパターンを見つける";
+"discover_patterns_and_insights" = "データの中にあるパターンや気づきを見つける";
+"done" = "完了";
+"empty_state_description" = "下をタップして書き始めましょう";
+"empty_state_title" = "はじめる準備ができました";
+"entry_text" = "振り返り";
+"error_ai_service" = "問題が発生しました。もう一度お試しください";
+"error_daily_limit_reached" = "You’ve reached today’s AI response limit. Come back tomorrow to continue.";
+"error_network" = "インターネットに接続されていません。接続を確認してください";
+"error_rate_limited" = "%d秒待ってからお試しください。リクエストが多すぎます";
+"export_entries" = "データを書き出す";
+"export_error" = "書き出しに失敗しました";
+"export_success" = "書き出しが完了しました";
+"failed_to_summarize" = "会話の要約に失敗しました: %@";
+"import_confirm_action" = "読み込む";
+"import_confirm_message" = "新しい振り返りが追加されます。重複はスキップされます。統計が含まれている場合は更新されます。";
+"import_confirm_title" = "データを読み込む";
+"import_entries" = "データを読み込む";
+"import_entries_imported" = "%d件の振り返りを読み込みました";
+"import_entries_imported_skipped" = "%d件の振り返りを読み込み、%d件をスキップしました（重複）";
+"import_error" = "読み込みに失敗しました";
+"import_success" = "読み込みが完了しました";
+"journal_entry" = "振り返り";
+"last_week" = "先週";
+"legal" = "法的情報";
+"next" = "次へ";
+"no_entries_yet" = "まだ振り返りはありません";
+"note_placeholder" = "ここに書いてください...";
+"note_placeholder_initial" = "今、どんなことを考えていますか？";
+"notification.follow_up.fallback" = "あのときから、何が変わりましたか？";
+"notification.re_engagement.fallback" = "今は何が違いますか？";
+"notification_settings" = "通知";
+"notifications" = "通知";
+"notifications.type.conversation_follow_up.description" = "タイミングが合うときに、最近の会話の続きを振り返れます";
+"notifications.type.conversation_follow_up.title" = "会話の続きを振り返る";
+"notifications.type.morning_reminder.title" = "朝のリマインダー";
+"notifications.type.morning_reminder.description" = "正直な一行で一日を始めるための、やさしいきっかけ";
+"notifications.type.evening_reminder.title" = "夜のリマインダー";
+"notifications.type.evening_reminder.description" = "今日のなかで残ったものを置いていける場所";
+"notifications.type.re_engagement.description" = "しばらく空いたあとに、やさしく戻るきっかけを受け取れます";
+"notifications.type.re_engagement.title" = "やさしい再訪";
+"notifications_disabled" = "通知はオフです";
+"notifications_disabled_message" = "リマインダーを受け取るには、設定で通知をオンにしてください。";
+"ok" = "OK";
+"onboarding_write_here" = "ここに書いてください...";
+"open_collection" = "開く";
+"open_settings" = "設定を開く";
+"preferences" = "設定";
+"language" = "言語";
+"current_language" = "日本語";
+"language_settings_info" = "AI responses will use the selected language.";
+
+// MARK: - Theme
+"theme.settings.title" = "テーマ";
+"theme.settings.description" = "パレットを選んでください。各テーマはライト/ダークモードに自動で対応します。";
+"theme.variant.parchment" = "パーチメント";
+"theme.variant.ink" = "インク";
+"theme.variant.sage" = "セージ";
+"theme.variant.dusk" = "ダスク";
+"theme.variant.iris" = "アイリス";
+"theme.variant.blush" = "ブラッシュ";
+"premium_annual" = "年間";
+"premium_benefit_1" = "Go Deeper が無制限";
+"premium_benefit_2" = "繰り返すパターンに気づける";
+"premium_benefit_3" = "大事な流れを途切れさせない";
+"premium_billed_annually" = "年額で請求";
+"premium_billed_monthly" = "月額で請求";
+"premium_billing_per_month" = "月あたり";
+"premium_billing_per_year" = "年あたり";
+"premium_continue_annual" = "年間プランで続ける";
+"premium_error_cancelled" = "購入はキャンセルされました。";
+"premium_error_product_not_found" = "商品が見つかりません。";
+"premium_error_purchase_failed" = "購入に失敗しました。もう一度お試しください。";
+"premium_error_restore_failed" = "復元できる購入がありません。";
+"premium_hero_default_subtitle_trial" = "途切れずに振り返りを続けて、時間の中で見えてくるパターンにも気づけます。";
+"premium_hero_default_title" = "流れを止めずに、もっと深く";
+"premium_hero_limit_subtitle_trial" = "この振り返りを、制限なく続けられます。";
+"premium_hero_limit_title" = "いちばん大事なところで止まらないで";
+"premium_hero_onboarding_subtitle_trial" = "途切れない振り返りと、すべてのプレミアム機能を解放します。";
+"premium_hero_onboarding_title" = "まだ鮮明なうちに、このまま続けよう";
+"premium_hero_settings_subtitle_trial" = "Sotie を制限なく使って、時間の中で見えてくるパターンにも気づけます。";
+"premium_hero_settings_title" = "より深い振り返りを解放";
+"premium_journey_step_1" = "今の気持ちを整理する";
+"premium_journey_step_2" = "繰り返すテーマに気づく";
+"premium_journey_step_3" = "全体の流れが見えてくる";
+"premium_journey_time_1" = "今日";
+"premium_journey_time_2" = "1週間";
+"premium_journey_time_3" = "1か月";
+"premium_manage_subscription" = "サブスクリプションを管理";
+"premium_maybe_later" = "あとで";
+"premium_monthly" = "月間";
+"premium_monthly_equivalent" = "月あたり %@";
+"premium_per_month" = "/月";
+"premium_per_year" = "/年";
+"premium_privacy" = "プライバシー";
+"premium_products_unavailable" = "現在サブスクリプションを利用できません。インターネット接続を確認して、もう一度お試しください。";
+"premium_response_limit_reached_desc" = "You can go deeper. Unlock unlimited reflection and keep your self-discovery moving.";
+"premium_ai_responses_today" = "AI responses today";
+"premium_restore" = "復元";
+"premium_save_percent" = "−%d%%";
+"premium_status_free" = "無料";
+"premium_status_premium" = "プレミアム";
+"premium_subscribe" = "登録する";
+"premium_subscribe_monthly" = "月額プランに登録";
+"premium_subscribe_to_unlock" = "登録して解放";
+"premium_subscription_disclaimer" = "プレミアムは自動更新のサブスクリプションです。App Store の設定からいつでも解約できます。";
+"premium_subtitle" = "気持ちを整理したいとき、いつでももっと深く";
+"premium_terms" = "利用規約";
+"premium_timeline_day3" = "6日目";
+"premium_timeline_day3_detail" = "トライアル終了が近づいたらお知らせします。";
+"premium_timeline_day7" = "7日目";
+"premium_timeline_day7_detail" = "この日までにキャンセルしない場合、課金が始まります。";
+"premium_timeline_today" = "今日";
+"premium_timeline_today_detail" = "今すぐ、すべてのプレミアム機能が使えます。";
+"premium_title" = "制限なく、もっと深く";
+"premium_trial_info_dynamic" = "%d日間無料、その後 %@%@";
+"premium_try_seven_days_free" = "7日間無料で試す";
+"premium_upgrade" = "無制限の振り返りを解放";
+"privacy_local_storage_message" = "すべてのデータはこのデバイスのみに保存されます。バックアップのため、定期的な書き出しをおすすめします。";
+"privacy_local_storage_title" = "このデバイスに保存";
+"privacy_policy" = "プライバシーポリシー";
+"quantity" = "数量";
+"rate_app" = "アプリを評価";
+"recent_insights" = "最近の気づき";
+"reflections_banner_a11y" = "今週は %d 日リフレクションしました。タップしてカレンダーを開きます。";
+"reflections_best_streak" = "ベスト：%d %@";
+"reflections_current_streak" = "現在の連続記録";
+"reflections_day_unit_few" = "日";
+"reflections_day_unit_many" = "日";
+"reflections_day_unit_one" = "日";
+"reflections_longest_streak" = "最長連続記録";
+"reflections_nudge_day_one" = "1日目。いちばん難しい日。もう越えた。";
+"reflections_nudge_early_momentum" = "数日続いた。出てくるものに気づき続けて。";
+"reflections_nudge_first_time" = "1日から始めればいい。あとは続いていく。";
+"reflections_nudge_practice" = "もう習慣になっている。自分のために来ている。";
+"reflections_nudge_returning" = "準備できたらまた戻ってきて。今日もちゃんと数える。";
+"reflections_nudge_week_rhythm" = "1週間は本物のサイン。パターンが見えはじめる。";
+"reflections_see_all" = "すべて見る";
+"reflections_this_week" = "今週";
+"reflections_title" = "リフレクション";
+"reply_to_reflection" = "Reply to reflection";
+"share_sotie" = "Sotie をシェア";
+"share_text" = "Sotie Journal をチェックしてみてください。質問を返してくれて、気持ちの整理を助けてくれる AI ジャーナルです";
+"show_onboarding" = "オンボーディングを表示";
+"statistics" = "統計";
+"tap_plus_to_add_first_entry" = "+ ボタンをタップして最初の振り返りを追加しましょう";
+"terms_of_service" = "利用規約";
+"this_week" = "今週";
+"today" = "今日";
+"unsaved_changes_discard" = "変更を破棄";
+"unsaved_changes_save" = "保存";
+"unsaved_changes_title" = "未保存の変更があります";
+
+/* Finish & まとめ */
+"finish" = "完了";
+"finish_reflection" = "この振り返りを完了しますか？";
+"insights_generating" = "振り返りをまとめています...";
+"insights_what_happened" = "何が起きたか";
+"insights_whats_underneath" = "その奥にあるもの";
+"insights_what_matters_now" = "今大切なこと";
+"insights_done" = "完了";
+"insights_error" = "まとめを生成できませんでした";
+"insights_retry" = "再試行";
+"insights_skip" = "スキップ";
+"insights_title" = "まとめ";
+"insights_view_menu" = "まとめを見る";
+"values" = "値";
+"yesterday" = "昨日";
+
+/* === Onboarding Flow (auto-translated) === */
+
+"onboarding_flow.hey" = "こんにちは";
+"onboarding_flow.tap_to_continue" = "タップして続ける";
+"onboarding_flow.vp1.headline" = "頭から離れない思考、ない?";
+"onboarding_flow.vp1.highlight" = "思考";
+"onboarding_flow.vp1.body1" = "それは出てくる、
+眠ろうとするとき、";
+"onboarding_flow.vp1.body2" = "集中しようとするとき、";
+"onboarding_flow.vp1.body3" = "普通でいようとするとき。";
+"onboarding_flow.vp2.headline" = "sotieはその下にあるものを理解する手助けをします";
+"onboarding_flow.vp2.highlight" = "下にあるもの";
+"onboarding_flow.vp2.subtitle" = "シンプルだよ";
+"onboarding_flow.vp2.subtitle_highlight" = "シンプル";
+"onboarding_flow.vp2.body1" = "気になっていることを書く";
+"onboarding_flow.vp2.body2" = "sotieが映し返す";
+"onboarding_flow.vp2.body3" = "頭がすっきりする";
+"onboarding_flow.vp2.body3_highlight" = "すっきり";
+"onboarding_flow.first_things_first" = "まずは最初に";
+"onboarding_flow.name_question" = "なんて呼べばいい?";
+"onboarding_flow.name_fallback" = "あなた";
+"onboarding_flow.continue" = "続ける";
+"onboarding_flow.consider_line1" = "わかった、%@、";
+"onboarding_flow.consider_line2" = "これを考えてみて...";
+"onboarding_flow.survey.thought_question" = "どんな思考が繰り返し戻ってくる?";
+"onboarding_flow.survey.thought_question_highlight" = "思考";
+"onboarding_flow.survey.thought.someone" = "誰か";
+"onboarding_flow.survey.thought.what_happened" = "起きたこと";
+"onboarding_flow.survey.thought.something_i_did" = "自分がしたこと";
+"onboarding_flow.survey.thought.what_to_do" = "どうするか";
+"onboarding_flow.survey.thought.feeling" = "感情";
+"onboarding_flow.survey.thought.myself" = "自分自身";
+"onboarding_flow.survey.pattern_question" = "どれくらいの頻度で戻ってくる?";
+"onboarding_flow.survey.pattern.all_the_time" = "ずっと、消えない";
+"onboarding_flow.survey.pattern.pretty_often" = "よく、何時間も";
+"onboarding_flow.survey.pattern.sometimes" = "時々、戻ってくる";
+"onboarding_flow.survey.pattern.not_much" = "あまり、しばらく";
+"onboarding_flow.survey.pattern.rarely" = "たまに、すぐ消える";
+"onboarding_flow.empathy.youll_spend" = "あなたは";
+"onboarding_flow.empathy.hours_this_year" = "時間を今年使うことになる";
+"onboarding_flow.empathy.thats" = "それは";
+"onboarding_flow.empathy.days" = "日";
+"onboarding_flow.empathy.question" = "そのうちどれくらいが本当にすっきりする助けになってる?";
+"onboarding_flow.empathy.question_highlight" = "すっきり";
+"onboarding_flow.empathy.verb.default" = "起きたことを繰り返し考えて";
+"onboarding_flow.empathy.verb.someone" = "誰かのことを考えて";
+"onboarding_flow.empathy.verb.what_happened" = "起きたことを繰り返し考えて";
+"onboarding_flow.empathy.verb.something_i_did" = "自分がしたことを繰り返し考えて";
+"onboarding_flow.empathy.verb.what_to_do" = "どうするか考えて";
+"onboarding_flow.empathy.verb.feeling" = "感情を理解しようとして";
+"onboarding_flow.empathy.verb.myself" = "自分を疑って";
+"onboarding_flow.hope.line1" = "そのままじゃなくていい";
+"onboarding_flow.hope.line2" = "毎日たった5分、自分のためのすっきり時間ある?";
+"onboarding_flow.hope.line2_highlight1" = "5分";
+"onboarding_flow.hope.line2_highlight2" = "すっきり";
+"onboarding_flow.hope.line3" = "あなたのプランを作ろう";
+"onboarding_flow.goal.question" = "sotieで何を達成したい?";
+"onboarding_flow.goal.subtitle" = "最大3つ選んでね";
+"onboarding_flow.goal.feel_clearer" = "気持ちをすっきりさせる";
+"onboarding_flow.goal.stop_replaying" = "繰り返し考えるのをやめる";
+"onboarding_flow.goal.understand_feelings" = "自分の感情を理解する";
+"onboarding_flow.goal.know_what_to_do" = "次にどうするかわかる";
+"onboarding_flow.goal.sleep_quieter" = "落ち着いた頭で眠る";
+"onboarding_flow.goal.feel_less_alone" = "ひとりじゃないと感じる";
+"onboarding_flow.goal.spot_patterns" = "自分のパターンに気づく";
+"onboarding_flow.goal.desc.feel_clearer" = "思考をゆっくり扱えるよう手伝います。何を伝えようとしているかが見えてきます。";
+"onboarding_flow.goal.desc.stop_replaying" = "ぐるぐる回るループを、理解できるものに変えるのを助けます。";
+"onboarding_flow.goal.desc.understand_feelings" = "sotieは感じていることに名前をつけ、その下にあるものに気づく手助けをします。";
+"onboarding_flow.goal.desc.know_what_to_do" = "次の一歩がはっきり見えるまで、ノイズを整理する手助けをします。";
+"onboarding_flow.goal.desc.sleep_quieter" = "寝る前に思考を置いていけるよう、ループを止めるのを助けます。";
+"onboarding_flow.goal.desc.feel_less_alone" = "あなたが感じていることを映し返すから、深夜2時でも聞いてもらえている感覚になります。";
+"onboarding_flow.goal.desc.spot_patterns" = "時間が経つと、sotieは何が繰り返し戻ってくるか、なぜかを示します。";
+"onboarding_flow.vision.question" = "もっと大きく考えて、すっきりした頭ってあなたにとってどんな感じ?";
+"onboarding_flow.vision.question_highlight" = "すっきりした頭";
+"onboarding_flow.vision.trusting" = "もっと自分を信じる";
+"onboarding_flow.vision.naming" = "感じていることに名前をつける";
+"onboarding_flow.vision.coming_back" = "自分に戻ってくる";
+"onboarding_flow.vision.replying" = "落ち着いて返事する";
+"onboarding_flow.vision.sleeping" = "考えすぎずに眠る";
+"onboarding_flow.vision.staying" = "コントロールを保つ";
+"onboarding_flow.plan.footer_title" = "正しい場所にいるよ";
+"onboarding_flow.plan.footer_body" = "何万人もが同じ目標で始めて、sotieが彼らのゴールを助けてきました。";
+"onboarding_flow.feeling.question" = "今、その思考はどんな感じ?";
+"onboarding_flow.feeling.question_highlight" = "感じ";
+"onboarding_flow.feeling.keeps_looping" = "ループしている";
+"onboarding_flow.feeling.unresolved" = "解決していない感じ";
+"onboarding_flow.feeling.hard_to_explain" = "説明しにくい";
+"onboarding_flow.feeling.still_hurts" = "まだ痛む";
+"onboarding_flow.feeling.messy" = "ぐちゃぐちゃ";
+"onboarding_flow.feeling.loud_at_night" = "夜に大きくなる";
+"onboarding_flow.blocker.question" = "一番の邪魔になっているのは何?";
+"onboarding_flow.blocker.question_highlight" = "一番";
+"onboarding_flow.blocker.no_clear_answer" = "はっきりした答えがない";
+"onboarding_flow.blocker.things_unsaid" = "言えなかったこと";
+"onboarding_flow.blocker.what_ifs" = "「もしも」が多すぎる";
+"onboarding_flow.blocker.solve_alone" = "ひとりで解決しようとする";
+"onboarding_flow.blocker.rereading" = "全部読み返す";
+"onboarding_flow.blocker.waiting" = "通り過ぎるのを待つ";
+"onboarding_flow.underneath.question" = "その下にあるのは何だと思う?";
+"onboarding_flow.underneath.question_highlight" = "下にあるの";
+"onboarding_flow.underneath.reassurance" = "安心がほしい";
+"onboarding_flow.underneath.closure" = "区切りがほしい";
+"onboarding_flow.underneath.heard" = "聞いてもらいたい";
+"onboarding_flow.underneath.doubting" = "自分を疑っている";
+"onboarding_flow.underneath.hurt" = "傷ついている";
+"onboarding_flow.underneath.make_sense" = "意味がほしい";
+"onboarding_flow.help.question" = "今、何が助けになる?";
+"onboarding_flow.help.question_highlight" = "助け";
+"onboarding_flow.help.understand" = "それを理解する";
+"onboarding_flow.help.put_into_words" = "言葉にする";
+"onboarding_flow.help.slow_down" = "スピードを落とす";
+"onboarding_flow.help.see_clearly" = "はっきり見る";
+"onboarding_flow.help.know_what_to_do" = "どうするか知る";
+"onboarding_flow.help.leave_tonight" = "今夜はそのままにする";
+"onboarding_flow.thank_you.line1" = "正直に話してくれてありがとう、%@。";
+"onboarding_flow.thank_you.line1_highlight" = "正直";
+"onboarding_flow.thank_you.line2" = "これはランダムな思考じゃない。";
+"onboarding_flow.thank_you.line3" = "戻ってくるのは、その下のなにかがまだすっきりしたがっているから。";
+"onboarding_flow.thank_you.line3_highlight" = "すっきり";
+"onboarding_flow.thank_you.line4" = "sotieはまず聞いて、映し返して、何が起きているかを理解する手助けをします。";
+"onboarding_flow.style.question" = "どんなサポートが一番しっくりくる?";
+"onboarding_flow.style.subtitle" = "sotieがあなたにぴったり合うように";
+"onboarding_flow.style.subtitle_highlight" = "あなたに";
+"onboarding_flow.style.gentle" = "やさしい";
+"onboarding_flow.style.warm" = "温かい";
+"onboarding_flow.style.calming" = "穏やか";
+"onboarding_flow.style.clear" = "明確";
+"onboarding_flow.style.practical" = "実用的";
+"onboarding_flow.style.soft_but_direct" = "柔らかく、でも率直に";
+"onboarding_flow.depth.question" = "どれくらい深くサポートする?";
+"onboarding_flow.depth.calm_me_first" = "まず落ち着かせて";
+"onboarding_flow.depth.help_me_understand_it" = "理解を助けて";
+"onboarding_flow.depth.ask_what_matters" = "大事なことを聞く";
+"onboarding_flow.depth.show_me_the_pattern" = "パターンを見せて";
+"onboarding_flow.depth.help_me_see_it_differently" = "違う見方を助けて";
+"onboarding_flow.depth.give_me_next_steps" = "次のステップを教えて";
+"onboarding_flow.summary.title" = "ありがとう、%@。";
+"onboarding_flow.summary.subtitle" = "あなたが共有してくれた内容をもとに、これからの道のりを一緒に見ていきましょう。";
+"onboarding_flow.summary.where_to_go" = "目指したい場所";
+"onboarding_flow.summary.where_now" = "今いる場所";
+"onboarding_flow.summary.standing" = "邪魔しているもの";
+"onboarding_flow.summary.message" = "%@、あなたが今どこにいて、どこへ行きたいかが見えました。一緒にこのループをもっとすっきりしたものに変えていけます。";
+"onboarding_flow.chart.title" = "理解されると、思考は静かになる";
+"onboarding_flow.chart.body" = "リフレクションを続けて。思考に着地する場所を与えるほど、頭の中だけで生きなくてよくなる。";
+"onboarding_flow.chart.cta" = "sotieの仕組みを見る";
+"onboarding_flow.chart.legend_clarity" = "すっきり & リフレクション";
+"onboarding_flow.chart.legend_overthinking" = "考えすぎ & 繰り返し";
+"onboarding_flow.chart.week1" = "1週目";
+"onboarding_flow.chart.week2" = "2週目";
+"onboarding_flow.chart.week3" = "3週目";
+"onboarding_flow.demo.welcome" = "こんにちは、%@、私はSotieです。
+
+頭から離れない思考を、頭の中にあるそのままの言葉で書いてみてください。
+
+それから一緒にリフレクションしていきます。ゆっくり、正直に答えてください - 共有が増えるほど、すっきりしていきます。
+
+送るには、下のキラキラボタンをタップしてください。";
+"onboarding_flow.demo.footer_primary" = "これがsotieの使い方 - 書いて、映して、もっと深く。";
+"onboarding_flow.demo.footer_secondary" = "このリフレクションは、いつでもジャーナルから続けられます。";
+"onboarding_flow.demo_complete.title" = "おめでとう!";
+"onboarding_flow.demo_complete.subtitle" = "最初のリフレクションを始めました";
+"onboarding_flow.demo_complete.message" = "リフレクションはジャーナルに保存されて、時間とともに自分をよりはっきり理解できるようになります";
+"onboarding_flow.streak.day_label" = "日連続";
+"onboarding_flow.streak.body" = "いいスタート! 毎日のリフレクション習慣を続けていこう";
+"onboarding_flow.plan_loading.step1" = "あなたのリフレクションを読んでいます...";
+"onboarding_flow.plan_loading.step2" = "あなたのループを理解しています...";
+"onboarding_flow.plan_loading.step3" = "下にあるものを探しています...";
+"onboarding_flow.plan_loading.step4" = "リフレクションスタイルを設定しています...";
+"onboarding_flow.plan_loading.step5" = "あなたの「すっきりプラン」を作っています...";
+"onboarding_flow.plan_ready.headline" = "%@、あなたの
+パーソナルプランが完成しました。";
+"onboarding_flow.plan_ready.cta" = "プランを見る";
+"onboarding_flow.plan.hero_headline" = "%@、あなたの頭がすっきりするのは";
+"onboarding_flow.plan.stat_reflections" = "毎日の
+リフレクション";
+"onboarding_flow.plan.stat_mornings" = "すっきりした
+朝";
+"onboarding_flow.plan.stat_insights" = "保存された
+気づき";
+"onboarding_flow.plan.invested" = "1年で30時間以上をすっきりに投資";
+"onboarding_flow.plan.how_well_get_there" = "そこへの行き方:";
+"onboarding_flow.plan.method1_title" = "毎日、あなたのリフレクション";
+"onboarding_flow.plan.method1_body" = "書くだけでいい、sotieが聞いてリフレクションを導きます。";
+"onboarding_flow.plan.method2_title" = "ガイド付きリフレクション";
+"onboarding_flow.plan.method2_body" = "思考のスピードを落として、下にあるものを理解して、次の一歩を持って帰る。";
+"onboarding_flow.plan.method3_title" = "覚えているジャーナル";
+"onboarding_flow.plan.method3_body" = "リフレクションと統計と気づきが、時間とともに繰り返すパターンを見せてくれます。";
+"onboarding_flow.commitment.lead_in" = "では、";
+"onboarding_flow.commitment.question" = "すっきりした頭を作ることに、
+どれくらい本気?";
+"onboarding_flow.commitment.extremely" = "超本気";
+"onboarding_flow.commitment.very" = "とても本気";
+"onboarding_flow.commitment.somewhat" = "そこそこ本気";
+"onboarding_flow.commitment.little" = "ちょっと本気";
+"onboarding_flow.commitment.just_trying" = "試してみる感じ";
+"onboarding_flow.commitment_msg.extremely.title" = "全力で取り組んでるね。";
+"onboarding_flow.commitment_msg.extremely.body" = "それは大事です。すっきりは完璧な思考から来ません。自分に戻ってくることから来ます、リフレクションを一つずつ。";
+"onboarding_flow.commitment_msg.very.title" = "準備ができてるよ。";
+"onboarding_flow.commitment_msg.very.body" = "今日すべて解決しなくていい。思考のスピードを落として、もっとよく理解できる場所があれば十分。";
+"onboarding_flow.commitment_msg.somewhat.title" = "始めるには十分。";
+"onboarding_flow.commitment_msg.somewhat.body" = "完璧に準備ができていなくていい。小さなリフレクションも数に入る。";
+"onboarding_flow.commitment_msg.little.title" = "ちょっとでも十分。";
+"onboarding_flow.commitment_msg.little.body" = "完璧でいなきゃというプレッシャーはなし。正直な一行で始めるには十分。";
+"onboarding_flow.commitment_msg.just_trying.title" = "試すだけで十分。";
+"onboarding_flow.commitment_msg.just_trying.body" = "プレッシャーはなし。一つの思考、一つのリフレクション、一つだけはっきりした次の一歩。";
+"onboarding_flow.done" = "完了";
+"onboarding_flow.notif_priming.title" = "リフレクションの通知";
+"onboarding_flow.notif_priming.alert_title" = "Sotieが通知を送る許可をお願いしています";
+"onboarding_flow.notif_priming.alert_body" = "戻って、リフレクションして、連続記録を続けるためのやさしい通知。";
+"onboarding_flow.notif_priming.allow" = "許可";
+"onboarding_flow.notif_priming.deny" = "許可しない";
+"onboarding_flow.try_now.title" = "sotieを
+無料で試してみて";
+"onboarding_flow.try_now.no_payment" = "今は支払いなし";
+"onboarding_flow.try_now.cta" = "今すぐ試す";
+"onboarding_flow.trial_reminder.title" = "無料トライアルが
+終わる前に
+リマインダーを送ります";
+"onboarding_flow.trial_reminder.no_payment" = "今は支払いなし";
+"onboarding_flow.trial_reminder.cta" = "無料で続ける";
+"onboarding_flow.trial_reminder.disclosure" = "キャンセルしない場合、無料トライアル終了時に課金が始まります。プランは自動更新されます。App Storeでキャンセルできます。";
+"onboarding_flow.paywall.title" = "3日間の無料トライアルを
+始めて続ける";
+"onboarding_flow.paywall.title_benefits" = "sotieを開いて
+もっとすっきりリフレクション";
+"onboarding_flow.paywall.timeline.today_title" = "今日";
+"onboarding_flow.paywall.timeline.today_body" = "無制限のリフレクション、より深い対話、すっきりした朝を解放。";
+"onboarding_flow.paywall.timeline.day2_title" = "2日後 - リマインダー";
+"onboarding_flow.paywall.timeline.day2_body" = "通知を許可していれば、トライアルがもうすぐ終わることをお知らせします。";
+"onboarding_flow.paywall.timeline.day3_title" = "3日後 - 課金開始";
+"onboarding_flow.paywall.timeline.day3_body" = "%@に請求されます。事前にキャンセル可能です。";
+"onboarding_flow.paywall.badge.trial" = "3日間無料";
+"onboarding_flow.paywall.price.monthly" = "%@/月";
+"onboarding_flow.paywall.no_payment" = "今は支払いなし";
+"onboarding_flow.paywall.no_commitment" = "縛りなし、いつでもキャンセル";
+"onboarding_flow.paywall.cta.start_trial" = "3日間無料トライアルを始める";
+"onboarding_flow.paywall.cta.continue" = "続ける";
+"onboarding_flow.paywall.cta.start_journey" = "旅を始める";
+"onboarding_flow.paywall.disclosure.per_year" = "年間 %@";
+"onboarding_flow.paywall.disclosure.per_month" = "月額 %@";
+"onboarding_flow.paywall.disclosure.with_trial" = "3日間無料、その後 %@。年額請求。自動更新されます、キャンセルしない限り。App Storeでキャンセル。";
+"onboarding_flow.paywall.disclosure.no_trial" = "%@。自動更新されます、キャンセルしない限り。App Storeでキャンセル。";
+"onboarding_flow.paywall.benefit1.title" = "無制限のリフレクション";
+"onboarding_flow.paywall.benefit1.body" = "毎日の制限なく、すべての思考をもっと深く。";
+"onboarding_flow.paywall.benefit2.title" = "進歩を見える化";
+"onboarding_flow.paywall.benefit2.body" = "グラフとカレンダーで、すっきりがどう積み上がるかを表示。";
+"onboarding_flow.paywall.benefit3.title" = "止まったときのプロンプト";
+"onboarding_flow.paywall.benefit3.body" = "白紙のページに困らない。Sotieが始めるヒントを提案。";
+"onboarding_flow.footer.pricing_full" = "年間たった %1$@ (%2$@)";
+"onboarding_flow.footer.pricing_fallback" = "年間たった $68.99";
+"onboarding_flow.footer.pricing_per_month" = "%@/月";
+"onboarding_flow.paywall.plan_yearly" = "年間";
+
+
+/* Onboarding discount: Live Activity + paywall */
+"onboarding_discount.activity.headline" = "あなたへの限定サプライズギフト";
+"onboarding_discount.activity.cta" = "ギフトを開く";
+"onboarding_discount.activity.final.purchased" = "ようこそ。";
+"onboarding_discount.activity.final.closed" = "オファー終了";
+"onboarding_discount.activity.final.expired" = "オファーの期限切れ";
+"onboarding_discount.paywall.title" = "一度きりのオファー";
+"onboarding_discount.paywall.percent_off" = "%d%% オフ";
+"onboarding_discount.paywall.warning" = "このオファーは二度と表示されません";
+"onboarding_discount.paywall.price.only" = "たった ";
+"onboarding_discount.paywall.price.per_week" = "/週";
+"onboarding_discount.paywall.price.lowest" = "*史上最安値。年額請求";
+"onboarding_discount.paywall.price.per_year" = "%@/年";
+"onboarding_discount.paywall.cta" = "一度きりのオファーを受ける";
+// MARK: - エントリープロンプト（カード）
+
+// Category titles — single word where possible
+"prompts.category.morning.title" = "Morning";
+"prompts.category.evening.title" = "Evening";
+"prompts.category.late_night.title" = "Late night";
+"prompts.category.stuck.title" = "Stuck";
+"prompts.category.replay.title" = "Replay";
+"prompts.category.heavy.title" = "Heavy";
+"prompts.category.frustrated.title" = "Frustrated";
+"prompts.category.numb.title" = "Numb";
+"prompts.category.anxious.title" = "Anxious";
+"prompts.category.restless.title" = "Restless";
+"prompts.category.decision.title" = "Decision";
+"prompts.category.someone.title" = "Someone";
+"prompts.category.you_vs_them.title" = "You vs them";
+"prompts.category.change.title" = "Change";
+"prompts.category.wins.title" = "Wins";
+"prompts.category.gratitude.title" = "Gratitude";
+"prompts.category.patterns.title" = "Patterns";
+"prompts.category.future_self.title" = "Future self";
+"prompts.category.returning.title" = "Returning";
+"prompts.category.continue.title" = "Continue";
+"prompts.category.brain_dump.title" = "Brain dump";
+
+// Accessibility hint shown by VoiceOver when focusing a prompt card.
+"prompts.card.accessibility_hint" = "Double tap to start with this prompt.";
+
+// MARK: - プロンプト（書き出し）
+
+// Morning — intention, focus, lens for the day
+"prompts.openers.morning.1" = "今日、何を変えたい？";
+"prompts.openers.morning.2" = "今日いちばん大事なことは？";
+"prompts.openers.morning.3" = "今日、何度も戻ってくるのは...";
+"prompts.openers.morning.4" = "今朝いちばん最初に頭に浮かんだのは...";
+"prompts.openers.morning.5" = "予定はまだいい。一言から始めよう。";
+"prompts.openers.morning.6" = "目標はいらない。どこから始まっているかだけ言ってみて。";
+"prompts.openers.morning.7" = "今のエネルギー：重い、やわらかい、鋭い、それともバラバラ？";
+"prompts.openers.morning.8" = "この時間の気分：穏やか、不安、もやもや、それとも準備できてる？";
+"prompts.openers.morning.9" = "あなたの残りの部分は今日、何を望んでる？";
+"prompts.openers.morning.10" = "朝はまだ一日が開いている時間。最初に出てきたものを書けばいい。意味はまだなくていい。";
+
+// Evening — release, what stayed
+"prompts.openers.evening.1" = "今日、何が残った？";
+"prompts.openers.evening.2" = "今日からまだ回っているものは？";
+"prompts.openers.evening.3" = "今日から戻ってくるのは...";
+"prompts.openers.evening.4" = "今日を一言にしたら...";
+"prompts.openers.evening.5" = "一日が終わった。言えなかったことはここに置ける。";
+"prompts.openers.evening.6" = "まとめなくていい。小さなひとかけらで十分。";
+"prompts.openers.evening.7" = "今日の感じ：軽い、重い、混ざってる、それともぼやけてる？";
+"prompts.openers.evening.8" = "いちばん気づいたこと：人、仕事、体、それとも静けさ？";
+"prompts.openers.evening.9" = "今日、何が驚きだった？";
+"prompts.openers.evening.10" = "夜は残ったものを抱える時間。行き場がなかった考え、まだ大きい小さなこと。ここに置いていい。";
+
+// Late night — won't quiet, can't sleep
+"prompts.openers.late_night.1" = "何が眠らせない？";
+"prompts.openers.late_night.2" = "どんな考えが起こしておく？";
+"prompts.openers.late_night.3" = "今夜戻ってくる考えは...";
+"prompts.openers.late_night.4" = "今、大きく聞こえているのは...";
+"prompts.openers.late_night.5" = "今夜直さなくていい。名前をつけるだけ。";
+"prompts.openers.late_night.6" = "もう遅い。小さくていい。";
+"prompts.openers.late_night.7" = "体のどこに住んでいる：胸、頭、お腹、それとも全部？";
+"prompts.openers.late_night.8" = "近い言葉：不安、悲しい、落ち着かない、それとも興奮？";
+"prompts.openers.late_night.9" = "今、ほんの少しでも助けになるのは？";
+"prompts.openers.late_night.10" = "夜は物事を大きく見せる。眠らせないものでも、ここに置けば解決しなくていい。着地するだけで十分。";
+
+// Stuck — too many things, can't pick
+"prompts.openers.stuck.1" = "全部が同時に引っ張ってくるのは何？";
+"prompts.openers.stuck.2" = "一つだけ考えられるとしたら、どれ？";
+"prompts.openers.stuck.3" = "今いちばん大きい糸は...";
+"prompts.openers.stuck.4" = "一つから始めるなら、それは...";
+"prompts.openers.stuck.5" = "全部ほどかなくていい。一つずつ。";
+"prompts.openers.stuck.6" = "詰まってていい。どこからでも。";
+"prompts.openers.stuck.7" = "いちばんもつれているのは：時間、人、選択、それとも気持ち？";
+"prompts.openers.stuck.8" = "どこから始める：いちばん小さい、大きい、古い、新しい？";
+"prompts.openers.stuck.9" = "少し動くってどんな感じ？";
+"prompts.openers.stuck.10" = "全部が同時に話しているとき、全部聞かなくていい。いちばん近い糸を引いて。残りは待てる。";
+
+// Replay — one thought looping
+"prompts.openers.replay.1" = "どんな考えが戻ってくる？";
+"prompts.openers.replay.2" = "どの部分が繰り返される？";
+"prompts.openers.replay.3" = "戻ってしまう場面は...";
+"prompts.openers.replay.4" = "頭の中で鳴り続ける一文は...";
+"prompts.openers.replay.5" = "なぜまだあるか分からなくていい。ここに置いて。";
+"prompts.openers.replay.6" = "解こうとしなくても、繰り返していていい。";
+"prompts.openers.replay.7" = "感じ：詰まってる、落ち着かない、恥ずかしい、それとも不公平？";
+"prompts.openers.replay.8" = "ほしいもの：終わり、理解、答え、それとも静けさ？";
+"prompts.openers.replay.9" = "そのループはあなたから何を求めてる？";
+"prompts.openers.replay.10" = "戻ってくる考えは、見落としたからじゃなくて、まだ着地する場所を探しているから。ここがその場所になっていい。";
+
+// Heavy — sad, low, weight
+"prompts.openers.heavy.1" = "今、何が重い？";
+"prompts.openers.heavy.2" = "いつもより何が大変？";
+"prompts.openers.heavy.3" = "重さは...";
+"prompts.openers.heavy.4" = "今、私が抱えているのは...";
+"prompts.openers.heavy.5" = "軽くしなくていい。ただ言って。";
+"prompts.openers.heavy.6" = "重くていい。必要なだけここにいて。";
+"prompts.openers.heavy.7" = "近い言葉：悲しい、沈んでる、疲れた、それとも空っぽ？";
+"prompts.openers.heavy.8" = "感じる場所：胸、喉、お腹、それとも全部？";
+"prompts.openers.heavy.9" = "痛みの下で何が痛い？";
+"prompts.openers.heavy.10" = "重さに必ずしもはっきりした理由はない。ただ、ある。どんな形でも、ここに少し置いていい。";
+
+// Frustrated — anger, blame
+"prompts.openers.frustrated.1" = "何にイライラしてる？";
+"prompts.openers.frustrated.2" = "起きてほしくて起きなかったことは？";
+"prompts.openers.frustrated.3" = "イライラしているのは...";
+"prompts.openers.frustrated.4" = "言えたらよかったのは...";
+"prompts.openers.frustrated.5" = "ここでは丁寧じゃなくていい。";
+"prompts.openers.frustrated.6" = "イライラもカウントされる。言葉にしていい。";
+"prompts.openers.frustrated.7" = "何について：人、状況、自分、それとも不公平？";
+"prompts.openers.frustrated.8" = "熱の高さ：くすぶる、鋭い、熱い、燃え尽きた？";
+"prompts.openers.frustrated.9" = "何が不公平に感じる？";
+"prompts.openers.frustrated.10" = "怒りの下にはたいてい理由がある：欲しかったこと、越えられたもの。言い争わないで。何があって、何が必要だったかだけ。";
+
+// Numb — blank, can't access feeling
+"prompts.openers.numb.1" = "今、空っぽはどんな感じ？";
+"prompts.openers.numb.2" = "この前は何を感じていた？";
+"prompts.openers.numb.3" = "今はただ...";
+"prompts.openers.numb.4" = "何もないんじゃなくて、もっと...";
+"prompts.openers.numb.5" = "空っぽもカウントされる。気持ちを探さなくていい。";
+"prompts.openers.numb.6" = "静けさも情報。一緒にいて。";
+"prompts.openers.numb.7" = "近い言葉：重い、空、固まってる、静か？";
+"prompts.openers.numb.8" = "感覚の音量：ゼロ、かすか、遠い、こもってる？";
+"prompts.openers.numb.9" = "いつ音量が下がった？";
+"prompts.openers.numb.10" = "麻痺は何もないことじゃない。たいてい下にまだ名前のないものがある。今夜見つけなくていい。";
+
+// Anxious — forward dread, can't settle
+"prompts.openers.anxious.1" = "何が不安？";
+"prompts.openers.anxious.2" = "体のどこに感じる？";
+"prompts.openers.anxious.3" = "頭の中を走っているのは...";
+"prompts.openers.anxious.4" = "戻ってしまう最悪のシナリオは...";
+"prompts.openers.anxious.5" = "止めなくていい。描写するだけ。";
+"prompts.openers.anxious.6" = "不安は大きい。ゆっくりでいい。";
+"prompts.openers.anxious.7" = "出る場所：胸、お腹、喉、呼吸？";
+"prompts.openers.anxious.8" = "テンポ：速い、ループ、跳ねる、止まってる？";
+"prompts.openers.anxious.9" = "ほんの少しでも穏やかになるってどんな感じ？";
+"prompts.openers.anxious.10" = "不安はよく何かを指しているけど、パニックを使者にする。パニックを信じなくていい。何を指しているかだけ聞いて。";
+
+// Restless — don't want to be where I am
+"prompts.openers.restless.1" = "今、何が引っ張ってる？";
+"prompts.openers.restless.2" = "今、何かしっくりこないのは？";
+"prompts.openers.restless.3" = "私はずっと...したい";
+"prompts.openers.restless.4" = "本当は私が居たい場所は...";
+"prompts.openers.restless.5" = "落ち着かなさも情報。戦わないで。";
+"prompts.openers.restless.6" = "理由はわからなくていい。ただあると言って。";
+"prompts.openers.restless.7" = "感じ：むずがゆい、退屈、閉じ込められた、ソワソワ？";
+"prompts.openers.restless.8" = "何がおかしい：場所、ペース、人、自分？";
+"prompts.openers.restless.9" = "落ち着かなさは何を指してる？";
+"prompts.openers.restless.10" = "落ち着かないのはたいてい、自分の一部が今と違う何かを欲しているから。動かなくていい。何を指しているか気づくだけ。";
+
+// Decision — fork, what-if
+"prompts.openers.decision.1" = "避けている選択は何？";
+"prompts.openers.decision.2" = "理由の前に、本当は何が欲しい？";
+"prompts.openers.decision.3" = "行ったり来たりしているのは...";
+"prompts.openers.decision.4" = "誰も見ていなかったら、私は...";
+"prompts.openers.decision.5" = "今夜決めなくていい。もっとはっきり見るだけ。";
+"prompts.openers.decision.6" = "ここに間違った答えはない。正直なものだけ。";
+"prompts.openers.decision.7" = "止めているのは：恐れ、公平さ、他人、お金？";
+"prompts.openers.decision.8" = "感じ：詰まってる、引き裂かれてる、急ぎ、静か？";
+"prompts.openers.decision.9" = "止まっていることのコストは？";
+"prompts.openers.decision.10" = "決断は、自分と争うのをやめて聞くと見えてくる。先に欲しいものを言って。理由はあとで。";
+
+// Someone — about another person
+"prompts.openers.someone.1" = "今、誰が頭にいる？";
+"prompts.openers.someone.2" = "彼らは何を言った、何をした？";
+"prompts.openers.someone.3" = "考えている人は...";
+"prompts.openers.someone.4" = "わかってほしいのは...";
+"prompts.openers.someone.5" = "ここでは公平じゃなくていい。";
+"prompts.openers.someone.6" = "彼らに言えないことは、ここで言える。";
+"prompts.openers.someone.7" = "彼らへの気持ち：傷ついた、怒っている、恋しい、引き裂かれた？";
+"prompts.openers.someone.8" = "あなたたちの間に残っているもの：沈黙、距離、言葉、希望？";
+"prompts.openers.someone.9" = "彼らから何が必要だった？";
+"prompts.openers.someone.10" = "人は跡を残す。何も起きていなくても、何かが残ることがある。誰がいても、その人とそれが自分の中で起こすことから始めて。";
+
+// You vs them — self vs others, "we", "should"
+"prompts.openers.you_vs_them.1" = "彼らとは別に、あなたは何を望む？";
+"prompts.openers.you_vs_them.2" = "本当はこれは誰のため？";
+"prompts.openers.you_vs_them.3" = "ノーと言うのに何のコストもなければ、私は...";
+"prompts.openers.you_vs_them.4" = "本当に欲しいもの、すべきじゃなくて、は...";
+"prompts.openers.you_vs_them.5" = "彼らと違うものを望んでいい。";
+"prompts.openers.you_vs_them.6" = "自分に正直であることは裏切りじゃない。";
+"prompts.openers.you_vs_them.7" = "いちばん大きい声：自分、家族、パートナー、文化？";
+"prompts.openers.you_vs_them.8" = "自分のを選んだら失うもの：承認、快適さ、平和、罪悪感？";
+"prompts.openers.you_vs_them.9" = "頭の中の「すべき」は何をしている？";
+"prompts.openers.you_vs_them.10" = "ときに、自分の声を他のすべての上に聞くのがいちばん難しい。今選ばなくていい。ここではあなたのが一番大きくていい。";
+
+// Change — transitions, endings, beginnings
+"prompts.openers.change.1" = "今、何が変わってる？";
+"prompts.openers.change.2" = "何を後ろに置いてる？";
+"prompts.openers.change.3" = "離す覚悟が確かじゃないのは...";
+"prompts.openers.change.4" = "手を伸ばしているのは...";
+"prompts.openers.change.5" = "去るものを悼みながら、次を望んでいい。";
+"prompts.openers.change.6" = "途中でいい。落ち着いていなくていい。";
+"prompts.openers.change.7" = "感じ：怖い、ワクワク、悲しい、全部一緒？";
+"prompts.openers.change.8" = "今いる場所：終わり、途中、始まり、はっきりしない？";
+"prompts.openers.change.9" = "悲しみは何で、希望は何？";
+"prompts.openers.change.10" = "変化はめったに一つの感情じゃない。たいてい別れを告げる部分と前に伸ばす部分がある。両方が同時に本当でいい。";
+
+// Wins — what clicked, breakthroughs
+"prompts.openers.wins.1" = "今日、何がうまくいった？";
+"prompts.openers.wins.2" = "自分の何に驚いた？";
+"prompts.openers.wins.3" = "今日うまくできたのは...";
+"prompts.openers.wins.4" = "うまくいった小さなことは...";
+"prompts.openers.wins.5" = "小さくてもカウント。大きいと呼ばなくていい。";
+"prompts.openers.wins.6" = "受け取って。あなたが手にしたもの。";
+"prompts.openers.wins.7" = "勝ちはどこ：行動、心構え、優しさ、休息？";
+"prompts.openers.wins.8" = "感じ：誇り、安堵、驚き、安定？";
+"prompts.openers.wins.9" = "過去の自分が助けになったことは？";
+"prompts.openers.wins.10" = "勝利は大きく見える必要はない。スパイラルしなかったことも勝ち。始めたことも勝ち。どんな形でも、数えて。";
+
+// Gratitude — what's already there
+"prompts.openers.gratitude.1" = "今日、気づく価値があるのは？";
+"prompts.openers.gratitude.2" = "忘れがちで大切なものは？";
+"prompts.openers.gratitude.3" = "うれしい小さなことは...";
+"prompts.openers.gratitude.4" = "ほんの少し助けてくれたのは...";
+"prompts.openers.gratitude.5" = "無理しないで。すでにあるものに気づくだけ。";
+"prompts.openers.gratitude.6" = "小さくていい。";
+"prompts.openers.gratitude.7" = "どこを見る：人、瞬間、場所、自分の体？";
+"prompts.openers.gratitude.8" = "種類：助かる、優しい、普段通り、思いがけない？";
+"prompts.openers.gratitude.9" = "今日、見落としそうだったものは？";
+"prompts.openers.gratitude.10" = "感謝は長いリストである必要はない。具体的なひとつ、現れた人、静かな窓、自分の体がしてくれていること、それで十分。";
+
+// Patterns — meta, recurring shapes
+"prompts.openers.patterns.1" = "最近、何が戻ってくる？";
+"prompts.openers.patterns.2" = "違う場面で同じなのは？";
+"prompts.openers.patterns.3" = "繰り返してしまうのは...";
+"prompts.openers.patterns.4" = "これが起こるのは、たぶん...のとき";
+"prompts.openers.patterns.5" = "パターンは判決じゃない。情報。";
+"prompts.openers.patterns.6" = "見たからといって直さなくていい。";
+"prompts.openers.patterns.7" = "出る場所：仕事、関係、健康、気分？";
+"prompts.openers.patterns.8" = "パターンの種類：避ける、伸ばす、繰り返す、縮む？";
+"prompts.openers.patterns.9" = "これは何を思い出させる？";
+"prompts.openers.patterns.10" = "パターンが必ずしも何かが間違っている証拠じゃない。前は機能していた古い解決法が今は機能しないこともある。一つ名づけるのが最初の柔らかい一歩。";
+
+// Future self — the version of you ahead
+"prompts.openers.future_self.1" = "未来の自分は、今のあなたに何を知ってほしい？";
+"prompts.openers.future_self.2" = "一年後、何が本当であってほしい？";
+"prompts.openers.future_self.3" = "一年後、私は...でいたい";
+"prompts.openers.future_self.4" = "過去の自分に感謝することは...";
+"prompts.openers.future_self.5" = "未来の自分は裁いていない。あなたを応援している。";
+"prompts.openers.future_self.6" = "小さなスタートもカウント。";
+"prompts.openers.future_self.7" = "向かっているもの：明晰さ、勇気、軽やかさ、正直さ？";
+"prompts.openers.future_self.8" = "どこから始める：習慣、関係、仕事、自分？";
+"prompts.openers.future_self.9" = "積み重なる小さなことは？";
+"prompts.openers.future_self.10" = "未来の自分は他人じゃない。今のあなたが何を抱えていたか知っている自分。何を言っても、聞いている。";
+
+// Returning — long gap (>3 days)
+"prompts.openers.returning.1" = "前回から何が残ってる？";
+"prompts.openers.returning.2" = "何が変わった？";
+"prompts.openers.returning.3" = "前回ここに来てから残っているのは...";
+"prompts.openers.returning.4" = "今日戻ってきた理由は...";
+"prompts.openers.returning.5" = "間隔の説明はいらない。今から始めよう。";
+"prompts.openers.returning.6" = "おかえり。始める場所が正しい場所。";
+"prompts.openers.returning.7" = "今、より大きいのは：同じ、新しい、静かなバージョン？";
+"prompts.openers.returning.8" = "戻ってきた感じ：疲れた、嬉しい、不安、準備できてる？";
+"prompts.openers.returning.9" = "間隔は何を思い出させた？";
+"prompts.openers.returning.10" = "戻ってきた。それだけでカウント。訪問の間の沈黙に残ったものは、説明なしでここに置ける。";
+
+// Continue — fresh thread (<24h, has assistant reply)
+"prompts.openers.continue.1" = "どこで止まった？";
+"prompts.openers.continue.2" = "前から何がまだ回ってる？";
+"prompts.openers.continue.3" = "止まったところから続けて、まだ大きいのは...";
+"prompts.openers.continue.4" = "戻りたいのは...";
+"prompts.openers.continue.5" = "途中から取り戻していい。最初からやらなくていい。";
+"prompts.openers.continue.6" = "まだここにあるものは、もう一分の価値がある。";
+"prompts.openers.continue.7" = "今、より明確：少し、まあまあ、まだ濁ってる？";
+"prompts.openers.continue.8" = "戻している：気持ち、考え、人、ループそのもの？";
+"prompts.openers.continue.9" = "次に言いたいことは？";
+"prompts.openers.continue.10" = "ある考えは一度では足りない。必要なだけ何度でも戻れる。糸はまだここにある。";
+
+// Brain dump — catch-all
+"prompts.openers.brain_dump.1" = "今、頭の中に何がある？";
+"prompts.openers.brain_dump.2" = "頭の中で一番うるさいのは？";
+"prompts.openers.brain_dump.3" = "今、頭はいっぱいで...";
+"prompts.openers.brain_dump.4" = "最初に出てくるのは...";
+"prompts.openers.brain_dump.5" = "散らかっていい。構造はいらない。";
+"prompts.openers.brain_dump.6" = "ただ書いて。意味はあとで来てもいい。";
+"prompts.openers.brain_dump.7" = "音量：大きい、散らばってる、ループ、静かだけど詰まってる？";
+"prompts.openers.brain_dump.8" = "何について：今日、最近、ずっと、はっきりしない？";
+"prompts.openers.brain_dump.9" = "ついてくる考えは？";
+"prompts.openers.brain_dump.10" = "ブレインダンプは意味を持たなくていい。出ればいい。リスト、断片、半分の文、全部いい。意味はあとで来てもいいし、来なくてもいい。";
+
+// MARK: - Prompt Clusters (rail above AddEntry textarea)
+
+"prompts.cluster.time.title.morning" = "朝";
+"prompts.cluster.time.title.evening" = "夜";
+"prompts.cluster.time.title.late_night" = "深夜";
+"prompts.cluster.heavy.title" = "重い";
+"prompts.cluster.looping.title" = "繰り返す";
+"prompts.cluster.someone.title" = "誰か";
+"prompts.cluster.choosing.title" = "分かれ道";
+"prompts.cluster.notice.title" = "気づく";
+"prompts.cluster.brain_dump.title" = "吐き出す";
