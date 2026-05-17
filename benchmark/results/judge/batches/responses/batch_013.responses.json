@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0240",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up 'shoulders' and 'meeting' from the user, but 'pressure to perform' is an interpretive addition not grounded in what the user said."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "A single question is used, but the choice question 'specific moment or general pressure' stacks two angles slightly; mostly appropriate for a body-signal notice prompt."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Moves toward body_signal_check and timeline_anchor, which fits a body-awareness notice entry; 'pressure to perform' adds an uninvited interpretation."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'You caught that early today' is slightly warm but not theatrical; register is mostly clean and direct."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays mostly in user's frame but introduces 'pressure to perform' as a new interpretive angle the user didn't offer."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0241",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Uses 'shoulders started creeping up' with the user's body language, and 'when you replay that meeting' anchors directly to their phrasing; adds a slight twist by asking for exact moment."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Single question, appropriate length; 'It is a lot to carry' adds a slight extra beat before the question that isn't strictly needed."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Timeline_anchor + body_signal_check is well-matched: asks for the precise moment shoulders rose, which is the right intervention for a body-signal notice entry."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'It is a lot to carry' is a mild warmth cliche, though not a banned phrase; rest of response is restrained and on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely in the user's frame — body tension, the meeting — without adding interpretive overlay."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0242",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'meeting' and offers the binary 'still happening in your head or one specific moment,' which grounds in the user's situation without deep specificity."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One question with a choice framing; slightly formal but appropriate shape for a first-touch body-signal entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Body_signal_check + timeline_anchor choice is defensible; 'a clear physical signal your body is holding onto' is a mild clinical-adjacent framing."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'That is a clear physical signal your body is holding onto' edges toward clinical/analyzer register rather than close-friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's framing of shoulders-meeting link without adding new interpretive layers."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0243",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Names 'midterms' and 'roommate' from the list, and introduces 'falling behind' as a synthesizing lens; anchored but slightly generalizes the list."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One choice question after a brief acknowledgment fits the braindump shape; slightly long opener but within acceptable range."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Outcome_check via prioritization is exactly right for a braindump: doesn't try to solve, narrows to loudest item."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'That is a lot to carry' is a mild warmth cliche but no banned phrases; rest of the voice is clean and direct."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the pile as presented without reframing or pathologizing any item; 'falling behind' is a slight inference but stays in spirit of user's entry."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0244",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Doesn't name any specific items from the list; 'the whole pile' and 'the loudest' are generic rather than anchored to 'midterms,' 'roommate,' or 'dad.'"
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Minimal reflection + one direct question is the right shape; clean and appropriately brief for the load of the entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Outcome_check / prioritization is appropriate; doesn't solve or push deeper, just narrows — a good move for an overwhelmed braindump."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'mind is racing' is a mild cliche but not theatrical; register is natural and on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully respects the user's framing as an overwhelming pile; no reframe, no added interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0245",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Introduces 'should' as a framing word not in the user's entry; doesn't name specific items from the list, keeping it abstract."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two short paragraphs plus one question is well-shaped for a braindump; paragraph break is used appropriately on mobile."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Outcome_check via 'loudest should' is reasonable prioritization move; 'brain is looping' is a minor loop_identification nod."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'That is a lot to carry at once' is a recurring cliche in this batch; 'We do not need to' is slightly coach-y but not banned."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Adds 'should' framing not present in user's entry, which mildly overlays guilt where user didn't signal it."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0246",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses 'fog' from the user's message but 'internal resistance' is an interpretive gloss that abstracts away from the user's own word."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "One clean question follows a brief reflection; appropriately minimal for this multi-turn moment where the user named the obstacle."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Concrete_detail_probe ('loudest thought') targets the fog gap, which is the right move after the user identified the fog as the barrier."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'It's like an internal resistance' edges toward psychological framing but no banned phrases; rest of voice is clean."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "'Internal resistance' translates 'fog' into a more clinical concept, a mild frame addition not quite what the user said."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0247",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "'Fog is a good word for it' directly picks up the user's own word; the follow-up timeline question ('second you wake up, or once you think about the gym') concretely maps the gap the user named."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-brief acknowledgment + one concrete timeline question; exactly right shape for a multi-turn moment where user just named the fog."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Timeline_anchor is precisely the right intervention after the user names the fog; narrows the gap to its earliest moment without over-interpreting."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; restrained, specific, reads like a close friend picking up a word; no theater or clinical register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays entirely in user's frame ('fog'), accepts their word, and builds a concrete question from it without adding interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0248",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Fog feels thickest right at the start' builds on user's word with a mild addition; 'loudest thought that keeps you from leaving' is specific and concrete."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal reflection + one question; appropriately brief for multi-turn stage where user has just named the gap."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Concrete_detail_probe ('loudest thought') is the right move; slightly presupposes the fog is thickest at the start, which is an added interpretation."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; clean, direct, on-voice; no theatrical or clinical language."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Adds 'thickest right at the start' as a mild inference, but remains within the user's fog frame without redirecting."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0249",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses 'running on empty' from user's phrasing; 'outside of that moment in the bathroom' anchors to the scene; question is somewhat broad ('what does it look like')."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One question after a brief reflection; appropriate shape for the multi-turn heavy context, though slightly analytical given user just said 'it scared me.'"
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Asks for pattern mapping ('outside of that moment') when user just expressed fear at the discovery; stabilization or specific validation might have been better before probing the pattern."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; clean and restrained; no clinical language or theater."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays in the user's 'running on empty' frame; 'quietly' is a small interpretive addition but doesn't redirect the frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0250",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "'Invisible until you hit a breaking point' is an interpretive gloss not in the user's words; user said 'running on empty,' not 'invisible'; anchor is loose."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "One question but the phrasing 'is this the first time or is this becoming a habit?' stacks two angles and is slightly heavy for this emotional moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Pattern-mapping ('is this a habit?') before stabilization is premature; user just expressed fear, and the binary phrasing adds cognitive load."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'exhausting' is a valid emotional label; 'warning lights' is a slight metaphor extension but not theatrical."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "'Feeling of being invisible' imports a frame not offered by the user; user said scared and empty, not invisible — mild frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0251",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "'Empty gauge' picks up 'running on empty' well; 'the smallest things that break through when you hit a wall' is close but abstracts slightly from the bathroom scene."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Single question after brief reflection; appropriate length; slightly pattern-seeking for a moment where user just expressed fear."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Pattern inquiry ('when else have you ignored the empty gauge') is premature given user's expressed fear; stabilization would fit better before pattern-mapping."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'That makes sense' is a mild opener but not theatrical; 'empty gauge' is a nice on-voice metaphor extension."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays in the running-on-empty frame and mirrors the user's own metaphor without redirecting."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0252",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Feel remembered' and 'feel justified' are precise distillations of the user's 'proof I still matter / proof I was right to leave'; mirrors the user's own duality cleanly."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two short paragraphs with one choice question; well-shaped for the multi-turn loop moment; paragraph break aids phone readability."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Underlying_need_probe via the choice between the two needs is well-executed; correctly doesn't solve or pathologize."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'It is understandable that' edges toward validation-boilerplate but no banned phrases; overall voice is restrained."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully accepts the user's own framing of the dual need without imposing an external psychological label."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0253",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "'Sharp contradiction' names the tension the user literally expressed; 'opposite directions' adds a useful twist on the duality without abstracting it away."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two short paragraphs with one concrete question; appropriate shape; question concretely references 'when they have not viewed it yet' grounding in the specific loop."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Reassurance_loop_mirror + underlying_need_probe executed cleanly; names the contradiction and asks which pull is heavier without solving."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'sharp contradiction' is precise, not theatrical; voice is restrained, specific, and human."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely in the user's framing without adding external interpretation; builds on both poles the user named."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0254",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'reassurance' and 'right to leave' from user's words; 'conflict that isn't actually in the story views' is a solid insight but slightly analytical."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two short paragraphs + one question; the first paragraph is slightly long and explanatory for a moment that could be sharper."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Defusion_decentering ('conflict isn't in the story views') is a good move; underlying_need_probe follows appropriately."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'That is a lot to carry' is a recurring warmth cliche; no banned phrases; rest of voice is clean."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's dual-need frame; 'conflict that isn't in the story views' reframes slightly but in service of the user's stated situation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0255",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "'Same boat' and 'shared identity' engage with the user's 'both confused together' but 'shared identity' is an introduced concept not in the user's language."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The question has two sub-clauses ('change in her life' vs. 'only one still confused') which makes it slightly complex for a single question; borderline stacked."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Meaning_probe is appropriate here; the question usefully distinguishes between change vs. comparison, which is a good angle."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'Shared identity' edges toward analytical register; no banned phrases; otherwise on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "'Shared identity' adds a social-psychology frame the user didn't invoke; mild frame overlay on top of the user's simpler expression."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0256",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Shared confusion was the anchor' mirrors 'both confused together' precisely; 'distance growing' is a natural extension of 'left behind.'"
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two short paragraphs with one clean open question; well-shaped for this multi-turn moment; question is appropriately open without being abstract."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Meaning_probe ('what happens to that connection') is the right move here; forward-facing without forcing a negative conclusion."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'moved into something clearer' is a natural rephrasing; voice is restrained and human."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays in the user's frame without pathologizing or reframing the friendship; accepts 'left behind' and 'confused together' as the operative language."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0257",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Safety net' builds meaningfully on 'confused together' and 'left behind'; the question between 'left behind' vs. 'common language' uses the user's own phrases."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "One reflection sentence + one choice question; slightly complex choice but appropriate for this multi-turn stage; clean length."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Meaning_probe via the left-behind vs. common-language distinction is a useful and precise intervention for the relational ambiguity expressed."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'safety net' is a human metaphor; voice is warm and specific without being theatrical."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Builds entirely from user's language ('left behind,' 'confused together') without imposing a new frame; 'common language' is a natural extension."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0258",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "'Dismissal of the weight you are already carrying' engages with the frustration but 'weight' is imported; 'problem isn't a lack of information' mirrors user's own words well."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Single sentence reflection + one open question; minimal and appropriate for a moment where user just expressed frustration at their therapist."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Meaning_probe ('what is that frustration hitting on') is the right move; doesn't take a side on the therapist, stays with the user's signal."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "'It sounds like that path felt like a dismissal' is borderline on the banned phrase 'It sounds like you are experiencing' but refers to an action not a feeling state; no direct hit."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's frustration as valid signal without judging the therapist or the user; stays with what the user is wrestling with."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0259",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'She missed what you are actually wrestling with' mirrors the frustration precisely; 'barrier that keeps coming back' anchors to the loop without abstracting."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Brief acknowledgment + one clean open question; exactly the right minimal shape for this multi-turn moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Meaning_probe ('what is the barrier') cleanly follows from the user's signal that the problem is not cognitive but something else; well-executed."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'That makes sense' is a mild opener but not theatrical; rest of voice is direct and on-register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Validates the user's frustration without judging the therapist; stays with the user's framing that the problem isn't information quantity."
+    },
+    "banned_phrase_hits": []
+  }
+]

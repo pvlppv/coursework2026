@@ -1,0 +1,9 @@
+model_id,mean_composite,ci95_lo,ci95_hi,mean_cost_usd,p50_ttft_ms,p90_ttft_ms,p90_total_ms,n_evaluations
+moonshotai/kimi-k2-0905,7.755,7.339,8.144,0.00593,784.0,1114.3,1506.0,75
+google/gemini-3-flash-preview,7.653,7.384,7.917,0.0055,1911.7,2658.7,2869.1,75
+openai/gpt-5-mini,7.565,7.293,7.829,0.00258,959.7,1280.4,1994.3,75
+google/gemini-2.5-flash,7.443,7.109,7.757,0.00351,1583.0,2150.1,2548.0,75
+google/gemini-3.1-flash-lite-preview,6.867,6.533,7.197,0.00273,1584.7,2267.3,2664.3,75
+meta-llama/llama-3.3-70b-instruct,5.995,5.581,6.419,0.001,1230.3,1624.7,1879.1,75
+openai/gpt-5-nano,5.328,4.971,5.691,0.00051,1692.0,2154.2,3243.3,75
+anthropic/claude-3-haiku,4.501,4.208,4.787,0.00285,1430.0,2047.1,3353.6,75

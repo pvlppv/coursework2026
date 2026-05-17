@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0100",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up 'running on empty' from user but uses it as a generic metaphor rather than anchoring on the specific 'scared me' or the coffee-offer trigger detail."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Two paragraphs for a high-intensity moment that calls for a Stabilizing Move; second paragraph ends with a rhetorical question ('doesn't it?') that adds little and slightly overextends the shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Validates the scare but doesn't stabilize or probe usefully; the 'tank is dry' analogy is illustrative rather than actionable, and the rhetorical question does no useful work."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases, but 'It's usually scary' is a generalizing opener that slips into assistant-helper register rather than Sotie's specific, grounded voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays with the user's 'running on empty' frame without pathologizing; rhetorical question mildly implies universality but doesn't override the user's framing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0101",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'Intensity of that moment caught you off guard' abstracts rather than anchoring on 'scared me' or the coffee trigger; 'running on empty' not reflected specifically."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Two short paragraphs with one question is close to Minimal Reflection but slightly off: high-intensity moment warrants a Stabilizing Move, not a meaning-probe question."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Asking 'What does it feel like to discover you're running on empty?' pushes for meaning-making before stabilization, which the system prompt warns against for high-intensity states."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "\"It sounds like\" phrasing closely resembles the banned 'It sounds like you are experiencing' construction, though not an exact match; register slides toward therapist-bot."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's framing without imposing a new diagnosis; question invites elaboration within user's own words."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0102",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up the user's two stated options ('proof I still matter / proof I was right to leave') and frames the contrast as 'connection vs. distance'; mirrors the duality, though the interpretation is slightly imposed."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two short sentences plus one clean question; appropriately compact Minimal Reflection shape for this mid-conversation looping turn with one clear move."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Uses meaning_probe / underlying_need_probe to distinguish between the two pulling directions; defensible and useful, though slightly interpretive about 'connection vs. distance'."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; spare, specific, human-textable; 'heavier' is good Sotie register."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Frames the user's own two options as 'connection vs. distance' — a mild reframe that adds interpretation, but it respects rather than overrides the user's stated uncertainty."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0103",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Mirrors the user's explicit 'both?' and reframes as 'a kind of certainty you're looking for,' then narrows to 'Does one feel more urgent in the checking?' — anchors on user's words with a useful twist."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-compact single move, one precise question; fits the mid-loop moment perfectly without overextending."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Correctly identifies reassurance-seeking and uses a concrete_detail_probe to differentiate the two needs; clean execution of one well-chosen intervention."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; restrained, specific, direct; reads like the production examples."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely in the user's frame ('Both,' 'certainty,' 'the checking'), adding only the 'urgent' angle to narrow without overriding."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0104",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "References user's two stated proofs and adds 'proof of your value to yourself,' which is a mild interpretive extension beyond what the user said, diluting exact anchoring."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two paragraphs with one question is Minimal Reflection shape; slightly long for the moment but not bloated; single question is clean."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Meaning_probe is reasonable, but asking 'What would proof I still matter look like?' invites abstract speculation rather than using the concrete loop detail ('every 20 min') already given."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'It's like you're caught between' is mildly interpretive framing, not quite boilerplate; mostly within Sotie's register."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Extends user's frame with 'proof of your value to yourself' — a gentle reframe that is defensible but slightly beyond what the user offered."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0105",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Mirrors 'shared confusion' but the first sentence ('It sounds like part of what feels left behind is a shared experience of confusion') is a paraphrase rather than a sharper reflection of the user's own phrase 'both confused together.'"
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two-paragraph minimal reflection with one question; appropriate shape for this conversational moment though slightly formal in phrasing."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Underlying_need_probe ('What did that shared confusion offer you?') is a defensible move that seeks to understand the meaning of the lost shared state."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'It sounds like' opener is adjacent to the banned 'It sounds like you are experiencing' construction and pulls the register toward therapist-bot; response feels formal."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays in the user's offered frame ('shared confusion,' 'left behind') without imposing a new interpretation or pathologizing the feeling."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0106",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Mirrors 'shared confusion' but then asks 'What did that shared confusion give you both?' — shifts from user's individual feeling to the dyadic, which is a slight drift from the user's own framing."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Appropriately brief two-sentence structure with one question; shape fits the moment even if the question angle is slightly off."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Meaning_probe is reasonable but 'what did it give you both?' shifts focus to the friendship rather than the user's individual loss or identity question, which was the clearer thread."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'It sounds like' again near-matches the banned construction; register is on the formal/therapy side throughout; no outright banned phrases but voice discipline is weak."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the 'shared confusion' frame; mild frame drift in asking about 'you both' rather than the user's own experience of loss."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0107",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Uses 'shared confused time' from user but 'a specific kind of shared story or stage is ending' is abstract summary rather than a sharp anchor on the user's exact phrase 'both confused together.'"
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection shape with one question; appropriate length, though slightly paraphrase-heavy in the reflection sentence."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Meaning_probe ('What did that shared confused time feel like for you?') is defensible but broad; could have gone more specifically toward what losing it now costs the user."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'It sounds like' near-matches the banned phrase pattern; the reflection sentence is long and abstract, pulling toward assistant-prose register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays fully in the user's frame — accepts 'left behind,' 'shared story ending,' user's own word 'confused'; no imposed reframe."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0108",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Anchors precisely on the user's complaint ('she was only hearing the mechanics and not the weight') and then inverts with 'What was the problem for you, if not thinking it through enough?' — mirrors the user's own framing with a useful twist."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Minimal Reflection shape: brief validation + one targeted question; size and structure fit this mid-turn correction moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Context_clarification following the user's implicit correction of the prior therapist is the right move; asks the user to name what the real problem is without presuming it."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'dismissive' and 'weight of the decision' are specific and human; register is Sotie-appropriate, not clinical."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully validates the user's correction (the pro/con list was dismissive) and accepts their framing that the problem is deeper than analysis; no counter-frame imposed."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0109",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'She missed it' is a punchy, specific reflection of the user's frustration; 'the problem isn't about deciding, but something else' mirrors the user's exact words ('the problem isnt that i havent thought about it enough')."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two ultra-short sentences: one reflection, one minimal hook — exactly the right Ultra-Short/Minimal Reflection shape for this clear-signal moment; no question mark leaves next move open."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection is precisely the right move here — acknowledges the user's frustration and opens space without forcing a question; very well executed."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; lowercase-friendly tone, punchy and restrained; reads exactly like Sotie production examples."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely within the user's correction frame — accepts that the therapist missed it, does not defend the pro/con frame or reintroduce analysis."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0110",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Echoes the user's exact phrase 'thinking enough' and inverts it into the question 'What part of it wasn't about thinking enough?' — tight anchoring with a direct pivot."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Single-sentence Ultra-Short Move: exactly the minimal shape needed for this clear-context, high-signal moment; one question, zero excess."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Context_clarification using the user's own phrase to open the actual problem space; perfectly targeted and cleanly executed with no wasted words."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "No banned phrases; one spare question in the user's own register; exemplary Sotie voice discipline."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Does not reintroduce the therapist's frame or add interpretation; stays exactly in the user's correction and invites them to name the real issue."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0111",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Quotes the user's exact phrase 'the day belonged to me for 4 min' verbatim as a mirror, then pivots with 'What usually owns the day?' — specific anchor plus a well-chosen contrast."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Quote + one-line observation + one question; exactly the right Minimal/Meaning Reflection shape for a positive-moment turn without over-analyzing."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Meaning_probe inverted ('What usually owns the day?') surfaces the contrast implied in the user's feeling without pathologizing the positive moment."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'That's a strong feeling' is slightly validation-adjacent but not theater; overall register is clean and Sotie-appropriate."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays in the positive frame; 'What usually owns the day?' opens curiosity without turning the good morning into a problem."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0112",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'It sounds like a tiny space where you got to own the beginning of your day' paraphrases rather than quotes; loses the precise '4 min' and 'the day belonged to me' charge; too summary-like."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "One long run-on sentence with a follow-up question; structurally awkward and slightly too long for a light positive-moment Notice entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Meaning_probe is appropriate but 'what mattered most' is too broad and heavy for a casual-positive entry; system prompt says casual entry should stay light."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like' nearly matches the banned phrase pattern; the response reads like assistant prose rather than Sotie's spare, textable voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Does not pathologize the good morning; stays within the user's positive register, though the long question adds slight weight."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0113",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes the user's exact phrase 'the day belonged to me for 4 min' verbatim and asks 'What does having the day belong to you feel like?' — tight quote anchor, though the follow-up is slightly broad."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Quote block + one question; minimal shape, appropriate to the positive moment, slightly less elegant than Item 12 but clean."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Meaning_probe is reasonable; 'What does having the day belong to you feel like?' is a defensible move, though it slightly duplicates the richness the user already offered."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; quoted format and spare question are Sotie-consistent; clean voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays fully in the user's positive frame; no pathologizing or reframing; question stays inside the user's own words."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0114",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Repeats 'word vomit' from earlier in the exchange but then asks a broad 'What else from that word vomit is asking for attention?' that de-anchors from the specific avoided topic (therapist moving)."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Respects the user's 'don't want to think about that' signal then redirects to the braindump list; the redirect question is reasonable but slightly clunky and deflects the live tension."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Respecting the user's no-go is correct, but immediately pivoting to 'what else' feels avoidant of the emotional weight just named; a stabilizing acknowledgment would serve better."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'asking for a little more attention' is slightly formal but not boilerplate; mostly Sotie-register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's resistance without pushing; does not pathologize the avoidance; stays within the user's offered frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0115",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "'Understood' and 'too much right now' acknowledge the avoidance; the question anchors on the user's 'first words' but 'most not fine' is abstract rather than naming a specific item from the braindump."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Two-paragraph structure with acknowledgment + redirect question; appropriate pivot away from the avoided topic, though the question phrasing ('When you don't look at that') is slightly awkward."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Distress_tolerance_shift (respecting avoidance) followed by a concrete_detail_probe on the braindump list is a reasonable dual move; execution is slightly clunky."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'Understood' and 'too much right now' are natural; 'When you don't look at that' is slightly awkward but within acceptable range."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the avoidance frame without judgment; redirects to user's own braindump list rather than imposing a new frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0116",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Mirrors the user's 'ok thats it' phrase in the question ('a different that's it thought') — a nice specific echo — but 'less resistant to visiting' is slightly clinical/abstract."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Brief two-sentence shape with acknowledgment and one question; appropriately compact pivot away from the avoided topic."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Respects the user's no-go and redirects to other braindump items; the specific echo of 'that's it' is a good concrete_detail_probe angle."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'No need to go there right now' is Sotie-appropriate; 'less resistant to visiting' is slightly formal but not boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's avoidance without judgment or pushing; stays within their expressed willingness to explore the list differently."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0117",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Accepts correction and names the 'gap in skills' from the user's correction; 'Which half is trickiest to do right now?' anchors on the user's 'half my job' but doesn't echo the exact word."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Brief two-sentence Minimal Reflection: frame correction + one practical question; appropriate shape for an edge correction moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Context_clarification following the user's frame correction is exactly right; narrows to the concrete skill gap rather than staying abstract."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'That's a key difference' is slightly assistant-formal but not boilerplate; overall register is close to Sotie voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the correction fully — 'not a feeling, but a clear gap in skills' — without defending the prior imposter syndrome frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0118",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Opens with a direct correction acknowledgment, echoes 'the actual work' from the user's redirect, and asks 'What part of the job feels like half?' — picks up the user's exact word 'half' with useful specificity."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two crisp sentences: correction acceptance + one targeted concrete question; clean Ultra-Short/Minimal Reflection shape appropriate to the correction moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Context_clarification using the user's exact word 'half' is the right intervention after a frame correction; narrows toward the concrete skill gap cleanly."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; restrained, specific, human register; reads like a Sotie production example."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully accepts the correction ('not imposter syndrome, more about the actual work') and stays in the user's corrected frame without any residual defense of the prior label."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0119",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'not the feeling of fraud, but the actual gap in skills' from user's correction and echoes 'half'; the follow-up choice list (tools, specific tasks, bigger picture) is concrete but adds interpretive options not from user."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Single compact sentence with a choice-question appended; shape is mostly right but the three-option list slightly overloads what could have been one clean question."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Context_clarification with an option list is defensible; the system prompt permits choice-based questions, though offering three options ('Tools, specific tasks, or a bigger picture?') adds mild cognitive load."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; compact and direct; slightly more list-like than ideal Sotie voice but no major register slip."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the correction fully; the three-option probe is forward-facing and stays in the user's corrected frame without reintroducing the imposter syndrome label."
+    },
+    "banned_phrase_hits": []
+  }
+]

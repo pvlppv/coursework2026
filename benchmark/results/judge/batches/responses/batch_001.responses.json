@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0000",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Opens with the banned-adjacent phrase 'I hear the frustration' and does not anchor on any specific detail (8pm, midnight, Friday) from the user's message; the follow-up is a generic 'first small step' prompt that fits any procrastination scenario."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Single question is correct discipline, but the shape is a Minimal Reflection that skips any real reflection; the response is slightly too generic and advice-adjacent ('first small step right now') for a first-touch loop entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "The user named a repeating time-loop ('keep saying ill start at 8'); the right move is loop_identification or concrete_detail_probe. Instead the model jumps straight to next_step_generation without any loop acknowledgment, which is premature advising."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear the frustration' is near-verbatim to the banned phrase 'I hear that must be difficult'; the register is soft AI-helper boilerplate rather than restrained Sotie voice. Caps C4 at 4 for near-banned phrase proximity."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "The user did not frame this as a 'frustration' — they described a habitual time loop; the model adds 'frustration' and 'deadline pressure' which gently reframes the neutral observation, though it does not pathologize."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0001",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "Preamble 'Okay, let's take a look at this. Here's a soft but direct reflection:' exposes the model's internal meta-commentary; the reflection itself ('It's late and the essay still hasn't started') is a flat paraphrase with no anchoring to 8pm, midnight, or Friday."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Including the label 'soft but direct reflection' breaks the plain-text rule and fourth-wall; the response is structurally malformed for Sotie — it reads like a meta-coaching session, not a journaling reflection."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Model goes straight to 'first small step' (next_step_generation) without any loop identification or context clarification; the process-narration preamble is inappropriate for all component types."
+    },
+    "c4_voice_discipline": {
+      "score": 2,
+      "rationale": "Explicitly labels its own output ('Here's a soft but direct reflection') — exactly the kind of internal label the system prompt forbids; also uses 'deadline pressure must feel really heavy', a near-banned empathy boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "Adding 'deadline pressure must feel really heavy' introduces a heaviness frame the user did not state; the user described a pattern, not current distress. Mild reframe but not pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0002",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "'I can see this is a recurring pattern for you about starting the essay' is pure abstraction; none of the charged specifics (8pm promise, midnight, Friday deadline) are used to add meaning or ask a sharper question."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Two-paragraph response with a question is oversized for a first-touch vague loop entry; advice-appended ('Sometimes the hardest part is beginning') makes it lecture-adjacent and longer than needed."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Immediately gives next_step advice ('even if it's just opening the document') and appends a wisdom aphorism ('Sometimes the hardest part is beginning') when loop_identification and concrete_detail_probe were warranted."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'It sounds frustrating' is close to a banned form; 'Sometimes the hardest part is beginning' is a cliché wisdom insert that breaks Sotie's restrained, specific voice. Not quite banned-phrase but clearly wrong register."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "The user stated a neutral pattern; model frames it as 'frustrating' and treats the pattern as an obstacle to overcome rather than a loop to understand, mildly redirecting the frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0003",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Picks up 'wet sand' and '2 emails' — good anchoring to the user's exact image and number — but the follow-up ('how intense is the feeling') is generic scaling rather than body-specific."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Appropriate Stabilizing or Minimal Reflection shape; one question is correct discipline. Slightly off because 'I hear this feels heavy' is an opener cliché that pads the response before the real grounding question."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Scaling_question is defensible for intensity check, though body_signal_check would have been sharper given the 'wet sand' physical image; execution is clean enough."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear this feels heavy' is a near-direct match to the banned phrase 'I hear that must be difficult'; 'That sounds really draining' is empathy boilerplate. Register is AI-helper, not Sotie friend voice. Caps at 4."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's 'wet sand' frame, does not add a pathologizing interpretation; the scaling question is frame-neutral."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0004",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Does not surface 'wet sand' or '2 emails'; 'pushing through things' is a diluted paraphrase; the question lists three abstract options rather than anchoring on the user's vivid image."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Ends with a stacked three-part question ('the mental effort, the worry about how you're coming across, or just the general sense of heaviness') — a multi-choice barrage rather than one focused question; shape is wrong."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "The three-part question attempts context_clarification/outcome_check but is muddily executed with too many hypotheses; body_signal_check or emotional_validation would have been better given the physical 'wet sand' framing."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm sorry, it sounds like you're having a tough day' is AI-helper empathy register; 'even small tasks can feel draining when everything feels heavy' is generic boilerplate, not Sotie voice. No exact banned phrase but wrong register."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Adds 'worry about how you're coming across' as a hypothesized subframe not mentioned by the user; mild frame imposition through the multiple-choice question."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0005",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Quotes 'wet sand' and 'two emails' in the first paragraph — good grounding — but then pivots to 'pattern here' and a three-part abstract question (time of day / work type / environment) that loses the specific image."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Two paragraphs plus a stacked three-part question ('certain time of day, certain types of work, or certain environments') is the wrong shape: oversized and multi-question for a high-intensity body-signal entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Jumps to pattern-finding ('see if there's a pattern here') when the user hasn't requested it and intensity is high; pushes analysis before stabilization, violating the stabilize-before-meaning-making rule."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear the day feels heavy' echoes the banned 'I hear that must be difficult' construction; 'That sounds really draining' is boilerplate empathy; the coaching pivot ('what if we took a moment') is not Sotie voice."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "User reported a body state; model reframes it as a diagnostic opportunity ('see if there's a pattern') imposing an analytical frame the user did not request."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0006",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Picks up 'Dani' and 'what exact line or moment' — good use of name and loop detail — but the opener 'I hear you keep replaying' is near-banned; the 6-hour detail and 'why is my brain like this' frustration are not surfaced."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One sentence reflection + one focused question is close to the ideal Minimal Reflection shape; single question with good specificity. Slightly off because 'I hear you keep replaying' pads an otherwise well-shaped response."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "concrete_detail_probe ('what exact line or moment') is a well-chosen intervention for a replay loop; it narrows toward the specific line rather than analyzing the loop's meaning prematurely."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear you keep replaying' is structurally identical to the banned 'I hear that must be difficult' pattern; 'That recurring thought must feel really heavy' is empathy boilerplate. Register is AI-helper. Caps at 4."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays within the user's replay frame; adds 'heavy' as a mild emotional label but does not impose a new reading or pathologize the loop."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0007",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Picks up 'Dani' and 'looped thinking' mirrors the replay, but 'That kind of looped thinking is really common' is an abstract psychoeducation insert; '6 hours' and 'why is my brain like this' are not anchored."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Shape is close to Minimal Reflection but 'Let's start by' is coaching register; the response is slightly over-structured, and the normalization ('really common') adds unnecessary length."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "concrete_detail_probe ('specific line you keep hearing') is the right intervention, but is preceded by unsolicited psychoeducation ('That kind of looped thinking is really common') that muddies execution."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'Let's start by' is coaching voice; 'That kind of looped thinking is really common, though it can feel frustrating' is therapist-normalizing register. No exact banned phrase but clearly not Sotie's restrained human-friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Normalizing ('really common') subtly reframes the user's self-questioning ('why is my brain like this') as something to be reassured about rather than explored, mild frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0008",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up 'Dani' and uses 'checking the tape' as a slight metaphor extension; but '6 hours' is not used, and 'before we dig into' breaks the fourth-wall coaching register. 'Where do you feel it most in your body' is generic."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Two paragraphs for a first-touch single-sentence entry is slightly oversized; the body check at the end is valid but the coaching preamble ('before we dig into') adds unnecessary structure."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "body_signal_check is defensible for a replay loop with high intensity, but the response first attempts meaning-interpretation ('checking the tape to see if there's a way to undo or fix it') without enough context — premature inference."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'Before we dig into' is coaching register; 'I understand why that feels stuck' borders on the banned form. No exact banned phrase; the voice is AI-helper adjacent rather than full Sotie friend register."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "'Your mind keeps checking the tape to see if there's a way to undo or fix it' is an interpretation not stated by the user — a mild frame imposition about the loop's function."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0009",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Does not pick up the charged word 'dramatic' — the system prompt's own example for this prompt specifies that holding 'dramatic' is the 10-anchor move. Question asks two things (what part didn't want to go + what did you need her to hear)."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Stacked two-part question ('What part of you didn't want to go, and what did you need her to hear?') is a shape violation — two distinct questions in one move."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "The double-question attempts both context_clarification and underlying_need_probe simultaneously; executing both in one turn muddies the move and is weaker than a single well-placed probe."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm sorry your mom didn't understand' is a mild empathy opener not in the banned list but in the AI-helper register; the rest avoids major violations. Not Sotie's restrained voice but not egregious."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'That sounds hurtful, especially when you were trying to be honest' adds an interpretive frame (honesty as the subtext) that the user did not supply; also implicitly sides against the mom before exploring what happened."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0010",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'dismissed your feelings' is an abstraction replacing the user's exact word 'dramatic'; the charged word 'dramatic' is the anchor this prompt calls for and it is not used."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Short two-sentence response with one question is well-shaped for a confused emotional entry; single-question discipline is maintained. Slightly off because the opener is boilerplate apology."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "'What makes it feel dramatic or unclear to you right now?' is an interesting pivot toward the user's self-assessment, but the phrasing 'to you' subtly pushes the user to accept the 'dramatic' label rather than exploring the mom's use of it."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I'm sorry your mom dismissed your feelings. That must have felt hurtful.' is standard empathy-opener register, not Sotie's specific human-friend tone, but no banned phrases and not egregiously wrong."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'Dismissed your feelings' frames the mom's action as dismissal (a verdict) rather than leaving the interpretation open; this builds a case against the mom before exploration."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0011",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "'Didn't seem to hear you' paraphrases the situation abstractly; 'dramatic' is not held; 'the feeling that was getting shut down' is interpretive abstraction rather than anchoring on the user's actual words."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Single question at the end maintains question-count discipline; length is appropriate. But 'Maybe we can put words to the feeling that was getting shut down' is coaching-register and adds unnecessary padding."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "unsaid_words intervention ('what exactly did you want to say to her') is a reasonable choice for a S-SOMEONE conflict; execution is muddied by the presumptive framing ('feeling that was getting shut down')."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm sorry your mom didn't seem to hear you' and 'That must have felt really dismissive and hard' are AI-helper empathy openers; 'Maybe we can put words to' is soft coaching register. No banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "'The feeling that was getting shut down' presents as settled fact that the mom shut the user down — a verdict that pathologizes the mom's action before any exploration, violating balanced relationship rule."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0012",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "References 'frozen for a week' and names both options (startup vs consulting, long-term vs double pay) — decent anchoring — but immediately abstracts to 'all the factors' and 'freeze and indecision' rather than staying with the specific tension."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Two paragraphs, where the first re-summarizes what the user already said; the question ('what keeps replaying') is reasonable but the overall shape is oversized and the summary paragraph is unnecessary."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "concrete_detail_probe on the replay ('what keeps replaying in your mind when you try to choose') is a defensible move for decision_stuck; the coaching preamble weakens execution."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'Okay, let's take a look at this decision' and 'Rather than dive into analyzing all the factors, let's start by' are coaching register; 'a tough choice with no clear right answer' is AI-helper comfort boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Stays within the user's frame (two options, frozen), does not pathologize or reframe the indecision as a problem about the user's character; accepts the decision tension as real."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0013",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Re-summarizes what the user said ('lower-paying internship', 'double', 'frozen for a week') without adding any new dimension; 'Just the facts for now' is coaching direction that doesn't surface any specific charged detail."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Three paragraphs to summarize a clear decision scenario the user already articulated is oversized; the 'let's separate facts from worries' instruction is coaching mode, not reflection shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "fact_interpretation_split is a named component but applying it by asking the user to re-list known facts ('concrete details you know about each option') when the user already provided them is redundant and weak."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'Okay, let's take a look at this decision you're stuck on' and 'let's separate the facts from any worries' are explicit coaching register; 'Just the facts for now' is facilitator voice, not Sotie human-friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "'Any worries or fears your mind may have attached' introduces a hypothesis that the freeze is caused by attached fears — mild frame imposition, though not pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0014",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "'Frozen for a week' is picked up directly; 'balancing the fulfillment factor versus the financial one' restates the tension clearly, though 'fulfillment factor' is slightly abstract rather than using the user's own words ('what I want long term')."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Two short paragraphs with a single question is close to the right shape; the question is a choice-based yes/no check on the core tension, which is defensible. Slightly off because the preamble ('Let's take a step back') is coaching register."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "decision_clarification via a direct tension-check ('Is that the key tension?') is a clean and appropriate move for decision_stuck; execution is cleaner than items 13 and 14."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'Okay, you've been frozen on this decision for a week. Let's take a step back' — the second sentence is mild coaching register; otherwise avoids major violations. Not full Sotie voice but not egregious."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays in the user's frame; accurately names the tension (fulfillment vs financial) the user described; the yes/no check invites correction rather than imposing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0015",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up 'shoulders are up by your ears' from the user's image; does not anchor on the 'since the meeting' temporal detail which is the charged hook. 'Where do you feel it most' is generic after mirroring the shoulder image."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Short reflection + one body check question is close to the right Stabilizing/Minimal shape; but 'That physical tension is a signal that something feels off' is unsolicited interpretation that pads the shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "body_signal_check is appropriate for a body-signal entry; the interpretation ('something feels off, even if the reason isn't totally clear') is premature inference that muddies a clean body check execution."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I notice your shoulders are up' is slightly better than 'I hear'; 'That physical tension is a signal' is mild therapist-register explanation. No banned phrases; voice is mid-register, not full Sotie."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "'Something feels off, even if the reason isn't totally clear yet' adds an interpretive layer (something is wrong) that the user did not state — they just noticed a physical state. Mild reframe."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0016",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Mirrors 'shoulders are up by your ears' but does not anchor on the key temporal detail 'since the meeting'; 'often a signal that something is feeling heavy or overwhelming' is generic therapist explanation."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Two short sentences plus a yes/no question is compact; single-question discipline maintained. The yes/no question ('Is that what's happening for you right now?') is somewhat lazy but technically correct shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "body_signal_check component is the right intervention but the 'heavy or overwhelming' interpretation precedes any check of the user's experience; the yes/no question is a weak execution of the body check."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I noticed you mentioned' is flat AI paraphrase voice; 'physical tension is often a signal' is therapist-explanation register. No banned phrases; voice is generic AI-helper, not Sotie."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'Often a signal that something is feeling heavy or overwhelming' imposes a heaviness/overwhelm frame on what the user described neutrally as noticing shoulder tension — mild but clear frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0017",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'Feeling physical tension there makes sense when we've been carrying something heavy' references 'heavy' generically; neither 'shoulders at my ears' quoted sharply nor 'since the meeting' used as the specific anchor."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Two sentences plus one body question is right-sized; but 'like the thoughts from that meeting' adds unsolicited interpretation that extends the response slightly beyond needed."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "body_signal_check ('Where do you feel it most right now?') is the correct intervention for a body-signal entry; the preceding inference ('carrying something heavy, like the thoughts from that meeting') is premature."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm glad you noticed your shoulders' is slightly awkward AI-helper opener; 'carrying something heavy' is a metaphor extension in therapist register. No banned phrases; not full Sotie voice."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'Like the thoughts from that meeting' presumes the shoulder tension is caused by meeting thoughts — an interpretation the user left open with 'I think'; mild but clear frame imposition."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0018",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "Lists options abstractly ('lack of sleep, upcoming midterms, issues with roommate and advisor, or something else') without anchoring on any of the specific charged details (5 days, 3 weeks, midterms next week, 'forgot to pay something')."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Three-part question listing four options, followed by an advice paragraph ('The key is to focus on one area at a time'), is a multi-stacked question plus lecture — both major shape violations for an overwhelm/braindump entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Immediately gives problem-management advice ('By taking it step-by-step, we can help bring some clarity') when the entry calls for a Stabilizing Move and distress_tolerance_shift; solves before stabilizing."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'Okay, it sounds like you have a lot going on right now' is near-banned-form empathy; 'The key is to focus on one area at a time' is coach/advice voice; 'we can help bring some clarity' is assistant-register. Clearly not Sotie voice."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "Treats the braindump as a to-do list problem to be organized rather than an overwhelm state to be stabilized; mild frame recast but not pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0019",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "'5 days' is picked up and used as the anchor for prioritization; the response correctly identifies sleep as the most concrete data point from the braindump, though the stacked question loses the thread."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Two paragraphs with a stacked three-part question ('body, emotions, or ability to think clearly') is an improvement over item 19 but still a multi-choice question shape that violates the one-question rule."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Prioritizing sleep and applying distress_tolerance_shift logic is reasonable; body_signal_check follow-up is defensible; but the three-part question muddies execution of what should be a single stabilizing check."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'Okay, let's start by focusing on the most immediate need' is coaching register; 'Naming the specific way it's showing up could help point us toward' is clinical-therapist explanation language. No banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the overwhelm as real; picking sleep as the stabilizing anchor respects the user's stated experience ('5 days') without imposing a pathologizing frame. Slightly coaching-forward but frame-respectful."
+    },
+    "banned_phrase_hits": []
+  }
+]

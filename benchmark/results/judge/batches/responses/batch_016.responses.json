@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0300",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Mirrors 'start the essay at 8' and 'midnight' but nearly paraphrases the whole sentence back verbatim; no twist or addition — just flat repetition before a generic question."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Single question is correct shape for a first-touch procrastination entry, but the question 'first thing that comes to mind' is overly broad and generic; slightly the wrong angle for a concrete loop."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Asking what comes to mind about starting is a defensible meaning_probe, but 'what's the first thing that comes to mind' is vague — a concrete_detail_probe about the gap between 8pm and midnight would be sharper."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized prose feels slightly more formal/AI-assistant than Sotie's lowercase human-texting rhythm, and the paraphrase opener is a mild register slip."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's frame of the procrastination loop without pathologizing; does not impose a new interpretation, though the question doesn't deepen their frame either."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0301",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Like item 1, paraphrases the user's sentence back nearly verbatim ('start at 8... midnight... haven't opened the doc') with no twist; 'first thought when opening the document' is marginally more concrete but still generic."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question is correct but the shape is slightly too much reflection-then-question for what could be an Ultra-Short Move; mirrors before asking adds no extra value here."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "'First thought when actually opening the document' is slightly sharper than item 1's version — it narrows toward the threshold moment — but still a generic meaning_probe rather than concrete_detail_probe."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases, but capitalized, formal prose doesn't match Sotie's lowercase restrained register; reads more like an AI assistant than a close perceptive friend."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays in the user's frame without redirecting or pathologizing the procrastination loop."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-TIME-01",
+    "model_id_blind_token": "B0302",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Paraphrases the user's message back ('start at 8... midnight... haven't even opened the document') then asks 'what needs to happen for you to actually start' — this pivots to solving/logistics rather than anchoring the emotional moment."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "One question is correct in count, but asking 'what needs to happen to start working' shifts toward advice/action orientation when the entry calls for understanding the avoidance loop first."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Asking 'what needs to happen to actually start' is a next_step_generation move when the situation calls for loop_identification or concrete_detail_probe — solving before understanding."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases, but formal capitalized prose and practical action framing drift toward coach/assistant register rather than Sotie's warm reflective voice."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "The question reframes the loop as a logistics problem ('what needs to happen') rather than accepting the user's implicit frame of stuck-ness and confusion, which is a mild frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0303",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up 'wet sand' and '2 emails wiped' but then paraphrases the whole sentence; question 'what's making today feel so heavy' is generic and loses the vivid image."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question is correct shape; a Stabilizing Move would be better for high-physical-weight content, but a minimal reflection + question is defensible."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "'What's making today feel so heavy' is a meaning_probe that jumps to causation before grounding; for a 'wet sand' exhaustion entry, body_signal_check or distress_tolerance_shift would be more appropriate."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases, but the formal capitalized paraphrase opener is more AI-assistant than Sotie's voice; 'wiped' from the user's own words is echoed, which is good, but overall register is slightly off."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the user's 'heavy' frame but 'what's making today feel so heavy' could be read as pressing for explanation when the user may just want the feeling acknowledged."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0304",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Loses the vivid 'wet sand' image entirely and generalizes to 'really drained after just doing a couple of emails'; 'heaviest part of pushing through this day' echoes 'heavy' but abstractly."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question is correct count; shorter than items 1-4 which fits the heavy/short-energy entry, but 'heaviest part' is an abstract angle rather than a grounding move."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "'What's the heaviest part of pushing through' is a meaning_probe that misses that body signal or distress acknowledgment should come before asking for elaboration in a draining entry."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; shorter and slightly more restrained than other items, but 'really drained' feels slightly warmer/empathetic in a generic way rather than specific."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the tired/drained frame but 'pushing through this day' slightly reframes away from the user's own 'wet sand' image to a more generic endurance frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0305",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Retains 'wet sand' and '2 emails wiped you out' — better anchoring than item 5 — but then asks the same generic 'what's making it feel that heavy' question, losing the specificity gain."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question, reasonable length; the paraphrase-then-question structure is slightly heavier than needed for a depleted entry that might benefit from a body check or Stabilizing Move."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Same issue as item 4: 'what's making it feel that heavy' seeks cause/explanation rather than grounding or body signal check appropriate for this exhaustion entry."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized formal prose and paraphrase opener drift from Sotie's lower-case restrained register, though 'wet sand' and '2 emails' are preserved."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Keeps the user's own 'wet sand' metaphor and doesn't pathologize or redirect; stays within the emotional frame offered."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0306",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Drops to just 'something you said to Dani at lunch' and immediately asks for 'the specific line' — mirrors a key named element (Dani) and moves directly to the concrete detail, close to the rubric's 10-anchor example."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short Minimal Reflection — one clean question after a brief anchor; no paraphrase padding, exactly the right size for a replay loop entry, very close to the production example."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "concrete_detail_probe asking for 'the specific line' is precisely the right intervention for a replay loop — matches the system prompt's few-shot example for S-LOOP-01 almost exactly."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; capitalized prose is a minor slip from Sotie's lowercase register, but the response is restrained, specific, and not clinical — close to voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the replay loop frame without pathologizing; 'specific line that keeps coming back' mirrors the user's 'can't stop replaying' without imposing new meaning."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0307",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Mirrors 'Dani at lunch' and asks for 'the specific sentence that keeps replaying' — tight anchoring on the replay element; 'sentence' is slightly more concrete than 'line'."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal two-part structure (brief anchor + one targeted question) is exactly the right shape for this replay loop entry — no excess, no stacking."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "concrete_detail_probe for 'the specific sentence' is the best intervention for a replay loop — matches system prompt example almost exactly; clean execution."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; capitalized prose is a mild voice slip but response is otherwise restrained, direct, and specific — mostly on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely in the user's replay frame; 'keeps replaying' echoes their own language without redirecting or adding new interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0308",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Mirrors 'Dani at lunch' and asks for 'the exact sentence that keeps coming back' — 'exact' is stronger than 'specific', adding a useful precision; close to the rubric's top anchor example."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal, two-sentence structure; one targeted question — perfectly sized for a replay loop entry with no padding or stacking."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "'Exact sentence that keeps coming back' is a precise concrete_detail_probe — the best intervention for this loop type; clean execution matching the production examples."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; capitalized prose is a minor voice slip, but the response is otherwise brief, direct, restrained, and specific — mostly on-voice for Sotie."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully in the user's frame — 'keeps coming back' echoes 'can't stop replaying'; no pathologizing or reframing imposed."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0309",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up on the user's 'don't even know what to feel' and focuses on the moment; 'first word that comes to mind about how you felt in that moment' is grounded but 'that moment' is slightly abstract."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One question with a brief reflection opener — appropriate shape; slightly longer than needed given the user's confused/vague state which might call for an Ultra-Short Move."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "affect_labeling via 'first word that comes to mind about how you felt' is the right intervention for 'don't even know what to feel' — names the emotional confusion and invites a word, not a paragraph."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; capitalized formal opener ('You felt something...') is slightly more AI-assistant than Sotie's register; otherwise restrained and direct."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's stated confusion ('don't know what to feel') and doesn't impose a frame around 'dramatic' or the mom's behavior; stays neutral and open."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0310",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Almost identical to item 10; 'first word that comes to mind about that moment' is equally grounded but 'that moment' is still slightly vague — no additional specificity vs. item 10."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Same structure as item 10 — one question with brief reflection, correct count, slightly longer than Ultra-Short but defensible for this emotional confusion entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "affect_labeling via 'first word that comes to mind' is still the right intervention; slight edge to item 10's 'how you felt in that moment' over this item's 'about that moment' for precision."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; same capitalized formal register as item 10 — slightly off Sotie's voice but not severely."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays in the user's confused emotional frame, doesn't side with or against mom or the 'dramatic' label."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0311",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Generalizes to 'unsure about how to react' (losing 'don't even know what to feel') and then asks about 'not wanting to do Thanksgiving' — this pivots away from the 'dramatic' label which is the charged word."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question, but the pivot to Thanksgiving rather than to the emotional response to being called 'dramatic' is a shape mismatch — asks about the wrong thing for this moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Asking about 'not wanting to do Thanksgiving' redirects to the surface reason rather than addressing the emotional signal ('don't know what to feel') or the charged word 'dramatic' — wrong intervention direction."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized formal prose, and 'feeling unsure about how to react' is a slight abstraction/genericization from the user's actual words."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "The pivot to Thanksgiving implicitly frames the issue as 'about Thanksgiving' rather than 'about being called dramatic and not knowing what to feel' — a mild frame redirection."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0312",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Summarizes the two options correctly but softens 'double pay' to 'pays double' and loses 'frozen for a week' — the most emotionally charged element of the entry — in a generic paraphrase."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question with summary is a reasonable shape, but the summary takes too long to state what the user already said, and 'what's the first thing that comes to mind when you think about choosing' is overly generic."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "'What comes to mind when thinking about choosing' is a vague meaning_probe; the clearer intervention would be decision_clarification or focusing on 'frozen for a week' as the concrete signal."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized formal paraphrase opener is off Sotie's register; the summary structure reads more like an AI assistant organizing information than a friend reflecting."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the decision frame but by neutralizing 'frozen' to 'weighing' it slightly softens and reframes the user's expressed stuck-ness."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0313",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Picks up 'frozen for a week' specifically — better than item 13 — but drops the detail about startup vs. consulting and what made them different, then asks the same generic question."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Tighter than item 13 (drops the paraphrase of both options) and one question — slightly better shape, but 'first thing that comes to mind when you think about choosing' remains generic."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "'Frozen for a week' is the right hook but 'what comes to mind about choosing between them' doesn't leverage it to go deeper — decision_clarification or option_cost_mapping would sharpen it."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized formal prose is a mild register slip; otherwise restrained and not clinical."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the frozen/stuck frame without pathologizing or pushing toward one option; 'frozen for a week' is echoed back respectfully."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0314",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "'Stuck on this decision for a week' catches the temporal/stuck element but loses 'frozen' (charged word) and drops all detail about the options themselves, making the reflection thinner."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Compact one-question structure is good; slightly better sized than item 13 but 'first thing that comes up when you think about choosing' is still the same generic question angle."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Same issue as items 13-14: the question is a generic meaning_probe rather than a sharper decision_clarification or option_cost_mapping that would actually help with 'frozen' decision-making."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; capitalized formal opener is a minor voice slip; 'stuck' and 'internships' are reasonable but the register is slightly more AI-helper than Sotie."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the frozen/stuck frame; 'stuck' mirrors the user's 'frozen' adequately without imposing a new interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0315",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Shoulders at your ears since the meeting' picks up the user's vivid physical image exactly; 'where do you feel the tension most' anchors to body signal with a good directional follow-through."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-short two-sentence structure — brief anchor echoing the user's image, one body_signal_check question — perfectly sized for a body-awareness notice entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "body_signal_check is the ideal intervention for a body-awareness notice entry; 'where do you feel the tension most' is a clean, well-executed version of it."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; capitalized opener is a minor voice slip but the response is otherwise brief, direct, and specific — largely in Sotie's register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays exactly in the user's body-awareness frame; mirrors 'shoulders at your ears' and 'since the meeting' without adding interpretation or pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0316",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Loses the vivid 'at your ears' image, replacing it with 'tense' — a significant abstraction from the user's specific physical description; 'since the meeting' is preserved."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Short two-sentence structure with one body_signal_check question is the right shape; slightly weaker than item 16 due to the image loss, but well-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "body_signal_check via 'where in your body do you feel it most' is the right intervention — same quality as item 16 but less anchored to the specific image."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; 'You've noticed your shoulders are tense' is a mild paraphrase that's slightly more formal and less precise than the user's own vivid words."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Respects the body-awareness frame without imposing interpretation; 'since the meeting' is preserved but 'tense' loses the visceral quality of 'at my ears'."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0317",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Also loses 'at your ears' to 'tense', and then asks 'what's the first thing that happened in that meeting' — pivots from body signal to memory recall, losing the physical grounding."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "The pivot to 'first thing that happened in that meeting' changes the shape from a body-grounding move to a context_clarification/timeline_anchor, which is a mismatch for a body-awareness notice entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "timeline_anchor ('first thing that happened in that meeting') is a defensible intervention for unpacking stress, but body_signal_check is clearly more appropriate when the user just noticed their body; wrong priority order."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; capitalized formal opener is a minor slip; otherwise not clinical or overly warm — neutral register."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "The pivot to the meeting's events implicitly reframes the entry from body-awareness to event-analysis, which doesn't fully respect the user's framing of noticing their physical state now."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0318",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Picks up 'midterms' and 'roommate' but ignores the most emotionally charged items (5 days no sleep, advisor mad, dad not called in 3 weeks, forgot to pay something); 'a lot going on' is a generic summarizer."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "One question is right in count, but for a braindump with 5+ simultaneous stressors, a Summary Move that names the pile or an outcome_check ('what would help most right now') would be more appropriate."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Asking 'what's making it hardest for you to sleep' is a narrow concrete_detail_probe on one stressor when the entry is about overwhelm across many — stabilizing or outcome_check would serve better first."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases; 'You've got a lot going on right now' is a mild boilerplate/generic opener that slightly slips into AI-helper register rather than Sotie's specific voice."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Doesn't pathologize or reframe; accepts the overwhelmed frame; but narrowing immediately to sleep before the whole pile is acknowledged slightly underweights the user's many signals."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0319",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "'A lot on your plate' and 'all piling up' are pure generic summaries that don't anchor to any specific detail (5 days no sleep, dad, advisor, forgotten payment) from the user's extensive braindump."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Asking 'what do you need to tackle to feel more in control' immediately goes to action/next_step_generation when the user's entry is pure overwhelm braindump — wrong shape entirely, jumps to solution."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "next_step_generation when the entry calls for stabilization or outcome_check first is a clear mismatch — 'what to tackle first' turns emotional overwhelm into task management, which the system prompt explicitly warns against."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "No banned phrases, but 'a lot on your plate' and 'piling up' are boilerplate phrases; 'start feeling a bit more in control' drifts into coaching register rather than Sotie's reflective voice."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "Reframes the braindump overwhelm as a productivity/control problem ('need to tackle to feel more in control') rather than accepting the user's frame of being flooded and overwhelmed — a clear frame override."
+    },
+    "banned_phrase_hits": []
+  }
+]

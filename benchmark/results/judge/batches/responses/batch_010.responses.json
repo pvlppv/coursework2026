@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0180",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up 'confused together' and reframes it as 'shared ground,' then adds the follow-up about the user's own confusion feeling lonelier — specific but the reframe adds one interpretive layer not confirmed by the user."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one question is appropriate here; slightly long at two sentences before the question, but overall shape fits a multi-turn Someone prompt at this depth."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Underlying_need_probe is a defensible move — exploring what the engagement means for the user's own confusion — though it adds an interpretation ('feel more lonely') that wasn't yet confirmed."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; capitalised 'Does' is acceptable. Register is warm without being clinical or syrupy. Slightly formal ('suddenly makes') but stays inside voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's 'left behind' and 'confused together' framing; mild reframe introduces 'lonely' which the user didn't use, adding a slight interpretive overlay without contradicting the user."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0181",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 10,
+      "rationale": "Locks onto the exact phrase 'confused together,' names it 'shared home base,' then delivers a sharp single-question twist — 'If she isn't confused anymore, what does that make you?' — that mirrors with an addition."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Two short lines: a specific reflection plus one clean question. Perfectly sized Minimal Reflection for this multi-turn moment; no extra padding."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Meaning_probe combined with specific_reflection is exactly the right component: the user's realization is still forming and the question opens identity without forcing it."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "Short, lowercase-style, restrained; 'shared home base' is evocative but not clinical. No banned phrases, no validation theater, no AI-helper register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully within the user's frame — 'confused together' accepted literally; the question reflects back the user's identity implication without imposing a new one."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0182",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'confused together' and 'common ground' closely, but the question ('what does that make you feel about your own spot') is a flatter restatement of Item 2's sharper version — grounded but not adding much."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Appropriate Minimal Reflection length; slightly wordy phrasing ('what does that make you feel about your own spot') makes the question less crisp than ideal."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Specific_reflection plus meaning_probe is the right set, executed adequately; 'your own spot' is vaguer than needed, making execution slightly muddy."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'It sounds like the confusion was the common ground' is close to the banned-adjacent 'It sounds like you are experiencing' register — not a hard hit but a mild slip into paraphrase-speak."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays inside the user's frame; 'common ground you both stood on' is a faithful restatement; no new diagnosis or imposed meaning."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0183",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Directly uses 'a list' and 'math problem' to capture why the therapist's suggestion felt insulting — precise and adds a new image that lands. Then narrows to 'the part that actually feels stuck.'"
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two short paragraphs: one validation beat plus one clean question. Correctly sized Supportive Reflection for a frustrated multi-turn moment; shape fits well."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Emotional_validation followed by decision_clarification is the right combo — acknowledges the frustration without dwelling on it, then moves toward clarifying what is actually blocking the decision."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Warm but not syrupy; 'a heavy decision like a math problem you just haven't finished yet' is vivid and on-voice. No banned phrases; register consistent with production examples."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's framing that the list 'missed the point' without imposing a new frame; validates anger at the approach without redirecting or diagnosing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0184",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mentions 'pro and con list' and 'logic' correctly, but the question ('the effort you've already put in, or how the masters is actually making you feel') is a stacked choice — two distinct sub-questions in one sentence."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "The question contains two parts ('effort you've already put in' OR 'how the masters is actually making you feel'), which approaches the banned stacked-question pattern; shape is otherwise appropriate but execution breaks the one-question rule."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Emotional_validation plus underlying_need_probe is a defensible choice, but the dual-part question muddies the execution, making the user work harder to choose an answer."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; register is mostly on-voice, though 'it sounds like you're already past that stage' edges toward the borderline 'It sounds like' construction without triggering the hard ban."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's frustration frame; doesn't pathologise or redirect. 'Already past that stage' could imply the user is further along than they said, a mild interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0185",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses 'a list implies you just need more data' to ground the response, but the rest ('what's the part that feels like it's actually blocking the decision') is generic — not anchored to any specific word or image from the user."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two paragraphs with one clean question; right shape and appropriate length for the prompt, though slightly more wordy than needed in the first paragraph."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Emotional_validation plus decision_clarification is the right pair; execution is clean but the question is vaguer than Item 4's version, making it a 7 rather than 9."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'It sounds like her question missed the weight of what you're actually going through' leans into the borderline 'It sounds like' register — not a hard ban hit but a noticeable voice slip."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays inside the user's frame; accepts that the therapist missed the mark; doesn't impose a competing interpretation. 'Already past that point' is a mild interpretive add."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0186",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Picks up 'the day belonged to me' and 'the screen lights up' specifically; 'what was the first thing that tried to take it back' is grounded in the user's own framing — well anchored."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two sentences: one observation plus one question — right shape for a positive-moment multi-turn continuation. Lean and correctly sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Meaning_probe / concrete_detail_probe are defensible here; the question gently probes without solving or over-analyzing a positive moment. Slightly pushes beyond the good morning context."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "'That ownership usually disappears the moment the screen lights up' is sharp, human, and restrained. No banned phrases or boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Mostly stays with the user's positive frame; the question 'what was the first thing that tried to take it back' implies something will inevitably take the feeling away, adding a mild negative lean the user didn't introduce."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0187",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "'A specific kind of quiet' is precise; 'gifted to someone else' mirrors 'the day belonged to me' with a sharp flip — anchors on the user's exact image and adds contrast."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two short beats: one naming line plus one clean question. Tight and appropriately sized Minimal Reflection for a positive-moment multi-turn turn."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection plus meaning_probe works well here; the question is curious without pushing analysis or treating the positive moment as a problem."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Restrained, evocative ('gifted to someone else'), no banned phrases, human-texting rhythm — fully on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully inside the user's 'day belonged to me' framing; the question extends the image without reframing or pathologising."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0188",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Opens by quoting the user's exact words 'The day belonged to me' and anchors on '4 min' — uses both specific elements together — then asks what 'takes that feeling away.'"
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two sentences: one grounded observation plus one question. Right shape for this turn; no excess length."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection plus meaning_probe — clean execution. The question is curious and doesn't over-analyze a positive moment."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Quotes user's words directly, then asks a plain question. No banned phrases, restrained register, on-voice throughout."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Builds on 'big shift for four minutes' without imposing a problem frame; stays with the user's positive-moment register."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0189",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "'Moving past it is easier than sitting with it' is a paraphrase, not anchored to a specific word from the user's message ('i dont want to think about that one'); 'chore or because it actually hurts' adds specificity in the question."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The question 'put a name on it: are you avoiding it because it feels like a chore, or because it actually hurts?' contains two sub-parts, skirting the stacked-question rule; shape is otherwise appropriate for a BrainDump continuation."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Affect_labeling is reasonable; the dual-part question muddles execution. 'Before we move on' implies permission to move on after, which slightly contradicts the system's principle of not reopening unless needed."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear you' is close to the banned 'I hear that must be difficult' register and reads as generic validation boilerplate — a voice slip that weakens discipline even without a literal ban hit."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts that the user doesn't want to go there; 'Before we move on' respects the avoidance while gently creating space — no frame imposition."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0190",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Offers a concrete choice — 'a weight you're carrying or a wall you're putting up' — that picks up the avoidance signal, though 'too heavy' paraphrases rather than using the user's exact phrasing."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two short sentences: a grounding permission plus one choice-based question. Right shape — the permission-first move is appropriate given the user's 'I don't want to think about it.'"
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Distress_tolerance_shift ('you can leave it for now') followed by affect_labeling choice is well-calibrated for a user who said they don't want to engage — respectful and correctly paced."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Short, restrained, no banned phrases; 'a weight you're carrying or a wall you're putting up' is evocative and on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Opens by explicitly respecting the user's stated resistance ('you can leave it for now'); stays fully in their frame without pushing past their stated limit."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0191",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "'I can tell' acknowledges the avoidance but doesn't anchor on any specific word from the user; the question 'too heavy or not ready to solve yet' is generic — doesn't surface any particular image from 'i dont want to think about that one.'"
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two short sentences, one question — correctly minimal shape. However 'too heavy, or because it feels like a problem you just aren't ready to solve yet' again has a dual-part structure."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Affect_labeling via a choice is defensible; 'I can tell' is a validation acknowledgment that is brief enough to not slow the move."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Short, no banned phrases, restrained. 'I can tell' is direct and human rather than boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays inside the user's avoidance frame; doesn't force exploration or reframe the therapist topic."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0192",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Draws a crisp contrast between 'fraud' (a lie you're telling) and 'literally don't know how' (a gap in training) — uses the user's exact words as a pivot to add meaning rather than just reflecting."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two sentences: a sharp fact/interpretation split plus one concrete question. Right shape for an Edge-correct prompt; clean and well-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Fact_interpretation_split after a frame correction is the ideal component: the user corrected the 'imposter syndrome' label and the response rebuilds from their actual framing."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Restrained, direct; 'a gap in training or information' is specific without being clinical. No banned phrases or boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully accepts the user's correction ('no, it's not imposter syndrome — I actually don't know') and builds from there, without defending the prior frame at all."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0193",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "'A gap between what you're expected to do and what you actually know' reflects the user's correction accurately but is a paraphrase rather than using the user's exact words ('half my job') for extra specificity."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-sentence response: one transition plus one question; clean and well-proportioned for an Edge-correct continuation."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Fact_interpretation_split plus context_clarification works — accepts the correction and moves to concrete detail without over-analyzing. Slightly less sharp than Item 13."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Clean, no banned phrases; 'it sounds more like a gap' is borderline but doesn't hit the exact banned form. Register is on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "'That changes things' immediately accepts the user's correction; no attempt to defend the imposter syndrome frame or re-impose it."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0194",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses 'a gap in what you're actually able to do' as a restatement; the question offers a concrete distinction (not trained for vs expected to know) — specific enough but not leveraging the user's exact 'half my job' image."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The question 'are you being asked to do things you weren't trained for, or are you falling behind on things you're expected to know?' is a two-part stacked choice that strains the one-question rule."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Fact_interpretation_split is right, but the dual question makes it a bit muddy in execution; each sub-question is useful, but together they create cognitive load."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'a feeling of inadequacy' is slightly clinical compared to production examples, but overall register is acceptable."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "'That shift matters' signals acceptance of the correction; the response stays fully in the user's corrected frame without any residual imposter syndrome framing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0195",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'The outrunning part' picks up the user's metaphor, but 'take a breath' is a generic stabilizing instruction; 'physical habit of staying busy, or a mental one' is a new distinction not drawn from the user's words."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "The user said 'I think I needed to say it' — the reflection has landed. The system's rule is to stop digging when the loop is closed; this response reopens with 'tell me about the outrunning part,' violating the close-the-loop rule. Wrong move shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Probing harder ('tell me about the outrunning part') after the user explicitly said 'I think I needed to say it' is exactly failure mode F8 (probe harder when user already landed). Incorrect intervention."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'Take a breath' is a banned-adjacent phrase ('Take a deep breath' is banned unless explicitly requested); 'take a breath' is close enough to be a mild voice slip. No hard ban hit."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "The user signaled the reflection landed; the response redirects to analysis ('is it a physical habit or a mental one?'), imposing a new investigative frame on a moment of closure."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0196",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Uses 'resting' from the user's original sentence, but 'physical threat, a sudden heaviness, or just a loud, crowded mind' are new frames not derived from the user's words — thin anchoring."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Again, the reflection has landed ('I think I needed to say it'), so the right shape is a closing or brief stay-with. This response reopens investigation with a three-part question — wrong shape and stacked choice."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Pushing further when the user said 'I think I needed to say it' is failure mode F8. A three-part choice question multiplies the violation."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; register is mostly on-voice though 'take a second' borders on the 'take a breath' territory without hitting the literal ban."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "The user's frame says the loop closed; the response imposes a new analytical frame ('physical threat, heaviness, crowded mind') on a moment that needed acknowledgement, not categorisation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0197",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes 'out loud' and uses 'everything' directly from the user's prior sentence; the question ('does it feel like a relief or does it make the everything feel more real?') mirrors the user's exact word 'everything' with a neat pivot."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One tight sentence with a binary question. Though the loop has landed, this is the lightest possible extension — not ideal (a brief stay-with or close would be better) but not a severe violation."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "The user said 'I think I needed to say it,' signaling closure. A stay-with or consolidating statement was warranted; asking about 'relief vs. more real' gently probes past the landing point, which is mild but present failure mode F8."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Short, restrained, no banned phrases; echoes 'everything' from the user's own vocabulary — on-voice throughout."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "The question uses the user's own frame ('the everything') rather than imposing a new one; the mild probing is the only slight frame tension."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0198",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Heavy kind of tired' and 'want to go blank' are concrete anchors offered as choices; 'blank' echoes the system's Example 13 vocabulary — not using the user's exact words but offering targeted alternatives."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move: one clean binary question after the user has repeated 'tired' three times without more. Perfectly sized — changes the angle as the system instructs when minimal replies recur."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Affect_labeling via a concrete choice is the right intervention when the user gives repeated minimal answers; changes angle (heavy vs. blank) without repeating the prior physical/other distinction."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "A single direct question, no boilerplate, no banned phrases, human-texting rhythm — textbook on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Accepts 'tired' as the signal without pathologising or reframing; offers two user-accessible options within the tiredness frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0199",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'That word covers a lot' acknowledges the repeated signal; 'the kind that sleep helps, or the kind that sleep doesn't touch' is concrete and specific to the tiredness experience — well-anchored alternatives."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move: one sentence of acknowledgment plus one binary question — exactly right after three identical minimal answers."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Changes angle from 'physical or other kind' to 'sleep helps or doesn't touch' — a fresh concrete distinction that doesn't repeat the failed approach."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "Crisp, human, no banned phrases; 'the kind that sleep doesn't touch' is evocative and on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully inside the user's 'tired' frame; offers two alternatives within that frame without diagnosing or reframing."
+    },
+    "banned_phrase_hits": []
+  }
+]

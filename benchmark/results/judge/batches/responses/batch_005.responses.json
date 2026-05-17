@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0080",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Picks up the user's exact metaphor \"wet sand\" and uses it as an anchor, then adds three precise choices (heavy, slow, pointless) that differentiate within that image — specific and adds something."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move with exactly one choice-based question, correctly sized for a vague first-touch heavy entry; no extra padding or second question."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Correctly executes affect_labeling via a concrete choice rather than premature analysis; does not solve or advise on a low-context heavy entry."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "No banned phrases; terse, restrained, uses the user's own image; reads like the production few-shot examples in register and brevity."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays entirely in the user's frame — holds the \"wet sand\" metaphor and opens three lanes without redirecting or pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0081",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up the replay loop but abstracts it as \"mind trying to make sense\" without using the concrete anchors \"6 hours\" or \"Dani\" in a way that adds anything; one generic moment of contact."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one question is appropriate for this prompt, but the first sentence is slightly longer than needed and somewhat generic, making it a beat too padded."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Concrete_detail_probe question at the end is the right move; the preamble adds a mild microframe that is not wrong but slightly premature for this short entry."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "\"It sounds like your mind is trying to make sense\" edges toward generic AI-helper register; no banned phrases but the phrasing is slightly too explanatory."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Does not pathologize or redirect; accepts the loop as the user presented it, though interpreting it as \"trying to make sense\" is a mild frame addition not invited by the user."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0082",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Offers a brief psychoeducation-adjacent microframe (\"trying to solve\") but doesn't anchor on the specific \"6 hours\" or \"Dani\" details; the question is specific enough to the replay loop."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-part structure with a brief framing sentence and one clean question is well-sized; the paragraph break and short framing are slightly more than an Ultra-Short but appropriate for the Minimal Reflection shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Loop_identification framing + concrete_detail_probe question is a strong pairing; executes cleanly without over-explaining or double-questioning."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Reasonably restrained; the quotes around \"solve\" show awareness; no banned phrases; slightly more coach-adjacent than ideal but within range."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the replay loop frame; the \"trying to solve\" interpretation is a mild addition but not a frame override; stays close to the user's experience."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0083",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Uses \"six hours\" and \"Dani\" by name, grounding the response in the actual details; the question is direct and concrete without adding a twist beyond restating the situation."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Clean Minimal Reflection — one grounding sentence plus one question, appropriately brief for a single-turn looping entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Concrete_detail_probe is precisely the right move here; doesn't over-explain or add premature analysis; executes cleanly."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Readable, close to production voice; slightly formal construction but no banned phrases and no therapy-speak register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully in the user's frame — mirrors the loop and Dani without any reframing or interpretation layered on top."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0084",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Quotes \"dramatic\" and separates the two things to make sense of (Thanksgiving feeling vs. being called dramatic), which is grounded; the separation is a useful addition though stated flatly."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Supportive Reflection with a choice-based question is appropriate for shame/hurt/confusion; two-paragraph structure is slightly longer than needed but defensible."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Outcome_check via a choice question is a reasonable move after naming the two-thing split; appropriately avoids solving or pathologizing."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "\"That's a difficult thing to hear\" is somewhat generic empathy boilerplate; not a banned phrase but edges toward the warm-but-generic register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Holds the user's stated confusion without redirecting; the split into two things is a mild interpretation but doesn't override the user's frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0085",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes \"dramatic\" in the question and anchors on the user's stated inability to sort feelings; the question is pointed and uses the user's exact charged word."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-sentence Minimal Reflection with one question; appropriate size and shape for the confused emotional state; the line break is reasonable."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Concrete_detail_probe on the exact charged word \"dramatic\" is the right move — focuses on the word's impact before any broader analysis."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "\"It sounds like hearing that from your mom\" is close to the banned register of \"It sounds like you are experiencing\" — not a literal hit but a near-miss; slightly generic."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays in the user's frame; the observation that her mom's word made it hard to sort feelings accurately reflects what was said without redirecting."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0086",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Uses \"dramatic\" precisely and adds a useful temporal probe (\"before she said that\") that surfaces the hidden layer in the user's confusion; anchors and adds something."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection — one sentence reflection plus one clean question; correctly sized and not over-padded for this single-turn entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Timeline_anchor + concrete_detail_probe is exactly the right pair here — asking what the user felt before \"dramatic\" was applied is a precise and useful move."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "\"It sounds like her word\" is a mild near-miss to the banned register but stays on the right side; no banned phrases, close to production voice; the asterisks around *before* are a minor markdown slip but not disqualifying."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully respects the user's confusion frame; the temporal probe opens a new angle without imposing any interpretation about the mom or the relationship."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0087",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Picks up \"frozen\" directly and asks about it; the phrase \"two futures\" is a mild addition that captures the binary without over-explaining."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short Move with one clean question — precisely right for a decision-stuck entry with clear context already given."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Body_signal_check / affect_labeling via asking about \"frozen\" is the right move before any decision analysis; doesn't rush to option mapping."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Terse and specific; \"two futures\" is a small evocative phrase; no banned phrases, no therapy-speak; reads naturally."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the decision frame the user offered; doesn't reframe frozen as avoidance or pathologize; stays with the user's word."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0088",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses \"frozen for a week\" and notes \"deeper kind of stuckness\" — picks up the word but the interpretation (\"not only the choice taking a toll\") is a mild inferred layer not directly grounded in the user's words."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-part structure with one question is appropriate; the framing sentence adds slight over-interpretation but the shape is still defensible Minimal Reflection."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Affect_labeling via asking about \"frozen\" is the right move; the framing about \"deeper stuckness\" is a mild premature interpretation but not a wrong intervention type."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "\"Sounds like\" is a mild marker of AI-helper register; no banned phrases, but \"deeper kind of stuckness\" is slightly analytic; generally on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Mostly respects frame; \"not only the choice taking a toll\" adds an inferred layer that is a mild reframe not asked for by the user."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0089",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "The abstract summary (\"longer path\" vs \"immediately practical\") paraphrases the user's situation generically and loses the specific contrast the user drew; \"frozen\" appears in the question but without the \"week\" anchor."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One-sentence framing plus one question is right-sized; the framing is less grounded than ideal but the shape is correct."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Asking about \"frozen\" as an affect probe is the right move; does not rush to decision mapping or advice."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "\"It sounds like a choice between\" echoes the near-banned register; the paraphrase feels like assistant summarization rather than Sotie voice."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Does not pathologize or reframe; the paraphrase is abstract but not a frame override; accepts the decision frame as given."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0090",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Anchors on \"shoulders at my ears\" precisely and adds a body-texture question (hard, tight, buzzy) that develops the user's own somatic observation with useful specificity."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Brief Minimal Reflection with one body-signal question — exactly right for a casual noticing entry; not over-padded."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Body_signal_check is the ideal move when the user leads with a physical sensation; the texture question deepens the somatic route cleanly."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "\"You noticed it in your body first\" is a clean, specific line; no banned phrases; close to production voice in brevity and register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays entirely in the user's somatic frame; doesn't immediately leap to analyzing the meeting; follows the user's lead."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0091",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors \"shoulders at my ears\" and connects it to the meeting; the question pivots to the meeting rather than staying with the body signal, which is a mild redirection from the somatic anchor."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "One sentence plus one question is right-sized; the question redirects to the meeting rather than the body, which is a defensible but not optimal shape choice."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Jumping to \"what about the meeting\" skips the body_signal_check step that the user's somatic entry calls for; moves to meaning_probe prematurely."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Clean and restrained; no banned phrases; the phrasing is natural though slightly more analytical than ideal for a casual notice entry."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the connection to the meeting that the user implied, but redirecting to the meeting rather than dwelling in the body sensation is a mild frame shift."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0092",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "\"That feeling in your shoulders\" acknowledges the body signal but the psychoeducation-adjacent framing (\"something that hasn't fully landed yet\") is abstract and not anchored in the user's exact language."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "One sentence plus one question; the framing sentence imports a mild interpretation that wasn't invited, making the shape slightly over-interpreted for this light entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "The microframe about \"something that hasn't fully landed\" is premature meaning_probe before body_signal_check; the question then pivots to meaning rather than the sensation itself."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "\"Often a sign of something that hasn't fully landed\" edges toward generic psychoeducation register; no banned phrases but the explanation-first approach is slightly assistant-like."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Adds a frame (\"something that hasn't fully landed\") that wasn't in the user's words; mild reframe that redirects from the pure body observation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0093",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Acknowledges \"a lot\" and connects sleep to the circling, but doesn't anchor on any of the six specific stressors named; the question offers three useful choices rather than pulling from the user's own words."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Stabilizing Move with one choice question is appropriate for a high-load braindump entry; two short paragraphs are right-sized and not over-padded."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Affect_labeling choice (exhaustion, dread, overwhelm) is a clean stabilizing move before any triage or meaning-making; correct priority given 5-day sleep deprivation."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "\"That's a lot to hold\" is slightly generic but not a banned phrase; the rest is clean and restrained; no therapy-speak."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Doesn't pathologize or reframe any of the listed stressors; accepts the user's overwhelm frame and slows the pace appropriately."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0094",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Mentions sleep but otherwise abstracts \"all of it\" without pulling any of the six specific stressors named by the user; the question is general rather than grounded in the user's actual list."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "\"Let's dig into everything\" and \"Let's just mark the top two things\" is slightly coach-like in phrasing; the question is also somewhat cognitively demanding for a high-load moment — asks the user to rank and select two items."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Asking for \"top two things\" is a mild triage move that may be premature before stabilization; skips affect_labeling and moves directly to a cognitively demanding sort task."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "\"Before we dig into everything, let's just mark\" sounds like a coaching/session-management register; no banned phrases but the phrasing is noticeably assistant-like."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Doesn't pathologize; accepts the braindump frame; the reframe toward \"what's keeping you up\" is a mild but defensible redirection."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0095",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "\"A lot to hold\" is generic and doesn't anchor on any specific item from the user's six-item dump; the question is reasonable but abstract."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short Move with one clean question is perfectly sized for a high-load braindump; resists the temptation to address every item."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Outcome_check / affect_labeling by asking for the heaviest thing is a clean, appropriate first move; stabilizes before triage."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "\"That's a lot to hold\" is slightly generic but brief; the rest is clean and uncluttered; no banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's overwhelm frame; doesn't solve, triage, or pathologize; asks the user to locate their own heaviest weight."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0096",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes \"fog\" directly and adds two distinct variations (heavy vs. dense) that differentiate within the metaphor; the framing \"Fog is a good word for it\" affirms the user's own language."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Short affirmation plus one choice-based question is right-sized for a multi-turn entry where context is already established; stays in the body/metaphor lane."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Body_signal_check via the fog-texture question is the right move after three turns have established the gap; doesn't rush to solutions."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "\"Fog is a good word for it\" is slightly validating in a mild way; no banned phrases; generally on-voice but the affirmation reads a touch warmer than the production examples."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully in the user's fog metaphor; no reframing or interpretation added; builds directly on what the user offered."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0097",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors \"fog\" and locates it between wanting and moving, which is grounded in the prior turns; the question differentiates (heavy vs. blurry) but doesn't add much beyond rephrasing what's established."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two short sentences plus one choice question — clean Minimal Reflection, correctly sized for the multi-turn context where the gap is already established."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Body_signal_check on the fog texture is appropriate; the locating sentence (\"between wanting to go and actually moving\") is a clean summary_synthesis before the probe."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Restrained and specific; no banned phrases; the phrasing is natural and close to the production voice register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays entirely in the user's fog frame; no reframing, no interpretation layered; builds on what was offered across turns."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0098",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes \"fog\" and adds an interesting reframe (\"what you feel, not what you think\") that creates a useful distinction from the prior turns without over-interpreting."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Two very short sentences plus one choice question — tightly sized; the shape matches the multi-turn context and the user's minimal \"fog\" answer."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "The fact_interpretation_split (feel vs. think) is a precise move that surfaces the somatic nature of the block without premature analysis; body_signal_check follows cleanly."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "Clean, direct, and restrained; \"feel, not what you think\" has a sharp production-example quality; no banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "The feel/think distinction adds a mild new angle but it respects rather than overrides the user's fog frame; no pathologizing or reframing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0099",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Uses \"scared\" from the user's own words and \"running on empty\" — picks up both charged phrases and reflects them with a gentle deepening (\"how much was going on underneath\") that adds without over-explaining."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "A Sit-With / short closing statement with no question — exactly right when the user has just named their own realization (\"I didn't notice\"); doesn't probe further when the insight has landed."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Summary_synthesis / close-the-loop is the correct move when the user articulates their own realization; does not reopen or probe harder, fully respecting the \"stop digging when reflection has landed\" rule."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "Two plain sentences with no banned phrases, no validation theater, no advice; reads exactly like the production few-shot examples in register and brevity."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully in the user's frame — \"scared,\" \"running on empty,\" \"didn't notice\" — with no reframing, pathologizing, or added interpretation."
+    },
+    "banned_phrase_hits": []
+  }
+]

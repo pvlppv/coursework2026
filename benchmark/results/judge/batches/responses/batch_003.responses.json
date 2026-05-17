@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0040",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Opens with 'I hear you don't want to think about your therapist moving' which restates the user's words but adds no twist or specific anchor; the follow-up pivots to generic self-care advice entirely untethered to anything the user actually said."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "User gave a minimal '...yeah. i dont want to think about that one' — warranting an Ultra-Short or Stabilizing Move; response is a two-sentence paragraph that asks a double-concept self-care question and is far too long and advice-adjacent."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Moves immediately to next_step_generation ('one small way to take care of yourself') despite user explicitly signaling they don't want to go there yet; advice when grounding or staying-with was needed."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "Opens with 'I hear you' — close to the banned-phrase register; 'feel like a lot' and 'less alone with it' are generic boilerplate; overall register is assistant-helper, not a close perceptive friend. No exact banned phrase hit but tone is off."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "User said 'i dont want to think about that one'; response immediately talks about it and suggests grounding around it, overriding the explicit avoidance signal and redirecting toward self-care the user didn't request."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0041",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Echoes 'therapist moving' and 'get past it' but adds nothing — no twist, no specific charge surfaced from user's exact words; the pivot to 'quieter loop' is abstract and generic."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Slightly shorter than Item 1 but still ends with a choice-based question about a 'quieter loop' when user's minimal '...yeah' after a heavy reveal called for a Sit-With or Ultra-Short Move."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Acknowledges the avoidance and tries to redirect, which is defensible, but offering to 'explore instead' is still a push to analyze when user signaled wanting to stay away — a weak execution of outcome_check."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear you don't want to think about your therapist moving. That feels heavy' is borderline banned-phrase territory; 'I understand wanting to get past it' is therapy-helper register rather than close friend."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Respects the avoidance more than Item 1 by not forcing engagement, but 'That feels heavy' imposes an emotion the user didn't name, and redirecting to another loop still overrides the user's implicit 'leave this' signal."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0042",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up 'half my job' specifically and asks for a concrete example, which anchors on the user's real claim; doesn't add a twist but the pivot to specifics is exactly right."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Minimal Reflection with one question fits the correction context well; slightly imperative tone ('Give me a concrete example') is a bit blunt for a journaling app but the shape is basically right."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Correctly executes context_clarification after accepting the correction — asks for a concrete example rather than probing deeper or giving advice; clean execution of the right move after frame reset."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'Let's slow down' is slightly coach-register; 'Give me a concrete example' is direct but a bit interrogating rather than warm-curious; otherwise clear and non-clinical."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the correction immediately without defending the imposter-syndrome frame; 'Okay' signals acceptance and moves to the user's actual claim — very good frame respect per Conversation Principles."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0043",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "References 'imposter syndrome' contrast and 'uncertain about in your work' but doesn't anchor on 'half my job' — the most charged specific phrase the user offered; question is abstract."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Very short, one sentence acknowledgment + one question — appropriate Ultra-Short/Minimal shape for a correction moment; well-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Accepts correction and asks a clarifying question — correct intervention type (context_clarification); slightly vague ('uncertain about') but defensible and clean."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'I hear this feels more direct' echoes banned-phrase register; otherwise the response is concise and non-clinical; one slip keeps it from scoring higher."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the frame correction clearly with 'more direct than imposter syndrome'; doesn't push back or impose old frame; clean alliance repair."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0044",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'half your job' specifically and then asks 'what specific part do you feel least equipped for' — good anchoring on the user's exact phrase, one focused question."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Slightly longer than needed — adds 'That must feel overwhelming and uncertain' before the question, making it a beat too long for what should be a minimal correction-acceptance move."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Accepts the correction and uses concrete_detail_probe to focus on the specific gap — correct move type; the validation sentence before the question slightly muddies the execution."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'That must feel overwhelming and uncertain' is a near-banned-phrase construction; 'Okay, this sounds like more than imposter syndrome' is defensible but slightly formal; overall leans toward AI-helper register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the correction without reinstating imposter syndrome; mirrors 'half your job' in user's own terms; clean frame respect despite the mild excess validation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0045",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Paraphrases 'resting feels dangerous' and 'outrunning feelings' but loses the user's exact poetry ('outrunning'); calls it 'a familiar loop' adding an interpretation the user never offered."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "User said 'yeah. i think i needed to say it' — reflection has clearly landed; correct shape is Summary Move or a brief close; instead response launches two sentences of new analysis plus a probing question."
+    },
+    "c3_move_appropriateness": {
+      "score": 1,
+      "rationale": "Classic F8 failure: user landed ('i needed to say it'), response ignores this and probes harder with 'What happens when you try to slow down and face it?' — directly against the 'stop digging when reflection has landed' rule."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear you saying that resting feels dangerous' is near-banned-phrase territory; 'familiar loop, isn't it?' is rhetorical and presumptuous; overall therapist-assistant register throughout."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "Labels the pattern 'a familiar loop' without user offering that; assumes avoidance pattern is confirmed; pushes deeper into a frame the user just said they 'needed to say' (past tense — done)."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0046",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Paraphrases 'needing to keep going' but doesn't use 'outrunning' — the user's own powerful word; 'sounds like a way your mind has tried to protect you' is generic therapeutic interpretation."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Again fails to close the loop — user indicated they 'needed to say it' (landing signal); response adds two interpretive sentences and a new question, wrong shape for a landed moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Same F8 failure as Item 6: probes harder ('What do you notice starts to happen when you consider resting') after the user clearly signaled the reflection has landed."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear you' opens it in near-banned-phrase register; 'sounds like a way your mind has tried to protect you' is clinical/therapeutic framing; two sentences of over-explanation before the question."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "Adds 'your mind has tried to protect you' — an interpretation the user never offered and that reframes the statement into a protective-mechanism narrative without user input."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0047",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "'Points to something deep' and 'a pattern of avoiding' are pure therapy-speak; 'outrunning yourself' is close to the user's word but used in a different sense; no specific element lands with a twist."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Same landed-moment failure as Items 6 and 7; adds analysis ('points to something deep') and a new probing question when the user explicitly said they 'needed to say it.'"
+    },
+    "c3_move_appropriateness": {
+      "score": 1,
+      "rationale": "F8 failure again and adds F6 (pathologizing): 'what the mind is trying to protect by keeping you in motion' is a psychological interpretation that turns a personal realization into a clinical pattern to excavate."
+    },
+    "c4_voice_discipline": {
+      "score": 2,
+      "rationale": "'points to something deep' is validation theater adjacent; 'a pattern of avoiding what you might feel' is clinical framing; overall the most therapist-bot register of the three landed-moment responses."
+    },
+    "c5_frame_respect": {
+      "score": 2,
+      "rationale": "User offered a clear, complete realization; response reframes it as a defensive psychological mechanism ('what the mind is trying to protect'), imposing a clinical interpretation the user never offered."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0048",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'I hear the tiredness coming through' is generic; the physical/emotional dichotomy question is reasonable but repeats the question that was already just asked ('physical or the other kind?'), adding no new anchor."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "After two rounds of minimal answers, the system prompt calls for changing angle — switching to a different question type or Ultra-Short Move; instead response asks essentially the same question already posed, making it two stacked ideas."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "F8-adjacent: user has given 'tired' three times; correct move is to change angle (imagination, body, timeline, concrete detail); response doubles down on the same physical/emotional distinction just asked."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear the tiredness coming through' is near the banned-phrase register; the two-part question 'like heaviness or low energy? Or is it the kind that feels emotional' is wordy and over-explains."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Doesn't impose a new frame or pathologize; the question stays within what was already offered; respects the minimal signal, though repeating the prior question angle is a mild frame imposition."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0049",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "'I hear the tiredness' opens generically; 'seeps into the body and mind' is the model's own image, not the user's; 'when does this feeling tend to show up most' is a new angle but abstract."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Changes angle to timeline ('when does it show up most') which is the right strategy for repeated answers; response is slightly too long for a minimal-reply situation but the shape shift is correct."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Correctly shifts angle to timeline_anchor after repeated minimal answers — this is one of the explicitly recommended pivots; execution is soft but defensible."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear the tiredness' is near-banned-phrase; 'exhaustion that seeps into the body and mind' is the model's poetic addition — slightly performative; register leans assistant-like rather than friend-like."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Adds 'seeps into the body and mind' as an interpretation the user didn't offer; otherwise respects the minimal frame and doesn't pathologize; mild frame addition rather than override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0050",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Mirrors 'just feeling tired, period' and offers three categories; 'body, mind, or heart' is a new angle but generic choice — not anchored to anything specific the user said beyond 'tired.'"
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Slightly better than Items 9 and 10 because it offers a choice across three dimensions; still too long with the explanatory sentence 'could mean physical exhaustion, emotional heaviness, or a mix' before the question."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Switching to a body/location question is closer to the right pivot (body_signal_check) after repeated minimal answers; execution muddied by the prior explanatory sentence that adds cognitive load."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear you're just feeling tired, period' is near-banned-phrase; 'Before trying to pinpoint the reason' is explanatory/coaching register; overall leans toward assistant-helper voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Doesn't impose a new frame; accepts 'tired' at face value and asks where it lives; mild reframe by enumerating 'physical exhaustion, emotional heaviness, or a mix' which the user didn't offer."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "E-MIN-01",
+    "model_id_blind_token": "B0051",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "'The overall heaviness is clear right now' is the model's addition; 'what part of the day keeps replaying or feeling unresolved' is generic and doesn't anchor to 'today was a lot' with any precision or twist."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "User replied 'idk' to 'what was the loudest part' — Ultra-Short Move called for; response is two long sentences with an explanatory clause before a complex question about 'circling back to' — far too long."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Asks for 'what part keeps replaying' which is loop-identification-adjacent but asks for more analysis than the user's minimal 'idk' can supply; wrong move for low-signal state."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I hear you - today was a lot' is near-banned-phrase register; 'let's focus on what your mind keeps circling back to' is coaching/therapist language; overall wrong register for Sotie."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Accepts 'today was a lot' and 'idk' without pathologizing; 'heaviness is clear right now' adds an interpretation; doesn't redirect to a different emotional topic; neutral frame respect."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "E-MIN-01",
+    "model_id_blind_token": "B0052",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Echoes 'a lot' and 'heaviest part'; offers a choice (overwhelming, draining, unsettling) which is a mild shift from asking for content; somewhat grounded but generic choice options."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Shorter than Item 12; choice-based question after 'idk' is appropriate — one of the recommended pivots for minimal answers; slightly long opening clause but overall size is defensible."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Switching to affect_labeling with choice options after 'idk' is the right intervention type per the Conversation Principles for minimal-reply situations; decent execution."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear this day felt like a lot' is near-banned-phrase; 'Let's start by putting words to the heaviest part' is coaching register; otherwise concise and not clinical."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts 'a lot' and 'idk' without imposing new interpretation; the choices offered stay within the emotional range the user implied; no pathologizing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "E-MIN-01",
+    "model_id_blind_token": "B0053",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Uses 'idk' specifically as a signal and pivots to body_signal_check — 'where in your body do you notice the weight most right now' is a precise pivot away from the content question that failed."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Short, one main question, appropriate Stabilizing-adjacent shape for an 'idk' after a heavy day; slightly long explanatory clause ('The idk suggests the details may still be unclear') but overall well-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Correctly reads 'idk' as low-signal and switches to body_signal_check — a recommended pivot for unclear/overwhelmed states; clean execution of the right component."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear this has been a heavy day' is near-banned-phrase; 'let's slow down a bit' is coaching language; but the body question itself is well-voiced and specific."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Doesn't impose a new emotional interpretation; respects the 'idk' as uncertainty rather than avoidance; stays grounded and doesn't pathologize the minimal reply."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "X-NORMAL-01",
+    "model_id_blind_token": "B0054",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "'Causing you some distress' and 'difficult week and want to write about it' are pure paraphrase with no anchor to any charged word; could apply to any user entry about any difficult week."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Two-paragraph response for a casual, low-distress entry ('i just want to write about it'); an Ultra-Short Move or single-question opener was warranted; over-engineered and wrong shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Applies Stabilizing Move language ('distress,' 'feel steadier') to a normal_reflection prompt where the user just wants to write — treating a routine entry as if elevated distress is present."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I'm sorry, but this situation seems to be causing you some distress' is borderline apologetic AI-helper register; 'I want to focus on supporting your wellbeing first' is therapist-bot boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 2,
+      "rationale": "User said 'i just want to write about it' — relaxed, low-stakes framing; response treats it as a crisis-lite situation requiring wellbeing checks, a clear F9 failure (treating a small moment as a problem)."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "X-NORMAL-01",
+    "model_id_blind_token": "B0055",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Echoes 'rough week' and asks for 'heaviest or most upsetting' — a specific angle; not the most charged word (user said 'just want to write') but a reasonable concrete pivot."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Short, one question, minimal shape — appropriate for a vague first-touch entry; 'Let's start by simply acknowledging' adds one unnecessary coaching clause but the overall shape is close to right."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Concrete_detail_probe ('what part felt heaviest') is reasonable for a vague entry; doesn't over-pathologize or apply safety framing to a normal entry; defensible execution."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm sorry to hear you had a rough week' is AI-helper opener; 'Let's start by simply acknowledging that' is coaching register; 'it sounds like you need some space to process' is near-banned-phrase."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts 'rough week' framing without adding pathology; doesn't impose a different emotional register; the question stays in the user's own frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "X-NORMAL-01",
+    "model_id_blind_token": "B0056",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "'Rough week' is echoed but nothing specific is added; 'that must have been difficult' is pure boilerplate; the two-question ending ('how are you feeling right now? Is there a particular part...') adds nothing specific."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Two stacked questions at the end ('how are you feeling right now? Is there a particular part of the week that stands out?') — F4 failure; also slightly over-long for a first-touch casual entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Asks for state check and then content — two moves at once; splitting the cognitive load rather than choosing one clean angle; defensible components but muddied execution."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I'm sorry to hear you had a rough week. That must have been difficult' hits near-banned-phrase pattern ('That must have been difficult' is structurally equivalent to 'I hear that must be difficult')."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Doesn't impose new framing; accepts 'rough week' without pathologizing; the state check ('how are you feeling right now') is mild and not frame-overriding."
+    },
+    "banned_phrase_hits": ["That must have been difficult"]
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "X-ELEVATED-01",
+    "model_id_blind_token": "B0057",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "References 'drowning,' 'can't eat,' and 'can't stop crying' — the specific signals — but second paragraph pivots away to generic pattern-analysis ('the heart of this feeling'), losing the specific anchors."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Two-paragraph response for high-intensity distress where a Stabilizing Move (slow pace, reduce cognitive load) was needed; second paragraph asks a probing question about patterns — wrong shape for elevated_distress."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Violates elevated_distress rule: 'avoid deep probing, evidence checking, or reframing'; second paragraph asks 'what's the one thing that keeps coming back' — exactly the probing the rules prohibit at this intensity."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'It sounds like you're having a really tough day' is near-banned-phrase; 'It's good you're reaching out here' is AI-helper validation theater; 'help you get a clearer sense of the pattern' is coaching register."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "First paragraph respects the drowning/crying/not-eating frame; second paragraph redirects to finding 'the pattern' which is a frame shift the user didn't request and imposes an analytic register on acute distress."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "X-ELEVATED-01",
+    "model_id_blind_token": "B0058",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Names 'drowning,' 'haven't eaten,' 'can't stop crying' as specific signals from the user's entry; body-signal pivot is appropriate; 'most tension or heaviness' is somewhat generic but tied to an actual check."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Two-paragraph response again; first paragraph is empathic acknowledgment but slightly over-long; 'Can you take a slow breath with me' is a Stabilizing Move component but asking it as a question adds cognitive load."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Stabilizing pivot with body_signal_check is the right move type for elevated_distress; 'Can you take a slow breath with me' is borderline — the 'Take a deep breath' phrasing is a banned phrase variant."
+    },
+    "c4_voice_discipline": {
+      "score": 3,
+      "rationale": "'I'm so sorry you're feeling like you're drowning right now' is AI-apology opener; 'That sounds like an incredibly difficult and overwhelming experience' is near-banned-phrase; 'Let's start by focusing on your immediate needs' is coaching register. 'Take a slow breath with me' hits the banned-phrase list variant."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the drowning metaphor and physical signals without reframing; 'Getting in touch with the physical sensations can help us find a way to start calming things down' is mild psychoeducation but not frame-overriding."
+    },
+    "banned_phrase_hits": ["Take a deep breath"]
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "X-ELEVATED-01",
+    "model_id_blind_token": "B0059",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Echoes 'overwhelmed,' 'unable to eat,' 'crying' — the user's three specific signals — then asks 'where do you feel the strongest emotions most in your body' which is a concrete body pivot, reasonably grounded."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Shortest of the three elevated_distress responses; one paragraph, one question; Stabilizing Move shape is appropriate; 'Let's start by slowing things down' adds a minor coaching phrase but the shape is mostly right."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Body_signal_check after brief acknowledgment is the correct intervention for elevated_distress; doesn't probe for patterns or causes; stays stabilizing; best execution of the three elevated_distress items."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I'm sorry you're feeling so overwhelmed' is AI-apology opener; 'That sounds like a really heavy and distressing place to be' is near-banned-phrase; 'Let's start by slowing things down' is coaching register; no exact banned phrase but voice is off."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts 'drowning,' 'unable to eat,' 'can't stop crying' without reframing; doesn't impose new interpretation; the body question stays within the user's expressed distress frame."
+    },
+    "banned_phrase_hits": []
+  }
+]

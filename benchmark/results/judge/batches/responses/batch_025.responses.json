@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0480",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Anchors on 'confused together' and 'shared uncertainty' from the user's own words, adding a twist by naming the loss of that specific shared state. Mirrors meaningfully without being flat."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Supportive Reflection shape is appropriate here; one choice-based question. Slightly wordy in the reflection paragraph but not egregiously long; structure is mostly right."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + underlying_need_probe is well-chosen for this moment; the choice question opens the right next layer without pushing too hard or closing off."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. The em-dash use (dashes) violates the style rule ('avoid em dashes'), and 'That makes sense' is mildly boilerplate, but overall voice is warm and restrained enough."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully accepts the 'left behind from that shared confused life' frame; does not redirect, pathologize, or reframe into something else. Stays in the user's register throughout."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0481",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Picks up 'messy, unsure one you shared' from the user's 'confused together' — a specific restatement that adds the contrast with 'engaged future'. Grounded and adds a twist."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Compact two-part response with one choice question. Slightly awkward punctuation (missing question mark) but shape is right — Minimal/Supportive Reflection with single question."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + meaning_probe via the choice question is a clean intervention for this moment. Does not push too hard; invites the user to locate the loss."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'That makes sense' is mild boilerplate; em-dash use violates the style guide. Otherwise restrained and direct."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's 'left behind from a version of life' framing completely, adds the engaged-vs-shared-uncertain contrast without imposing a new interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0482",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes 'version of life' directly and names 'shared confusion' — anchors precisely. The choice includes 'late-night talking' which is invented detail not offered by user, slightly speculative."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Correct shape (Minimal/Supportive Reflection + one choice question); two-part structure is clean. Not oversized. 'Late-night talking' introduces an option not in the user's text."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Specific_reflection + underlying_need_probe is appropriate. The choice-based question is the right move. The invented 'late-night talking' option is a minor over-reach."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. Em-dash present (style violation). 'That makes sense' is mild boilerplate. Overall voice is otherwise clean and restrained."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Mostly respects the user's frame. Adds 'late-night talking' as an option which is a minor invented detail, constituting a small frame addition rather than redirection."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0483",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Anchors on 'pissed' and 'pro/con list' from the user, and names 'the problem isn't that I haven't thought about it enough' accurately. The choice question is grounded in the user's signal."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Single compact paragraph with one choice question — right shape for this moment. Not oversized; stays as Minimal Reflection."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + concrete_detail_probe (narrowing which part offended) is well-chosen; doesn't solve or reassure, opens the right next layer."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'That makes sense to be pissed' is warm but slightly validating-boilerplate. 'Can feel minimising' is slightly hedged/clinical but not a banned phrase."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully accepts the user's frustration with the pro/con framing; does not defend the therapist or reframe the anger. Stays squarely in the user's register."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0484",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Picks up 'pissed' and 'stuck and heavy' (a small addition that's plausible from context), plus the choice question accurately names the quality of the offence. Grounded and adds a useful twist."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-part structure — short reflection + one choice question. Clean, right-sized for the moment. Exactly one question. Good shape fit."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + concrete_detail_probe is the right move here. The three-part choice helps the user locate their frustration without demanding explanation."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. Em-dash present (style violation). 'That makes sense to be pissed' is mildly boilerplate but stays warm and direct. Overall voice discipline is good."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's frame that the problem is being under-estimated, not under-analysed. Does not defend the therapist or push a different reading."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0485",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes 'shrinking the weight of the choice' — a precise image — and names 'you haven't thought enough' from the user's own words. High specificity with a useful restatement."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Single compact paragraph + one choice question. Right shape and size. 'Tell me what in that suggestion landed as dismissive' is a smooth invitation rather than a barrage."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + concrete_detail_probe is the right intervention. The question narrows to where the dismissiveness landed — tone, timing, or the implication — which is precise."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. Em-dash present (style violation). 'That makes sense to be pissed' is mild boilerplate. Otherwise direct and restrained."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays fully in the user's frame that they are not under-decided but misunderstood; doesn't defend the therapist or soften the user's frustration."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0486",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Anchors on 'four minutes' and 'day belonged to me' from the user. 'Tiny reclamation' adds a nice twist. Choice question is well-calibrated to the user's framing."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "This is a positive/light moment — response is appropriately short and upbeat. One question, no analysis. Slightly more elaborate than needed (could be even shorter) but acceptable."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + meaning_probe via choice question is a fitting move for a positive notice moment. Does not pathologize or manufacture a problem."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. No em-dash. Voice is warm, direct, and restrained. 'Tiny reclamation' is a nice specific image. No therapy-speak or boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully accepts the positive framing; stays in the 'day belonged to me' register. Does not reframe as phone anxiety or a problem to solve."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0487",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Anchors on 'four minutes,' 'on your terms,' and 'phone pulled you in.' Uses the user's exact imagery of ownership. The question shifts to what that ownership produced."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Single compact paragraph with one question. Right size for a light positive moment. The question is somewhat complex ('felt-like-ownership let you notice or do differently') — slightly wordy."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Specific_reflection + meaning_probe is appropriate. However, the question ('what did that felt-like-ownership let you notice or do differently') is a bit convoluted — muddier execution."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'That four minutes mattered' is warm but readable. 'Felt-like-ownership' is an awkward compound that feels slightly constructed. No major violations."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays in the user's positive frame; no problem-manufacturing, no pathologizing. Accepts 'the day belonged to me' as given."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0488",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 10,
+      "rationale": "Quotes 'the day belonged to me for 4 min' directly and names it as an image that 'lands' — mirrors with a twist by noting it as a map. Then probes the internal cause with a precise choice."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Exactly one question, compact, properly sized for a positive light moment. The framing is clean without being too minimal. Near-perfect shape fit."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Specific_reflection + meaning_probe via a concrete three-part choice is exactly the right move. The question is light and doesn't manufacture depth."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases. No em-dash. 'That image... lands' is distinctly Sotie in register. Clean, warm, specific, not clinical. Very strong voice discipline."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully in the positive 'belonged to me' frame; holds the user's exact word choice; no reframing, no problem-invention."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0489",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Anchors on 'therapist is moving' and lists 'lease, haircut, workout' as the small-but-looming pile. Uses 'heavier' which echoes the user's implicit framing. Solid but not exceptional."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Slightly longer than needed — the first sentence and the 'Totally fair' opener add weight before the key choice question. One question at the end, but the lead-up paragraph is a beat too full."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Loop_identification + underlying_need_probe via choice question is appropriate. Respects the user's 'I don't want to think about that one' without forcing or abandoning the topic."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'Totally fair to not want to sit with that' is slightly warmer than needed but not a banned phrase. No em-dash. Voice is mostly clean."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Respects the user's deflection and gently revisits rather than forcing. Doesn't pathologize the avoidance. One mild interpretive addition ('heavier') that fits but is inferred."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0490",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Names 'bundled a bunch of small life annoyances' and 'shut down at the therapist bit' — mirrors the structural pattern precisely. The offer to 'say one sentence' is a light, targeted next move."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-part structure — short reflection + choice-based question. Appropriately compact. The choice question gives the user an out ('stay away') which is sensitive and correctly shaped."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Loop_identification + outcome_check is exactly right here — the user flagged avoidance, and offering a genuine opt-out while naming the emotion list is well-executed."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. Em-dash present (style violation). 'That avoidance makes sense' is mild but acceptable. Otherwise clean and specific voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully respects the user's avoidance signal. Does not force exploration or pathologize the dodge. Keeps the door open without dragging them through it."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0491",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Names 'therapist is moving' and 'shrug it off' but adds 'losing that stability' as an interpretation not offered by the user. Slightly over-reads and the 'sessions' mention is concrete but leading."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Two-part structure is right but the question is somewhat long and includes an embedded interpretation ('losing that stability') inside the question, making it mildly leading and slightly over-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Outcome_check is the right move, but execution embeds an interpretation ('losing that stability') into the question itself, which partially pre-answers before the user can respond."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'Totally get why you're dodging that one' is mildly casual/warm but not a banned phrase. No em-dash. Voice is mostly clean."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Mostly respects the avoidance frame but introduces 'losing that stability' as a framing the user hasn't offered, which is a mild frame imposition."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0492",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Quotes 'actually don't know how to do half my job' directly and narrows with a precise three-part choice (tasks, tools, expectations). Grounded and immediately actionable."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Compact two-sentence response — frame-acceptance + one specific question. Exactly the right shape for a correction turn. No extra padding."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Context_clarification after accepting the correction is exactly the right move. Does not dwell on the old frame or validate the previous imposter-syndrome label. Clean pivot."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases. 'Okay, good correction' is crisp and appropriately direct. No therapy-speak, no validation theater. Very on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Immediately and fully accepts the user's correction. Does not re-introduce imposter syndrome or soften 'I actually don't know.' Stays in the user's frame without hedging."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0493",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes 'actually don't know how to do half your job' directly and then pivots to a question that includes 'overall confidence to execute the role' — a slight interpretation beyond what user said."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two-part response with one question. Slightly longer than needed — the first part acknowledges the correction well, but the second part's question branches into 'overall confidence' which adds length."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Context_clarification is the right move. However, adding 'or do you mean overall confidence to execute the role' partially re-opens the imposter-syndrome door the user just closed."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. 'Okay, good correction' is direct and clean. Minor issue: 'matters' as a standalone sentence is slightly performative. Overall voice is good."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the correction but the final option ('overall confidence to execute the role') gently reintroduces the confidence/imposter-syndrome framing the user just rejected."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "E-CORRECT-01",
+    "model_id_blind_token": "B0494",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Uses 'literally do not know how to do half your job' — an echo of the user's stress on 'actually' — and the three-part choice (tasks, tools, expectations) is precise and grounded."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Single compact sentence accepting the correction + one clean choice question. Perfect size for a correction turn. No excess."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Context_clarification is exactly right post-correction. The 'literally' emphasis mirrors the user's stress ('actually') — shows understanding before asking. Clean execution."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases. 'Okay — thanks for correcting me' is appropriately direct and human. No therapy-speak. Voice is clean and on-register."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully accepts and validates the distinction between real skill gaps and imposter syndrome. Does not re-open the old frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0495",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Restates 'rest feels unsafe because it would let up the running' — a paraphrase of the user's sentence, not a specific echo with a twist. Some abstraction from the original vivid image."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "The user just said 'I think I needed to say it' — this is a landing moment. Asking 'is that the part you want to look at next' opens a new investigation when the loop has landed. Over-probing shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "When reflection has landed and the user says 'I needed to say it,' the right move is to close or offer a sit-with. This response instead re-opens analysis ('look at next'), which violates the 'stop digging when landed' rule."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'That felt important to get out' is mild boilerplate but not a banned phrase. Voice is otherwise readable. No therapy-speak."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's framing but the question 'do you just want to sit with the sentence' somewhat condescendingly implies they might want to be pushed instead. Mild frame nudge."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0496",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Paraphrases 'rest feels like an invitation to feel everything you have been running from' — captures the core image but abstracts slightly from 'outrunning.' Grounded but not a precise echo with twist."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Gives the user a genuine opt-out ('leave it there for now') alongside the body-signal offer. Two-part structure is one beat longer than ideal for a landing moment but gives real options."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Offers body_signal_check + sit-with option, which is more gentle than pushing analysis. Slightly better than #16 in respecting the landing, though the body question still opens new territory."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases. 'Saying it out loud matters' is slightly performative but not a banned phrase. Em-dash absent. Voice is mostly clean."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the landing and offers the user an out. The body-check question gently extends rather than forcing; stays within the user's frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "E-LANDED-01",
+    "model_id_blind_token": "B0497",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Quotes the user's sentence directly and calls it 'a map of the pattern' — a nice specific image. However the follow-up question ('sketch where you run to') reopens exploration rather than closing the loop."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Landing moment should not get a branching question into causes or practical steps. Offering 'sketch where you run to... or a small thing to try' is two-directional probing on a landed insight — over-sized."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "User said 'I think I needed to say it' — reflection has landed. Offering to 'sketch where you run to (busy, distraction, work, noise)' explicitly reopens the loop and adds next-step planning — violating the stop-digging rule."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. 'Saying it mattered' is clean. Em-dash used correctly within quote context. Voice is restrained and specific. No therapy-speak."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's insight but pivots to 'a small thing to try' which reframes a moment of landing into an action-planning exercise — mild frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0498",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Anchors on 'tired' and offers three specific flavors (heavy/body, empty/numb, emotionally drained). Reasonably grounded but the three-part question becomes a list rather than a sharp single image."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Ultra-Short Move with a choice question is correct for repeated minimal answers. 'Okay' signals acceptance of the repetition. Question is a bit long for the minimal-signal context."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Affect_labeling is the right move after repeated 'tired.' The three-part choice is appropriate per 'switch to choice-based question' rule. Execution is slightly verbose but defensible."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. 'Okay.' opener is direct and non-judgmental. No therapy-speak. Voice is clean if slightly formulaic in the three-option structure."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts 'tired' at face value; offers differentiation without pathologizing or minimizing. Does not manufacture a deeper problem."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "E-REPEAT-01",
+    "model_id_blind_token": "B0499",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "The binary 'physically exhausted, emotionally drained, or both' is very generic and adds nothing specific to the user's repeated 'tired.' The 'or both' option is a catch-all that reduces precision."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Ultra-Short Move — very compact, one question. Size is perfect for a repeated minimal-answer context. Shape fit is strong even if the question content is thin."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Affect_labeling via choice is the right move type, but 'physically exhausted, emotionally drained, or both' is the most generic possible execution — it mirrors what was already asked ('physical or the other kind?') without changing the angle."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases. 'Okay.' is direct. No therapy-speak. The question is clean if generic. Voice is fine — brief and unadorned."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts 'tired' without pathologizing or pushing. The options are neutral. No frame imposition."
+    },
+    "banned_phrase_hits": []
+  }
+]

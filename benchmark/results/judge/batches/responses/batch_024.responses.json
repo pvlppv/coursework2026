@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0460",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Mirrors 'dramatic' and 'Thanksgiving' but the first sentence is a near-full paraphrase of the user's message; the affect-choice list (hurt, annoyed, relieved) is generic rather than pulled from specific charged language."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two-paragraph Supportive Reflection with one affect question is appropriately sized; the reflection paragraph is slightly padded ('confused and raw') where a tighter move would serve better."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Affect labeling with a choice question is a defensible move for an unclear emotional state; execution is clean though the reflection is generic rather than precise."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; but 'That makes sense—being dismissed like that can leave you confused and raw' edges into boilerplate empathy, slightly above therapy-bot register without fully crossing it."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's frame and the word 'dramatic'; 'dismissed like that' adds a mild interpretive label not offered by the user but doesn't override the frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0461",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Opens by isolating 'being dramatic' as the sharp word, then offers a clean affect-choice list AND a practical alternative angle (whether to go despite the reaction), surfacing a real tension in the user's situation."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The question is a compound choice question with two distinct branches (name the feeling vs. think about going), which is borderline stacked; it gives the user two cognitive moves rather than one."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Affect labeling paired with an outcome check is the right intervention pairing here; presenting both options lets the user choose their path, which matches the unclear desired outcome."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "Voice is restrained and close to production style; 'lands sharp' is a nice on-voice phrase; no banned phrases or validation theater."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Holds 'being dramatic' as the live word without adding interpretation; neither endorses nor challenges mom's label; stays inside the user's confusion frame throughout."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0462",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Accurately names 'money now versus long-term path' and 'frozen for a week' but doesn't surface a specific charged word or contradiction; the follow-up question offers concrete options rather than anchoring further."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The question presents two meta-options (map costs/benefits vs. a small practical test), which is a choice-based question but reads as two divergent cognitive tasks rather than one clean move."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Outcome check asking which type of help the user wants is a defensible move for a decision-stuck prompt; practical framing fits the explicit freeze state."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; mostly on-voice but 'That is making you freeze' and the structured option list feel slightly coach-like rather than friend-like."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Respects both the tradeoff frame and the freeze signal; doesn't impose a preferred option or suggest which choice is correct."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0463",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Names 'money and proximity to your long term goal' and reframes 'frozen' as the signal; the one-word answer prompt (money or trajectory) is an elegant concrete anchor tied to the user's own framing."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one tight choice-based question; correctly sized for a decision-stuck first turn; 'pick one word' reduces cognitive load appropriately."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Decision clarification via a forced-choice priority question is the best-fit intervention for breaking a decision freeze; executed cleanly and without advice."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "On-voice throughout; 'one feels secure, the other feels aligned' is a clean, non-clinical observation; no banned phrases or validation theater."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully accepts the user's two-option frame, doesn't add a third frame or suggest one option is better; 'pick one word' lets the user decide without pressure."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0464",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Anchors on 'frozen a week' and the alignment vs. money tension; 'financial breathing room' and 'early experience and connections' add specificity beyond the user's words but feel slightly constructed."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Minimal Reflection with one choice-based question; correct shape and size for a decision-stuck first turn; slightly longer than Item 4's version but not overlong."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Decision clarification via priority question is the right move; adding 'connections in the field' expands slightly beyond what was offered but is a defensible concretizing move."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'frozen a week says this feels bigger than a normal choice' is a nice on-voice observation; register is friend-like throughout."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays inside the user's frame; 'connections in the field' is a mild frame addition not offered by the user but doesn't contradict or pathologize."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0465",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Mirrors 'shoulders at your ears' but then pivots to giving a physical exercise routine, losing the specific meeting thread; the follow-up question is generic."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Gives a multi-step physical exercise prescription (drop jaw, roll shoulders three times, two breaths, then asks if they want another move) — this is not a valid response shape; it's an advice dump and functionally two stacked questions."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Turns a body-signal observation into a grounding-exercise prescription with a follow-up offer; this is solving/advising when reflection or a single grounding invite was warranted; skips the meeting entirely."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "No banned phrases but 'Nice catch. That shoulder-at-your-ears thing is your body telling you...' is slightly coach-register; prescribing a routine is an AI-helper slip."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Accepts the body-signal frame but redirects entirely to a physical exercise prescription, ignoring the meeting reference and imposing a body-fix frame over a possible emotional-processing need."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0466",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Names 'shoulders at your ears' as the exact body signal and offers a genuine two-path choice (grounding now vs. naming what from the meeting kept them tight) that surfaces the meeting as the meaningful anchor."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short to Minimal shape with one clean choice-based question; correctly small for a casual body-notice entry; doesn't over-analyze."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Body signal check paired with an outcome check is the ideal pairing here — lets the user choose between grounding and meaning-making rather than the response deciding for them."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; voice is clean, restrained, and friend-like; 'That's a clear body signal' is slightly flat but not boilerplate."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully within the user's frame; doesn't diagnose, pathologize, or invent stress narrative; lets the user choose to go meeting-ward or not."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0467",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Quotes 'shoulders at my ears' as the exact phrase and gives a physical move, then asks a body-location question (neck, shoulders, traps) that has some specificity but loses the meeting anchor."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "Gives a multi-step exercise prescription first, then ends with a detailed body-location question — this is borderline stacked and ~2x longer than needed for a casual body-notice entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Prescribes a grounding exercise (three shoulder drops) then asks a body-check question — the prescription is advice-giving; the question that follows is a reasonable body_signal_check but muddied by the preceding routine."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; 'Nice catch' mirrors Item 6's opener; the anatomy detail (traps) feels slightly clinical for Sotie's register."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the body-signal frame without pathologizing; the meeting thread is dropped which is a mild frame narrowing, but doesn't impose a new frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0468",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Lists all seven stressors accurately and names 'full-circuit overwhelm'; the pattern observation ('shrinking capacity loop') is a specific framing, though the microframe adds cognitive load to an already overwhelmed user."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "The pattern explanation paragraph is an added cognitive layer that increases load on an overwhelmed user; the final choice question is good but the response is too long and analytical for a BrainDump stabilizing context."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Offers a psychoeducation microframe (capacity loop) before stabilizing, which violates the rule to stabilize high intensity before meaning-making; the triage question is well-designed but comes too late."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "No banned phrases; 'full-circuit overwhelm' and 'shrinking capacity' are slightly clinical/coach-register; otherwise mostly on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the overwhelm frame; the loop-pattern framing is mild reframing that adds a causal narrative not offered by the user, but doesn't pathologize."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0469",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Accurately lists all five-days-no-sleep, midterms, roommate tension, advisor worry, family distance, mess, unpaid bill; 'Your body's overdue for a break' ties somatic signal to the sleep anchor specifically."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal acknowledgment + one clean three-option outcome check; correctly sized Stabilizing Move for high overwhelm; doesn't lecture or analyze before grounding."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Outcome check after brief validation is the best-fit move for a BrainDump high-intensity entry; lets the user choose their route (calm/fix/vent) without imposing a path."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'That is a lot all at once' is borderline boilerplate opener but the rest of the response is clean and friend-register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays entirely in the user's overwhelm frame; doesn't diagnose, reframe, or suggest one stressor is more important than another."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0470",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Accurately enumerates all stressors and names 'everything asking for attention at once'; the follow-up question offers three specific options but reads as a planning menu rather than a grounding move."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The choice question is longer than needed and includes parenthetical sub-options (call dad, quick tidy, check payment) that add cognitive load; moderately right shape but oversized."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Outcome check with three options is a defensible move; the parenthetical task list within the question slightly slides toward next_step_generation before the user has chosen their desired depth."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; mostly clean voice; the parenthetical task list (call dad, quick tidy, check that payment) tips slightly toward assistant-register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the overwhelm frame and all listed stressors without imposing priority or diagnosis; the task parentheticals are mild but don't override the user's frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0471",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Opens by holding 'fog' as the user's own word, affirms it as 'a clear signal', then offers four specific named variants (sleepy, overwhelmed, empty, something else) that add texture without imposing a reading."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move — a single crisp sentence acknowledging the word, then one tight choice question; perfectly sized for a short mid-conversation user reply."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Affect labeling via a choice question is the ideal next move after the user offers a single vague word ('fog') in a looping conversation; concrete and specific."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; voice is restrained, specific, and friend-like; 'Fog is a clear signal' echoes the production-example register closely."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays entirely inside the user's 'fog' word; doesn't interpret it, pathologize it, or redirect — just opens it gently."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0472",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Holds 'fog' and 'repeatable doorway that stops you before the part you like' anchors it to the earlier gym context; the practical/emotional binary is a useful framing but slightly abstract."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one binary choice question; slightly longer than needed for a one-word user reply in a multi-turn conversation, but not overlong."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Fact-interpretation split (practical vs. emotional) is a defensible move; not the tightest fit when affect labeling on the user's specific word would be more direct."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'Two quick possibilities' has a mild coaching register; otherwise voice is clean and human."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Respects the fog frame; the practical/emotional binary is a gentle interpretive scaffold but not a frame override; allows 'both' as an answer."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0473",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Takes 'fog' and the specific 'between the alarm and the door' context from the prior turn, offers four fine-grained variants (sleepy, heavy, blank, small resistances adding up) that add something to what the user offered."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move with a single, clean affect-labeling question; ideal size for a one-word user reply in an ongoing multi-turn thread."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Affect labeling on a vague single-word answer ('fog') is the perfect intervention; 'small resistances adding up' is a particularly precise option that goes beyond generic choices."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'Fog is a good word for it' is slightly warmer than Item 12's opener but still within Sotie's register; restrained and specific throughout."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Stays fully in the user's word and the prior conversation frame; does not interpret or redirect — opens the fog gently from inside the user's language."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0474",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Uses 'running on empty' from the user's exact words and frames it as a pattern the user is 'now noticing'; the follow-up question lists concrete domains (sleep, appetite, patience, energy) which is grounded."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Supportive Reflection with one multi-option check; the opening 'You're noticing a pattern' adds a mild interpretive layer not needed here; otherwise right shape."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Body signal check across domains is a defensible move; 'Would you like to name...' is slightly too permission-seeking for the intensity of the moment — a direct question would be tighter."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'you haven't been feeling until the moment' is slightly clinical-phrasing; otherwise mostly on-voice and friend-register."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Respects the user's 'running on empty' and 'scared me' frame; 'small things surface the exhaustion' is a mild reframe (causation) that wasn't explicitly offered, but not a frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0475",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Opens with the specific image: 'crying in a bathroom after a question about coffee' — precise and visually grounded; 'tank hit empty and surprised you' mirrors 'running on empty' and 'scared me' in one clean phrase."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "The next-step question (shorter to-do list, real break, telling someone) is a practical intervention that arrives before the user has indicated they want action steps rather than further reflection."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Next_step_generation is premature here — the user has named distress but hasn't signaled they want solutions; this is advice when reflection was still warranted."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; the specific image opening is close to production quality; the action-list question slips into a mild coach register but the voice is otherwise clean."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Respects the emotional frame well; pivoting to 'what helps tomorrow' slightly redirects from the present-distress frame to a future-planning frame the user didn't request."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0476",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Uses 'running on empty' verbatim and 'a simple question can feel like too much' ties the coffee moment to the state; the body-location question (physical tiredness, jittery mind) is concrete and grounded."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one body-check question; correctly sized for a distressed mid-conversation reply; doesn't over-analyze or jump to solutions."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Body signal check after validation is the best-fit move for a high-intensity moment where the user has noted being 'scared'; stabilizes before meaning-making."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'a tiny thing flipped something bigger' is a strong on-voice observation; response reads like a close, perceptive friend throughout."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Fully inside the user's frame ('running on empty sneaks up'); doesn't impose pattern, diagnosis, or redirect; 'or something else right now' keeps the question open."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0477",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Names both 'proof I still matter' and 'proof I was right to leave' directly from the user's own words; the prioritization question ('which pulls strongest') surfaces real tension with the user's own language."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one choice question; the first paragraph ('That pattern makes sense') adds a mild validating beat that isn't needed before the question; slightly longer than optimal."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Reassurance loop mirror plus underlying need prioritization is the right move after the user names two competing needs; helps separate which loop is louder."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'Noticing both wants at once is useful' has a mild coaching/clinical tone; otherwise voice is clean and friend-register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays fully in the user's frame and their own offered words ('proof I still matter'/'proof I was right to leave'); doesn't add a new interpretive layer."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0478",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "'every 20 minutes for four hours' is the exact quantitative anchor from two turns back; framing it as 'a loop trying to answer the same two needs' mirrors the user's own words cleanly."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Minimal Reflection with one direct forced-choice question; perfectly sized for this stage of the conversation; no excess framing."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Reassurance loop mirror plus underlying need prioritization is exactly right here; the prioritization question breaks the both/and ambiguity the user expressed."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; voice is restrained and precise; 'to matter and to be vindicated' is clean, non-clinical shorthand for the user's phrasing."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Uses the user's exact words ('to matter,' 'right to leave') without adding interpretation; stays inside the user's own two-need framing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0479",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Mirrors 'proof' and both needs from the user's words; 'seeking reassurance about your worth' and 'confirmation your choice was valid' paraphrase the user's words rather than holding them exactly, adding slight abstraction."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Two paragraphs where one would suffice; the second paragraph restates the first in more analytical language ('two moves at once: seeking reassurance...') before asking the question, which adds unnecessary cognitive load."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Reassurance loop mirror is the right intervention; the restatement paragraph adds a slight analysis layer before the question, which muddies otherwise clean execution."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'That pattern looks like two moves at once' has a mild analytical/coach register; overall voice is mostly on-target."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays within the user's frame; 'seeking reassurance about your worth' is a mild interpretive restatement of 'proof I still matter' but doesn't override or pathologize the frame."
+    },
+    "banned_phrase_hits": []
+  }
+]

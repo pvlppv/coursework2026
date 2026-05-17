@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0020",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Response abstracts the user's specific worries into generic categories ('midterms, home stuff, relationships') without anchoring to charged specifics like 'roommate is being weird,' 'advisor is mad,' or 'forgot to pay something.' One moment of contact: 'not sleeping well.'"
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Opens with 'let's take this step-by-step' (coach register) then delivers a reflective paragraph before a choice question — too structured and long for a braindump that calls for an Ultra-Short or Minimal Reflection move."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Choosing sleep as the anchor is defensible, but the execution is premature — the user hasn't signaled sleep is the priority, and the response skips any outcome-check before narrowing focus."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'Okay, let's take this step-by-step' and 'The mind can get so loud' carry a coaching/worksheet register; 'let's start there' echoes the coach tone; no exact banned phrases but voice is clearly off-brand."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Accepts the overwhelm but immediately narrows the frame to sleep without the user choosing that priority, mildly overriding the user's scattered-everything frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0021",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Drops the user's exact word 'fog' entirely, substituting 'That empty space before action' — a generic paraphrase. No specific element from the user's message is mirrored with any precision."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Length is roughly appropriate for a multi-turn context, one question at the end, but the overall shape is a Generic Reflection+Question rather than the tighter Minimal Reflection warranted after the user named 'fog.'"
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Asks a broad 'what makes it hard' why-question rather than a concrete_detail_probe or body_signal_check that would serve this fog/body-signal moment better."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear the gap' opener is borderline therapy-bot; 'That empty space before action can be the trickiest part' is mild boilerplate; no exact banned phrases but register drifts toward assistant prose."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Accepts the fog framing broadly but doesn't add a harmful redirect; mild drift away from the user's language without imposing a new diagnosis."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0022",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 3,
+      "rationale": "Replaces the user's charged word 'fog' with 'mental fog' — a clinical-adjacent upgrade — and further abstracts to 'thought to action'; no specific image, word, or contradiction from the user is held."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Two-sentence reflection plus one question is roughly right-sized, but the shape is Generic Reflection+Question when a tighter Minimal Reflection or body_signal_check would fit better."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "'What do you notice about the feeling or energy in that moment of hesitation' is a reasonable body_signal angle but 'hesitation' substitutes for the user's 'fog,' diluting the move."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like the gap between wanting to go and actually going is where the struggle is happening' is a formal paraphrase in assistant-helper register; no banned phrases but noticeably off-voice."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Doesn't pathologize or reframe harmfully; accepts the struggle framing, though substituting 'hesitation' for 'fog' is a mild frame drift."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0023",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Paraphrases the alarm-to-door gap established earlier; doesn't use the user's exact 'fog' but the choice question ('dread, inertia, or something else') engages the concept concretely and adds options the user didn't mention."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Appropriately short, one choice-based question — valid as a single cognitive move; slightly over-explains in the first sentence but shape is close to correct."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Affect-labeling via choice is a defensible move for the fog/body-signal moment; not the sharpest execution (body_signal_check or concrete_detail_probe would be stronger) but solidly defensible."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'Hmm, it sounds like' is borderline; 'getting out the door' reuses established context naturally; 'Is it dread, inertia, or something else?' is clean Sotie-adjacent phrasing; minor register slip at the opener."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays in the user's frame of fog-in-the-gap without pathologizing or redirecting; the offered labels ('dread, inertia') are possibilities rather than impositions."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0024",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Picks up 'running on empty' (user's exact phrase) and 'caught you by surprise'; but the final question abstracts to 'this pattern of feeling it before you see it coming' — moving away from the concrete moment."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "For high-distress ('scared me a little'), a Stabilizing Move is warranted; instead the response goes straight to pattern-analysis with a long question — too cognitively demanding for this moment."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "The user just expressed fear and vulnerability; pushing toward pattern-identification ('spot this pattern sooner next time') is premature meaning-making before stabilization — matches F8 failure mode."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear this sudden cry caught you by surprise' opener is therapy-adjacent; 'tapped into something deeper' is mild boilerplate; no banned phrases but voice is not fully on-brand."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Accepts the 'running on empty' frame but the question reframes the experience as a 'pattern' to analyze, which the user didn't request and slightly overrides their immediate emotional state."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0025",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Uses 'bathroom cry' and 'emotional tank was already low' (paraphrase of 'running on empty'); 'caught you off guard' mirrors user's surprise; but then shifts to generic 'replenish' framing."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "Ends with two stacked questions ('Where do you feel the emptiness... And what's one small, concrete thing...') — explicit shape violation (F4 stacked-question barrage) for a high-distress moment needing Stabilizing Move."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Mixes stabilization intent ('replenish') with immediate practical advice-seeking ('one small, concrete thing') — wrong sequence; stabilize before next-step generation."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like the small trigger took you by surprise' is formal assistant prose; 'replenish' is clinical-adjacent; the two-question ending further signals AI-helper register."
+    },
+    "c5_frame_respect": {
+      "score": 5,
+      "rationale": "Accepts the scared/empty frame but immediately pivots to solution-seeking ('one small, concrete thing'), which slightly reframes distress as a problem requiring an action plan."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0026",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Uses 'small trigger' and 'running on empty' loosely; closes with an abstract advice-like goal ('help you spot this pattern sooner next time') that loses contact with the user's specific fear."
+    },
+    "c2_shape_fit": {
+      "score": 4,
+      "rationale": "One question is preserved, but the trailing rationale ('Understanding the physical signals might help you spot this pattern sooner next time') adds an unsolicited coaching purpose — slightly too long and directive."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Framing the body question as a tool for future pattern-spotting is premature advice/planning when the user just expressed fear and is in elevated distress — fails to stabilize first."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like you were caught off guard' is near the banned-phrase pattern; 'Understanding the physical signals might help you spot this pattern' reads as clinical coaching rather than friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "Reframes the emotional moment as a data-collection opportunity ('spot this pattern sooner next time'), overriding the user's immediate scared/overwhelmed frame with a learning-objective frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0027",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "References 'checking loop' and 'proof or validation' (close to user's 'proof i still matter / proof i was right'); doesn't quote the user's exact words but stays anchored to the content."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two short sentences, one question — appropriate Minimal Reflection shape for this multi-turn looping context; length is right."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Asking what the loop is 'trying to protect' is an underlying_need_probe — defensible here; not the sharpest move (reassurance_loop_mirror would be more precise) but solidly in the top 3."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I see this checking loop feels important, but also seems to be keeping you stuck' is slightly formal and makes an evaluative judgment ('keeping you stuck') the user didn't invite."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Mild frame imposition: characterizing the loop as 'keeping you stuck' goes slightly beyond the user's own framing; otherwise respects the user's ambivalence about what they're seeking."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0028",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "'Repeated checking feels urgent' picks up the loop energy; but 'seeing them view your story would prove to you' simply mirrors back what the user already said without adding any twist or new angle."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Short, one question — shape is roughly correct; but the question largely re-asks what the user already answered ('proof'), making the move feel redundant rather than advancing."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "The user already named both proof-seeking motivations; asking 'what would seeing them view it prove' rehashes answered territory instead of moving to reassurance_loop_mirror or underlying_need_probe."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear the repeated checking feels urgent' is a therapy-adjacent opener; 'searching for something specific' is generic; no banned phrases but voice is slightly off."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays in the user's frame without imposing a new interpretation; accepts both the 'matters' and 'right to leave' ambivalence without redirecting."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "M-LOOP-01",
+    "model_id_blind_token": "B0029",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Opens with a factual restatement of duration ('hours') but immediately pivots to generic advice about 'interrupt this pattern' — loses contact with 'proof I still matter' and 'proof I was right to leave.'"
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "The response tells the user what the checking won't do ('won't give you the answers') before asking a broad solution-seeking question — advice-giving then question stacks into a long, directive move."
+    },
+    "c3_move_appropriateness": {
+      "score": 2,
+      "rationale": "Advises ('the repeated checking itself won't give you the answers') when the user wanted reflection; then asks them to generate their own solution — matches F5 (solving when not asked) failure mode clearly."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I see this checking loop' opener is borderline; 'the repeated checking itself won't give you the answers you're looking for' is prescriptive AI-helper register; no banned phrases but voice is off."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "Reframes the checking as futile and the user as seeking something 'from the past' — imposes a closure/moving-on narrative the user hasn't endorsed, overriding their exploratory ambivalence."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0030",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Quotes 'confused together' but then pivots to an abstract interpretation ('a move forward that you're not fully ready for yet') that adds a new frame rather than anchoring deeper in the user's phrase."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Two-paragraph structure is slightly over-long for a multi-turn moment where one clean question would suffice; the trailing coaching rationale ('Exploring that may help clarify') adds unnecessary length."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "The move toward 'Can you say more about the confused together part' is a defensible context_clarification, but the coaching rationale appended to it ('may help clarify what exactly you feel left behind from') undermines the execution."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I understand this feels like' is formal assistant prose; 'Exploring that may help clarify' is analytical/coaching register; the overall response reads more like a therapy worksheet than a friend."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'A move forward that you're not fully ready for yet' is a clear frame imposition — the user never said they weren't ready; this adds a readiness-deficit narrative the user didn't invite."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0031",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Quotes 'left behind' in quotes; but reframes as 'losing that close connection you once had' — a mild paraphrase that shifts away from the user's specific 'version of life where we were both confused together.'"
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Short two-paragraph structure; ends with a three-option choice question which counts as one cognitive move; slightly over-long but shape is defensible."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "The outcome_check ('what are you most focused on right now') is a reasonable move given the mixed emotional signal; it's not the sharpest but is defensible as a clarification before going deeper."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear the feeling of being left behind' opener is borderline therapy-bot; otherwise relatively restrained; no banned phrases but voice slips mildly toward helper register."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Adds 'losing that close connection' as a mild reframe of the user's 'confused together' frame; doesn't pathologize but does gently redirect the meaning without user prompting."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "M-SOMEONE-01",
+    "model_id_blind_token": "B0032",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Uses 'change in the friendship' and echoes 'confused together'; the question 'that earlier version of your lives' picks up the user's own phrase 'version of life' — concrete anchor with one small mirror-with-extension."
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Three sentences, one question — appropriate length for multi-turn; 'it's normal to feel something shift' is one beat of unnecessary reassurance boilerplate, making it slightly longer than needed."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Asking what the user misses about that version is a meaning_probe — appropriate for this moment; execution is reasonably clean though 'it's normal' prefaces it with mild validation theater."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear this feels like a change' opener is mild therapy-bot; 'it's normal to feel something shift' is boilerplate validation; no banned phrases but two mild voice slips."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays largely in the user's frame; 'change in the friendship' is a mild reframe but not an override; the question builds on the user's 'version of life' language respectfully."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0033",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Names 'pro/con list' and 'frustration' — both grounded in the user's message; but 'What matters most that keeps this feeling stuck for you' is abstract and doesn't anchor to a specific charged element."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Short, two sentences, one question — appropriately sized Minimal Reflection for this multi-turn moment; shape is correct."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Asking what 'keeps this feeling stuck' is a defensible meaning_probe or underlying_need_probe; not the sharpest (the user's anger at the pro/con approach suggests they want something understood, not just listed) but solid."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'I hear your frustration' is borderline therapy-speak opener but brief; 'didn't seem to capture what's really weighing on you' is slightly formal; no banned phrases; overall mostly on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Accepts the user's frustration with the pro/con approach; doesn't defend the therapist or impose a new frame; follows the user's signal that the problem is qualitatively different."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0034",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 5,
+      "rationale": "Names 'pro/con list' and 'the real struggle'; the question 'what about this feels so stuck or difficult to figure out' is generic — doesn't surface a specific charged word from the user's 'pissed me off' or 'havent thought about it enough.'"
+    },
+    "c2_shape_fit": {
+      "score": 6,
+      "rationale": "Appropriate length for multi-turn; one question; but two sentences of setup before the question makes it slightly over-padded."
+    },
+    "c3_move_appropriateness": {
+      "score": 5,
+      "rationale": "Interpreting the pro/con list as 'dismissive' (user said 'pissed me off') is a mild inference that goes a step beyond what was stated; the follow-on question is reasonable but generic."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear that the pro/con list felt dismissive' opener is therapy-bot register; 'like it ignored the real struggle' adds an interpretive layer in assistant-helper voice; no banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 6,
+      "rationale": "Calling the list 'dismissive' is a mild frame upgrade on the user's 'pissed me off' — slightly interpretive but not a major reframe; doesn't pathologize or redirect."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "M-CHOOSING-01",
+    "model_id_blind_token": "B0035",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Names 'pro/con approach,' references 'pissed off' as 'frustrating,' and anchors to the user's implicit point ('the problem isn't that i havent thought about it enough') in 'you've already thought this through'; question targets 'messy or unresolved' below the decision."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Three sentences, one focused question — appropriately sized Minimal Reflection; the question 'beneath the quitting decision' adds a useful depth signal without over-extending."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Asking what's 'messy or unresolved beneath the quitting decision' is a good underlying_need_probe / meaning_probe; respects that the user's issue is qualitative, not quantitative."
+    },
+    "c4_voice_discipline": {
+      "score": 5,
+      "rationale": "'I hear that the pro/con approach felt frustrating instead of helpful. It sounds like you've already thought this through' — 'I hear' plus 'It sounds like' in consecutive sentences is notably off-voice despite no exact banned phrases."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Validates that over-thinking isn't the problem; 'messy or unresolved' is the user's implied register; doesn't impose a new frame or pathologize the ambivalence."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0036",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Doesn't use the user's '4 min' or 'the day belonged to me'; substitutes 'precious and grounded' (words the user didn't use) and adds 'before the day's demands took over' which is an inference."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "A positive-moment Notice entry calls for a Sit-With or minimal shape; instead this delivers a reflective paragraph plus an action-oriented question about 'carrying that calm forward' — too long and too directive."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "Asking how to 'carry that calm forward' turns a positive felt-sense moment into a self-improvement task — matches F9 failure mode (treating a positive moment as a problem to solve)."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like those few minutes felt precious and grounded you' is formal assistant prose; 'Even small pauses like that can make a difference' is generic encouragement boilerplate; voice is off-brand."
+    },
+    "c5_frame_respect": {
+      "score": 3,
+      "rationale": "The user shared a quiet good moment; the response reframes it as something to be replicated and strategically extended ('carry that calm forward') — imposing a growth/optimization frame the user didn't request."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0037",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up the user's exact '4 minutes' and 'felt like your own' (close echo of 'the day belonged to me'); the question 'What made it feel that way, before the day took over' anchors to the user's own framing."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Short, two sentences, one question — appropriate Minimal Reflection shape for a positive Notice moment; slightly probing with the question but not overlong."
+    },
+    "c3_move_appropriateness": {
+      "score": 6,
+      "rationale": "Asking what made the 4 minutes feel owned is a defensible meaning_probe; mildly pushes analysis on a positive moment but gently enough not to manufacture a problem."
+    },
+    "c4_voice_discipline": {
+      "score": 6,
+      "rationale": "'It sounds like those 4 minutes this morning felt like your own' — 'It sounds like' is near the banned-phrase register but brief and not fully off-voice; otherwise clean and restrained."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Stays close to the user's language ('4 minutes,' 'felt like your own'); the question gently invites reflection without imposing a new interpretation or turning the moment into a task."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "M-NOTICE-01",
+    "model_id_blind_token": "B0038",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 4,
+      "rationale": "Doesn't use the user's '4 min' or 'the day belonged to me'; paraphrases into 'carved out a small moment' and 'quiet, focused start' — abstracts the user's specific, felt description."
+    },
+    "c2_shape_fit": {
+      "score": 3,
+      "rationale": "Long for a positive Notice moment; includes a rhetorical leading question ('That quiet, focused start can feel grounding, can't it?') plus a second question ('What else do you notice') — both too long and multi-question."
+    },
+    "c3_move_appropriateness": {
+      "score": 3,
+      "rationale": "'What else do you notice about how that brief morning routine felt different' pushes for more material from a positive landed moment — matches F8/F9 failure modes (probing harder, treating positive moment as expandable)."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'It sounds like you carved out a small moment' plus rhetorical 'can't it?' plus a second question — formal, slightly leading, assistant-prose register; no banned phrases but voice is clearly off."
+    },
+    "c5_frame_respect": {
+      "score": 4,
+      "rationale": "'Brief morning routine' reframes the user's spontaneous felt-moment into a habitual routine; 'can't it?' is leading; together they gently reframe the moment as a wellness practice rather than a personal observation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "M-BRAINDUMP-01",
+    "model_id_blind_token": "B0039",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 2,
+      "rationale": "The conversation had just surfaced the therapist-moving as the buried emotional core ('i dont want to think about that one'); the response acknowledges it briefly then pivots to haircut and working out — abandoning the only specific charged element that mattered."
+    },
+    "c2_shape_fit": {
+      "score": 2,
+      "rationale": "This moment calls for a Minimal Reflection or Meaning Reflection on the therapist avoidance; instead the response immediately redirects to practical self-care tasks — entirely wrong shape for the emotional signal just unearthed."
+    },
+    "c3_move_appropriateness": {
+      "score": 1,
+      "rationale": "Deflecting from 'I don't want to think about that one' to 'what's one small self-care step, like the haircut or working out' is a direct F5/F8 failure — solves the wrong thing and abandons the just-surfaced emotional core."
+    },
+    "c4_voice_discipline": {
+      "score": 4,
+      "rationale": "'I hear you wanting to move past the therapist change. That's a lot to process' is borderline therapy-bot; 'let's focus on something more in your control' is coaching register; no exact banned phrases but voice is off."
+    },
+    "c5_frame_respect": {
+      "score": 2,
+      "rationale": "The user's frame was avoidance/vulnerability around the therapist; the response reframes this as a practical self-care opportunity, completely overriding the emotional meaning the conversation had just uncovered."
+    },
+    "banned_phrase_hits": []
+  }
+]

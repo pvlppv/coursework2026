@@ -1,0 +1,542 @@
+[
+  {
+    "item_index": 1,
+    "prompt_id": "S-HEAVY-01",
+    "model_id_blind_token": "B0380",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Echoes both 'wet sand' and '2 emails' and reframes 'wiped' as 'crushing, not lazy' — a mirror with a light twist. Adds 'heavy lifts' which extends the metaphor without abandoning the user's image."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection shape is right for this single-turn heavy entry; the question is one, clear, and grounded. Slightly verbose at 25 words but not egregiously long."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Timeline_anchor ('what changed from yesterday') is a well-fitted move for a heavy-load entry without enough context; avoids advising or probing deeper than warranted."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'crushing, not lazy' is a strong on-voice reframe; registers as a close, perceptive friend. Capitalised 'What' is standard and not pep-talk self-referential."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's 'wet sand' frame and explicitly names 'crushing, not lazy' — pushing back on self-criticism without imposing a new frame; stays with what the user offered."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 2,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0381",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Picks up '6 hours' and 'Dani' specifically and adds a slight interpretive twist ('hit something you care about') that is tentative and adds depth without over-claiming."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Minimal Reflection with one clean question — correctly sized for this first-touch looping prompt; no stacking, not too long."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Concrete_detail_probe ('what did you say') is the right move for a replay loop with no specific sentence identified yet; does not over-analyse or advise."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; direct, restrained, human tone. 'Usually means' keeps the interpretation tentative, consistent with Sotie's voice discipline."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the loop frame, names 'something you care about' as a possibility rather than a diagnosis, and doesn't pathologise or redirect the user's self-questioning."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 3,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0382",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 10,
+      "rationale": "Anchors on '6 hours' and 'one lunch line' (compressing the user's phrasing precisely), then 'circling back' mirrors the loop metaphor — a very tight, nearly-production-matching move."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move with exactly one focused question; 11 words total — perfectly sized for this single-turn first-touch loop prompt."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Concrete_detail_probe is the ideal first move here; no advice, no analysis, just narrows to the exact sentence — matches the rubric's 10-anchor example almost verbatim."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "No banned phrases; minimal, human, lowercase rhythm; reads exactly like Sotie production examples. No AI-helper register detected."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Fully stays in the user's frame — loop and replay — without adding any interpretation or reframe; simply accepts and narrows."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 4,
+    "prompt_id": "S-LOOP-01",
+    "model_id_blind_token": "B0383",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Uses '6 hours', 'Dani', and adds 'boomeranging back' as a vivid extension of the replay metaphor — mirror with a fresh image that lands without over-interpreting."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one question; appropriately brief, one clean concrete probe — tight fit for a single-turn first-touch looping entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Concrete_detail_probe ('what line did you say') is exactly right; no premature meaning-making, no advice; the 'boomeranging' framing adds loop-identification without labelling."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; human-texting register, restrained; 'boomeranging back' is vivid and on-brand for Sotie's specific, non-clinical voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays fully inside the replay-loop frame; 'loop is still running' echoes the user's framing without imposing any new interpretation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 5,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0384",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 10,
+      "rationale": "'Dramatic' is isolated in quotes and the response adds a precise twist — 'shrinks your reason down to size' — that surfaces the word's power without paraphrasing the whole turn."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one question; correctly sized. 'What part of skipping Thanksgiving felt real to you' is one focused move that doesn't overload."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Specific_reflection + meaning_probe: the response names the sting of 'dramatic' then opens to the user's own grounding, which is the right intervention for this mom-criticism entry."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; sharp and human without being cold; 'shrinks your reason down to size' is precisely on Sotie's brand of perceptive-friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Does not question the user's desire to skip Thanksgiving or pathologise the mom's reaction; holds 'dramatic' as the charged word and lets the user define what was real."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 6,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0385",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Quotes 'Being dramatic' and reflects the sting, then asks for the concrete exchange with the mom — anchors on the user's specific word and requests clarifying detail."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one question; tight and appropriate for a first-touch relational hurt entry; no excess length."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Specific_reflection + context_clarification is a sound pairing; asking 'what did you actually say' grounds the conversation before meaning-making begins."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'stings when you're just trying to be honest' is warm and direct without sliding into therapy-speak or validation theater."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's 'trying to be honest' framing; doesn't reframe or pathologise; mild implicit validation of the user's position ('just trying to be honest') is safe within frame."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 7,
+    "prompt_id": "S-SOMEONE-01",
+    "model_id_blind_token": "B0386",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "References 'dramatic', 'didn't want Thanksgiving', and offers a choice list (exhausted, hurt, crowded) — grounded, but the choice list is a mild abstraction away from the user's exact words."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one choice-based question; appropriate shape, but 'what's the real feeling underneath your no' introduces an extra layer ('underneath') that makes it slightly heavier than needed."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Affect_labeling via choice list is defensible but slightly premature — context is thin and clarification ('what did you say') might land better before jumping to feeling identification."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; conversational and direct; 'real feeling underneath' leans slightly toward coaching register but not enough to drop the score significantly."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Mostly respects the frame, but 'the real feeling underneath your no' implies the user's expressed feeling isn't the real one — a mild frame override suggesting hidden depth."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 8,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0387",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Picks up 'frozen for a week' and the core tension ('money versus passion'), then adds 'betraying yourself' as a precise probe of the values dimension beneath the decision."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Minimal Reflection with one values-probing question; correctly sized for a decision-stuck first-touch entry; does not lecture or stack questions."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Values_direction_probe is an excellent fit for a 'frozen' choice scenario; skips premature advice and goes straight to the underlying identity cost that's causing the freeze."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'betraying yourself' is direct and non-clinical; the tone is a perceptive friend noticing what the freeze is actually about."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's 'frozen' frame and both options as legitimate; doesn't lean toward either choice or pathologise the indecision."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 9,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0388",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "References 'stuck for a week' and the 'now vs later' tension, but 'two futures' abstracts the user's concrete framing (startup/consulting) somewhat; the question reframes well but loses specificity."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Two-paragraph Summary Move with one question; the blank-line split is fine but the first paragraph is slightly redundant given the user already stated the tradeoff clearly."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Values_direction_probe via 'what would choosing startup cost that money can't fix' is a good move, though slightly less precise than asking what's causing the freeze."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'pays forward' is a nice on-voice compression; overall register is warm and direct without coach-speak."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the user's framing of the decision; doesn't prescribe or pathologise; the reframe to 'two futures' is mild and non-imposing."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 10,
+    "prompt_id": "S-CHOOSING-01",
+    "model_id_blind_token": "B0389",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Anchors on 'frozen' and the salary gap ('half now vs pays forward'), but 'more energy instead of just more money' introduces a concept not present in the user's words — a mild abstraction."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one question; appropriate length and structure for a decision-stuck entry; slightly more verbose than needed but not problematic."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Values_direction_probe via 'more energy vs more money' is defensible but not quite as sharp as probing what's causing the freeze or what betrayal would feel like."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; direct and human; 'pays forward' and 'pays what you want later' feel natural without slipping into motivational-speaker register."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Mostly accepts the frame; 'energy instead of just more money' subtly reframes the consulting option as merely mercenary, which the user didn't imply — a mild frame override."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 11,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0390",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Quotes 'shoulders at your ears' verbatim and adds 'your body holding the meeting for you' — a precise, witty mirror-with-twist that elevates the user's observation without departing from it."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Minimal Reflection with one body-signal check question; well-sized; the question ('jaw, chest, or gut') correctly extends the body scan rather than jumping to meaning."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Body_signal_check is the ideal move here — the user just noticed a somatic signal and the response invites further body tracking, exactly as the component library prescribes."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'holding the meeting for you' is on-brand Sotie wit; direct, human, not clinical; the em dash use ('meeting - that's') is a mild formatting concern but not a voice issue."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Stays fully in the user's somatic-awareness frame; doesn't leap to what the meeting meant or pathologise the tension."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 12,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0391",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Reflects 'shoulders at your ears' and calls it 'a loud signal', then asks what 'clamped down' — a good image that mirrors the physical tension with one added interpretive layer."
+    },
+    "c2_shape_fit": {
+      "score": 7,
+      "rationale": "Minimal Reflection with one question; appropriate length, but the choice list (topic, people, something you had to hold back) slightly stacks the question with three sub-options."
+    },
+    "c3_move_appropriateness": {
+      "score": 7,
+      "rationale": "Moves directly to meaning/cause (what clamped them) rather than first staying with the body signal — a slight mismatch; body_signal_check would be better before meaning_probe."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'loud signal' and 'clamped down' are vivid and human; no clinical or AI-helper register."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the somatic frame; 'something you had to hold back' is a tentative meaning probe, not an imposition; stays within the user's offered observation."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 13,
+    "prompt_id": "S-NOTICE-01",
+    "model_id_blind_token": "B0392",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 6,
+      "rationale": "Mentions 'shoulders still tight' and 'meeting replay' — grounded in the user's words — but 'one slow roll backwards' shifts to a prescriptive action not requested by the user."
+    },
+    "c2_shape_fit": {
+      "score": 5,
+      "rationale": "Offers a body exercise without a question mark — resembles a Stabilizing Move or Short Grounding Invitation, but the prescriptive instruction ('try one slow roll') is a wrong shape for this notice-moment entry."
+    },
+    "c3_move_appropriateness": {
+      "score": 4,
+      "rationale": "Gives advice/next-step (roll shoulders) when the user is in a noticing moment that calls for body_signal_check or specific_reflection; solving when reflection was warranted."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; the tone is gentle and direct, but the prescriptive 'try' edges toward wellness-coach register rather than Sotie's perceptive-friend voice."
+    },
+    "c5_frame_respect": {
+      "score": 7,
+      "rationale": "Stays within the somatic frame and doesn't pathologise, but prescribing a physical action slightly overrides the user's exploratory noticing stance."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 14,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0393",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "Picks up 'five days without sleep' and 'a lot to carry alone', anchoring on the most salient concrete detail; 'your body is asking for first' redirects usefully, though other specifics (advisor, roommate) are dropped."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-paragraph Stabilizing Move with one body-check question — appropriate for a high-load BrainDump entry; correctly prioritises stabilisation before triage."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Distress_tolerance_shift + body_signal_check is the right pairing for a five-day sleep-deprived overwhelm entry; avoids premature triage or advice."
+    },
+    "c4_voice_discipline": {
+      "score": 7,
+      "rationale": "No banned phrases; 'a lot to carry alone' is warm but edges slightly toward generic empathy boilerplate; otherwise clean and on-voice."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts the overwhelm frame; doesn't minimise or rank-order the problems for the user; leaves the user to identify what presses most."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 15,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0394",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 7,
+      "rationale": "'Spinning plates' compresses the BrainDump list into a vivid image; 'yanking you awake' echoes the sleep-deprivation thread; grounded but no specific item from the list is named."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-paragraph Summary Move with one concrete question; well-sized for a braindump entry; the split paragraph creates breathing room appropriate to the overwhelm signal."
+    },
+    "c3_move_appropriateness": {
+      "score": 8,
+      "rationale": "Loop_identification + outcome_check (which worry is loudest) is a sound triage move for a multi-stressor braindump; helps the user prioritise without the model deciding for them."
+    },
+    "c4_voice_discipline": {
+      "score": 8,
+      "rationale": "No banned phrases; 'spinning plates' and 'yanking you awake' are vivid and human; register stays close to perceptive-friend rather than coach or therapist."
+    },
+    "c5_frame_respect": {
+      "score": 8,
+      "rationale": "Accepts all of the user's stressors as real; doesn't rank them or suggest one is more valid; empowers the user to identify the loudest."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 16,
+    "prompt_id": "S-BRAINDUMP-01",
+    "model_id_blind_token": "B0395",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "'Spinning plates' compresses the list, '3 a.m.' echoes sleep-deprivation, and three named options (exam fear, roommate tension, 'I forgot something' buzz) anchor on specific items from the user's dump."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short / Minimal Reflection with one choice-based question — tightly sized, no extra paragraph, directly surfaces the triage move without preamble."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Outcome_check via named-choice is an excellent triage move for a braindump; quoting three of the user's actual stressors as options makes this concrete and easy to answer."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'spinning plates' and 'the I forgot something buzz' (quoting the user) are precisely on-brand; single-paragraph, direct, human."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts all stated stressors; doesn't minimise any or impose a priority ranking; choice list respects the user's own framing of each concern."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 17,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0396",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 10,
+      "rationale": "Echoes the user's exact word 'fog' with validation ('Fog is perfect'), then narrows with a hyper-concrete timeline probe ('60 seconds after the alarm') — mirror with a meaningful forward move."
+    },
+    "c2_shape_fit": {
+      "score": 10,
+      "rationale": "Ultra-Short Move: two brief sentences, one question — exactly right for a multi-turn conversation where the user has just named 'fog'; smallest shape that moves forward."
+    },
+    "c3_move_appropriateness": {
+      "score": 10,
+      "rationale": "Timeline_anchor + concrete_detail_probe ('60 seconds after alarm') is the ideal move here — the context is established, 'fog' is named, and zooming into the first moment is the clear next step."
+    },
+    "c4_voice_discipline": {
+      "score": 10,
+      "rationale": "No banned phrases; 'Fog is perfect' is exactly the kind of short, surprising affirmation the Sotie voice uses; minimal, human, no filler."
+    },
+    "c5_frame_respect": {
+      "score": 10,
+      "rationale": "Accepts 'fog' completely and without reframing; stays in the user's experiential language and simply moves the lens closer."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 18,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0397",
+    "trial": 2,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "'Ten feet of fog between your bed and your shoes' is a vivid, specific spatial image that extends the 'gap between alarm and door' conversation context cleverly — strong mirror-with-twist."
+    },
+    "c2_shape_fit": {
+      "score": 8,
+      "rationale": "Two-sentence Minimal Reflection with one question; first sentence is punchy and earns its place; slightly longer than the best Ultra-Short but not wastefully so."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Concrete_detail_probe ('what happens in your head right when alarm goes off') zooms into the exact moment of the gap — right move, well-executed."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'ten feet of fog' is creative and human; no clinical or AI-helper register throughout."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Extends the user's 'fog' frame spatially without reinterpreting it; stays fully in the experiential register the user established."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 19,
+    "prompt_id": "M-TIME-01",
+    "model_id_blind_token": "B0398",
+    "trial": 3,
+    "c1_specificity": {
+      "score": 8,
+      "rationale": "Mirrors 'fog' and 'real', then anchors on '30 seconds after your alarm' — grounded and concrete; slightly less distinctive than Item 17 or 18 but still well-anchored."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Ultra-Short / Minimal Reflection with one question; two sentences, appropriately brief for this multi-turn moment where the user has already named the issue."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Timeline_anchor ('first 30 seconds') is the right move — zooms into the specific moment of the gap; clean execution."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'That fog is real' is a warm, minimal affirmation that doesn't tip into validation theater; clean human register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts 'fog' as the user's framing and extends it without redirecting; fully respectful of the experiential register."
+    },
+    "banned_phrase_hits": []
+  },
+  {
+    "item_index": 20,
+    "prompt_id": "M-HEAVY-01",
+    "model_id_blind_token": "B0399",
+    "trial": 1,
+    "c1_specificity": {
+      "score": 9,
+      "rationale": "Echoes 'running on empty' (slightly rephrased as 'empty-without-knowing-it') and offers a concrete somatic choice list — grounded in the user's own revelation from the prior turn."
+    },
+    "c2_shape_fit": {
+      "score": 9,
+      "rationale": "Stabilizing Move with one body-check question — correct shape for a high-distress multi-turn moment where the user has just expressed fear; appropriately brief."
+    },
+    "c3_move_appropriateness": {
+      "score": 9,
+      "rationale": "Body_signal_check is the ideal move after the user lands on 'running on empty and didn't notice'; stabilises before meaning-making, exactly as the rubric prescribes."
+    },
+    "c4_voice_discipline": {
+      "score": 9,
+      "rationale": "No banned phrases; 'empty-without-knowing-it feeling is rough' is warm and direct without tipping into boilerplate; the choice list ('tight chest, hollow stomach, numb fog') is Sotie-register."
+    },
+    "c5_frame_respect": {
+      "score": 9,
+      "rationale": "Accepts the user's 'running on empty' and 'scared' framing without reinterpreting or pathologising; moves into body rather than meaning, respecting the user's own self-assessment."
+    },
+    "banned_phrase_hits": []
+  }
+]
